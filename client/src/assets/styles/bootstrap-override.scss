@@ -1,0 +1,41 @@
+$theme-colors: (
+	'primary': #f00e17,
+	'secondary': #231f20,
+	'dark': black,
+	'light': rgb(245, 245, 245),
+	'info': #9C9288
+);
+
+
+// [IMPORT] //
+@import 'bootstrap/scss/bootstrap.scss';
+
+
+.btn {
+	border-radius: 0 !important;
+}
+
+.btn-secondary {
+	color: white !important;
+}
+
+.bg-black {
+	background-color: black !important;
+}
+
+.bg-shade {
+	background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.bg-shade-darker {
+	background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.bg-shine {
+	background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+// [CONTAINER] //
+@media (min-width: 1600px) {
+	.container { max-width: 1500px; }
+}

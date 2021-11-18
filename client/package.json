@@ -1,0 +1,41 @@
+{
+  "name": "dinos-bar-and-grill",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vue-stripe/vue-stripe": "^4.1.5",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.5.3",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.6.5",
+    "feather-icons": "^4.28.0",
+    "v-viewer": "^1.5.1",
+    "vue": "^2.6.11",
+    "vue-feather-icons": "^5.1.0",
+    "vue-instagram": "^3.0.0",
+    "vue-rellax": "^0.2.0",
+    "vue-router": "^3.2.0",
+    "vue-stripe-elements-plus": "^0.3.2",
+    "vue-tiny-slider": "^0.1.39",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.1.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}

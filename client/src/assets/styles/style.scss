@@ -1,0 +1,11 @@
+body {
+	background-image: url('');
+	background-color: rgb(206, 206, 206);
+	background-size: 100%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}

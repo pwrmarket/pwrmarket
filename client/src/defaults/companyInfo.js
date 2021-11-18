@@ -20,7 +20,7 @@ module.exports = {
 
 
 	email: {
-		address: '',
+		address: 's',
 		link: '',
 	},
 
@@ -38,7 +38,7 @@ module.exports = {
 			state: 'Sacramento',
 			city: 'CA',
 			zip: '95834',
-			
+
 			googleMaps: {
 				link: '',
 				embedLink: '',

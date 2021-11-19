@@ -26,8 +26,8 @@ module.exports = {
 
 
 	phone: {
-		number: '',
-		link: '',
+		number: '(916) 285-7402',
+		link: 'tel:916-285-7402',
 	},
 	
 

@@ -1,8 +1,10 @@
 <template>
 		<BContainer fluid class="px-0">
-			<section class="bg-secondary" style="background: rgb(21,110,183);
-background: linear-gradient(0deg, rgba(21,110,183,1) 0%, rgba(93,187,70,1) 100%);">
+			<section class="hero-section">
+				<br><br><br><br>
 				<h1 class="text-light">We'd Love For You to Stop By!</h1>
+				<br>
+				<br>
 
 				<!-- WAVE 1 -->
 				<div class="wave">
@@ -49,6 +51,20 @@ background: linear-gradient(0deg, rgba(21,110,183,1) 0%, rgba(93,187,70,1) 100%)
 		</BContainer>
 </template>
 
+<script>
+	export default {
+		created() {
+			this.$store.state.isHomePage = true
+
+			this.loading = false			
+		},
+
+		destroyed() {
+			this.$store.state.isHomePage = false
+		},
+	}
+</script>
+
 <style lang="scss" scoped>
 	@import '../assets/styles/bootstrap-override.scss';
 
@@ -57,40 +73,19 @@ background: linear-gradient(0deg, rgba(21,110,183,1) 0%, rgba(93,187,70,1) 100%)
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		min-height: 400px;
+		min-height: 640px;
 		padding: 100px 20vw;
 	}
 
-	.curve {
-		position: absolute;
-		height: 225px;
-		width: 100%;
-		bottom: 0;
-
-		&::before {
-			content: '';
-			display: block;
-			position: absolute;
-			border-radius: 100% 50%;
-			width: 55%;
-			height: 100%;
-			transform: translate(85%, 60%);
-
-			@extend .bg-light;
-		}
-
-		&::after {
-			content: '';
-			display: block;
-			position: absolute;
-			border-radius: 100% 50%;
-			width: 55%;
-			height: 100%;
-			transform: translate(-4%, 40%);
-			z-index: -1;
-
-			@extend .bg-primary;
-		}
+	.hero-section {
+		background: rgb(21,110,183);
+		background:
+			linear-gradient(
+				0deg,
+				rgba(21,110,183,1) 0%,
+				rgba(93,187,70,1) 100%
+			)
+		;
 	}
 
 

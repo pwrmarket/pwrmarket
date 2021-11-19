@@ -13,7 +13,7 @@
 					</RouterLink>
 				</BCol>
 
-				<BCol cols="12" sm="4" class="text-center text-sm-left" data-aos="fade-up">
+				<BCol cols="12" sm="4" class="text-center text-sm-left">
 					<h4 class="text-primary">Location</h4>
 					<a :href="companyInfo.googleMapsLink" class="mb-3 text-white">
 						<h5 class="mb-4">{{ companyInfo.address }}</h5>
@@ -32,7 +32,7 @@
 					<hr>
 				</BCol>
 
-				<BCol cols="12" sm="4" class="text-center" data-aos="fade-up">
+				<BCol cols="12" sm="4" class="text-center">
 					<h4 class="text-primary">Check Us Out</h4>
 					<ul class="list-unstyled text-small">
 						<li v-for="(link, i) in pageLinks" :key="i">
@@ -45,7 +45,7 @@
 					<hr>
 				</BCol>
 
-				<BCol cols="12" sm="4" class="text-center" data-aos="fade-up">
+				<BCol cols="12" sm="4" class="text-center">
 					<h4 class="text-primary">Follow Us</h4>
 					<SocialMediaPlug variant="light" />
 				</BCol>

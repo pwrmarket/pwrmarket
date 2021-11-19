@@ -32,11 +32,6 @@ module.exports = [
 		children: [],
 	},
 	{
-		path: '/Gallery',
-		text: 'Contact',
-		children: [],
-	},
-	{
 		path: '/about',
 		text: 'About',
 		children: [],

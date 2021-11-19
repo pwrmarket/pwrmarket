@@ -2,7 +2,7 @@
 	<BContainer
 		fluid
 		class="m-0 p-0 w-100 fixed-top transition"
-		:class="[navClass, { 'bg-white': !$store.state.isHomePage }]"
+		:class="[navClass, { 'bg-white border-bottom': !$store.state.isHomePage }]"
 	>
 		<BContainer class="d-none d-xl-flex">
 			<!-- Logo Holder -->
@@ -32,12 +32,13 @@
 						class="
 							mx-1 mx-md-2 mx-lg-2 mx-xl-3 my-5
 							font-weight-bold
+							h4
 							menu-link
 						"
 						:class="[
-							$store.state.isHomePage ? titleClass : 'text-secondary'
+							$store.state.isHomePage ? titleClass : 'text-gradient'
 						]"
-					><h4 class="m-0">{{ b.text }}</h4></BButton>
+					>{{ b.text }}</BButton>
 				</RouterLink>
 			</div>
 		</BContainer>
@@ -69,7 +70,7 @@
 					variant="none"
 					class="px-4 px-sm-5 py-4"
 					:class="[
-						$store.state.isHomePage ? titleClass : 'text-secondary'
+						$store.state.isHomePage ? titleClass : 'text-gradient'
 					]"
 					@click="toggle()"
 				><MenuIcon size="3x" /></BButton>
@@ -113,7 +114,7 @@
 			handleScroll() {
 				// Not Scrolled //
 				if (window.scrollY > 0) {
-					this.navClass = 'bg-white'
+					this.navClass = 'bg-white border-bottom'
 					this.titleClass = 'text-secondary'
 				}
 				else {
@@ -142,6 +143,13 @@
 		z-index: 100;
 	}
 
+	.text-gradient {
+		background: $secondary;
+		background: -webkit-linear-gradient($primary, $secondary);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
 	.menu-link {
 		:hover {
 			@extend .text-primary;
@@ -150,12 +158,13 @@
 
 	.router-link-exact-active {
 		.menu-link {
-			@extend .text-primary;
 			@extend .border-primary;
+			@extend .border-bottom;
 			@extend .border-top-0;
 			@extend .border-left-0;
 			@extend .border-right-0;
 
+			border-width: 40px;
 			box-shadow: 0 !important;
 		}
 	}

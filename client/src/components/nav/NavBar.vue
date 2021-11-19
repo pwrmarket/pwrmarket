@@ -28,7 +28,7 @@
 					:to="b.path"
 				>
 					<BButton
-						variant="none"
+						variant="none" 
 						class="
 							mx-1 mx-md-2 mx-lg-2 mx-xl-3 my-5
 							font-weight-bold

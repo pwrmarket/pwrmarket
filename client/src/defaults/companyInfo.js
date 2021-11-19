@@ -20,7 +20,7 @@ module.exports = {
 
 
 	email: {
-		address: 's',
+		address: '',
 		link: '',
 	},
 

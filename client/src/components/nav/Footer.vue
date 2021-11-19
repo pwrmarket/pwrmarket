@@ -1,5 +1,5 @@
 <template>
-	<div class="w-100 bg-dark text-secondary">
+	<div class="w-100 bg-secondary text-secondary">
 		<BContainer>
 			<BRow class="pt-4">
 				<BCol cols="12" class="text-center" data-aos="fade">

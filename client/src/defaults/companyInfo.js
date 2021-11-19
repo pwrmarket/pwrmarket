@@ -1,6 +1,6 @@
 // [EXPORT] //
 module.exports = {
-	logo: '',
+	logo: require('../assets/images/logo.png'),
 
 	name: '',
 	shortName: '',

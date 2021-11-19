@@ -31,10 +31,10 @@
 				</RouterLink>
 			</div>
 
-			<div class="w-100 px-5 py-3" style="max-width: 250px;">
+			<div class="w-100 px-5 py-3" style="max-width: 180px;">
 				<RouterLink to="/">
 					<img
-						:src="''"
+						:src="companyInfo.logo"
 						alt="Logo Here"
 						class="w-100"
 					>
@@ -140,12 +140,12 @@
 
 			handleScroll() {
 				if (window.scrollY > 0) {
-					this.navClass = 'bg-shade-darker'
-					this.titleClass = 'text-white'
+					this.navClass = 'bg-white'
+					this.titleClass = 'text-secondary'
 				}
 				else {
 					this.navClass = ''
-					this.titleClass = ''
+					this.titleClass = 'text-light'
 				}
 			},
 		},
@@ -175,6 +175,7 @@
 
 	.router-link-exact-active {
 		.menu-link {
+			@extend .text-primary;
 			@extend .border-primary;
 			@extend .border-top-0;
 			@extend .border-left-0;

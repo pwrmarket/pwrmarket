@@ -3,7 +3,7 @@
 		<!-- Desktop Menu -->
 		<div
 			class="d-none d-xl-flex w-100 transition"
-			:class="[navClass, { 'bg-dark': !$store.state.isHomePage }]"
+			:class="[navClass, { 'bg-secondary': !$store.state.isHomePage }]"
 		>
 			<div class="ml-auto">
 				<RouterLink to="/">
@@ -35,6 +35,7 @@
 				<RouterLink to="/">
 					<img
 						:src="''"
+						alt="Logo Here"
 						class="w-100"
 					>
 				</RouterLink>
@@ -76,6 +77,7 @@
 				<RouterLink to="/">
 				<img
 					:src="''"
+					alt="Logo Here"
 					class="w-100"
 				>
 				</RouterLink>
@@ -175,7 +177,10 @@
 
 	.router-link-exact-active {
 		.menu-link {
-			@extend .text-primary;
+			@extend .border-primary;
+			@extend .border-top-0;
+			@extend .border-left-0;
+			@extend .border-right-0;
 
 			box-shadow: 0 !important;
 		}

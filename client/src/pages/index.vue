@@ -18,9 +18,10 @@
 					<div class="pt-5">
 						<div class="pt-5">
 							<div class="pt-5">
-								<h1 class="pt-5 mb-5 text-center text-light" style="font-size: 4em;">
-									We'd Love See You to Stop By!
-								</h1>
+								<h1
+									class="pt-5 mb-5 text-center text-light"
+									style="font-size: 4em;"
+								>We'd Love See You to Stop By!</h1>
 							</div>
 						</div>
 					</div>
@@ -28,7 +29,7 @@
 					<div class="pb-md-5">
 						<div class="pb-md-5">
 							<div class="text-center">
-								<BButton variant="outline-light">
+								<BButton variant="outline-light" size="lg">
 									Check Out our Current Deals
 								</BButton>
 							</div>

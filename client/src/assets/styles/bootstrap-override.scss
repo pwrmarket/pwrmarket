@@ -1,11 +1,12 @@
 $primary: #156eb7;
 $secondary: #5dbb46;
+$light: rgb(245, 245, 245);
 
 $theme-colors: (
 	'primary': $primary,
 	'secondary': $secondary,
 	'dark': black,
-	'light': rgb(245, 245, 245),
+	'light': $light,
 );
 
 

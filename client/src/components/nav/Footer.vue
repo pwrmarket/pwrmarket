@@ -17,13 +17,13 @@
 
 					<path
 						d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
-						class="shape-fill-1" styel="fill: white;"
+						class="shape-fill-2"
 					></path>
 				</svg>
 			</div>
 		</section>
 
-		<BContainer fluid class="bg-secondary">
+		<BContainer fluid class="bg-light">
 			<BContainer class="">
 				<BRow class="pt-4">
 					<BCol cols="12" class="text-center" data-aos="fade">
@@ -31,7 +31,7 @@
 							<h4 class="m-0 text-primary">
 								{{ companyInfo.companyName }}
 							</h4>
-							<h6 v-html="companyInfo.companyCaption1" class="text-light small">
+							<h6 v-html="companyInfo.companyCaption1" class="text-primary small">
 							</h6>
 							<hr>
 						</RouterLink>
@@ -44,7 +44,7 @@
 						</a>
 
 						<h4 class="text-primary">Hours</h4>
-						<ul class="list-unstyled text-small text-white">
+						<ul class="list-unstyled text-small text-secondary">
 							<li
 								v-for="(hoo, index) in companyInfo.hoursOfOperation"
 								:key="index"
@@ -60,7 +60,7 @@
 						<h4 class="text-primary">Check Us Out</h4>
 						<ul class="list-unstyled text-small">
 							<li v-for="(link, i) in pageLinks" :key="i">
-								<RouterLink to="/services" class="text-white">
+								<RouterLink to="/services" class="text-secondary">
 									<span v-if="link.text">{{ link.text }}</span>
 									<span v-else v-html="link.navIcon"></span>
 								</RouterLink>
@@ -71,7 +71,7 @@
 
 					<BCol cols="12" sm="4" class="text-center">
 						<h4 class="text-primary">Follow Us</h4>
-						<SocialMediaPlug variant="light" />
+						<SocialMediaPlug variant="secondary" />
 					</BCol>
 
 					<BCol cols="12" class="my-3 text-center">
@@ -139,6 +139,10 @@
 
 		.shape-fill-1 {
 			fill: $secondary;
+		}
+
+		.shape-fill-2 {
+			fill: $light;
 		}
 	}
 </style>

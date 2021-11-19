@@ -56,11 +56,13 @@
 			>
 				<!-- Logo -->
 				<RouterLink to="/">
-					<img
-						:src="companyInfo.logo"
-						alt="Logo Here"
-						class="w-100"
-					>
+					<div class="rounded-lg">
+						<img
+							:src="companyInfo.logo"
+							alt="Logo Here"
+							class="w-100"
+						>
+					</div>
 				</RouterLink>
 			</div>
 			

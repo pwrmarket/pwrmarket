@@ -1,10 +1,42 @@
 <template>
 	<BContainer fluid class="px-0">
 		<section class="hero-section">
-			<br><br><br><br>
-			<h1 class="text-light">We'd Love For You to Stop By!</h1>
-			<br>
-			<br>
+			<BRow>
+				<BCol cols="12" md="6" order="1" order-md="0" class="">
+					<lottie-player
+						src="https://assets2.lottiefiles.com/packages/lf20_DEjwMw.json"
+						class="w-100 mx-auto text-center lottie"
+						style="max-width: 500px;"
+						background="transparent"
+						speed="1"
+						loop
+						autoplay
+					/>	
+				</BCol>
+
+				<BCol cols="12" md="6" order="0" order-md="1" class="">
+					<div class="pt-5">
+						<div class="pt-5">
+							<div class="pt-5">
+								<h1 class="pt-5 mb-5 text-center text-light" style="font-size: 4em;">
+									We'd Love See You to Stop By!
+								</h1>
+							</div>
+						</div>
+					</div>
+
+					<div class="pb-md-5">
+						<div class="pb-md-5">
+							<div class="text-center">
+								<BButton variant="outline-light">
+									Check Out our Current Deals
+								</BButton>
+							</div>
+						</div>
+					</div>
+				</BCol>
+			</BRow>
+
 
 			<!-- WAVE 1 -->
 			<div class="wave">
@@ -14,6 +46,7 @@
 					viewBox="0 0 1200 120"
 					preserveAspectRatio="none"
 				>
+
 					<path
 						d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
 						class="shape-fill"
@@ -44,10 +77,13 @@
 					</BCol>
 
 					<BCol cols="12" md="4">
-						<img
-							:src="serviceImg"
-							class="w-100"
-						>
+						<div class="rounded overflow-hidden">
+							<img
+								:src="serviceImg"
+								alt="Logo Here"
+								class="w-100"
+							>
+						</div>
 					</BCol>
 				</BRow>
 			</BContainer>
@@ -90,7 +126,9 @@
 		flex-direction: column;
 		align-items: center;
 		min-height: 640px;
-		padding: 100px 20vw;
+		padding-left: 5vw;
+		padding-right: 5vw;
+		padding-bottom: 180px;
 
 		background: rgb(21,110,183);
 		background:

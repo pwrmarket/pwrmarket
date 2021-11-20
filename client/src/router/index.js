@@ -77,7 +77,7 @@ const router = new VueRouter({
 
 // [VUE-ROUTER-SET-TITLE] //
 router.beforeEach((to, from, next) => {
-	document.title = to.meta.title + ' - ' + companyInfo.companyName
+	document.title = to.meta.title + ' — ' + companyInfo.name
 	next()
 })
 

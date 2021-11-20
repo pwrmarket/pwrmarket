@@ -2,7 +2,7 @@
 module.exports = {
 	logo: require('../assets/images/logo.png'),
 
-	name: '',
+	name: 'Power Market',
 	shortName: '',
 
 	captions: [],

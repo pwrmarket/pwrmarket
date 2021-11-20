@@ -77,7 +77,7 @@
 						</div>
 					</BCol>
 
-					<BCol cols="12" md="4">
+					<BCol cols="12" md="4" class="text-left">
 						<div class="rounded overflow-hidden">
 							<img
 								:src="serviceImg"

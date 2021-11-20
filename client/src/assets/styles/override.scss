@@ -1,6 +1,8 @@
-$primary: #156eb7;
-$secondary: #5dbb46;
+$primary: rgb(21, 110, 183);
+$secondary: rgb(92, 186, 69);
 $light: rgb(245, 245, 245);
+
+$secondary-shine: mix($secondary, rgba(255, 255, 255, 0.5));
 
 $theme-colors: (
 	'primary': $primary,
@@ -14,6 +16,14 @@ $theme-colors: (
 @import 'bootstrap/scss/bootstrap.scss';
 
 
+// Vanilla Override //
+body {
+	background-image: url('');
+	background-size: 100%;
+}
+
+
+// Bootstrap Override //
 .btn {
 	border-radius: 0 !important;
 }
@@ -22,21 +32,6 @@ $theme-colors: (
 	color: white !important;
 }
 
-.bg-black {
-	background-color: black !important;
-}
-
-.bg-shade {
-	background-color: rgba(0, 0, 0, 0.4) !important;
-}
-
-.bg-shade-darker {
-	background-color: rgba(0, 0, 0, 0.6) !important;
-}
-
-.bg-shine {
-	background-color: rgba(255, 255, 255, 0.4) !important;
-}
 
 // [CONTAINER] //
 @media (min-width: 1600px) {

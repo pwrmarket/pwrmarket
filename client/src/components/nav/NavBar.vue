@@ -1,8 +1,11 @@
 <template>
 	<BContainer
 		fluid
-		class="m-0 p-0 w-100 fixed-top transition"
-		:class="[navClass, { 'bg-light': !$store.state.isHomePage }]"
+		class="fixed-top m-0 p-0 w-100 transition"
+		:class="[
+			navClass,
+			{ 'bg-shine-lighter border-bottom ': !$store.state.isHomePage }
+		]"
 	>
 		<BContainer class="d-none d-xl-flex">
 			<!-- Logo Holder -->
@@ -48,7 +51,7 @@
 		<BContainer
 			fluid
 			class="d-flex d-xl-none m-0 p-0 ml-auto text-right transition"
-			:class="[navClass, { 'bg-white': !$store.state.isHomePage }]"
+			:class="[navClass, { 'bg-shine-lighter': !$store.state.isHomePage }]"
 		>
 			<!-- Logo Holder -->
 			<div
@@ -116,7 +119,7 @@
 			handleScroll() {
 				// Not Scrolled //
 				if (window.scrollY > 0) {
-					this.navClass = 'bg-light'
+					this.navClass = 'bg-shine-lighter border-bottom'
 					this.linkClass = 'text-gradient'
 				}
 				else {
@@ -135,7 +138,7 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '../../assets/styles/bootstrap-override.scss';
+	@import '../../assets/styles/override.scss';
 
 	.transition {
 		-webkit-transition: 0.5s;

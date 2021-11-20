@@ -1,23 +1,52 @@
-body {
-	background-image: url('');
-	background-size: 100%;
+@import './override.scss';
+
+
+// [BOOTSTERSTRAP] //
+.bg-black {
+	background-color: black !important;
 }
 
-.card-img-top {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+
+// [DEFAULT][SHADE-&-SHINE] //
+.bg-shade {
+	background-color: rgba(0, 0, 0, 0.4) !important;
 }
 
-.lottie {
-    @media (max-width: 576px) {
-       width: 200px;
-        height: 200px;
-    }
+.bg-shade-darker {
+	background-color: rgba(0, 0, 0, 0.6) !important;
 }
 
+.bg-shine {
+	background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+
+.bg-shine-lighter {
+	background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+
+// [THEME][SHADE-&-SHINE] //
+.bg-secondary-shine {
+	background-color: $secondary-shine !important;
+}
+
+.bg-secondary-shine {
+	background-color: $secondary-shine !important;
+}
+
+
+// [BACKGROUND] //
 .bg-light-svg {
 	background-image: url('../images/bg-light.svg');
 	background-repeat: repeat;
 	background-size: 100%;
+}
+
+// [GENERAL] //
+.lottie {
+	@media (max-width: 576px) {
+	   width: 200px;
+		height: 200px;
+	}
 }

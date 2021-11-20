@@ -112,7 +112,7 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '../assets/styles/bootstrap-override.scss';
+	@import '../assets/styles/override.scss';
 
 	section {
 		position: relative;
@@ -127,8 +127,6 @@
 		flex-direction: column;
 		align-items: center;
 		min-height: 640px;
-		padding-left: 5vw;
-		padding-right: 5vw;
 		padding-bottom: 180px;
 
 		background: rgb(21,110,183);

@@ -69,7 +69,7 @@
 							data-rellax-tablet-speed="0"
 							:data-rellax-desktop-speed="3"
 						>
-							<div class="p-5 bg-white rounded-lg shadow hero-message-box">
+							<div class="p-5 bg-light-svg rounded-lg shadow hero-message-box">
 								<h3 class="text-center">
 									Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam libero illum commodi suscipit consequatur cumque sint possimus, fugit, consequuntur voluptas fugiat maiores quidem aliquam repellendus est quod assumenda enim? Repellendus!
 								</h3>
@@ -139,6 +139,8 @@
 				rgba(93,187,70,1) 100%
 			)
 		;
+
+		background-image: url('../assets/images/hero.svg');
 	}
 
 	// Wave Under Hero

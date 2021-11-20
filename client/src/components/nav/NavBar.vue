@@ -2,7 +2,7 @@
 	<BContainer
 		fluid
 		class="m-0 p-0 w-100 fixed-top transition"
-		:class="[navClass, { 'bg-light-svg': !$store.state.isHomePage }]"
+		:class="[navClass, { 'bg-light': !$store.state.isHomePage }]"
 	>
 		<BContainer class="d-none d-xl-flex">
 			<!-- Logo Holder -->
@@ -37,7 +37,7 @@
 							menu-link
 						"
 						:class="[
-							$store.state.isHomePage ? titleClass : 'text-gradient'
+							$store.state.isHomePage ? linkClass : 'text-gradient'
 						]"
 					>{{ r.meta.title }}</BButton>
 				</RouterLink>
@@ -73,7 +73,7 @@
 					variant="none"
 					class="px-4 px-sm-5 py-4"
 					:class="[
-						$store.state.isHomePage ? titleClass : 'text-gradient'
+						$store.state.isHomePage ? linkClass : 'text-gradient'
 					]"
 					@click="toggle()"
 				><MenuIcon size="3x" /></BButton>
@@ -102,7 +102,7 @@
 
 		data() {
 			return {
-				titleClass: 'text-light',
+				linkClass: 'text-light',
 				navClass: '',
 				companyInfo: companyInfo,
 				routes: routes,
@@ -117,11 +117,11 @@
 				// Not Scrolled //
 				if (window.scrollY > 0) {
 					this.navClass = 'bg-light'
-					this.titleClass = 'text-gradient'
+					this.linkClass = 'text-gradient'
 				}
 				else {
 					this.navClass = ''
-					this.titleClass = 'text-light'
+					this.linkClass = 'text-light'
 				}
 			},
 
@@ -138,7 +138,8 @@
 	@import '../../assets/styles/bootstrap-override.scss';
 
 	.transition {
-		transition: .5s;
+		-webkit-transition: 0.5s;
+		transition: 0.5s;
 	}
 
 	.nav {

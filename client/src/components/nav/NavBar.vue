@@ -2,7 +2,7 @@
 	<BContainer
 		fluid
 		class="m-0 p-0 w-100 fixed-top transition"
-		:class="[navClass, { 'bg-white border-bottom': !$store.state.isHomePage }]"
+		:class="[navClass, { 'bg-light-svg': !$store.state.isHomePage }]"
 	>
 		<BContainer class="d-none d-xl-flex">
 			<!-- Logo Holder -->
@@ -23,11 +23,12 @@
 			<!-- Menu Links -->
 			<div class="d-none d-xl-flex ml-auto">
 				<RouterLink
-					v-for="(b, i) in buttons"
+					v-for="(r, i) in routes"
 					:key="i"
-					:to="b.path"
+					:to="r.path"
 				>
 					<BButton
+						v-if="r.meta.show"
 						variant="none"
 						class="
 							mx-1 mx-md-2 mx-lg-2 mx-xl-3 my-5
@@ -38,7 +39,7 @@
 						:class="[
 							$store.state.isHomePage ? titleClass : 'text-gradient'
 						]"
-					>{{ b.text }}</BButton>
+					>{{ r.meta.title }}</BButton>
 				</RouterLink>
 			</div>
 		</BContainer>
@@ -91,8 +92,7 @@
 	// [IMPORT] Personal //
 	import SideMenu from '@/components/nav/SideMenu'
 	import companyInfo from '@/defaults/companyInfo'
-	import buttons from '@/defaults/pageLinks'
-	import router from '@/router'
+	import router, { routes } from '@/router'
 
 	export default {
 		components: {
@@ -105,7 +105,7 @@
 				titleClass: 'text-light',
 				navClass: '',
 				companyInfo: companyInfo,
-				buttons: buttons,
+				routes: routes,
 				loggedIn: false,
 				decoded: {},
 				sideMenuOpen: false,router:router
@@ -116,8 +116,8 @@
 			handleScroll() {
 				// Not Scrolled //
 				if (window.scrollY > 0) {
-					this.navClass = 'bg-white border-bottom'
-					this.titleClass = 'text-secondary'
+					this.navClass = 'bg-light'
+					this.titleClass = 'text-gradient'
 				}
 				else {
 					this.navClass = ''

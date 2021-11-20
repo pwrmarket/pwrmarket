@@ -9,10 +9,15 @@ body {
     object-fit: cover;
 }
 
-
 .lottie {
     @media (max-width: 576px) {
        width: 200px;
         height: 200px;
     }
+}
+
+.bg-light-svg {
+	background-image: url('../images/bg-light.svg');
+	background-repeat: repeat;
+	background-size: 100%;
 }

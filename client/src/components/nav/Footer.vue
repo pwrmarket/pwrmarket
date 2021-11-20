@@ -59,10 +59,9 @@
 					<BCol cols="12" sm="4" class="text-center">
 						<h4 class="text-primary">Check Us Out</h4>
 						<ul class="list-unstyled text-small">
-							<li v-for="(link, i) in pageLinks" :key="i">
-								<RouterLink to="/services" class="text-secondary">
-									<span v-if="link.text">{{ link.text }}</span>
-									<span v-else v-html="link.navIcon"></span>
+							<li v-for="(link, i) in routes" :key="i">
+								<RouterLink v-if="link.meta.show" to="/services" class="text-secondary">
+									<span>{{ link.meta.title }}</span>
 								</RouterLink>
 							</li>
 						</ul>
@@ -91,7 +90,7 @@
 <script>
 	import SocialMediaPlug from '../../components/SocialMediaPlug'
 	import companyInfo from '../../defaults/companyInfo'
-	import pageLinks from '../../defaults/pageLinks'
+	import { routes } from '@/router'
 
 	export default {
 		components: {
@@ -101,7 +100,7 @@
 		data() {
 			return {
 				companyInfo: companyInfo,
-				pageLinks: pageLinks,
+				routes: routes,
 			}
 		},
 	}

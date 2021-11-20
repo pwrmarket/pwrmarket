@@ -13,14 +13,19 @@
 			><XIcon size="36" /></BButton>
 
 			<!-- Menu Items -->
-			<BButton
-				v-for="(button, i) in buttons"
+			<div
+				v-for="(button, i) in routes"
 				:key="i"
 				v-show="$store.state.showMenu"
-				variant="outline-seconadry"
-				class="w-100 text-primary"
-				@click="menuItemClicked(button.path)"
-			>{{ button.text }}</BButton>
+			>
+				<BButton
+					v-if="button.meta.show"
+					variant="outline-seconadry"
+					class="w-100 text-primary"
+					@click="menuItemClicked(button.path)"
+				>{{ button.meta.title }}</BButton>
+			</div>
+			
 
 			<a v-show="$store.state.showMenu" :href="companyInfo.googleMapsLink" class="text-center">
 				<h5 class="m-4 text-secondary">{{ companyInfo.address }}</h5>
@@ -53,8 +58,7 @@
 	// [IMPORT] Personal //
 	import SocialMediaPlug from '@/components/SocialMediaPlug'
 	import companyInfo from '@/defaults/companyInfo'
-	import buttons from '@/defaults/pageLinks'
-	import router from '@/router'
+	import router, { routes } from '@/router'
 
 	// [EXPORT] //
 	export default {
@@ -66,7 +70,7 @@
 		data() {
 			return {
 				companyInfo: companyInfo,
-				buttons: buttons,
+				routes: routes,
 			}
 		},
 

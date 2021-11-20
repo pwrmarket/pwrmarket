@@ -36,13 +36,12 @@
 						class="
 							mx-1 mx-md-2 mx-lg-2 mx-xl-3 my-5
 							font-weight-bold
-							h4
 							menu-link
 						"
 						:class="[
 							$store.state.isHomePage ? linkClass : 'text-gradient'
 						]"
-					>{{ r.meta.title }}</BButton>
+					><span class="m-0 h4">{{ r.meta.title }}</span></BButton>
 				</RouterLink>
 			</div>
 		</BContainer>

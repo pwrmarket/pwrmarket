@@ -1,43 +1,58 @@
 <template>
 	<BContainer fluid class="px-0">
-		<section class="hero-section">
-			<BRow>
-				<BCol cols="12" md="6" order="1" order-md="0" class="">
-					<lottie-player
-						src="https://assets2.lottiefiles.com/packages/lf20_DEjwMw.json"
-						class="w-100 mx-auto text-center lottie"
-						style="max-width: 500px;"
-						background="transparent"
-						speed="1"
-						loop
-						autoplay
-					/>	
+		<BContainer
+			fluid
+			class="hero-section"
+			:class="$store.state.node_env == 'production' ? 'bg-gradient' : 'bg-gradient-weak'"
+		>
+			<BRow class="w-100">
+				<!-- HERO IMAGE -->
+				<BCol cols="12" md="6" order="1" order-md="0" class="d-none d-sm-block">
+					<div
+						class="
+							h-100
+							mr-auto mr-md-0
+							ml-auto
+							hero-img-holder
+						"
+					>
+						<lottie-player
+							src="https://assets2.lottiefiles.com/packages/lf20_DEjwMw.json"
+							class="w-100 lottie"
+							background="transparent"
+							speed="1"
+							loop
+							autoplay
+						/>
+					</div>
 				</BCol>
 
+				<!-- HERO INFO -->
 				<BCol cols="12" md="6" order="0" order-md="1" class="">
-					<div class="pt-5">
-						<div class="pt-5">
-							<div class="pt-5">
-								<h1
-									class="pt-5 mb-5 text-center text-light"
-									style="font-size: 4em;"
-								>We'd Love See You to Stop By!</h1>
-							</div>
-						</div>
-					</div>
+					<div
+						class="
+							ml-auto ml-md-0
+							mr-auto
+							hero-info-holder
+						"
+						style="max-width: 600px;"
+					>
+						<h1
+							class="my-5 text-center text-light"
+							style="font-size: 4em;"
+						>We'd Love See You to Stop By!</h1>
 
-					<div class="pb-md-5">
-						<div class="pb-md-5">
-							<div class="text-center">
+						<div class="text-center">
+							<RouterLink to="/deals">
 								<BButton variant="outline-light" size="lg">
 									Check Out our Current Deals
 								</BButton>
-							</div>
+							</RouterLink>
 						</div>
 					</div>
+							
 				</BCol>
 			</BRow>
-
 
 			<!-- WAVE 1 -->
 			<div class="wave">
@@ -54,7 +69,7 @@
 					></path>
 				</svg>
 			</div>
-		</section>
+		</BContainer>
 
 		<section class="bg-white main-section">
 			<BContainer>
@@ -114,13 +129,6 @@
 <style lang="scss" scoped>
 	@import '../assets/styles/override.scss';
 
-	section {
-		position: relative;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-	}
-
 	.hero-section {
 		position: relative;
 		display: flex;
@@ -129,37 +137,50 @@
 		min-height: 640px;
 		padding-bottom: 180px;
 
-		background: rgb(21,110,183);
-		background:
-			linear-gradient(
-				0deg,
-				rgba(21,110,183,1) 0%,
-				rgba(93,187,70,1) 100%
-			)
-		;
-
-		background-image: url('../assets/images/hero.svg');
-	}
-
-	// Wave Under Hero
-	.wave {
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		width: 100%;
-		overflow: hidden;
-		line-height: 0;
-		transform: rotate(180deg);
-
-		svg {
-			position: relative;
-			display: block;
-			width: calc(150% + 1.3px);
-			height: 302px;
+		@media (max-width: 768px) {
+			padding-bottom: 100px;
 		}
 
-		.shape-fill {
-			fill: white;
+		.hero-img-holder {
+			max-width: 500px;
+
+			@media (max-width: 768px) {
+				max-width: 300px;
+			}
+		}
+
+		.hero-info-holder {
+			padding: 100px 0 0 0;
+
+			@media (max-width: 768px) {
+				padding: 100px 0 0 0;
+			}
+		}
+
+		// Wave Under Hero
+		.wave {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			overflow: hidden;
+			line-height: 0;
+			transform: rotate(180deg);
+
+			svg {
+				position: relative;
+				display: block;
+				width: calc(150% + 1.3px);
+				height: 302px;
+
+				@media (max-width: 768px) {
+					height: 100px;
+				}
+			}
+
+			.shape-fill {
+				fill: white;
+			}
 		}
 	}
 
@@ -181,5 +202,4 @@
 			transform: translateY(-80px);
 		}
 	}
-
 </style>

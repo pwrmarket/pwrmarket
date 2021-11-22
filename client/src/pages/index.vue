@@ -75,15 +75,7 @@
 			<BContainer>
 				<BRow class="">
 					<BCol cols="12" md="5" class="">
-						<div
-							class="m-auto hero-message-box-container"
-							v-rellax
-							data-rellax-speed="0"
-							data-rellax-xs-speed="0"
-							data-rellax-mobile-speed="0"
-							data-rellax-tablet-speed="0"
-							:data-rellax-desktop-speed="0"
-						>
+						<div class="m-auto hero-message-box-container">
 							<div class="px-5 py-5 bg-light-svg rounded-lg shadow hero-message-box">
 								<BRow class="w-100 text-center text-secondary">
 									<BCol cols="12" class="text-center">
@@ -121,7 +113,7 @@
 					</BCol>
 
 					<BCol cols="12" md="7" class="text-center">
-						<div class="hero-message-box-container">
+						<div class="mx-auto hero-message-box-container">
 							<h1 class="my-0 text-secondary hero-message" style="font-size: 4em;">
 								<span
 									class="py-1 bg-secondary text-light"
@@ -251,7 +243,7 @@
 
 	// Hero Box Message //
 	.hero-message-box-container {
-		max-width: 600px;
+		max-width: 500px;
 
 		.hero-message-box {
 			-webkit-transform: translateY(-60px);
@@ -259,7 +251,6 @@
 		}
 
 		.hero-message {
-			z-index: 2000000;
 			-webkit-transform: translateY(-60px);
 			transform: translateY(-60px);
 		}

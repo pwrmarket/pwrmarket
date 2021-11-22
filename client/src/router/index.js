@@ -24,6 +24,15 @@ const routes = [
 		},
 	},
 	{
+		path: '/locations',
+		name: 'locations',
+		component: about,
+		meta: {
+			title: 'Our Locations',
+			show: true,
+		},
+	},
+	{
 		path: '/about',
 		name: 'about',
 		component: about,

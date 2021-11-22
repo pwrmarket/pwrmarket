@@ -74,7 +74,7 @@
 		<section class="bg-white main-section">
 			<BContainer>
 				<BRow class="">
-					<BCol cols="12" md="8" class="">
+					<BCol cols="12" md="5" class="">
 						<div
 							class="m-auto hero-message-box-container"
 							v-rellax
@@ -82,28 +82,85 @@
 							data-rellax-xs-speed="0"
 							data-rellax-mobile-speed="0"
 							data-rellax-tablet-speed="0"
-							:data-rellax-desktop-speed="3"
+							:data-rellax-desktop-speed="0"
 						>
-							<div class="p-5 bg-light-svg rounded-lg shadow hero-message-box">
-								<h3 class="text-center">
-									Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam libero illum commodi suscipit consequatur cumque sint possimus, fugit, consequuntur voluptas fugiat maiores quidem aliquam repellendus est quod assumenda enim? Repellendus!
-								</h3>
+							<div class="px-5 py-5 bg-light-svg rounded-lg shadow hero-message-box">
+								<BRow class="w-100 text-center text-secondary">
+									<BCol cols="12" class="text-center">
+										<h2 class="mb-2 text-secondary">
+											Fuel Prices
+										</h2>
+									</BCol>
+
+									<BCol cols="12" md="6">
+										<h2 class="m-0 text-primary">Regular</h2>
+									</BCol>
+
+									<BCol cols="12" md="6">
+										<h2 class="m-0 text-success">2.753</h2>
+									</BCol>
+
+									<BCol cols="12" md="6">
+										<h2 class="m-0 text-primary">Plus</h2>
+									</BCol>
+
+									<BCol cols="12" md="6">
+										<h2 class="m-0 text-success">3.134</h2>
+									</BCol>
+
+									<BCol cols="12" md="6">
+										<h2 class="m-0 text-primary">Super</h2>
+									</BCol>
+
+									<BCol cols="12" md="6">
+										<h2 class="m-0 text-success">3.129</h2>
+									</BCol>
+								</BRow>
 							</div>
 						</div>
 					</BCol>
 
-					<BCol cols="12" md="4" class="text-left">
-						<div class="rounded overflow-hidden">
-							<img
-								:src="serviceImg"
-								alt="Logo Here"
-								class="w-100"
-							>
+					<BCol cols="12" md="7" class="text-center">
+						<div class="hero-message-box-container">
+							<h1 class="my-0 text-secondary hero-message" style="font-size: 4em;">
+								<span
+									class="py-1 bg-secondary text-light"
+								>Daily Deals</span>
+								to Help You Save Money!
+							</h1>
 						</div>
 					</BCol>
 				</BRow>
 			</BContainer>
 		</section>
+
+		<BContainer fluid class="m-0 p-0 bg-light">
+			<BRow class="w-100 m-0">
+				<BCol cols="12" md="3" class="p-0">
+					<BButton variant="outline-primary" class="w-100 py-3 border-0">
+						SHOP
+					</BButton>
+				</BCol>
+
+				<BCol cols="12" md="3" class="p-0">
+					<BButton variant="outline-primary" class="w-100 py-3 border-0">
+						SHOP
+					</BButton>
+				</BCol>
+
+				<BCol cols="12" md="3" class="p-0">
+					<BButton variant="outline-primary" class="w-100 py-3 border-0">
+						SHOP
+					</BButton>
+				</BCol>
+
+				<BCol cols="12" md="3" class="p-0">
+					<BButton variant="outline-primary" class="w-100 py-3 border-0">
+						SHOP
+					</BButton>
+				</BCol>
+			</BRow>
+		</BContainer>
 	</BContainer>
 </template>
 
@@ -190,7 +247,6 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		min-height: 400px;
 	}
 
 	// Hero Box Message //
@@ -198,8 +254,14 @@
 		max-width: 600px;
 
 		.hero-message-box {
-			-webkit-transform: translateY(-80px);
-			transform: translateY(-80px);
+			-webkit-transform: translateY(-60px);
+			transform: translateY(-60px);
+		}
+
+		.hero-message {
+			z-index: 2000000;
+			-webkit-transform: translateY(-60px);
+			transform: translateY(-60px);
 		}
 	}
 </style>

@@ -6,33 +6,12 @@
 			:class="$store.state.node_env == 'production' ? 'bg-gradient' : 'bg-gradient-weak'"
 		>
 			<BRow class="w-100">
-				<!-- HERO IMAGE -->
-				<BCol cols="12" md="6" order="1" order-md="0" class="d-none d-sm-block">
+				<!-- HERO INFO -->
+				<BCol cols="12" md="6" class="">
 					<div
 						class="
-							h-100
 							mr-auto mr-md-0
 							ml-auto
-							hero-img-holder
-						"
-					>
-						<lottie-player
-							src="https://assets2.lottiefiles.com/packages/lf20_DEjwMw.json"
-							class="w-100 lottie"
-							background="transparent"
-							speed="1"
-							loop
-							autoplay
-						/>
-					</div>
-				</BCol>
-
-				<!-- HERO INFO -->
-				<BCol cols="12" md="6" order="0" order-md="1" class="">
-					<div
-						class="
-							ml-auto ml-md-0
-							mr-auto
 							hero-info-holder
 						"
 						style="max-width: 600px;"
@@ -49,8 +28,28 @@
 								</BButton>
 							</RouterLink>
 						</div>
+					</div>		
+				</BCol>
+
+				<!-- HERO IMAGE -->
+				<BCol cols="12" md="6" class="d-none d-sm-block">
+					<div
+						class="
+							h-100
+							ml-auto ml-md-0
+							mr-auto
+							hero-img-holder
+						"
+					>
+						<lottie-player
+							src="https://assets2.lottiefiles.com/packages/lf20_DEjwMw.json"
+							class="w-100 lottie"
+							background="transparent"
+							speed="1"
+							loop
+							autoplay
+						/>
 					</div>
-							
 				</BCol>
 			</BRow>
 
@@ -62,49 +61,68 @@
 					viewBox="0 0 1200 120"
 					preserveAspectRatio="none"
 				>
-
 					<path
-						d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+						d="
+							M321.39,56.44
+							c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39
+							C823.78,31,906.67,72,985.66,92.83
+							c70.05,18.48,146.53,26.09,214.34,3
+							V0
+							H0
+							V27.35
+							A600.21,600.21,0,0,0,321.39,56.44Z
+						"
 						class="shape-fill"
 					></path>
 				</svg>
 			</div>
 		</BContainer>
 
+		<!-- DEALS -->
 		<section class="bg-white main-section">
-			<BContainer>
+			<!--  -->
 				<BRow class="">
+					<!-- DEALS CONTENT COLUMN -->
 					<BCol cols="12" md="5" class="">
-						<div class="m-auto hero-message-box-container">
-							<div class="px-5 py-5 bg-light-svg rounded-lg shadow hero-message-box">
-								<BRow class="w-100 text-center text-secondary">
+						<div
+							class="
+								mr-auto mr-md-0
+								ml-auto
+								mb-3
+								hero-message-box-container
+							"
+						>
+							<div class="px-5 py-4 bg-light-svg rounded-lg shadow hero-message-box">
+								<BRow class="w-100 m-0 text-center text-secondary">
 									<BCol cols="12" class="text-center">
-										<h2 class="mb-2 text-secondary">
+										<h2 class="mb-4 text-secondary">
 											Fuel Prices
 										</h2>
 									</BCol>
+								</BRow>
 
-									<BCol cols="12" md="6">
+								<BRow class="w-100 m-0 text-center text-secondary rounded bg-shade-light ">
+									<BCol cols="6" md="6" class="py-2 border-bottom">
 										<h2 class="m-0 text-primary">Regular</h2>
 									</BCol>
 
-									<BCol cols="12" md="6">
+									<BCol cols="6" md="6" class="py-2 border-bottom">
 										<h2 class="m-0 text-success">2.753</h2>
 									</BCol>
 
-									<BCol cols="12" md="6">
+									<BCol cols="6" md="6" class="py-2 border-bottom">
 										<h2 class="m-0 text-primary">Plus</h2>
 									</BCol>
 
-									<BCol cols="12" md="6">
+									<BCol cols="6" md="6" class="py-2 border-bottom">
 										<h2 class="m-0 text-success">3.134</h2>
 									</BCol>
 
-									<BCol cols="12" md="6">
+									<BCol cols="6" md="6" class="py-2 border-bottom">
 										<h2 class="m-0 text-primary">Super</h2>
 									</BCol>
 
-									<BCol cols="12" md="6">
+									<BCol cols="6" md="6" class="py-2 border-bottom">
 										<h2 class="m-0 text-success">3.129</h2>
 									</BCol>
 								</BRow>
@@ -112,8 +130,17 @@
 						</div>
 					</BCol>
 
+					<!-- DEALS TEXT COLUMN -->
 					<BCol cols="12" md="7" class="text-center">
-						<div class="mx-auto hero-message-box-container">
+						<div
+							class="
+								ml-auto ml-md-0
+								mr-auto
+								my-md-0 my-5
+								px-md-5
+								hero-message-box-container
+							"
+						>
 							<h1 class="my-0 text-secondary hero-message" style="font-size: 4em;">
 								<span
 									class="py-1 bg-secondary text-light"
@@ -123,9 +150,9 @@
 						</div>
 					</BCol>
 				</BRow>
-			</BContainer>
 		</section>
 
+		<!-- GUIDE BAR -->
 		<BContainer fluid class="m-0 p-0 bg-light">
 			<BRow class="w-100 m-0">
 				<BCol cols="12" md="3" class="p-0">
@@ -243,16 +270,16 @@
 
 	// Hero Box Message //
 	.hero-message-box-container {
-		max-width: 500px;
+		max-width: 600px;
 
 		.hero-message-box {
-			-webkit-transform: translateY(-60px);
-			transform: translateY(-60px);
+			-webkit-transform: translateY(-70px);
+			transform: translateY(-70px);
 		}
 
 		.hero-message {
-			-webkit-transform: translateY(-60px);
-			transform: translateY(-60px);
+			-webkit-transform: translateY(-70px);
+			transform: translateY(-70px);
 		}
 	}
 </style>

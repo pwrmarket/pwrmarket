@@ -1,20 +1,19 @@
 <template>
-	<BContainer fluid class="px-0">
+	<div>
+		<!-- HERO -->
 		<BContainer
 			fluid
 			class="hero-section"
 			:class="$store.state.node_env == 'production' ? 'bg-gradient' : 'bg-gradient-weak'"
 		>
-			<BRow class="w-100">
+			<BContainer>
+				<BRow class="w-100">
 				<!-- HERO INFO -->
 				<BCol cols="12" md="6" class="">
 					<div
 						class="
-							mr-auto mr-md-0
-							ml-auto
 							hero-info-holder
 						"
-						style="max-width: 600px;"
 					>
 						<h1
 							class="my-5 text-center text-light"
@@ -36,8 +35,7 @@
 					<div
 						class="
 							h-100
-							ml-auto ml-md-0
-							mr-auto
+							mx-auto
 							hero-img-holder
 						"
 					>
@@ -76,84 +74,82 @@
 					></path>
 				</svg>
 			</div>
+			</BContainer>
 		</BContainer>
 
 		<!-- DEALS -->
-		<section class="bg-white main-section">
+		<BContainer class="bg-white main-section bg-primary">
 			<!--  -->
-				<BRow class="">
-					<!-- DEALS CONTENT COLUMN -->
-					<BCol cols="12" md="5" class="">
-						<div
-							class="
-								mr-auto mr-md-0
-								ml-auto
-								mb-3
-								hero-message-box-container
-							"
-						>
-							<div class="px-5 py-4 bg-light-svg rounded-lg shadow hero-message-box">
-								<BRow class="w-100 m-0 text-center text-secondary">
-									<BCol cols="12" class="text-center">
-										<h2 class="mb-4 text-secondary">
-											Fuel Prices
-										</h2>
-									</BCol>
-								</BRow>
+			<BRow class="">
+				<!-- DEALS CONTENT COLUMN -->
+				<BCol cols="12" md="5" class="">
+					<div
+						class="
+							m-auto
+							mb-3
+							hero-message-box
+						"
+					>
+						<div class="px-5 py-4 bg-light-svg rounded-lg shadow hero-message-box-content">
+							<BRow class="w-100 m-0 text-center text-secondary">
+								<BCol cols="12" class="text-center">
+									<h2 class="mb-4 text-secondary">
+										Fuel Prices
+									</h2>
+								</BCol>
+							</BRow>
 
-								<BRow class="w-100 m-0 text-center text-secondary rounded bg-shade-light ">
-									<BCol cols="6" md="6" class="py-2 border-bottom">
-										<h2 class="m-0 text-primary">Regular</h2>
-									</BCol>
+							<BRow class="w-100 m-0 text-center text-secondary rounded bg-shade-light ">
+								<BCol cols="6" md="6" class="py-2 border-bottom">
+									<h2 class="m-0 text-primary">Regular</h2>
+								</BCol>
 
-									<BCol cols="6" md="6" class="py-2 border-bottom">
-										<h2 class="m-0 text-success">2.753</h2>
-									</BCol>
+								<BCol cols="6" md="6" class="py-2 border-bottom">
+									<h2 class="m-0 text-success">2.753</h2>
+								</BCol>
 
-									<BCol cols="6" md="6" class="py-2 border-bottom">
-										<h2 class="m-0 text-primary">Plus</h2>
-									</BCol>
+								<BCol cols="6" md="6" class="py-2 border-bottom">
+									<h2 class="m-0 text-primary">Plus</h2>
+								</BCol>
 
-									<BCol cols="6" md="6" class="py-2 border-bottom">
-										<h2 class="m-0 text-success">3.134</h2>
-									</BCol>
+								<BCol cols="6" md="6" class="py-2 border-bottom">
+									<h2 class="m-0 text-success">3.134</h2>
+								</BCol>
 
-									<BCol cols="6" md="6" class="py-2 border-bottom">
-										<h2 class="m-0 text-primary">Super</h2>
-									</BCol>
+								<BCol cols="6" md="6" class="py-2 border-bottom">
+									<h2 class="m-0 text-primary">Super</h2>
+								</BCol>
 
-									<BCol cols="6" md="6" class="py-2 border-bottom">
-										<h2 class="m-0 text-success">3.129</h2>
-									</BCol>
-								</BRow>
-							</div>
+								<BCol cols="6" md="6" class="py-2 border-bottom">
+									<h2 class="m-0 text-success">3.129</h2>
+								</BCol>
+							</BRow>
 						</div>
-					</BCol>
+					</div>
+				</BCol>
 
-					<!-- DEALS TEXT COLUMN -->
-					<BCol cols="12" md="7" class="text-center">
-						<div
-							class="
-								ml-auto ml-md-0
-								mr-auto
-								my-md-0 my-5
-								px-md-5
-								hero-message-box-container
-							"
-						>
-							<h1 class="my-0 text-secondary hero-message" style="font-size: 4em;">
-								<span
-									class="py-1 bg-secondary text-light"
-								>Daily Deals</span>
-								to Help You Save Money!
-							</h1>
-						</div>
-					</BCol>
-				</BRow>
-		</section>
+				<!-- DEALS TEXT COLUMN -->
+				<BCol cols="12" md="7" class="text-center">
+					<div
+						class="
+							mx-auto
+							px-md-5
+							hero-message-box
+						"
+					>
+						<h1 class="my-0 text-secondary hero-message" style="font-size: 4em;">
+							<span
+								class="py-1 bg-secondary text-light"
+							>Daily Deals</span>
+							to Help You Save Money!
+						</h1>
+					</div>
+				</BCol>
+			</BRow>
+		</BContainer>
 
 		<!-- GUIDE BAR -->
-		<BContainer fluid class="m-0 p-0 bg-light">
+		<BContainer fluid class="m-0 p-0 bg-light shadow">
 			<BRow class="w-100 m-0">
 				<BCol cols="12" md="3" class="p-0">
 					<BButton variant="outline-primary" class="w-100 py-3 border-0">
@@ -180,7 +176,7 @@
 				</BCol>
 			</BRow>
 		</BContainer>
-	</BContainer>
+	</div>
 </template>
 
 <script>
@@ -269,10 +265,10 @@
 	}
 
 	// Hero Box Message //
-	.hero-message-box-container {
-		max-width: 600px;
+	.hero-message-box {
+		max-width: 100%;
 
-		.hero-message-box {
+		.hero-message-box-content {
 			-webkit-transform: translateY(-70px);
 			transform: translateY(-70px);
 		}

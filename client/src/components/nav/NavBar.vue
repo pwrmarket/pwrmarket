@@ -159,40 +159,41 @@
 
 	.menu-item {
 		margin-top: 36px;
-	}
-		
-	.menu-item-link {
-		position: relative;
-		
-		text-decoration: none !important;
-		
-		transition: .3s;
+	
+		.menu-item-link {
+			position: relative;
+			
+			text-decoration: none !important;
+			
+			transition: .3s;
 
-		&::before {
-			content: "";
-			position: absolute;
-			width: 100%;
-			height: 2px;
-			bottom: -3px;
-			left: 0;
-			background-color: $primary;
-			visibility: hidden;
-			transform: scaleX(0);
-			transition: all 0.3s ease-in-out 0s;
-		}
-
-		&:hover::before {
-			visibility: visible;
-			transform: scaleX(1);
-		}
-	}
-
-	.router-link-exact-active {
-		&.menu-item-link {
 			&::before {
+				content: "";
+				position: absolute;
+				width: 100%;
+				height: 2px;
+				bottom: -3px;
+				left: 0;
+				background-color: $primary;
+				visibility: hidden;
+				transform: scaleX(0);
+				transition: all 0.3s ease-in-out 0s;
+			}
+
+			&:hover::before {
 				visibility: visible;
 				transform: scaleX(1);
 			}
 		}
+
+		.router-link-exact-active {
+			&.menu-item-link {
+				&::before {
+					visibility: visible;
+					transform: scaleX(1);
+				}
+			}
+		}
 	}
+		
 </style>

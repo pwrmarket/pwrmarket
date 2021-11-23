@@ -1,11 +1,11 @@
 <template>
-	<BRow class="w-100">
+	<BRow class="w-100 m-0 p-0">
 		<BCol md="4" class="m-0 p-0">
 			<div class="img-wrapper">
 				<img class="tri-img" src="https://source.unsplash.com/600x400/?supermarket" />
 
 				<div class="content-holder">
-					<p class="">This image looks super neat.</p>
+					<h1 class="m-0 text-light">Shop</h1>
 				</div>
 			</div>
 		</BCol>
@@ -15,7 +15,7 @@
 				<img class="tri-img" src="https://source.unsplash.com/600x400/?energy" />
 
 				<div class="content-holder">
-					<p class="">This image looks super neat.</p>
+					<h1 class="m-0 text-light">Charge</h1>
 				</div>
 			</div>
 		</BCol>
@@ -25,7 +25,7 @@
 				<img class="tri-img" src="https://source.unsplash.com/600x400/?food" />
 
 				<div class="content-holder">
-					<p class="">This image looks super neat.</p>
+					<h1 class="m-0 text-light">Save</h1>
 				</div>
 			</div>
 		</BCol>
@@ -33,6 +33,8 @@
 </template>
 
 <style lang="scss" scoped>
+	@import '../assets/styles/override.scss';
+
 	/* relevant styles */
 	.img-wrapper {
 		position: relative;
@@ -43,6 +45,8 @@
 			.content-holder {
 				visibility: visible;
 				opacity: 1;
+
+				background: $primary-shine;
 			}
 		}
 
@@ -56,9 +60,11 @@
 			bottom: 0;
 			left: 0;
 			right: 0;
-			background: rgba(255, 255, 255, 0.72);
+			background: $dark-shine;
 			visibility: hidden;
 			opacity: 0;
+			visibility: visible;
+			opacity: 1;
 
 			/* transition effect. not necessary */
 			transition: opacity .2s, visibility .2s;

@@ -11,8 +11,25 @@
 				</div>
 			</BCol>
 
-			<BCol cols="12" lg="7" class="p-0 bg-light">
-				<div class="text-center text-light">
+			<BCol cols="12" lg="7" class="p-4 p-lg-5">
+				<div class="p-5 h-100 text-secondary bg-white rounded-lg shadow">
+					<h1 class="text-center text-uppercase text-primary">
+						Our Story
+					</h1>
+					<p
+						v-html="
+							companyInfo.aboutHTML.length > 400 ?
+								companyInfo.aboutHTML.substring(0, 400 - 3) + '...' :
+								companyInfo.aboutHTML
+						"
+						class="my-5"
+					></p>
+
+					<div class="text-center">
+						<RouterLink to="/about">
+							<BButton size="lg">Read More About Us</BButton>
+						</RouterLink>
+					</div>
 				</div>
 			</BCol>
 		</BRow>
@@ -20,11 +37,18 @@
 </template>
 
 <script>
-	import SocialMediaPlug from '../SocialMediaPlug.vue'
+	import companyInfo from '../../defaults/companyInfo'
+	import SocialMediaPlug from '../SocialMediaPlug'
 
 	export default {
+		data() {
+			return {
+				companyInfo,
+			}
+		},
+
 		components: {
-			SocialMediaPlug
+			SocialMediaPlug,
 		},
 	}
 </script>

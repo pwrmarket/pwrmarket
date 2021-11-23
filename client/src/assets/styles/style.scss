@@ -40,6 +40,29 @@
 }
 
 
+// [THEME][DOTTED] //
+.bg-secondary-dotted {
+	opacity: 1;
+	background-color: $secondary;
+	background-size:
+		6px 6px,
+		6px 6px
+	;
+	background-image:
+		linear-gradient(
+			0deg,
+			white 3px,
+			transparent 0
+		),
+		linear-gradient(
+			90deg,
+			white 3px,
+			transparent 0
+		),
+	;
+}
+
+
 // [BACKGROUND] //
 .bg-gradient {
 	background-image: url('../images/hero.svg');

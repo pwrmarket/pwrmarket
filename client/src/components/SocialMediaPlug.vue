@@ -1,8 +1,8 @@
 <template>
 	<div class="text-center">
 		<a
-			v-if="defaultData.facebookLink != ''"
-			:href="defaultData.facebookLink"
+			v-if="defaultData.socialMedia.facebook.link != ''"
+			:href="defaultData.socialMedia.facebook.link"
 			target="_blank"
 			:class="`text-${variant}`"
 		>
@@ -10,8 +10,8 @@
 		</a>
 
 		<a
-			v-if="defaultData.instagramLink != ''"
-			:href="defaultData.instagramLink"
+			v-if="defaultData.socialMedia.instagram.link != ''"
+			:href="defaultData.socialMedia.instagram.link"
 			target="_blank"
 			:class="`text-${variant}`"
 		>
@@ -19,8 +19,8 @@
 		</a>
 
 		<a
-			v-if="defaultData.youtubeLink != ''"
-			:href="defaultData.youtubeLink"
+			v-if="defaultData.socialMedia.youtube.link != ''"
+			:href="defaultData.socialMedia.youtube.link"
 			target="_blank"
 			:class="`text-${variant}`"
 		>

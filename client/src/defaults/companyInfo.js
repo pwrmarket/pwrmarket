@@ -49,14 +49,18 @@ module.exports = {
 
 	socialMedia: {
 		facebook: {
-			link: '',
+			link: 'https://www.instagram.com',
 		},
 
 		instagram: {
-			link: '',
+			link: 'https://www.instagram.com',
 		},
 
 		twitter: {
+			link: '',
+		},
+
+		youtube: {
 			link: '',
 		},
 	},

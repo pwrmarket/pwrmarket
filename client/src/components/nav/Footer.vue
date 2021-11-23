@@ -1,6 +1,6 @@
 <template>
 	<div class="w-100 text-light">
-		<section class="main-section">
+		<section class="main-section bg-light">
 			<div class="wave">
 				<svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
 					<path
@@ -102,7 +102,7 @@
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		min-height: 180px;
+		min-height: 0px;
 	}
 
 	.wave {

@@ -33,7 +33,7 @@
 							h4
 							my-5
 							mx-3
-							menu-link
+							menu-item-link
 						"
 						:class="[
 							$store.state.isHomePage ? linkClass : 'text-gradient'
@@ -161,7 +161,7 @@
 		margin-top: 36px;
 	}
 		
-	.menu-link {
+	.menu-item-link {
 		position: relative;
 		
 		text-decoration: none !important;
@@ -188,7 +188,7 @@
 	}
 
 	.router-link-exact-active {
-		&.menu-link {
+		&.menu-item-link {
 			&::before {
 				visibility: visible;
 				transform: scaleX(1);

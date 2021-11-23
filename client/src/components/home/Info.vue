@@ -1,7 +1,7 @@
 <template>
 	<BContainer fluid class="m-0 p-0">
 		<BRow class="w-100 m-0">
-			<BCol cols="12" lg="3" class="p-0 bg-primary-shine center">
+			<BCol cols="12" lg="3" class="p-0 bg-secondary-shine center">
 				<div class="text-center text-light">
 					<h1 class="my-3 text-center text-uppercase">
 						Follow Us
@@ -12,11 +12,11 @@
 				</div>
 			</BCol>
 
-			<BCol cols="12" lg="6" class="p-0">
-				<div class="wrap">
-					<div class="p-3 p-lg-5 text-secondary rounded-lg content">
-						<div class="p-3 p-lg-5 bg-light shadow">
-							<h1 class="text-center text-uppercase text-primary">
+			<BCol cols="12" lg="6" class="p-0 ">
+				<div class="wrap bg-primary-shine">
+					<div class="p-3 p-lg-5 rounded-lg content">
+						<div class="p-3 p-lg-5 bg-secondary shadow">
+							<h1 class="text-center text-uppercase text-light">
 								Our Story
 							</h1>
 							
@@ -26,12 +26,12 @@
 										companyInfo.aboutHTML.substring(0, 400 - 3) + '...' :
 										companyInfo.aboutHTML
 								"
-								class="my-5"
+								class="my-5 text-light"
 							></p>
 
 							<div class="text-center">
 								<RouterLink to="/about">
-									<BButton size="lg">Read More About Us</BButton>
+									<BButton variant="outline-light" size="lg">Read More About Us</BButton>
 								</RouterLink>
 							</div>
 						</div>
@@ -94,7 +94,7 @@
 				top: 0;
 				width: 3%;
 				height: 100%;
-				background-color: $primary-shine;
+				background-color: $white;
 
 				&:before {
 					content: '';

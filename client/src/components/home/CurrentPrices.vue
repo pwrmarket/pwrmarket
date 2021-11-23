@@ -1,6 +1,6 @@
 <template>
-	<BContainer fluid class="py-5 bg-white">
-		<BContainer class="bg-white main-section bg-primary">
+	<BContainer fluid class="py-5 bg-shade">
+		<BContainer class="main-section">
 			<!--  -->
 			<BRow class="w-100">
 				<!-- DEALS CONTENT COLUMN -->

@@ -143,12 +143,15 @@
 			</BRow>
 		</BContainer>
 
+		<ImgLinks />
+
 		<Deals />
 		<br><br><br><br>
 	</div>
 </template>
 
 <script>
+	import ImgLinks from '../components/ImgLinks.vue'
 	import Deals from '../components/home/Deals'
 	import Hero from '../components/home/Hero'
 
@@ -160,6 +163,7 @@
 		},
 
 		components: {
+			ImgLinks,
 			Deals,
 			Hero,
 		},

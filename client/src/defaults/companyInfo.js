@@ -1,5 +1,7 @@
 // [EXPORT] //
 module.exports = {
+	fullLogo: require('../assets/images/full-logo.png'),
+
 	logo: require('../assets/images/logo.png'),
 
 	name: 'Power Market',
@@ -65,7 +67,15 @@ module.exports = {
 		},
 	},
 
-	aboutHTML: ``,
+	aboutHTML: `
+		Looking for a store that offers convenience and grocery items at the same time?
+		<br>
+		Look no further, we are POWER MARKET! – your neighborhood convenience store, with impeccable service and a wide selection of snacks, hot foods, drinks, grocery, and much more!
+		<br>
+		e have locations everywhere that serve your community. Having built a reputation for being the most hygienic and clean store, our every-day-customers never have to worry about the quality of the products they buy. You can find any grocery item to restock your kitchen pantry and next party or you can just stop by for a quick snack and a refreshing drink. Our staff is dedicated to ensure a smooth experience for out customers, day-in and day-out, and always ensure that all high-touch surfaces are thoroughly sanitized and that our customer’s high-demand and favorite products are well-stocked.
+		<br>
+		Power through your life with Power Market where you will always find something to keep you going!
+	`,
 
 	missionHTML: ``
 }

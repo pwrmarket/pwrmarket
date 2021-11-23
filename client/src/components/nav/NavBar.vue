@@ -10,13 +10,13 @@
 		<BContainer class="d-none d-xl-flex">
 			<!-- Logo Holder -->
 			<div
-				class="d-flex justify-content-center px-5 py-2"
-				style="max-width: 202px;"
+				class="d-flex justify-content-center px-5 py-4"
+				style="max-width: 400px;"
 			>
 				<!-- Logo -->
 				<RouterLink to="/">
 					<img
-						:src="companyInfo.logo"
+						:src="companyInfo.fullLogo"
 						alt="Logo Here"
 						class="w-100"
 					>
@@ -25,7 +25,7 @@
 
 			<!-- Menu Links -->
 			<div class="d-none d-xl-flex ml-auto h5 font-weight-bold">
-				<div v-for="(r, i) in routes" :key="i" class="pt-5">
+				<div v-for="(r, i) in routes" :key="i" class="menu-item">
 					<RouterLink
 						v-if="r.meta.show"
 						:to="r.path"
@@ -157,11 +157,16 @@
 		-webkit-text-fill-color: transparent;
 	}
 
+	.menu-item {
+		margin-top: 36px;
+	}
+		
 	.menu-link {
 		position: relative;
-		text-decoration: none;
-		transition: .3s;
+		
 		text-decoration: none !important;
+		
+		transition: .3s;
 
 		&::before {
 			content: "";

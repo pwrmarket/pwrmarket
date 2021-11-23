@@ -7,7 +7,7 @@
 		<BContainer fluid class="bg-white">
 			<BContainer class="bg-white main-section bg-primary">
 				<!--  -->
-				<BRow class="">
+				<BRow class="w-100">
 					<!-- DEALS CONTENT COLUMN -->
 					<BCol cols="12" lg="5" class="">
 						<div
@@ -26,7 +26,7 @@
 									</BCol>
 								</BRow>
 
-								<BRow class="w-100 m-0 text-center text-secondary rounded bg-shade-light ">
+								<BRow class="w-100 m-0 text-center text-secondary rounded bg-shade-light">
 									<BCol cols="6" md="6" class="py-2 border-bottom">
 										<h2 class="m-0 text-primary">Regular</h2>
 									</BCol>
@@ -64,12 +64,7 @@
 								hero-message-box
 							"
 						>
-							<h1 class="my-0 text-secondary hero-message" style="font-size: 4em;">
-								<span
-									class="py-1 bg-secondary text-light"
-								>Daily Deals</span>
-								to Help You Save Money!
-							</h1>
+						
 						</div>
 					</BCol>
 				</BRow>
@@ -127,8 +122,6 @@
 
 	// Hero Box Message //
 	.hero-message-box {
-		max-width: 100%;
-
 		.hero-message-box-content {
 			-webkit-transform: translateY(-70px);
 			transform: translateY(-70px);

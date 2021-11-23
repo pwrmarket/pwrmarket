@@ -8,7 +8,6 @@ import companyInfo from '@/defaults/companyInfo'
 import index from '@/pages'
 import about from '@/pages/about'
 import contact from '@/pages/contact'
-import followUs from '@/pages/follow-us'
 import notFound from '@/pages/404'
 
 
@@ -47,15 +46,6 @@ const routes = [
 		component: contact,
 		meta: {
 			title: 'Contact',
-			show: true,
-		},
-	},
-	{
-		path: '/follow-us',
-		name: 'follow-us',
-		component: followUs,
-		meta: {
-			title: 'Follow Us',
 			show: true,
 		},
 	},

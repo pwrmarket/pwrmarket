@@ -94,7 +94,9 @@
 				transform: scale(1.2);
 
 				// Show Text //
-				span {}
+				span {
+					color: $light;
+				}
 
 				&:before {
 					background-color: $dark-shine;

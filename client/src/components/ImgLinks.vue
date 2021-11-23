@@ -1,31 +1,31 @@
 <template>
-	<BRow class="w-100 m-0 p-0">
-		<BCol md="4" class="m-0 p-0 border-right border-white">
-			<div class="img-wrapper">
-				<img class="tri-img" src="https://source.unsplash.com/600x400/?food" />
-
-				<div class="content-holder">
-					<h1 class="m-0 text-uppercase text-light">Shop</h1>
+	<BRow class="w-100 m-0 p-0 content" style="height: 200px;">
+		<BCol md="4">
+			<div class="w-100 rounded shadow img-container">
+				<div class="child bg-one">
+					<span style="max-width: 600px;">
+						Shop
+					</span>
 				</div>
 			</div>
 		</BCol>
 
-		<BCol md="4" class="m-0 p-0 border-right border-white">
-			<div class="img-wrapper">
-				<img class="tri-img" src="https://source.unsplash.com/600x400/?energy" />
-
-				<div class="content-holder">
-					<h1 class="m-0 text-uppercase text-light">Charge</h1>
+		<BCol md="4">
+			<div class="w-100 rounded shadow img-container">
+				<div class="child bg-two">
+					<span style="max-width: 600px;">
+						Charge
+					</span>
 				</div>
 			</div>
 		</BCol>
 
-		<BCol md="4" class="m-0 p-0">
-			<div class="img-wrapper">
-				<img class="tri-img" src="https://source.unsplash.com/600x400/?money" />
-
-				<div class="content-holder">
-					<h1 class="m-0 text-uppercase text-light">Save</h1>
+		<BCol md="4">
+			<div class="w-100 rounded shadow img-container">
+				<div class="child bg-three">
+					<span style="max-width: 600px;">
+						Save
+					</span>
 				</div>
 			</div>
 		</BCol>
@@ -35,43 +35,101 @@
 <style lang="scss" scoped>
 	@import '../assets/styles/override.scss';
 
-	/* relevant styles */
-	.img-wrapper {
-		position: relative;
-		height: 100%;
-		width: 100%;
+	// CONTENT //
+	.content {
+		-webkit-transform: translateY(-150px);
+		transform: translateY(-150px);
+	}
 
-		&:hover {
-			.content-holder {
-				visibility: visible;
-				opacity: 1;
+	.img-container {
+		height: 300px;
+		overflow: hidden;
+		cursor: pointer;
 
-				background: $primary-shine;
-			}
+		.bg-one {
+			background-image: url('https://source.unsplash.com/600x400/?food');
 		}
 
-		.tri-img {
+		.bg-two {
+			background-image: url('https://source.unsplash.com/600x400/?energy');
+		}
+
+		.bg-three {
+			background-image: url('https://source.unsplash.com/600x400/?money');
+		}
+
+		.child {
+			height: 100%;
 			width: 100%;
-		}
-	
-		.content-holder {
-			position: absolute;
-			top: 0;
-			bottom: 0;
-			left: 0;
-			right: 0;
-			background: $dark-shine;
-			visibility: hidden;
-			opacity: 0;
-			visibility: visible;
-			opacity: 1;
-
-			/* transition effect. not necessary */
-			transition: opacity .2s, visibility .2s;
+			background-size: cover;
+			background-repeat: no-repeat;
+			-webkit-transition: all .5s;
+			-moz-transition: all .5s;
+			-o-transition: all .5s;
+			transition: all .5s;
 
 			display: flex;
 			justify-content: center;
 			align-items: center;
+
+			span {
+				position: absolute;
+				
+				text-align: center;
+				
+				font-size: 3em !important;
+
+				cursor: pointer;
+
+				color: $light;
+			}
+
+			&:before {
+				content: "";
+				display: block;
+				height: 100%;
+				width: 100%;
+				top: 0;
+				left: 0;
+				background-color: $secondary-shine;
+			}
+		}
+
+
+		&:hover {
+			.child {
+				-ms-transform: scale(1.2);
+				-moz-transform: scale(1.2);
+				-webkit-transform: scale(1.2);
+				-o-transform: scale(1.2);
+				transform: scale(1.2);
+
+				// Show Text //
+				span {
+					color: $light;
+				}
+
+				&:before {
+					background-color: $dark-shine;
+				}
+			}
+		}
+		
+		&:focus {
+			.child {
+				-ms-transform: scale(1.2);
+				-moz-transform: scale(1.2);
+				-webkit-transform: scale(1.2);
+				-o-transform: scale(1.2);
+				transform: scale(1.2);
+
+				span { display: block; }
+
+				&:before {
+					display: block;
+				}
+			}
+
 		}
 	}
 </style>

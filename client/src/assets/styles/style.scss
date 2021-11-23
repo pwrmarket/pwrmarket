@@ -41,6 +41,27 @@
 
 
 // [THEME][DOTTED] //
+.bg-primary-dotted {
+	opacity: 1;
+	background-color: $primary;
+	background-size:
+		6px 6px,
+		6px 6px
+	;
+	background-image:
+		linear-gradient(
+			0deg,
+			white 3px,
+			transparent 0
+		),
+		linear-gradient(
+			90deg,
+			white 3px,
+			transparent 0
+		),
+	;
+}
+
 .bg-secondary-dotted {
 	opacity: 1;
 	background-color: $secondary;

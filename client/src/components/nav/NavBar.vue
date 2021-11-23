@@ -10,7 +10,7 @@
 		<BContainer class="d-none d-xl-flex">
 			<!-- Logo Holder -->
 			<div
-				class="d-flex justify-content-center px-5 py-3"
+				class="d-flex justify-content-center px-5 py-2"
 				style="max-width: 202px;"
 			>
 				<!-- Logo -->
@@ -24,25 +24,25 @@
 			</div>
 
 			<!-- Menu Links -->
-			<div class="d-none d-xl-flex ml-auto">
-				<RouterLink
-					v-for="(r, i) in routes"
-					:key="i"
-					:to="r.path"
-				>
-					<BButton
+			<div class="d-none d-xl-flex ml-auto h5 font-weight-bold">
+				<div v-for="(r, i) in routes" :key="i" class="pt-5">
+					<RouterLink
 						v-if="r.meta.show"
-						variant="none"
+						:to="r.path"
 						class="
-							mx-1 mx-md-2 mx-lg-2 mx-xl-3 my-5
-							font-weight-bold
+							h4
+							my-5
+							mx-3
 							menu-link
 						"
 						:class="[
 							$store.state.isHomePage ? linkClass : 'text-gradient'
 						]"
-					><span class="m-0 h4">{{ r.meta.title }}</span></BButton>
-				</RouterLink>
+						style="height: 24px;"
+					>
+						{{ r.meta.title }}
+					</RouterLink>
+				</div>
 			</div>
 		</BContainer>
 
@@ -158,21 +158,36 @@
 	}
 
 	.menu-link {
-		:hover {
-			@extend .text-primary;
+		position: relative;
+		text-decoration: none;
+		transition: .3s;
+		text-decoration: none !important;
+
+		&::before {
+			content: "";
+			position: absolute;
+			width: 100%;
+			height: 2px;
+			bottom: -3px;
+			left: 0;
+			background-color: $primary;
+			visibility: hidden;
+			transform: scaleX(0);
+			transition: all 0.3s ease-in-out 0s;
+		}
+
+		&:hover::before {
+			visibility: visible;
+			transform: scaleX(1);
 		}
 	}
 
 	.router-link-exact-active {
-		.menu-link {
-			@extend .border-primary;
-			@extend .border-bottom;
-			@extend .border-top-0;
-			@extend .border-left-0;
-			@extend .border-right-0;
-
-			border-width: 40px;
-			box-shadow: 0 !important;
+		&.menu-link {
+			&::before {
+				visibility: visible;
+				transform: scaleX(1);
+			}
 		}
 	}
 </style>

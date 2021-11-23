@@ -1,11 +1,13 @@
 <template>
 	<BContainer fluid class="m-0 p-0">
-		<BRow class="w-100 m-0">
-			<BCol cols="12" lg="6" class="py-5 title-col bg-light">
-				<h1
-					class="my-5 text-center text-primary"
-					style="font-size: 3em; max-width: 600px;"
-				>Learn About Our Reward System</h1>
+		<BRow class="w-100 m-0 bg-light">
+			<BCol cols="12" lg="6" class="d-none d-lg-block py-5 bg-primary">
+				<div class="h-100 title-col">
+					<h1
+						class="text-center text-light"
+						style="font-size: 3em; max-width: 600px;"
+					>Learn About Our Reward System</h1>
+				</div>
 			</BCol>
 
 			<BCol cols="12" lg="6" class="p-0 bg-light">
@@ -92,9 +94,7 @@
 				transform: scale(1.2);
 
 				// Show Text //
-				span {
-					color: $secondary;
-				}
+				span {}
 
 				&:before {
 					background-color: $dark-shine;
@@ -121,7 +121,7 @@
 	}
 	
 	.bg-one {
-		background-image: url('https://source.unsplash.com/1920x800/?deals');
+		background-image: url('https://source.unsplash.com/1920x800/?money');
 	}
 
 	.title-col {
@@ -140,7 +140,7 @@
 				height: 0;
 				border-top: 20px solid transparent;
 				border-bottom: 20px solid transparent;
-				border-left: 20px solid $light;
+				border-left: 20px solid $primary;
 			}
 		}
 	}

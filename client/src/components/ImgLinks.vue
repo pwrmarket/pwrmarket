@@ -1,6 +1,6 @@
 <template>
 	<BRow class="w-100 m-0 p-0">
-		<BCol md="4" class="m-0 p-0">
+		<BCol md="4" class="m-0 p-0 border-right border-white">
 			<div class="img-wrapper">
 				<img class="tri-img" src="https://source.unsplash.com/600x400/?food" />
 
@@ -10,7 +10,7 @@
 			</div>
 		</BCol>
 
-		<BCol md="4" class="m-0 p-0">
+		<BCol md="4" class="m-0 p-0 border-right border-white">
 			<div class="img-wrapper">
 				<img class="tri-img" src="https://source.unsplash.com/600x400/?energy" />
 

@@ -76,6 +76,7 @@
 		<Loyalty />
 
 		<Info />
+		<br><br><br><br>
 	</div>
 </template>
 

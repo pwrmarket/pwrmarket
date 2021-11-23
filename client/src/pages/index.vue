@@ -17,7 +17,7 @@
 								hero-message-box
 							"
 						>
-							<div class="px-5 py-4 bg-light-svg rounded-lg shadow hero-message-box-content">
+							<div class="px-5 py-4 rounded-lg shadow bg-light-shine hero-message-box-content">
 								<BRow class="w-100 m-0 text-center text-secondary">
 									<BCol cols="12" class="text-center">
 										<h2 class="mb-4 text-secondary">
@@ -26,7 +26,7 @@
 									</BCol>
 								</BRow>
 
-								<BRow class="w-100 m-0 text-center text-secondary rounded bg-shade-light">
+								<BRow class="w-100 m-0 text-center text-secondary rounded">
 									<BCol cols="6" md="6" class="py-2 border-bottom">
 										<h2 class="m-0 text-primary">Regular</h2>
 									</BCol>

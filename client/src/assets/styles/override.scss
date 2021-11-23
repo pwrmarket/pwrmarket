@@ -5,6 +5,7 @@ $dark: rgb(0, 0, 0);
 
 $primary-shine: mix($primary, rgba(255, 255, 255, 0.5));
 $secondary-shine: mix($secondary, rgba(255, 255, 255, 0.5));
+$light-shine: mix($light, rgba(255, 255, 255, 0.5));
 $dark-shine: mix($dark, rgba(255, 255, 255, 0.5));
 
 $theme-colors: (

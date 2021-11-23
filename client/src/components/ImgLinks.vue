@@ -2,10 +2,10 @@
 	<BRow class="w-100 m-0 p-0">
 		<BCol md="4" class="m-0 p-0">
 			<div class="img-wrapper">
-				<img class="tri-img" src="https://source.unsplash.com/600x400/?supermarket" />
+				<img class="tri-img" src="https://source.unsplash.com/600x400/?food" />
 
 				<div class="content-holder">
-					<h1 class="m-0 text-light">Shop</h1>
+					<h1 class="m-0 text-uppercase text-light">Shop</h1>
 				</div>
 			</div>
 		</BCol>
@@ -15,17 +15,17 @@
 				<img class="tri-img" src="https://source.unsplash.com/600x400/?energy" />
 
 				<div class="content-holder">
-					<h1 class="m-0 text-light">Charge</h1>
+					<h1 class="m-0 text-uppercase text-light">Charge</h1>
 				</div>
 			</div>
 		</BCol>
 
 		<BCol md="4" class="m-0 p-0">
 			<div class="img-wrapper">
-				<img class="tri-img" src="https://source.unsplash.com/600x400/?food" />
+				<img class="tri-img" src="https://source.unsplash.com/600x400/?money" />
 
 				<div class="content-holder">
-					<h1 class="m-0 text-light">Save</h1>
+					<h1 class="m-0 text-uppercase text-light">Save</h1>
 				</div>
 			</div>
 		</BCol>

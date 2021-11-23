@@ -8,11 +8,12 @@
 					</h1>
 
 					<SocialMediaPlug size="4x" />
+					<br><br>
 				</div>
 			</BCol>
 
 			<BCol cols="12" lg="7" class="p-4 p-lg-5">
-				<div class="p-5 h-100 text-secondary bg-white rounded-lg shadow">
+				<div class="p-5 text-secondary bg-white rounded-lg">
 					<h1 class="text-center text-uppercase text-primary">
 						Our Story
 					</h1>
@@ -59,8 +60,7 @@
 	.follow-us {
 		padding: 200px 0px;
 
-
-			@media (min-width: 992px) {
+		@media (min-width: 992px) {
 			&::after {
 				content: "";
 				position: absolute;

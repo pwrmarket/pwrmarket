@@ -39,6 +39,10 @@
 	background-color: $secondary-shine !important;
 }
 
+.bg-dark-shine {
+	background-color: $dark-shine !important;
+}
+
 
 // [THEME][DOTTED] //
 .bg-primary-dotted {
@@ -51,12 +55,12 @@
 	background-image:
 		linear-gradient(
 			0deg,
-			white 3px,
+			white 4px,
 			transparent 0
 		),
 		linear-gradient(
 			90deg,
-			white 3px,
+			white 4px,
 			transparent 0
 		),
 	;
@@ -72,12 +76,12 @@
 	background-image:
 		linear-gradient(
 			0deg,
-			white 3px,
+			white 4px,
 			transparent 0
 		),
 		linear-gradient(
 			90deg,
-			white 3px,
+			white 4px,
 			transparent 0
 		),
 	;

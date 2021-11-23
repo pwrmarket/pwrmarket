@@ -132,6 +132,7 @@
 		</BContainer>
 
 		<Deals />
+		<br><br><br><br>
 	</div>
 </template>
 

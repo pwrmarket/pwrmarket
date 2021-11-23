@@ -75,11 +75,11 @@
 		</BContainer>
 
 		<!-- GUIDE BAR -->
-		<BContainer fluid class="m-0 p-0 bg-secondary-shine">
+		<BContainer fluid class="m-0 p-0">
 			<BRow class="w-100 m-0">
 				<BCol cols="12" md="6" lg="3" class="p-0">
 					<BButton
-						variant="outline-secondary"
+						variant="secondary"
 						class="
 							w-100
 							py-4
@@ -95,7 +95,7 @@
 
 				<BCol cols="12" md="6" lg="3" class="p-0">
 					<BButton
-						variant="outline-secondary"
+						variant="secondary"
 						class="
 							w-100
 							py-4
@@ -111,7 +111,7 @@
 
 				<BCol cols="12" md="6" lg="3" class="p-0">
 					<BButton
-						variant="outline-secondary"
+						variant="secondary"
 						class="
 							w-100
 							py-4
@@ -127,7 +127,7 @@
 
 				<BCol cols="12" md="6" lg="3" class="p-0">
 					<BButton
-						variant="outline-secondary"
+						variant="secondary"
 						class="
 							w-100
 							py-4

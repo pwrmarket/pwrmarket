@@ -9,17 +9,21 @@
 	>
 		<BContainer class="d-none d-xl-flex">
 			<!-- Logo Holder -->
-			<div
-				class="d-flex justify-content-center px-5 py-4"
-				style="max-width: 400px;"
-			>
+			<div class="d-flex justify-content-center py-4">
 				<!-- Logo -->
-				<RouterLink to="/">
-					<img
-						:src="companyInfo.fullLogo"
-						alt="Logo Here"
-						class="w-100"
-					>
+				<RouterLink to="/" class="text-decoration-none">
+					<div class="logo-container">
+						<img :src="companyInfo.logo" class="w-100" style="max-width: 60px;">
+					
+						<div class="text-holder">
+							<h1
+								class="font-weight-bold"
+								:class="[
+									$store.state.isHomePage ? linkClass : 'text-gradient'
+								]"
+							>power market</h1>
+						</div>
+					</div>
 				</RouterLink>
 			</div>
 
@@ -155,6 +159,17 @@
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		-webkit-text-fill-color: transparent;
+	}
+
+	.logo-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.text-holder  {
+			padding-left: 15px;
+			font-size: 20px;
+		}
 	}
 
 	.menu-item {

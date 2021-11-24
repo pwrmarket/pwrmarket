@@ -141,7 +141,7 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '../../assets/styles/override.scss';
+	@import '../../assets/styles/style.scss';
 
 	.transition {
 		-webkit-transition: 0.5s;

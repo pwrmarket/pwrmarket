@@ -1,0 +1,41 @@
+@import './variables.scss';
+
+// [BOOSTER-STRAP] //
+.bg-black {
+	background-color: black !important;
+}
+
+// [BG][THEME][VIBRANCE] //
+.bg-primary-light {
+	background-color: $primary-light !important;
+}
+
+.bg-secondary-light {
+	background-color: $secondary-light !important;
+}
+
+.bg-secondary-dark {
+	background-color: $secondary-dark !important;
+}
+
+
+// [BG][THEME][SHADE-&-SHINE] //
+.bg-primary-shine {
+	background-color: $primary-shine !important;
+}
+
+.bg-secondary-shine {
+	background-color: $secondary-shine !important;
+}
+
+.bg-secondary-shine-light {
+	background-color: $secondary-shine-light !important;
+}
+
+.bg-light-shine {
+	background-color: $light-shine !important;
+}
+
+.bg-dark-shine {
+	background-color: $dark-shine !important;
+}

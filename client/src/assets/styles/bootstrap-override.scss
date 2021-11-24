@@ -1,0 +1,24 @@
+@import './variables.scss';
+
+// [BOOTSTRAP] //
+$theme-colors: (
+	'primary': $primary,
+	'secondary': $secondary,
+	'dark': $dark,
+	'light': $light,
+);
+
+
+// [IMPORT] //
+@import 'bootstrap/scss/bootstrap.scss';
+
+
+// [BTN] //
+.btn {
+	border-radius: 0 !important;
+}
+
+// [CONTAINER] //
+@media (min-width: 1600px) {
+	.container { max-width: 1500px; }
+}

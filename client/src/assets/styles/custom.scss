@@ -1,0 +1,92 @@
+@import './variables.scss';
+
+// [BG][DEFAULT][SHADE-&-SHINE] //
+.bg-shade-light {
+	background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.bg-shade {
+	background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.bg-shade-darker {
+	background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.bg-shine {
+	background-color: rgba(255, 255, 255, 0.4) !important;
+}
+
+
+.bg-shine-lighter {
+	background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+
+// [BG][DOTTED] //
+.bg-primary-dotted {
+	opacity: 1;
+	background-color: $primary;
+	background-size:
+		6px 6px,
+		6px 6px
+	;
+	background-image:
+		linear-gradient(
+			0deg,
+			white 4px,
+			transparent 0
+		),
+		linear-gradient(
+			90deg,
+			white 4px,
+			transparent 0
+		),
+	;
+}
+
+.bg-secondary-dotted {
+	opacity: 1;
+	background-color: $secondary;
+	background-size:
+		6px 6px,
+		6px 6px
+	;
+	background-image:
+		linear-gradient(
+			0deg,
+			white 4px,
+			transparent 0
+		),
+		linear-gradient(
+			90deg,
+			white 4px,
+			transparent 0
+		),
+	;
+}
+
+// [BACKGROUND] //
+.bg-gradient {
+	display: block;
+	//background-image: url('../images/hero.png');
+}
+
+.bg-gradient-weak {
+	background: $primary;
+	background:
+		linear-gradient(
+			0deg,
+			$primary 0%,
+			$secondary 100%
+		)
+	;
+}
+
+// [GENERAL] //
+.lottie {
+	@media (max-width: 576px) {
+	   width: 200px;
+		height: 200px;
+	}
+}

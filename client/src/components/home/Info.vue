@@ -63,7 +63,7 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '../../assets/styles/override.scss';
+	@import '../../assets/styles/style.scss';
 
 	.center {
 		display: flex;

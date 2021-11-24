@@ -3,7 +3,7 @@
 		fluid
 		class="hero-section"
 		:class="
-			$store.state.node_env == 'production' ? 'bg-gradient' : 'bg-gradient-weak'
+			$store.state.node_env == 'production' ? 'bg-gradient-weak' : 'bg-gradient-weak'
 		"
 	>
 		<BContainer>
@@ -91,7 +91,7 @@
 </template>
 
 <style lang="scss" scoped>
-	@import '../../assets/styles/override.scss';
+	@import '../../assets/styles/style.scss';
 
 	.hero-section {
 		position: relative;

@@ -39,7 +39,7 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '../../assets/styles/override.scss';
+	@import '../../assets/styles/style.scss';
 
 	.img-container {
 		height: 500px;

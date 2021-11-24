@@ -1,5 +1,5 @@
 <template>
-	<div class="bg-secondary-dotted">
+	<div class="">
 		<Hero />
 
 		<BContainer fluid class="py-5 bg-white">

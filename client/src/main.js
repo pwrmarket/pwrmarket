@@ -14,7 +14,7 @@ import 'viewerjs/dist/viewer.css'
 import App from './App.vue'
 import router from '@/router'
 import store from '@/store'
-import './assets/styles/style.scss'
+import '@/assets/styles/style.scss'
 
 
 Vue.use(BootstrapVue)

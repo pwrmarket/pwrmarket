@@ -50,11 +50,19 @@
 </template>
 
 <style lang="scss" scoped>
+	@import '../../assets/styles/variables.scss';
+
 	// Main Section //
 	.main-section {
 		position: relative;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
+	}
+
+	.bg-light-svg {
+		//background-image: $bg-light-svg;
+		background-repeat: repeat;
+		background-size: 200%;
 	}
 </style>

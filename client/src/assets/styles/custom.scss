@@ -66,10 +66,10 @@
 	;
 }
 
-// [BACKGROUND] //
+// [BG][GRADIENT] //
 .bg-gradient {
 	display: block;
-	//background-image: url('../images/hero.png');
+	background-image: $hero-svg;
 }
 
 .bg-gradient-weak {
@@ -81,6 +81,13 @@
 			$secondary 100%
 		)
 	;
+}
+
+// [BG][SVG] //
+.bg-light-svg {
+	background-image: $polygon-svg;
+	background-repeat: repeat;
+	background-size: 200%;
 }
 
 // [GENERAL] //

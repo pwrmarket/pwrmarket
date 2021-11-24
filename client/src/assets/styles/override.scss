@@ -7,6 +7,7 @@ $dark: rgb(0, 0, 0);
 // [VARIANT] //
 $primary-light: mix($primary, rgba(255, 255, 255, 1));
 $secondary-light: mix($secondary, rgba(220, 220, 220, 1));
+$secondary-dark: mix($secondary, rgb(125, 125, 125));
 
 // [SHINE-&-SHADE] //
 $primary-shine: mix($primary, rgba(255, 255, 255, 0.5));

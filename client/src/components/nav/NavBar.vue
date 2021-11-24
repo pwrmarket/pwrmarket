@@ -34,7 +34,7 @@
 						v-if="r.meta.show"
 						:to="r.path"
 						class="
-							h4
+							h5
 							my-5
 							mx-3
 							menu-item-link

@@ -11,18 +11,34 @@
 				<!-- HERO INFO -->
 				<BCol cols="12" md="6" class="py-md-3">
 					<div class="hero-info-holder">
-						<h1
-							class="my-5 text-center text-light"
-							style="font-size: 4em;"
-						>We'd Love See You to Stop By!</h1>
+						<BRow>
+							<BCol cols="12">
+								<h1
+									class="my-5 text-center text-light"
+									style="font-size: 4em;"
+								>We'd Love See You to Stop By!</h1>
+							</BCol>
 
-						<div class="text-center">
-							<RouterLink to="/deals">
-								<BButton variant="outline-light" size="lg">
-									Check Out our Current Deals
-								</BButton>
-							</RouterLink>
-						</div>
+							<BCol cols="12" sm="6">
+								<div class="text-center mb-3">
+									<RouterLink to="/deals">
+										<BButton variant="light" size="lg" class="w-100">
+											Current Deals
+										</BButton>
+									</RouterLink>
+								</div>
+							</BCol>
+
+							<BCol cols="12" sm="6">
+								<div class="text-center">
+									<RouterLink to="/deals">
+										<BButton variant="outline-light" size="lg" class="w-100">
+											Find a Location
+										</BButton>
+									</RouterLink>
+								</div>
+							</BCol>
+						</BRow>
 					</div>		
 				</BCol>
 

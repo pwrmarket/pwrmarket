@@ -4,7 +4,7 @@
 		class="fixed-top m-0 p-0 w-100 transition"
 		:class="[
 			navClass,
-			{ 'bg-shine-lighter border-bottom ': !$store.state.isHomePage }
+			{ 'bg-shine-lighter border-bottom': !$store.state.isHomePage }
 		]"
 	>
 		<BContainer class="d-none d-xl-flex">

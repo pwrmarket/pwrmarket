@@ -87,30 +87,26 @@
 
 		&:hover {
 			.child {
-				-ms-transform: scale(1.2);
-				-moz-transform: scale(1.2);
-				-webkit-transform: scale(1.2);
-				-o-transform: scale(1.2);
-				transform: scale(1.2);
+				-ms-transform: scale(1);
+				-moz-transform: scale(1);
+				-webkit-transform: scale(1);
+				-o-transform: scale(1);
+				transform: scale(1);
 
 				// Show Text //
 				span {
 					color: $light;
-				}
-
-				&:before {
-					background-color: $dark-shine;
 				}
 			}
 		}
 		
 		&:focus {
 			.child {
-				-ms-transform: scale(1.2);
-				-moz-transform: scale(1.2);
-				-webkit-transform: scale(1.2);
-				-o-transform: scale(1.2);
-				transform: scale(1.2);
+				-ms-transform: scale(1);
+				-moz-transform: scale(1);
+				-webkit-transform: scale(1);
+				-o-transform: scale(1);
+				transform: scale(1);
 
 				span { display: block; }
 

@@ -13,7 +13,6 @@
 		<Info />
 		
 		<CurrentPrices />
-		<br><br><br><br>
 	</div>
 </template>
 

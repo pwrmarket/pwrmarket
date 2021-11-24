@@ -1,7 +1,7 @@
 <template>
 	<BContainer fluid class="m-0 p-0">
 		<BRow class="w-100 m-0">
-			<BCol cols="12" lg="3" class="p-0 bg-secondary-shine center">
+			<BCol cols="12" lg="3" class="p-0 center bg-secondary-light">
 				<div class="text-center text-light">
 					<h1 class="my-3 text-center text-uppercase">
 						Follow Us
@@ -12,10 +12,10 @@
 				</div>
 			</BCol>
 
-			<BCol cols="12" lg="6" class="p-0 ">
+			<BCol cols="12" lg="9" class="p-0 ">
 				<div class="wrap bg-primary-shine">
-					<div class="p-3 p-lg-5 rounded-lg content">
-						<div class="p-3 p-lg-5 bg-secondary shadow">
+					<div class="p-3 p-lg-5 m-auto rounded-lg content" style="max-width: 1000px;">
+						<div class="p-3 p-lg-5 shadow bg-gradient-weak">
 							<h1 class="text-center text-uppercase text-light">
 								Our Story
 							</h1>
@@ -40,10 +40,6 @@
 					<!-- ARROW -->
 					<div class="arrow"></div>
 				</div>
-			</BCol>
-
-			<BCol cols="12" lg="3" class="p-0 bg-primary-shine center">
-				<div class="text-center text-light"></div>
 			</BCol>
 		</BRow>
 	</BContainer>
@@ -81,7 +77,7 @@
 		margin: 0 auto;
 
 		.content {
-			width: 100%;
+			width: 97%;
 			height: auto;
 			display: block;
 		}
@@ -94,7 +90,7 @@
 				top: 0;
 				width: 3%;
 				height: 100%;
-				background-color: $white;
+				background-color: $secondary-light;
 
 				&:before {
 					content: '';
@@ -131,5 +127,5 @@
 				}
 			}
 		}
-	}
+	}	
 </style>

@@ -1,11 +1,18 @@
 <template>
 	<div>
 		<!-- All Sliders -->
-		<div v-for="(slider, index) in sliders" :key="index">
+		<div v-for="(slider, i) in sliders" :key="i">
 			<VueTinySlider v-bind="slider.options" :class="slider.class">
 				<!-- All Images -->
-				<div v-for="(img, index) in images" :key="index" class="text-center">
-					<img :src="img" class="rounded-lg shadow image">
+				<div
+					v-for="(img, ii) in images"
+					:key="ii"
+					class="text-center"
+					style="min-width: 200px;"
+				>
+					<div class="image-holder" style="min-height: 100px;">
+						<img :src="img" class="" style="max-width: 100%;">
+					</div>
 				</div>
 			</VueTinySlider>
 		</div>
@@ -98,9 +105,9 @@
 </script>
 
 <style lang="scss">
-	.image {
-		max-width: 100%;
-		height: 240px;
-		object-fit: cover;
+	.image-holder {
+		display: flex;
+		justify-content: center;
+		align-items: center;
 	}
 </style>

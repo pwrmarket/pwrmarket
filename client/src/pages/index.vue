@@ -11,12 +11,19 @@
 		<Loyalty />
 
 		<Info />
+
+		<Conveyor
+			:images="conveyorImages"
+			:totalOnLg="4"
+			class="bg-white"
+		/>
 		
 		<CurrentPrices />
 	</div>
 </template>
 
 <script>
+	import Conveyor from '../components/display/Conveyor.vue'
 	import ImgLinks from '../components/ImgLinks.vue'
 	import Hero from '../components/home/Hero'
 	import CurrentPrices from '../components/home/CurrentPrices'
@@ -26,11 +33,20 @@
 	export default {
 		data() {
 			return {
-				serviceImg: require('../assets/images/service.jpeg')
+				serviceImg: require('../assets/images/service.jpeg'),
+				conveyorImages: [
+					require('../assets/images/affiliates/1.png'),
+					require('../assets/images/affiliates/2.png'),
+					require('../assets/images/affiliates/3.png'),
+					require('../assets/images/affiliates/4.png'),
+					require('../assets/images/affiliates/5.png'),
+					require('../assets/images/affiliates/6.png'),
+				]
 			}
 		},
 
 		components: {
+			Conveyor,
 			ImgLinks,
 			Hero,
 			CurrentPrices,

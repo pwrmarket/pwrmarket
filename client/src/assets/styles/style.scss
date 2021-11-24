@@ -49,6 +49,10 @@
 	background-color: $secondary-shine !important;
 }
 
+.bg-secondary-shine-light {
+	background-color: $secondary-shine-light !important;
+}
+
 .bg-light-shine {
 	background-color: $light-shine !important;
 }
@@ -108,12 +112,12 @@
 }
 
 .bg-gradient-weak {
-	background: rgb(21,110,183);
+	background: $primary;
 	background:
 		linear-gradient(
 			0deg,
-			rgba(21,110,183,1) 0%,
-			rgba(93,187,70,1) 100%
+			$primary 0%,
+			$secondary 100%
 		)
 	;
 }

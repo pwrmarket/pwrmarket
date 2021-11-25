@@ -1,20 +1,44 @@
-// [DEFAULT] //
+// [INIT] //
 $primary: rgb(21, 110, 183);
 $secondary: rgb(92, 186, 69);
 $light: rgb(245, 245, 245);
 $dark: rgb(0, 0, 0);
 
-// [VARIANT] //
+
+// [MIX][LIGHT] //
 $primary-light: mix($primary, rgba(255, 255, 255, 1));
 $secondary-light: mix($secondary, rgba(220, 220, 220, 1));
+
+
+// [MIX][LIGHTER] //
+
+
+// [MIX][LIGHTEST] //
+
+
+// [MIX][DARK] //
 $secondary-dark: mix($secondary, rgb(80, 80, 80));
 
-// [SHINE-&-SHADE] //
+
+// [MIX][DARKER] //
+
+
+// [MIX][DARKEST] //
+
+
+// [MIX][SHINE] //
 $primary-shine: mix($primary, rgba(255, 255, 255, 0.5));
 $secondary-shine: mix($secondary, rgba(255, 255, 255, 0.5));
-$secondary-shine-light: mix($secondary, rgba(255, 255, 255, 0.25));
 $light-shine: mix($light, rgba(255, 255, 255, 0.5));
 $dark-shine: mix($dark, rgba(255, 255, 255, 0.5));
+
+
+// [MIX][SHINE-LIGHT] //
+$secondary-shine-light: mix($secondary, rgba(255, 255, 255, 0.25));
+
+
+// [MIX][SHADE] //
+
 
 // [SVG] //
 $hero-svg: url('~@/assets/images/hero.svg');

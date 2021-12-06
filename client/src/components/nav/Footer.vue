@@ -11,7 +11,7 @@
 			</div>
 		</section>
 
-		<BContainer fluid class="bg-secondary-dark">
+		<BContainer fluid class="bg-secondary-light">
 			<BContainer class="">
 				<BRow class="pt-4">
 					<BCol cols="12" class="text-center" data-aos="fade">
@@ -122,7 +122,7 @@
 		}
 
 		.shape-fill {
-			fill: $secondary-dark
+			fill: $secondary-light
 		}
 	}
 </style>

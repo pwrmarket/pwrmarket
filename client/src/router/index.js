@@ -8,6 +8,7 @@ import companyInfo from '@/defaults/companyInfo'
 import index from '@/pages'
 import about from '@/pages/about'
 import contact from '@/pages/contact'
+import locations from '@/pages/locations'
 import notFound from '@/pages/404'
 
 
@@ -25,7 +26,7 @@ const routes = [
 	{
 		path: '/locations',
 		name: 'locations',
-		component: about,
+		component: locations,
 		meta: {
 			title: 'Our Locations',
 			show: true,

@@ -1,11 +1,13 @@
 @import './variables.scss';
 
+
 // [BOOSTER-STRAP] //
 .bg-black {
 	background-color: black !important;
 }
 
-// [BG][THEME][VIBRANCE] //
+
+// [BG][MIX][LIGHT] //
 .bg-primary-light {
 	background-color: $primary-light !important;
 }
@@ -14,12 +16,14 @@
 	background-color: $secondary-light !important;
 }
 
+
+// [BG][MIX][DARK] //
 .bg-secondary-dark {
 	background-color: $secondary-dark !important;
 }
 
 
-// [BG][THEME][SHADE-&-SHINE] //
+// [BG][MIX][SHINE] //
 .bg-primary-shine {
 	background-color: $primary-shine !important;
 }
@@ -28,14 +32,16 @@
 	background-color: $secondary-shine !important;
 }
 
-.bg-secondary-shine-light {
-	background-color: $secondary-shine-light !important;
-}
-
 .bg-light-shine {
 	background-color: $light-shine !important;
 }
 
 .bg-dark-shine {
 	background-color: $dark-shine !important;
+}
+
+
+// [BG][MIX][SHINE-LIGHT] //
+.bg-secondary-shine-light {
+	background-color: $secondary-shine-light !important;
 }

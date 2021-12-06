@@ -1,0 +1,2355 @@
+[
+	{
+		"id":2003,
+		"address": {
+			"street": "9500 Valley View St.",
+			"city": "Cypress",
+			"state": "CA",
+			"zip":90630
+		},
+		"contact": {
+			"phone": {
+				"string": "(714) 821-8021",
+				"link": "tel:71482180821"
+			},
+			"email": {
+				"string": "2003@hasoil.com",
+				"link": "mailto:2003@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "24/7",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"e85",
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Unbranded",
+				"products": [],
+				"services": [],
+				"deliveryServices": [
+					"Uber"
+				]
+			}
+		]
+	},
+	{
+		"id":2017,
+		"address": {
+			"street": "9700 Central Ave.",
+			"city": "Montclair",
+			"state": "CA",
+			"zip":91763
+		},
+		"contact": {
+			"phone": {
+				"string": "(909) 625-8888",
+				"link": "tel:90962588888"
+			},
+			"email": {
+				"string": "2017@hasoil.com",
+				"link": "mailto:2017@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "24/7",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Unbranded",
+				"products": [],
+				"services": [],
+				"deliveryServices": []
+			}
+		]
+	},
+	{
+		"id":2036,
+		"address": {
+			"street": "2546 E. Coast Hwy.",
+			"city": "Corona Del Mar",
+			"state": "CA",
+			"zip":92625
+		},
+		"contact": {
+			"phone": {
+				"string": "(949) 717-5095",
+				"link": "tel:94971750595"
+			},
+			"email": {
+				"string": "2036@hasoil.com",
+				"link": "mailto:2036@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "24/7",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"e85",
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Unbranded",
+				"products": [],
+				"services": [],
+				"deliveryServices": [
+					"Uber"
+				]
+			},
+			{
+				"type": "service-shop",
+				"name": "",
+				"products": [],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "amazon-locker",
+				"name": "",
+				"products": [],
+				"services": [],
+				"deliveryServices": []
+			}
+		]
+	},
+	{
+		"id":2037,
+		"address": {
+			"street": "30072 Crown Valley Pkwy.",
+			"city": "Laguna Niguel",
+			"state": "CA",
+			"zip":92677
+		},
+		"contact": {
+			"phone": {
+				"string": "(949) 495-0345",
+				"link": "tel:94949503045"
+			},
+			"email": {
+				"string": "2037@hasoil.com",
+				"link": "mailto:2037@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "24/7",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"e85",
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Unbranded",
+				"products": [],
+				"services": [],
+				"deliveryServices": [
+					"Uber"
+				]
+			},
+			{
+				"type": "service-shop",
+				"name": "",
+				"products": [],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "amazon-locker",
+				"name": "",
+				"products": [],
+				"services": [],
+				"deliveryServices": []
+			}
+		]
+	},
+	{
+		"id":2052,
+		"address": {
+			"street": "14088 Euclid Ave.",
+			"city": "Chino",
+			"state": "CA",
+			"zip":91710
+		},
+		"contact": {
+			"phone": {
+				"string": "(909) 858-3023",
+				"link": "tel:90985830323"
+			},
+			"email": {
+				"string": "2052@hasoil.com",
+				"link": "mailto:2052@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "24/7",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [],
+				"deliveryServices": [
+					"DoorDash"
+				]
+			},
+			{
+				"type": "car-wash",
+				"name": "",
+				"products": [],
+				"services": [
+					"drive-thru"
+				],
+				"deliveryServices": []
+			}
+		]
+	},
+	{
+		"id":3001,
+		"address": {
+			"street": "3825 Santa Rosa Ave.",
+			"city": "Santa Rosa",
+			"state": "CA",
+			"zip":95407
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 585-9341",
+				"link": "tel:70758593941"
+			},
+			"email": {
+				"string": "3001@hasoil.com",
+				"link": "mailto:3001@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3002,
+		"address": {
+			"street": "1300 Farmers Lane",
+			"city": "Santa Rosa",
+			"state": "CA",
+			"zip":95405
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 575-9700",
+				"link": "tel:70757597900"
+			},
+			"email": {
+				"string": "3002@hasoil.com",
+				"link": "mailto:3002@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3003,
+		"address": {
+			"street": "12589 E. Hwy 20",
+			"city": "Clearlake Oaks",
+			"state": "CA",
+			"zip":95423
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 998-9316",
+				"link": "tel:70799893916"
+			},
+			"email": {
+				"string": "3003@hasoil.com",
+				"link": "mailto:3003@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3004,
+		"address": {
+			"street": "9815 Hwy 53",
+			"city": "Lower Lake",
+			"state": "CA",
+			"zip":95457
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 994-5846",
+				"link": "tel:70799458546"
+			},
+			"email": {
+				"string": "3004@hasoil.com",
+				"link": "mailto:3004@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3005,
+		"address": {
+			"street": "2935 Lakeshore Blvd.",
+			"city": "Lakeport",
+			"state": "CA",
+			"zip":95453
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 263-7434",
+				"link": "tel:70726374734"
+			},
+			"email": {
+				"string": "3005@hasoil.com",
+				"link": "mailto:3005@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3006,
+		"address": {
+			"street": "6282 Hwy 20",
+			"city": "Lucerne",
+			"state": "CA",
+			"zip":95458
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 274-8196",
+				"link": "tel:70727481896"
+			},
+			"email": {
+				"string": "3006@hasoil.com",
+				"link": "mailto:3006@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3007,
+		"address": {
+			"street": "1088 Lakeport Blvd.",
+			"city": "Lakeport",
+			"state": "CA",
+			"zip":95453
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 263-0870",
+				"link": "tel:70726308070"
+			},
+			"email": {
+				"string": "3007@hasoil.com",
+				"link": "mailto:3007@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3008,
+		"address": {
+			"street": "202 S. Main St.",
+			"city": "Lakeport",
+			"state": "CA",
+			"zip":95453
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 263-7220",
+				"link": "tel:70726372720"
+			},
+			"email": {
+				"string": "3008@hasoil.com",
+				"link": "mailto:3008@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "5:00AM - 10:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3010,
+		"address": {
+			"street": "1670 Hartnell Ave.",
+			"city": "Redding",
+			"state": "CA",
+			"zip":96002
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 222-2348",
+				"link": "tel:53022223248"
+			},
+			"email": {
+				"string": "3010@hasoil.com",
+				"link": "mailto:3010@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3011,
+		"address": {
+			"street": "1495 Lake Blvd.",
+			"city": "Redding",
+			"state": "CA",
+			"zip":96003
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 241-4629",
+				"link": "tel:53024146429"
+			},
+			"email": {
+				"string": "3011@hasoil.com",
+				"link": "mailto:3011@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt",
+					"deli"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			},
+			{
+				"type": "car-wash",
+				"name": "",
+				"products": [],
+				"services": [
+					"drive-thru"
+				],
+				"deliveryServices": []
+			}
+		]
+	},
+	{
+		"id":3012,
+		"address": {
+			"street": "1975 Ponderosa Way",
+			"city": "Anderson",
+			"state": "CA",
+			"zip":96007
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 365-0332",
+				"link": "tel:53036503032"
+			},
+			"email": {
+				"string": "3012@hasoil.com",
+				"link": "mailto:3012@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"e85",
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3013,
+		"address": {
+			"street": "3480 West Center St.",
+			"city": "Anderson",
+			"state": "CA",
+			"zip":96007
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 365-5357",
+				"link": "tel:53036553557"
+			},
+			"email": {
+				"string": "3013@hasoil.com",
+				"link": "mailto:3013@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3014,
+		"address": {
+			"street": "710 E. Lassen Ave.",
+			"city": "Chico",
+			"state": "CA",
+			"zip":95973
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 892-2812",
+				"link": "tel:53089228212"
+			},
+			"email": {
+				"string": "3014@hasoil.com",
+				"link": "mailto:3014@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3015,
+		"address": {
+			"street": "1255 W. East Ave.",
+			"city": "Chico",
+			"state": "CA",
+			"zip":95926
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 892-2793",
+				"link": "tel:53089227293"
+			},
+			"email": {
+				"string": "3015@hasoil.com",
+				"link": "mailto:3015@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"e85",
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3016,
+		"address": {
+			"street": "110 E. Park Ave.",
+			"city": "Chico",
+			"state": "CA",
+			"zip":95926
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 345-4265",
+				"link": "tel:53034542465"
+			},
+			"email": {
+				"string": "3016@hasoil.com",
+				"link": "mailto:3016@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3017,
+		"address": {
+			"street": "2970 Olive Hwy.",
+			"city": "Oroville",
+			"state": "CA",
+			"zip":95966
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 534-3081",
+				"link": "tel:53053430381"
+			},
+			"email": {
+				"string": "3017@hasoil.com",
+				"link": "mailto:3017@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3020,
+		"address": {
+			"street": "2330 Nicolaus Rd.",
+			"city": "Lincoln",
+			"state": "CA",
+			"zip":95648
+		},
+		"contact": {
+			"phone": {
+				"string": "(916) 543-2176",
+				"link": "tel:91654321276"
+			},
+			"email": {
+				"string": "3020@hasoil.com",
+				"link": "mailto:3020@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash"
+				]
+			}
+		]
+	},
+	{
+		"id":3023,
+		"address": {
+			"street": "1050 Sunset Blvd.",
+			"city": "Rocklin",
+			"state": "CA",
+			"zip":95765
+		},
+		"contact": {
+			"phone": {
+				"string": "(916) 435-8465",
+				"link": "tel:91643584865"
+			},
+			"email": {
+				"string": "3023@hasoil.com",
+				"link": "mailto:3023@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt",
+					"deli"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub",
+					"Vroom"
+				]
+			}
+		]
+	},
+	{
+		"id":3024,
+		"address": {
+			"street": "9811 Live Oak Blvd.",
+			"city": "Live Oak",
+			"state": "CA",
+			"zip":95953
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 695-0585",
+				"link": "tel:53069505085"
+			},
+			"email": {
+				"string": "3024@hasoil.com",
+				"link": "mailto:3024@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt",
+					"deli"
+				],
+				"deliveryServices": [
+					"Doordash",
+					"Vroom"
+				]
+			}
+		]
+	},
+	{
+		"id":3025,
+		"address": {
+			"street": "1976 McGowan Pkwy.",
+			"city": "Olivehurst",
+			"state": "CA",
+			"zip":95961
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 743-1810",
+				"link": "tel:53074318110"
+			},
+			"email": {
+				"string": "3025@hasoil.com",
+				"link": "mailto:3025@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash"
+				]
+			}
+		]
+	},
+	{
+		"id":3026,
+		"address": {
+			"street": "4217 Arboga Rd.",
+			"city": "Olivehurst",
+			"state": "CA",
+			"zip":95961
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 749-9600",
+				"link": "tel:53074996900"
+			},
+			"email": {
+				"string": "3026@hasoil.com",
+				"link": "mailto:3026@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt",
+					"deli"
+				],
+				"deliveryServices": [
+					"Doordash",
+					"Uber",
+					"Vroom"
+				]
+			},
+			{
+				"type": "car-wash",
+				"name": "",
+				"products": [],
+				"services": [
+					"drive-thru"
+				],
+				"deliveryServices": []
+			}
+		]
+	},
+	{
+		"id":3027,
+		"address": {
+			"street": "901 East St.",
+			"city": "Woodland",
+			"state": "CA",
+			"zip":95695
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 668-8164",
+				"link": "tel:53066881864"
+			},
+			"email": {
+				"string": "3027@hasoil.com",
+				"link": "mailto:3027@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3028,
+		"address": {
+			"street": "4430 Auburn Blvd.",
+			"city": "Sacramento",
+			"state": "CA",
+			"zip":95841
+		},
+		"contact": {
+			"phone": {
+				"string": "(916) 484-9710",
+				"link": "tel:91648497910"
+			},
+			"email": {
+				"string": "3028@hasoil.com",
+				"link": "mailto:3028@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt",
+					"deli"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub",
+					"Vroom"
+				]
+			}
+		]
+	},
+	{
+		"id":3029,
+		"address": {
+			"street": "530 Bogue Rd.",
+			"city": "Yuba City",
+			"state": "CA",
+			"zip":95991
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 671-3999",
+				"link": "tel:53067139399"
+			},
+			"email": {
+				"string": "3029@hasoil.com",
+				"link": "mailto:3029@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt",
+					"deli"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub",
+					"Vroom"
+				]
+			}
+		]
+	},
+	{
+		"id":3032,
+		"address": {
+			"street": "130 Pleasant Vly Rd.",
+			"city": "Diamond Springs",
+			"state": "CA",
+			"zip":95619
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 621-1895",
+				"link": "tel:53062118195"
+			},
+			"email": {
+				"string": "3032@hasoil.com",
+				"link": "mailto:3032@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3033,
+		"address": {
+			"street": "1049 South Main St.",
+			"city": "Angels Camp",
+			"state": "CA",
+			"zip":95222
+		},
+		"contact": {
+			"phone": {
+				"string": "(209) 736-9469",
+				"link": "tel:20973694969"
+			},
+			"email": {
+				"string": "3033@hasoil.com",
+				"link": "mailto:3033@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "5:00AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3034,
+		"address": {
+			"street": "1434 W. Yosemite Ave.",
+			"city": "Manteca",
+			"state": "CA",
+			"zip":95337
+		},
+		"contact": {
+			"phone": {
+				"string": "(209) 823-2057",
+				"link": "tel:20982320257"
+			},
+			"email": {
+				"string": "3034@hasoil.com",
+				"link": "mailto:3034@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "5:00AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Texaco",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3035,
+		"address": {
+			"street": "192 Lathrop Rd.",
+			"city": "Lathrop",
+			"state": "CA",
+			"zip":95330
+		},
+		"contact": {
+			"phone": {
+				"string": "(209) 858-4998",
+				"link": "tel:20985849498"
+			},
+			"email": {
+				"string": "3035@hasoil.com",
+				"link": "mailto:3035@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "H&S",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3036,
+		"address": {
+			"street": "440 W. St. Charles St.",
+			"city": "San Andreas",
+			"state": "CA",
+			"zip":95249
+		},
+		"contact": {
+			"phone": {
+				"string": "(209) 754-1478",
+				"link": "tel:20975414178"
+			},
+			"email": {
+				"string": "3036@hasoil.com",
+				"link": "mailto:3036@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "24/7",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3040,
+		"address": {
+			"street": "3475 Main St.",
+			"city": "Oakley",
+			"state": "CA",
+			"zip":94561
+		},
+		"contact": {
+			"phone": {
+				"string": "(925) 625-3602",
+				"link": "tel:92562536302"
+			},
+			"email": {
+				"string": "3040@hasoil.com",
+				"link": "mailto:3040@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3041,
+		"address": {
+			"street": "3180 Jefferson Blvd.",
+			"city": "West Sacramento",
+			"state": "CA",
+			"zip":95691
+		},
+		"contact": {
+			"phone": {
+				"string": "(916) 371-1422",
+				"link": "tel:91637114122"
+			},
+			"email": {
+				"string": "3041@hasoil.com",
+				"link": "mailto:3041@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt",
+					"deli"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub",
+					"Vroom"
+				]
+			}
+		]
+	},
+	{
+		"id":3042,
+		"address": {
+			"street": "4720 Gold Hill Rd.",
+			"city": "Fairfield",
+			"state": "CA",
+			"zip":94534
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 864-2506",
+				"link": "tel:70786425206"
+			},
+			"email": {
+				"string": "3042@hasoil.com",
+				"link": "mailto:3042@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"e85",
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt",
+					"deli"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub",
+					"Vroom"
+				]
+			}
+		]
+	},
+	{
+		"id":3043,
+		"address": {
+			"street": "119 Red Top Rd.",
+			"city": "Fairfield",
+			"state": "CA",
+			"zip":94534
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 863-0421",
+				"link": "tel:70786304021"
+			},
+			"email": {
+				"string": "3043@hasoil.com",
+				"link": "mailto:3043@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "24/7",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3044,
+		"address": {
+			"street": "3012 Howe Rd.",
+			"city": "Martinez",
+			"state": "CA",
+			"zip":94553
+		},
+		"contact": {
+			"phone": {
+				"string": "(925) 372-7135",
+				"link": "tel:92537271735"
+			},
+			"email": {
+				"string": "3044@hasoil.com",
+				"link": "mailto:3044@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3045,
+		"address": {
+			"street": "3575 Willow Pass Rd.",
+			"city": "Bay Point",
+			"state": "CA",
+			"zip":94565
+		},
+		"contact": {
+			"phone": {
+				"string": "(925) 458-3894",
+				"link": "tel:92545838394"
+			},
+			"email": {
+				"string": "3045@hasoil.com",
+				"link": "mailto:3045@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3046,
+		"address": {
+			"street": "8750 Brentwood Blvd.",
+			"city": "Brentwood",
+			"state": "CA",
+			"zip":94513
+		},
+		"contact": {
+			"phone": {
+				"string": "(925) 516-7528",
+				"link": "tel:92551675728"
+			},
+			"email": {
+				"string": "3046@hasoil.com",
+				"link": "mailto:3046@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "H&S",
+				"products": [
+					"e85",
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3047,
+		"address": {
+			"street": "1805 Willow Pass Rd.",
+			"city": "Bay Point",
+			"state": "CA",
+			"zip":94565
+		},
+		"contact": {
+			"phone": {
+				"string": "(925) 458-2689",
+				"link": "tel:92545826289"
+			},
+			"email": {
+				"string": "3047@hasoil.com",
+				"link": "mailto:3047@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3048,
+		"address": {
+			"street": "4155 Suisun Vly Rd.",
+			"city": "Suisun City",
+			"state": "CA",
+			"zip":94534
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 864-1608",
+				"link": "tel:70786416108"
+			},
+			"email": {
+				"string": "3048@hasoil.com",
+				"link": "mailto:3048@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3049,
+		"address": {
+			"street": "254 Bailey Rd.",
+			"city": "Pittsburg",
+			"state": "CA",
+			"zip":94565
+		},
+		"contact": {
+			"phone": {
+				"string": "(925) 458-4317",
+				"link": "tel:92545843417"
+			},
+			"email": {
+				"string": "3049@hasoil.com",
+				"link": "mailto:3049@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3050,
+		"address": {
+			"street": "425 Laurel St.",
+			"city": "Vallejo",
+			"state": "CA",
+			"zip":94591
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 557-0450",
+				"link": "tel:70755704050"
+			},
+			"email": {
+				"string": "3050@hasoil.com",
+				"link": "mailto:3050@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "5:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Texaco",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3051,
+		"address": {
+			"street": "3519 A St.",
+			"city": "North Highlands",
+			"state": "CA",
+			"zip":95660
+		},
+		"contact": {
+			"phone": {
+				"string": "(916) 332-9740",
+				"link": "tel:91633297940"
+			},
+			"email": {
+				"string": "3051@hasoil.com",
+				"link": "mailto:3051@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "4:30AM - 11:00PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Texaco",
+				"products": [
+					"e85",
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [
+					"alcohol"
+				],
+				"services": [
+					"ebt"
+				],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3053,
+		"address": {
+			"street": "545 West Alma Street",
+			"city": "San Jose",
+			"state": "CA",
+			"zip":95125
+		},
+		"contact": {
+			"phone": {
+				"string": "(408) 547-1988",
+				"link": "tel:40854719188"
+			},
+			"email": {
+				"string": "3053@hasoil.com",
+				"link": "mailto:3053@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "24/7",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Texaco",
+				"products": [
+					"e85",
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Unbranded",
+				"products": [],
+				"services": [],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3054,
+		"address": {
+			"street": "3501 Homestead Rd",
+			"city": "Santa Clara",
+			"state": "CA",
+			"zip":95051
+		},
+		"contact": {
+			"phone": {
+				"string": "(669) 600-0933",
+				"link": "tel:66960009033"
+			},
+			"email": {
+				"string": "3054@hasoil.com",
+				"link": "mailto:3054@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "24/7",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Texaco",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Unbranded",
+				"products": [],
+				"services": [],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3057,
+		"address": {
+			"street": "31300 Alvarado Niles Rd",
+			"city": "Union City",
+			"state": "CA",
+			"zip":94587
+		},
+		"contact": {
+			"phone": {
+				"string": "(510) 588-1005",
+				"link": "tel:51058810105"
+			},
+			"email": {
+				"string": "3057@hasoil.com",
+				"link": "mailto:3057@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "24/7",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Unbranded",
+				"products": [],
+				"services": [],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3059,
+		"address": {
+			"street": "36979 Fremont Blvd.",
+			"city": "Fremont",
+			"state": "CA",
+			"zip":94536
+		},
+		"contact": {
+			"phone": {
+				"string": "(510) 588-1010",
+				"link": "tel:51058810110"
+			},
+			"email": {
+				"string": "3059@hasoil.com",
+				"link": "mailto:3059@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "24/7",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Texaco",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Unbranded",
+				"products": [],
+				"services": [],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	},
+	{
+		"id":3061,
+		"address": {
+			"street": "3800 3rd Street",
+			"city": "San Francisco",
+			"state": "CA",
+			"zip":94124
+		},
+		"contact": {
+			"phone": {
+				"string": "(415) 707-1330",
+				"link": "tel:41570713130"
+			},
+			"email": {
+				"string": "3061@hasoil.com",
+				"link": "mailto:3061@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "24/7",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Texaco",
+				"products": [
+					"propane"
+				],
+				"services": [],
+				"deliveryServices": []
+			},
+			{
+				"type": "store",
+				"name": "Unbranded",
+				"products": [],
+				"services": [],
+				"deliveryServices": [
+					"DoorDash",
+					"Uber",
+					"Grubhub"
+				]
+			}
+		]
+	}
+]

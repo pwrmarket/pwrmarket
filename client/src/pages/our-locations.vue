@@ -6,16 +6,18 @@
 			</BCol>
 
 			<BCol v-for="(l, i) in locations" :key="i" cols="12" md="6" lg="4">
-				<BCard border-variant="secondary" class="mb-3">
-					<h6 class="text-secondary">
-						{{ l.address.street }}<br>
-						{{ l.address.city }} {{ l.address.state }}<br>
-						{{ l.address.zip }}<br>
-					</h6>
-					<h6 class="m-0 text-primary">
-						{{ l.hoursOfOperation }}
-					</h6>
-				</BCard>
+				<RouterLink :to="`/location/${l.id}`">
+					<BCard border-variant="secondary" class="mb-3">
+						<h6 class="text-secondary">
+							{{ l.address.street }}<br>
+							{{ l.address.city }} {{ l.address.state }}<br>
+							{{ l.address.zip }}<br>
+						</h6>
+						<h6 class="m-0 text-primary">
+							{{ l.hoursOfOperation }}
+						</h6>
+					</BCard>
+				</RouterLink>
 			</BCol>
 		</BRow>
 	</BContainer>

@@ -8,7 +8,8 @@ import companyInfo from '@/defaults/companyInfo'
 import index from '@/pages'
 import about from '@/pages/about'
 import contact from '@/pages/contact'
-import locations from '@/pages/locations'
+import location from '@/pages/location'
+import ourLocations from '@/pages/our-locations'
 import notFound from '@/pages/404'
 
 
@@ -24,12 +25,21 @@ const routes = [
 		},
 	},
 	{
-		path: '/locations',
-		name: 'locations',
-		component: locations,
+		path: '/our-locations',
+		name: 'ourLocations',
+		component: ourLocations,
 		meta: {
 			title: 'Our Locations',
 			show: true,
+		},
+	},
+	{
+		path: '/location/:location_id',
+		name: 'location',
+		component: location,
+		meta: {
+			title: 'Location',
+			show: false,
 		},
 	},
 	{

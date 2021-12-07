@@ -27,7 +27,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -35,12 +35,12 @@
 			},
 			{
 				"type":"store",
-				"name":"Unbranded",
+				"name":"",
 				"products":[
 					
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					"Uber"
@@ -75,7 +75,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -83,12 +83,12 @@
 			},
 			{
 				"type":"store",
-				"name":"Unbranded",
+				"name":"",
 				"products":[
 					
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -124,7 +124,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -132,12 +132,12 @@
 			},
 			{
 				"type":"store",
-				"name":"Unbranded",
+				"name":"",
 				"products":[
 					
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					"Uber"
@@ -150,20 +150,7 @@
 					
 				],
 				"services":[
-					
-				],
-				"deliveryMethods":[
-					
-				]
-			},
-			{
-				"type":"amazon-locker",
-				"name":"",
-				"products":[
-					
-				],
-				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -199,7 +186,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -207,12 +194,12 @@
 			},
 			{
 				"type":"store",
-				"name":"Unbranded",
+				"name":"",
 				"products":[
 					
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					"Uber"
@@ -225,20 +212,7 @@
 					
 				],
 				"services":[
-					
-				],
-				"deliveryMethods":[
-					
-				]
-			},
-			{
-				"type":"amazon-locker",
-				"name":"",
-				"products":[
-					
-				],
-				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -273,7 +247,7 @@
 					
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -286,7 +260,7 @@
 					"alcohol"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					"DoorDash"
@@ -299,6 +273,7 @@
 					
 				],
 				"services":[
+					"power-market-loyalty",
 					"drive-thru"
 				],
 				"deliveryMethods":[
@@ -334,7 +309,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -347,6 +322,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -384,7 +360,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -397,6 +373,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -434,7 +411,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -447,6 +424,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -483,7 +461,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -496,6 +474,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -532,7 +511,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -545,6 +524,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -581,7 +561,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -594,6 +574,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -630,7 +611,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -643,6 +624,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -679,7 +661,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -692,6 +674,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -728,7 +711,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -741,6 +724,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -778,7 +762,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -791,6 +775,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
@@ -807,6 +792,7 @@
 					
 				],
 				"services":[
+					"power-market-loyalty",
 					"drive-thru"
 				],
 				"deliveryMethods":[
@@ -843,7 +829,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -856,6 +842,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -892,7 +879,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -905,6 +892,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -941,7 +929,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -954,6 +942,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -992,7 +981,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1005,6 +994,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -1042,7 +1032,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1055,7 +1045,7 @@
 					"alcohol"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					"DoorDash",
@@ -1092,7 +1082,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1105,6 +1095,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -1141,7 +1132,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1154,10 +1145,25 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
 					"DoorDash"
+				]
+			},
+			{
+				"type":"amazon-locker",
+				"name":"",
+				"products":[
+					
+				],
+				"services":[
+					"power-market-loyalty",
+					"amazonLockerTorso"
+				],
+				"deliveryMethods":[
+					
 				]
 			}
 		]
@@ -1189,7 +1195,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1202,6 +1208,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
@@ -1210,6 +1217,20 @@
 					"Uber",
 					"Grubhub",
 					"Vroom"
+				]
+			},
+			{
+				"type":"amazon-locker",
+				"name":"",
+				"products":[
+					
+				],
+				"services":[
+					"power-market-loyalty",
+					"amazonLockerCourthouse"
+				],
+				"deliveryMethods":[
+					
 				]
 			}
 		]
@@ -1241,7 +1262,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1254,6 +1275,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
@@ -1291,7 +1313,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1304,6 +1326,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -1339,7 +1362,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1352,6 +1375,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
@@ -1368,6 +1392,7 @@
 					
 				],
 				"services":[
+					"power-market-loyalty",
 					"drive-thru"
 				],
 				"deliveryMethods":[
@@ -1403,7 +1428,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1416,6 +1441,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -1453,7 +1479,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1466,6 +1492,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
@@ -1505,7 +1532,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1518,6 +1545,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
@@ -1557,7 +1585,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1570,6 +1598,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -1607,7 +1636,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1620,6 +1649,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -1656,7 +1686,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1669,6 +1699,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -1706,7 +1737,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1719,6 +1750,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -1756,7 +1788,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1769,6 +1801,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -1805,7 +1838,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1818,6 +1851,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -1855,7 +1889,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1868,6 +1902,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
@@ -1876,6 +1911,20 @@
 					"Uber",
 					"Grubhub",
 					"Vroom"
+				]
+			},
+			{
+				"type":"amazon-locker",
+				"name":"",
+				"products":[
+					
+				],
+				"services":[
+					"power-market-loyalty",
+					"amazonLockerQuota"
+				],
+				"deliveryMethods":[
+					
 				]
 			}
 		]
@@ -1908,7 +1957,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1921,6 +1970,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
@@ -1960,7 +2010,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -1973,12 +2023,27 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
+				]
+			},
+			{
+				"type":"amazon-locker",
+				"name":"",
+				"products":[
+					
+				],
+				"services":[
+					"power-market-loyalty",
+					"amazonLockerTypewriter"
+				],
+				"deliveryMethods":[
+					
 				]
 			}
 		]
@@ -2010,7 +2075,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -2023,12 +2088,27 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
+				]
+			},
+			{
+				"type":"amazon-locker",
+				"name":"",
+				"products":[
+					
+				],
+				"services":[
+					"power-market-loyalty",
+					"amazonLockerCopyright"
+				],
+				"deliveryMethods":[
+					
 				]
 			}
 		]
@@ -2060,7 +2140,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -2073,6 +2153,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -2111,7 +2192,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -2124,6 +2205,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -2161,7 +2243,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -2174,6 +2256,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -2211,7 +2294,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -2224,6 +2307,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -2261,7 +2345,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -2274,6 +2358,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -2311,7 +2396,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -2324,6 +2409,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -2362,7 +2448,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -2375,6 +2461,7 @@
 					"alcohol"
 				],
 				"services":[
+					"power-market-loyalty",
 					"ebt"
 				],
 				"deliveryMethods":[
@@ -2413,7 +2500,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -2421,12 +2508,12 @@
 			},
 			{
 				"type":"store",
-				"name":"Unbranded",
+				"name":"",
 				"products":[
 					
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					"DoorDash",
@@ -2463,7 +2550,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -2471,12 +2558,12 @@
 			},
 			{
 				"type":"store",
-				"name":"Unbranded",
+				"name":"",
 				"products":[
 					
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					"DoorDash",
@@ -2513,7 +2600,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -2521,12 +2608,12 @@
 			},
 			{
 				"type":"store",
-				"name":"Unbranded",
+				"name":"",
 				"products":[
 					
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					"DoorDash",
@@ -2563,7 +2650,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -2571,12 +2658,12 @@
 			},
 			{
 				"type":"store",
-				"name":"Unbranded",
+				"name":"",
 				"products":[
 					
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					"DoorDash",
@@ -2613,7 +2700,7 @@
 					"propane"
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					
@@ -2621,12 +2708,12 @@
 			},
 			{
 				"type":"store",
-				"name":"Unbranded",
+				"name":"",
 				"products":[
 					
 				],
 				"services":[
-					
+					"power-market-loyalty"
 				],
 				"deliveryMethods":[
 					"DoorDash",

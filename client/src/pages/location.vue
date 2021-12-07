@@ -1,11 +1,11 @@
 <template>
 	<BContainer class="mb-5 py-5">
 		<BRow>
-			<BCol cols="12" xl="9">
+			<BCol cols="12" lg="8" xl="9">
 				<LocationAmenities :location="location" />
 			</BCol>
 
-			<BCol cols="12" xl="3">
+			<BCol cols="12" lg="4" xl="3">
 				<LocationDetails :location="location" />
 			</BCol>
 		</BRow>

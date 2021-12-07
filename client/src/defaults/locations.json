@@ -43,9 +43,6 @@
 					
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"Uber"
 				]
 			}
@@ -95,9 +92,6 @@
 				],
 				"deliveryMethods":[
 					
-				],
-				"deliveryServices":[
-					
 				]
 			}
 		]
@@ -146,9 +140,6 @@
 					
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"Uber"
 				]
 			},
@@ -224,9 +215,6 @@
 					
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"Uber"
 				]
 			},
@@ -301,9 +289,6 @@
 					
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash"
 				]
 			},
@@ -365,9 +350,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -418,9 +400,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -471,9 +450,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Grubhub"
 				]
@@ -523,9 +499,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Grubhub"
 				]
@@ -575,9 +548,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Grubhub"
 				]
@@ -627,9 +597,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Grubhub"
 				]
@@ -679,9 +646,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Grubhub"
 				]
@@ -731,9 +695,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Grubhub"
 				]
@@ -783,9 +744,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -837,9 +795,6 @@
 					"deli"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -904,9 +859,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Grubhub"
 				]
@@ -956,9 +908,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Grubhub"
 				]
@@ -1008,9 +957,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -1062,9 +1008,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -1115,9 +1058,6 @@
 					
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -1168,9 +1108,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Grubhub"
 				]
@@ -1220,9 +1157,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash"
 				]
 			}
@@ -1272,9 +1206,6 @@
 					"deli"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub",
@@ -1327,9 +1258,6 @@
 					"deli"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"Doordash",
 					"Vroom"
 				]
@@ -1379,9 +1307,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash"
 				]
 			}
@@ -1431,9 +1356,6 @@
 					"deli"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"Doordash",
 					"Uber",
 					"Vroom"
@@ -1497,9 +1419,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -1551,9 +1470,6 @@
 					"deli"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub",
@@ -1606,9 +1522,6 @@
 					"deli"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub",
@@ -1660,9 +1573,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -1713,9 +1623,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Grubhub"
 				]
@@ -1765,9 +1672,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -1818,9 +1722,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -1871,9 +1772,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Grubhub"
 				]
@@ -1923,9 +1821,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -1977,9 +1872,6 @@
 					"deli"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub",
@@ -2033,9 +1925,6 @@
 					"deli"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub",
@@ -2087,9 +1976,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2140,9 +2026,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2193,9 +2076,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2247,9 +2127,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2300,9 +2177,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2353,9 +2227,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2406,9 +2277,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2459,9 +2327,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2513,9 +2378,6 @@
 					"ebt"
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2567,9 +2429,6 @@
 					
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2620,9 +2479,6 @@
 					
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2673,9 +2529,6 @@
 					
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2726,9 +2579,6 @@
 					
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2779,9 +2629,6 @@
 					
 				],
 				"deliveryMethods":[
-					
-				],
-				"deliveryServices":[
 					"DoorDash",
 					"Uber",
 					"Grubhub"

@@ -1,14 +1,14 @@
 <template>
 	<BRow>
 		<BCol cols="12">
-			<h1 class="mb-4 text-center text-secondary">Location Features</h1>
+			<h3 class="mb-3 text-secondary">Location Features</h3>
 		</BCol>
 
 		<BCol
 			v-for="(a, i) in location.amenities"
 			:key="i"
-			cols="12" lg="12"
-			class=" d-flex align-items-stretch"
+			cols="12"
+			class="mb-3 d-flex align-items-stretch"
 		>
 			<BCard
 				bg-variant="white"
@@ -33,7 +33,7 @@
 						<BCol cols="12" lg="6" class="mb-3 border-right">
 							<BRow v-if="a.services.length > 0" class="mb-4">
 								<BCol cols="12" class="mx-auto">
-									<h5 class="mb-3 text-secondary">
+									<h5 class="mb-4 text-primary">
 										Services
 									</h5>
 								</BCol>
@@ -99,7 +99,7 @@
 						<BCol cols="12" lg="6" class="mb-3 border-right">
 							<BRow v-if="a.products.length > 0" class="mb-4">
 								<BCol cols="12" >
-									<h5 class="mb-3 text-secondary">
+									<h5 class="mb-4 text-primary">
 										Sold Here
 									</h5>
 								</BCol>
@@ -134,7 +134,7 @@
 						<BCol cols="12" lg="6"  class="mb-3 border-right">
 							<BRow v-if="a.deliveryMethods.length > 0" class="mb-4">
 								<BCol cols="12">
-									<h5 class="mb-3 text-secondary">
+									<h5 class="mb-4 text-primary">
 										Accepted Delivery Methods
 									</h5>
 								</BCol>

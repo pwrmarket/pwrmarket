@@ -37,9 +37,37 @@
 							v-for="(s, ii) in a.services"
 							:key="ii"
 							cols="6" sm="3"
-							class="m-0 p-0 text-center"
+							class="text-center"
 						>
-							{{ s }}
+							<img
+								v-if="s == 'ebt'"
+								src="https://images2.imgbox.com/ef/b9/tveUfCgE_o.png"
+								:alt="s"
+								class="w-100 px-2"
+							>
+
+							<img
+								v-else-if="s == 'deli'"
+								src="https://images2.imgbox.com/ac/57/XR0wjIz6_o.png"
+								:alt="s"
+								class="w-100 px-2"
+							>
+
+							<img
+								v-else-if="s == 'Grubhub'"
+								src=""
+								:alt="s"
+								class="w-100 px-2"
+							>
+
+							<img
+								v-else-if="s == 'Vroom'"
+								src=""
+								:alt="s"
+								class="w-100 px-2"
+							>
+
+							<h6 v-else class="m-0">{{ s }}</h6>
 						</BCol>
 					</BRow>
 
@@ -53,9 +81,16 @@
 							v-for="(p, ii) in a.products"
 							:key="ii"
 							cols="6" sm="3"
-							class="m-0 p-0 text-center"
+							class="text-center"
 						>
-							{{ p }}
+							<img
+								v-if="p == 'alcohol'"
+								src="https://images2.imgbox.com/c1/3c/KCZyAY9K_o.png"
+								:alt="p"
+								class="w-100 px-2"
+							>
+
+							<h6 v-else class="m-0">{{ d }}</h6>
 						</BCol>
 					</BRow>
 
@@ -73,28 +108,28 @@
 						>
 							<img
 								v-if="d == 'Uber'"
-								:src="uberLogo"
+								src="https://images2.imgbox.com/7a/46/Pe1nUcq8_o.png"
 								:alt="d"
 								class="w-100 px-2"
 							>
 
 							<img
 								v-else-if="d == 'DoorDash'"
-								:src="doordashLogo"
+								src="https://images2.imgbox.com/fe/6d/dUuN1QUy_o.png"
 								:alt="d"
 								class="w-100 px-2"
 							>
 
 							<img
 								v-else-if="d == 'Grubhub'"
-								:src="grubhubLogo"
+								src="https://images2.imgbox.com/60/66/5U1IWu5m_o.jpg"
 								:alt="d"
 								class="w-100 px-2"
 							>
 
 							<img
 								v-else-if="d == 'Vroom'"
-								:src="vroomLogo"
+								src="https://images2.imgbox.com/89/78/YBlsONvf_o.png"
 								:alt="d"
 								class="w-100 px-2"
 							>
@@ -116,15 +151,6 @@
 				type: Object,
 				require: true,
 			},
-		},
-
-		data() {
-			return {
-				uberLogo: 'https://images2.imgbox.com/7a/46/Pe1nUcq8_o.png',
-				doordashLogo: 'https://images2.imgbox.com/fe/6d/dUuN1QUy_o.png',
-				grubhubLogo: 'https://images2.imgbox.com/60/66/5U1IWu5m_o.jpg',
-				vroomLogo: 'https://images2.imgbox.com/89/78/YBlsONvf_o.png',
-			}
 		},
 	}
 </script>

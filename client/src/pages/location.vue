@@ -9,7 +9,6 @@
 				<LocationDetails :location="location" />
 			</BCol>
 		</BRow>
-		{{ location }}
 	</BContainer>
 </template>
 

@@ -67,7 +67,14 @@
 								class="w-100 px-2"
 							>
 
-							<h6 v-else class="m-0">{{ s }}</h6>
+							<div
+								v-else
+								class="w-100 px-1 py-4 bg-primary rounded-lg"
+							>
+								<h6 class="m-0 text-uppercase text-light">
+									{{ s }}
+								</h6>
+							</div>
 						</BCol>
 					</BRow>
 
@@ -83,21 +90,21 @@
 							cols="6" sm="3"
 							class="text-center"
 						>
-							<div
-								v-if="p == 'propane'"
-								class="w-100 py-4 bg-primary rounded-lg"
-							>
-								<h5 class="m-0 text-light">Propane</h5>
-							</div>
-
 							<img
-								v-else-if="p == 'alcohol'"
+								v-if="p == 'alcohol'"
 								src="https://images2.imgbox.com/c1/3c/KCZyAY9K_o.png"
 								:alt="p"
 								class="w-100 px-2"
 							>
 
-							<h6 v-else class="m-0">{{ p }}</h6>
+							<div
+								v-else
+								class="w-100 px-1 py-4 bg-primary rounded-lg"
+							>
+								<h6 class="m-0 text-uppercase text-light">
+									{{ p }}
+								</h6>
+							</div>
 						</BCol>
 					</BRow>
 
@@ -141,7 +148,14 @@
 								class="w-100 px-2"
 							>
 
-							<h6 v-else class="m-0">{{ d }}</h6>
+							<div
+								v-else
+								class="w-100 px-1 py-4 bg-primary rounded-lg"
+							>
+								<h6 class="m-0 text-uppercase text-light">
+									{{ d }}
+								</h6>
+							</div>
 						</BCol>
 					</BRow>
 				</BCardBody>

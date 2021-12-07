@@ -29,9 +29,11 @@
 			</BCol>
 
 			<BCol cols="12" class="pt-0">
-				<BButton variant="light" class="w-100">
-					Visit Location
-				</BButton>
+				<a :href="googleMapsLink">
+					<BButton variant="light" class="w-100">
+						Visit Location
+					</BButton>
+				</a>
 			</BCol>
 		</BRow>
 	</BCard>
@@ -45,6 +47,16 @@
 				type: Object,
 				require: true,
 			},
+		},
+
+		data() {
+			return {
+				googleMapsLink: ``,
+			}
+		},
+
+		created() {
+			this.googleMapsLink = `https://maps.google.com/?q=${this.location.address.street} ${this.location.address.city} ${this.location.address.state} ${this.location.address.zip}`
 		},
 	}
 </script>

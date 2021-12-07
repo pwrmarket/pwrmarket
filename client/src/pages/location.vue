@@ -1,12 +1,20 @@
 <template>
 	<BContainer class="mb-5 py-5">
 		<BRow>
-			<BCol cols="12" lg="8" xl="9">
+			<BCol cols="12">
+				<h1 class="mb-5 text-center text-primary">
+					{{ location.address.street }}
+					{{ location.address.city }} {{ location.address.state }}
+					{{ location.address.zip }}
+				</h1>
+			</BCol>
+
+			<BCol cols="12" xl="9" order="1" order-xl="0">
 				<LocationAmenities :location="location" />
 			</BCol>
 
-			<BCol cols="12" lg="4" xl="3">
-				<LocationDetails :location="location" />
+			<BCol cols="12" xl="3" order="0" order-xl="1">
+				<LocationDetails :location="location" class="mb-4" />
 			</BCol>
 		</BRow>
 

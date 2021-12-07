@@ -7,7 +7,7 @@
 		<div v-if="!$store.state.isHomePage" class="d-block d-lg-none" style="height: 85.11px;" />
 
 		<!-- Mobile Spacer -->
-		<div v-if="!$store.state.isHomePage" class="d-none d-lg-block" style="height: 146px;" />
+		<div v-if="!$store.state.isHomePage" class="d-none d-lg-block" style="height: 109px;" />
 
 		<!-- RouterView -->
 		<RouterView />

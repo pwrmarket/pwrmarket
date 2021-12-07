@@ -1,58 +1,39 @@
 <template>
-	<BCard bg-variant="primary" text-variant="light" no-body>
-		<!-- Address -->
-		<BCardHeader class="border-0">
-			<h6 class="m-0 text-uppercase">
-				Address
-			</h6>
-		</BCardHeader>
+	<BCard bg-variant="primary" text-variant="light">
+		<BRow>
+			<!-- Hours of Operations -->
+			<BCol cols="6" xl="12" class="pb-xl-5">
+				<h6 class="text-uppercase">
+					Hours
+				</h6>
 
-		<BCardBody>
-			<h5 class="">
-				{{ location.address.street }}<br>
-				{{ location.address.city }} {{ location.address.state }}<br>
-				{{ location.address.zip }}
-			</h5>
-		</BCardBody>
+				<h5 class="">{{ location.hoursOfOperation }}</h5>
+			</BCol>
 
-		<!-- Hours of Operations -->
-		<BCardHeader class="border-0">
-			<h6 class="m-0 text-uppercase">
-				Hours
-			</h6>
-		</BCardHeader>
+			<!-- Phone Number -->
+			<BCol cols="6" xl="12" class="pb-xl-5">
+				<h6 class="m-0 text-uppercase">
+					Phone Number
+				</h6>
 
-		<BCardBody>
-			<h5 class="">{{ location.hoursOfOperation }}</h5>
-		</BCardBody>
+				<h5 class="">{{ location.contact.phone.string }}</h5>
+			</BCol>
 
-		<!-- Phone Number -->
-		<BCardHeader class="border-0">
-			<h6 class="m-0 text-uppercase">
-				Phone Number
-			</h6>
-		</BCardHeader>
+			<!-- Email -->
+			<BCol cols="12" class="pb-xl-5">
+				<h6 class="text-uppercase">
+					Email
+				</h6>
+			
+				<h5 class="">{{ location.contact.email.string }}</h5>
+			</BCol>
 
-		<BCardBody>
-			<h5 class="">{{ location.contact.phone.string }}</h5>
-		</BCardBody>
-
-		<!-- Email -->
-		<BCardHeader class="border-0">
-			<h6 class="m-0 text-uppercase">
-				Email
-			</h6>
-		</BCardHeader>
-
-		<BCardBody>
-			<h5 class="">{{ location.contact.email.string }}</h5>
-		</BCardBody>
-
-		<BCardBody class="pt-0">
-			<BButton variant="light" class="w-100">
-				Visit Location
-			</BButton>
-		</BCardBody>
+			<BCol cols="12" class="pt-0">
+				<BButton variant="light" class="w-100">
+					Visit Location
+				</BButton>
+			</BCol>
+		</BRow>
 	</BCard>
 </template>
 

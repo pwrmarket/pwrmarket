@@ -1,13 +1,9 @@
 <template>
 	<BRow>
-		<BCol cols="12">
-			<h3 class="mb-3 text-secondary">Location Features</h3>
-		</BCol>
-
 		<BCol
 			v-for="(a, i) in location.amenities"
 			:key="i"
-			cols="12"
+			cols="12" lg="6"
 			class="mb-3 d-flex align-items-stretch"
 		>
 			<BCard
@@ -30,12 +26,13 @@
 				<BCardBody>
 					<BRow>
 						<!-- Services -->
-						<BCol cols="12" lg="6" class="mb-3 border-right">
+						<BCol cols="12" lg="12" class="mb-3 border-">
 							<BRow v-if="a.services.length > 0" class="mb-4">
-								<BCol cols="12" class="mx-auto">
-									<h5 class="mb-4 text-primary">
+								<BCol cols="12">
+									<h5 class="mb-2 text-center text-primary">
 										Services
 									</h5>
+									<hr class="bg-secondary">
 								</BCol>
 
 								<BCol
@@ -46,7 +43,7 @@
 								>
 									<div
 										v-if="s == 'power-market-loyalty'"
-										class="w-100 px-1 py-2 bg-success rounded-lg"
+										class="w-100 px-1 py-3 bg-success rounded-lg"
 									>
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>
@@ -68,23 +65,9 @@
 										class="w-100 px-2"
 									>
 
-									<img
-										v-else-if="s == 'Grubhub'"
-										src=""
-										:alt="s"
-										class="w-100 px-2"
-									>
-
-									<img
-										v-else-if="s == 'Vroom'"
-										src=""
-										:alt="s"
-										class="w-100 px-2"
-									>
-
 									<div
 										v-else
-										class="w-100 px-1 py-2 bg-success rounded-lg"
+										class="w-100 px-1 py-3 bg-success rounded-lg"
 									>
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>
@@ -96,12 +79,13 @@
 						</BCol>
 
 						<!-- Products -->
-						<BCol cols="12" lg="6" class="mb-3 border-right">
+						<BCol cols="12" lg="12" class="mb-3 border-">
 							<BRow v-if="a.products.length > 0" class="mb-4">
-								<BCol cols="12" >
-									<h5 class="mb-4 text-primary">
+								<BCol cols="12">
+									<h5 class="mb-2 text-center text-primary">
 										Sold Here
 									</h5>
+									<hr class="bg-secondary">
 								</BCol>
 
 								<BCol
@@ -110,16 +94,24 @@
 									cols="6" sm="3"
 									class="text-center"
 								>
+									<!-- e85 Image -->
 									<img
-										v-if="p == 'alcohol'"
-										src="https://images2.imgbox.com/c1/3c/KCZyAY9K_o.png"
+										v-if="p == 'e85'"
+										src="https://images2.imgbox.com/32/dd/xfGi2ZYO_o.png"
 										:alt="p"
-										class="w-100 px-2"
+										class="w-100"
 									>
 
+									<img
+										v-else-if="p == 'alcohol'"
+										src="https://images2.imgbox.com/c1/3c/KCZyAY9K_o.png"
+										:alt="p"
+										class="w-100"
+									>
+									
 									<div
 										v-else
-										class="w-100 px-1 py-2 bg-success rounded-lg"
+										class="w-100 px-1 py-3 bg-success rounded-lg"
 									>
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>
@@ -131,12 +123,13 @@
 						</BCol>
 
 						<!-- Delivery Methods -->
-						<BCol cols="12" lg="6"  class="mb-3 border-right">
+						<BCol cols="12" lg="12"  class="mb-3 border-">
 							<BRow v-if="a.deliveryMethods.length > 0" class="mb-4">
 								<BCol cols="12">
-									<h5 class="mb-4 text-primary">
+									<h5 class="mb-2 text-center text-primary">
 										Accepted Delivery Methods
 									</h5>
+									<hr class="bg-secondary">
 								</BCol>
 
 								<BCol
@@ -149,33 +142,33 @@
 										v-if="d == 'Uber'"
 										src="https://images2.imgbox.com/7a/46/Pe1nUcq8_o.png"
 										:alt="d"
-										class="w-100 px-2"
+										class="w-100"
 									>
 
 									<img
 										v-else-if="d == 'DoorDash'"
 										src="https://images2.imgbox.com/fe/6d/dUuN1QUy_o.png"
 										:alt="d"
-										class="w-100 px-2"
+										class="w-100"
 									>
 
 									<img
 										v-else-if="d == 'Grubhub'"
 										src="https://images2.imgbox.com/60/66/5U1IWu5m_o.jpg"
 										:alt="d"
-										class="w-100 px-2"
+										class="w-100"
 									>
 
 									<img
 										v-else-if="d == 'Vroom'"
 										src="https://images2.imgbox.com/89/78/YBlsONvf_o.png"
 										:alt="d"
-										class="w-100 px-2"
+										class="w-100"
 									>
 
 									<div
 										v-else
-										class="w-100 px-1 py-2 bg-success rounded-lg"
+										class="w-100 px-1 py-3 bg-success rounded-lg"
 									>
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>

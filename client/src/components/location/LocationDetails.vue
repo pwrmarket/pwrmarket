@@ -51,7 +51,7 @@
 
 		data() {
 			return {
-				googleMapsLink: ``,
+				googleMapsLink: 'https://maps.google.com/',
 			}
 		},
 

@@ -1,42 +1,31 @@
 <template>
 	<BContainer class="mb-5 py-5">
 		<BRow>
-			<BCol cols="12">
-				<h3 class="mb-5 text-secondary">Location Features</h3>
-			</BCol>
-
-			<BCol cols="12" md="9">
+			<BCol cols="12" xl="9">
 				<BRow>
+					<BCol cols="12">
+						<h1 class="mb-4 text-center text-secondary">Location Features</h1>
+					</BCol>
+
 					<BCol
 						v-for="(a, i) in location.amenities"
 						:key="i"
-						cols="12" md="6"
+						cols="12" lg="6"
 					>
 						<BCard
 							bg-variant="white"
-							border-variant="secondary"
+							border-variant=""
 							no-body
-							class="mb-3"
+							class="mb-3 shadow"
 						>
-							<BCardHeader class="text-primary border-secondary bg-transparent">
-								<h4 v-if="a.type == 'energy-station'" class="m-0">
-									{{ a.name }} Energy Station
-								</h4>
-
-								<h4 v-if="a.type == 'store'" class="m-0">
-									{{ a.name }} Store
-								</h4>
-
-								<h4 v-if="a.type == 'car-wash'" class="m-0">
-									{{ a.name }} Car Wash 
-								</h4>
-
-								<h4 v-if="a.type == 'service-shop'" class="m-0">
-									{{ a.name }} Service Shop
-								</h4>
-
-								<h4 v-if="a.type == 'amazon-locker'" class="m-0">
-									{{ a.name }} Amazon Locker
+							<BCardHeader class="text-center text-light bg-secondary">
+								<h4 class="m-0 font-weight-bold">
+									{{ a.name }}
+									<span v-if="a.type == 'energy-station'">Energy Station</span>
+									<span v-if="a.type == 'store'">Store</span>
+									<span v-if="a.type == 'car-wash'">Car Wash</span>
+									<span v-if="a.type == 'service-shop'">Service Shop</span>
+									<span v-if="a.type == 'amazon-locker'">Amazon Locker</span>
 								</h4>
 							</BCardHeader>
 
@@ -122,7 +111,7 @@
 				</BRow>
 			</BCol>
 
-			<BCol cols="12" md="3">
+			<BCol cols="12" xl="3">
 				<BCard bg-variant="primary" text-variant="light" no-body>
 					<!-- Address -->
 					<BCardHeader class="border-0">

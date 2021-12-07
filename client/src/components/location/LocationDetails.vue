@@ -1,5 +1,5 @@
 <template>
-	<BCard bg-variant="primary" text-variant="light">
+	<BCard bg-variant="primary" text-variant="light" class="rounded-lg shadow">
 		<BRow>
 			<!-- Hours of Operations -->
 			<BCol cols="6" xl="12" class="pb-xl-5">
@@ -7,16 +7,16 @@
 					Hours
 				</h6>
 
-				<h5 class="">{{ location.hoursOfOperation }}</h5>
+				<h5 class="font-weight-bold">{{ location.hoursOfOperation }}</h5>
 			</BCol>
 
 			<!-- Phone Number -->
 			<BCol cols="6" xl="12" class="pb-xl-5">
-				<h6 class="m-0 text-uppercase">
+				<h6 class="text-uppercase">
 					Phone Number
 				</h6>
 
-				<h5 class="">{{ location.contact.phone.string }}</h5>
+				<h5 class="font-weight-bold">{{ location.contact.phone.string }}</h5>
 			</BCol>
 
 			<!-- Email -->
@@ -25,7 +25,7 @@
 					Email
 				</h6>
 			
-				<h5 class="">{{ location.contact.email.string }}</h5>
+				<h5 class="font-weight-bold">{{ location.contact.email.string }}</h5>
 			</BCol>
 
 			<BCol cols="12" class="pt-0">

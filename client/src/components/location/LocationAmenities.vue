@@ -7,10 +7,11 @@
 			class="mb-3 d-flex align-items-stretch"
 		>
 			<BCard
-				bg-variant="white"
+				bg-variant="light"
 				border-variant=""
 				no-body
-				class="w-100 mb-3 shadow"
+				class="w-100 mx-auto mb-5"
+				style="max-width: 500px;"
 			>
 				<BCardHeader class="text-center text-light bg-secondary">
 					<h4 class="m-0 font-weight-bold">

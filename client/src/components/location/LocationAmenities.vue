@@ -10,7 +10,7 @@
 				bg-variant="light"
 				border-variant=""
 				no-body
-				class="w-100 mx-auto mb-5"
+				class="w-100 mb-5"
 				style="max-width: 500px;"
 			>
 				<BCardHeader class="text-center text-light bg-secondary">

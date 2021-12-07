@@ -16,7 +16,11 @@
 					Phone Number
 				</h6>
 
-				<h5 class="font-weight-bold">{{ location.contact.phone.string }}</h5>
+				<a :href="location.contact.phone.link" class="text-light">
+					<BButton variant="light" class="w-100">
+						{{ location.contact.phone.string }}
+					</BButton>
+				</a>
 			</BCol>
 
 			<!-- Email -->
@@ -25,13 +29,21 @@
 					Email
 				</h6>
 			
-				<h5 class="font-weight-bold">{{ location.contact.email.string }}</h5>
+				<a :href="location.contact.email.link" class="text-light">
+					<BButton variant="light" class="w-100">
+						{{ location.contact.email.string }}
+					</BButton>
+				</a>
 			</BCol>
 
 			<BCol cols="12" class="pt-0">
+				<h6 class="text-uppercase">
+					Visit Location
+				</h6>
+
 				<a :href="googleMapsLink">
 					<BButton variant="light" class="w-100">
-						Visit Location
+						Open Google Maps
 					</BButton>
 				</a>
 			</BCol>

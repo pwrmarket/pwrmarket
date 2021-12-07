@@ -2,7 +2,7 @@
 	<BContainer class="mb-5 py-5">
 		<BRow>
 			<BCol cols="12">
-				<h1 class="mb-5 text-secondary">Location Features</h1>
+				<h3 class="mb-5 text-secondary">Location Features</h3>
 			</BCol>
 
 			<BCol cols="12" md="9">
@@ -63,6 +63,18 @@
 										{{ p }}
 									</BCol>
 								</BRow>
+
+								<!-- Services -->
+								<BRow>
+									<BCol
+										v-for="(d, ii) in a.deliveryMethods"
+										:key="ii"
+										cols="6" sm="3"
+										class="m-0 p-0 text-center"
+									>
+										{{ d }}
+									</BCol>
+								</BRow>
 							</BCardBody>
 						</BCard>
 					</BCol>
@@ -70,20 +82,69 @@
 			</BCol>
 
 			<BCol cols="12" md="3">
-				<BCard bg-variant="primary" text-variant="light">
-					<h5 class="text-center">{{ this.$route.params.location_id }}</h5>
 					
-					<h5 class="text-uppercase text-underline"><u>Address</u></h5>
-					
-					<h4 class="">
-						{{ location.address.street }}<br>
-						{{ location.address.city }} {{ location.address.state }}<br>
-						{{ location.address.zip }}
-					</h4>
+				<BCard bg-variant="primary" text-variant="light" no-body>
+					<!-- Address -->
+					<BCardHeader class="border-0">
+						<h6 class="m-0 text-uppercase">
+							Address
+						</h6>
+					</BCardHeader>
 
-					<h5 class="text-uppercase text-underline"><u>Hours of Operation</u></h5>
+					<BCardBody>
+						<h5 class="">
+							{{ location.address.street }}<br>
+							{{ location.address.city }} {{ location.address.state }}<br>
+							{{ location.address.zip }}
+						</h5>
+					</BCardBody>
 
-					<h4 class="">{{ location.hoursOfOperation }}</h4>
+					<!-- Hours of Operations -->
+					<BCardHeader class="border-0">
+						<h6 class="m-0 text-uppercase">
+							Hours
+						</h6>
+					</BCardHeader>
+
+					<BCardBody>
+						<h5 class="">{{ location.hoursOfOperation }}</h5>
+					</BCardBody>
+
+					<!-- Phone Number -->
+					<BCardHeader class="border-0">
+						<h6 class="m-0 text-uppercase">
+							Phone Number
+						</h6>
+					</BCardHeader>
+
+					<BCardBody>
+						<h5 class="">{{ location.contact.phone.string }}</h5>
+					</BCardBody>
+
+					<!-- Email -->
+					<BCardHeader class="border-0">
+						<h6 class="m-0 text-uppercase">
+							Email
+						</h6>
+					</BCardHeader>
+
+					<BCardBody>
+						<h5 class="">{{ location.contact.email.string }}</h5>
+					</BCardBody>
+
+					<BCardBody class="pt-0">
+						<BButton variant="light" class="w-100">
+							Visit Location
+						</BButton>
+					</BCardBody>
+
+					<!-- id -->
+					<BCardBody v-if="0 == 1">
+						<h6 class="small">
+							{{ this.$route.params.location_id }}
+						</h6>
+					</BCardBody>
+
 				</BCard>
 			</BCol>
 		</BRow>

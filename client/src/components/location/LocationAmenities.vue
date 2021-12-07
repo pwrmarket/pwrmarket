@@ -28,7 +28,7 @@
 
 				<BCardBody>
 					<!-- Services -->
-					<BRow class="mb-4">
+					<BRow v-if="a.services.length > 0" class="mb-4">
 						<BCol cols="12">
 							<h5 class="mb-3 text-secondary">Services</h5>
 						</BCol>
@@ -83,14 +83,21 @@
 							cols="6" sm="3"
 							class="text-center"
 						>
+							<div
+								v-if="p == 'propane'"
+								class="w-100 py-4 bg-primary rounded-lg"
+							>
+								<h5 class="m-0 text-light">Propane</h5>
+							</div>
+
 							<img
-								v-if="p == 'alcohol'"
+								v-else-if="p == 'alcohol'"
 								src="https://images2.imgbox.com/c1/3c/KCZyAY9K_o.png"
 								:alt="p"
 								class="w-100 px-2"
 							>
 
-							<h6 v-else class="m-0">{{ d }}</h6>
+							<h6 v-else class="m-0">{{ p }}</h6>
 						</BCol>
 					</BRow>
 

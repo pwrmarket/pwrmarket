@@ -1258,7 +1258,7 @@
 					"deli"
 				],
 				"deliveryMethods":[
-					"Doordash",
+					"DoorDash",
 					"Vroom"
 				]
 			}
@@ -1356,7 +1356,7 @@
 					"deli"
 				],
 				"deliveryMethods":[
-					"Doordash",
+					"DoorDash",
 					"Uber",
 					"Vroom"
 				]

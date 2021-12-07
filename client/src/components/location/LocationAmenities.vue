@@ -44,7 +44,8 @@
 								>
 									<div
 										v-if="s == 'power-market-loyalty'"
-										class="w-100 px-1 py-3 bg-success rounded-lg"
+										class="w-100 px-1 py-3 bg-success"
+										style="border-radius: .8rem !important"
 									>
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>
@@ -68,7 +69,8 @@
 
 									<div
 										v-else
-										class="w-100 px-1 py-3 bg-success rounded-lg"
+										class="w-100 px-1 py-3 bg-success"
+										style="border-radius: .8rem !important"
 									>
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>
@@ -112,7 +114,8 @@
 									
 									<div
 										v-else
-										class="w-100 px-1 py-3 bg-success rounded-lg"
+										class="w-100 px-1 py-3 bg-success"
+										style="border-radius: .8rem !important"
 									>
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>
@@ -169,7 +172,8 @@
 
 									<div
 										v-else
-										class="w-100 px-1 py-3 bg-success rounded-lg"
+										class="w-100 px-1 py-3 bg-success"
+										style="border-radius: .8rem !important"
 									>
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>

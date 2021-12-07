@@ -3,7 +3,7 @@
 		<BCol
 			v-for="(a, i) in location.amenities"
 			:key="i"
-			cols="12" lg="6"
+			cols="12" xl="6"
 			class="mb-3 d-flex align-items-stretch"
 		>
 			<BCard
@@ -11,7 +11,6 @@
 				border-variant=""
 				no-body
 				class="w-100 mb-5"
-				style="max-width: 500px;"
 			>
 				<BCardHeader class="text-center text-light bg-secondary">
 					<h4 class="m-0 font-weight-bold">

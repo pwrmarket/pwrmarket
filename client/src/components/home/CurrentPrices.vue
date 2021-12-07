@@ -50,7 +50,7 @@
 </template>
 
 <style lang="scss" scoped>
-	@import '../../assets/styles/variables.scss';
+	@import '../../assets/styles/style.scss';
 
 	// Main Section //
 	.main-section {

@@ -1,8 +1,8 @@
 <template>
 	<BContainer class="mb-5 py-5">
 		<BCard no-body bg-variant="white" class="shadow">
-			<BCardHeader class="bg-gradient text-light">
-				<h3 class="my-3 text-center">
+			<BCardHeader class="text-light bg-gradient">
+				<h3 class="my-3 text-center font-weight-bold">
 					{{ location.address.street }}
 					{{ location.address.city }} {{ location.address.state }}
 					{{ location.address.zip }}

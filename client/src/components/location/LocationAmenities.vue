@@ -13,7 +13,7 @@
 				class="w-100 mb-5"
 			>
 				<BCardHeader class="text-center text-light bg-gradient">
-					<h4 class="m-0 font-weight-bold">
+					<h4 class="my-3">
 						{{ a.name }}
 						<span v-if="a.type == 'energy-station'">Energy Station</span>
 						<span v-if="a.type == 'store'">Store</span>

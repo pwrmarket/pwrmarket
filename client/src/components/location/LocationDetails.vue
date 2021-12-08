@@ -1,9 +1,9 @@
 <template>
-	<BCard bg-variant="gradient " text-variant="light" class="rounded-lg shadow">
-		<BRow>
+	<BCard bg-variant="gradient " text-variant="light" class="rounded-lg h-100">
+		<BRow class="text-center">
 			<!-- Hours of Operations -->
-			<BCol cols="6" lg="12" class="pb-xl-5">
-				<h6 class="text-uppercase">
+			<BCol cols="6" lg="12" class="pb-xl-4">
+				<h6 class="mb-3">
 					Hours
 				</h6>
 
@@ -11,8 +11,8 @@
 			</BCol>
 
 			<!-- Phone Number -->
-			<BCol cols="6" xl="12" class="pb-xl-5">
-				<h6 class="text-uppercase">
+			<BCol cols="6" xl="12" class="pb-xl-4">
+				<h6 class="mb-3">
 					Phone Number
 				</h6>
 
@@ -24,8 +24,8 @@
 			</BCol>
 
 			<!-- Email -->
-			<BCol cols="12" class="pb-xl-5">
-				<h6 class="text-uppercase">
+			<BCol cols="12" class="pb-xl-4">
+				<h6 class="mb-3">
 					Email
 				</h6>
 			
@@ -37,7 +37,7 @@
 			</BCol>
 
 			<BCol cols="12" class="pt-0">
-				<h6 class="text-uppercase">
+				<h6 class="mb-3">
 					Visit Location
 				</h6>
 

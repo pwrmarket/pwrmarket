@@ -77,8 +77,8 @@
 			<div class="ml-auto">
 				<!-- [HIDDEN] Menu Button -->
 				<BButton
-					variant="none"
-					class="px-4 px-sm-5 py-4"
+					variant="outline-secondary"
+					class="px-4 px-sm-5 py-4 border-0"
 					:class="[
 						$store.state.isHomePage ? linkClass : 'text-gradient'
 					]"

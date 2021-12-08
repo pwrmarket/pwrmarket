@@ -15,7 +15,7 @@
 			<BCol cols="12" lg="9" class="p-0 ">
 				<div class="wrap bg-primary-shine">
 					<div class="p-3 p-lg-5 m-auto rounded-lg content" style="max-width: 1000px;">
-						<div class="p-3 p-lg-5 shadow bg-gradient-weak">
+						<div class="p-3 p-lg-5 shadow bg-gradient">
 							<h1 class="text-center text-uppercase text-light">
 								Our Story
 							</h1>

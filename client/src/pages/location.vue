@@ -22,7 +22,7 @@
 
 				<BRow>
 					<BCol cols="12">
-						<LocationMap />
+						<LocationMap :location="location" />
 					</BCol>
 				</BRow>
 			</BCardBody>

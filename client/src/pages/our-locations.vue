@@ -13,23 +13,23 @@
 						cols="12" md="6" lg="4" xl="3"
 						class="d-flex align-items-stretch"
 					>
-						<BCard
-							bg-variant="secondary-lightest"
-							border-variant="light"
-							text-variant="dark"
-							class="w-100 mb-4"
-						>
-							<RouterLink :to="`/location/${l.id}`" class="w-100">
-								<h5 class="text-primary">
-									{{ l.address.street }}
-									{{ l.address.city }} {{ l.address.state }}
-									{{ l.address.zip }}
-								</h5>
-								<h6 class="text-secondary m-0">
-									{{ l.hoursOfOperation }}
-								</h6>
-							</RouterLink>
-						</BCard>
+						<RouterLink :to="`/location/${l.id}`" class="w-100 py-3 ">
+							<BCard
+								bg-variant="secondary-lightest"
+								border-variant="light"
+								text-variant="dark"
+								class="w-100 h-100 mb-4"
+							>
+									<h5 class="text-primary">
+										{{ l.address.street }}
+										{{ l.address.city }} {{ l.address.state }}
+										{{ l.address.zip }}
+									</h5>
+									<h6 class="text-secondary m-0">
+										{{ l.hoursOfOperation }}
+									</h6>
+							</BCard>
+						</RouterLink>
 					</BCol>
 				</BRow>
 			</BCardBody>

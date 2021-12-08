@@ -1,5 +1,5 @@
 <template>
-	<BCard bg-variant="gradient " text-variant="light" class="rounded-lg h-100">
+	<BCard bg-variant="gradient " text-variant="light" class="rounded-lg mb-3 ">
 		<BRow class="text-center">
 			<!-- Hours of Operations -->
 			<BCol cols="6" lg="12" class="pb-xl-4">
@@ -22,6 +22,15 @@
 					</BButton>
 				</a>
 			</BCol>
+
+			<iframe
+				src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20000!2d-73.990738!3d40.9033556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1486486434098"
+				width="600"
+				height="450"
+				style="border:0;"
+				allowfullscreen=""
+				loading="lazy"
+			></iframe>
 
 			<!-- Email -->
 			<BCol cols="12" class="pb-xl-4">

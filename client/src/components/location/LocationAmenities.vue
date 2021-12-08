@@ -7,7 +7,7 @@
 			class="mb-3 d-flex align-items-stretch"
 		>
 			<BCard
-				bg-variant="light"
+				bg-variant="white"
 				border-variant=""
 				no-body
 				class="w-100 mb-5"

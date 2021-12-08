@@ -1,5 +1,5 @@
 <template>
-	<BCard bg-variant="primary" text-variant="light" class="rounded-lg shadow">
+	<BCard bg-variant="gradient " text-variant="light" class="rounded-lg shadow">
 		<BRow>
 			<!-- Hours of Operations -->
 			<BCol cols="6" lg="12" class="pb-xl-5">
@@ -17,7 +17,7 @@
 				</h6>
 
 				<a :href="location.contact.phone.link" class="text-light">
-					<BButton variant="light" class="w-100 mb-3">
+					<BButton variant="outline-light" class="w-100 mb-3">
 						{{ location.contact.phone.string }}
 					</BButton>
 				</a>
@@ -30,7 +30,7 @@
 				</h6>
 			
 				<a :href="location.contact.email.link" class="text-light">
-					<BButton variant="light" class="w-100 mb-3">
+					<BButton variant="outline-light" class="w-100 mb-3">
 						{{ location.contact.email.string }}
 					</BButton>
 				</a>
@@ -42,7 +42,7 @@
 				</h6>
 
 				<a :href="googleMapsLink">
-					<BButton variant="light" class="w-100">
+					<BButton variant="outline-light" class="w-100">
 						Open Google Maps
 					</BButton>
 				</a>

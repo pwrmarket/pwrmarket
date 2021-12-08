@@ -5,15 +5,24 @@ $light: rgb(245, 245, 245);
 $dark: rgb(0, 0, 0);
 
 
+// [MIX][LIGHTISH] //
+$primary-lightish: mix($primary, rgba(255, 255, 255, 1), $weight: 25%);
+$secondary-lightish: mix($secondary, rgba(220, 220, 220, 1), $weight: 25%);
+
+
 // [MIX][LIGHT] //
-$primary-light: mix($primary, rgba(255, 255, 255, 1));
-$secondary-light: mix($secondary, rgba(220, 220, 220, 1));
+$primary-light: mix($primary, rgba(255, 255, 255, 1), $weight: 75%);
+$secondary-light: mix($secondary, rgba(220, 220, 220, 1), $weight: 75%);
 
 
 // [MIX][LIGHTER] //
+$primary-lighter: mix($primary, rgba(255, 255, 255, 1), $weight: 25%);
+$secondary-lighter: mix($secondary, rgba(255, 255, 255, 1), $weight: 25%);
 
 
 // [MIX][LIGHTEST] //
+$primary-lightest: mix($primary, rgba(255, 255, 255, 1), $weight: 10%);
+$secondary-lightest: mix($secondary, rgba(255, 255, 255, 1), $weight: 10%);
 
 
 // [MIX][DARK] //

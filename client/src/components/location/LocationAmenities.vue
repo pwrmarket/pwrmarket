@@ -12,7 +12,7 @@
 				no-body
 				class="w-100 mb-5"
 			>
-				<BCardHeader class="text-center text-light bg-secondary">
+				<BCardHeader class="text-center text-light bg-gradient">
 					<h4 class="m-0 font-weight-bold">
 						{{ a.name }}
 						<span v-if="a.type == 'energy-station'">Energy Station</span>
@@ -26,7 +26,7 @@
 				<BCardBody>
 					<BRow>
 						<!-- Services -->
-						<BCol cols="12" lg="12" class="mb-3 border-">
+						<BCol cols="12" lg="12" class="mb-3 ">
 							<BRow v-if="a.services.length > 0" class="mb-4">
 								<BCol cols="12">
 									<h5 class="mb-2 text-center text-primary">

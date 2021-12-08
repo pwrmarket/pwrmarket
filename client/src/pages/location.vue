@@ -1,22 +1,26 @@
 <template>
 	<BContainer class="mb-5 py-5">
-		<BRow>
-			<BCol cols="12">
-				<h1 class="mb-5 text-center text-primary">
+		<BCard no-body bg-variant="white" class="shadow">
+			<BCardHeader class="bg-gradient text-light">
+				<h3 class="my-3 text-center">
 					{{ location.address.street }}
 					{{ location.address.city }} {{ location.address.state }}
 					{{ location.address.zip }}
-				</h1>
-			</BCol>
+				</h3>
+			</BCardHeader>
 
-			<BCol cols="12" xl="9" order="1" order-xl="0">
-				<LocationAmenities :location="location" />
-			</BCol>
+			<BCardBody>
+				<BRow>
+					<BCol cols="12" xl="9" order="1" order-xl="0">
+						<LocationAmenities :location="location" />
+					</BCol>
 
-			<BCol cols="12" xl="3" order="0" order-xl="1">
-				<LocationDetails :location="location" class="mb-4" />
-			</BCol>
-		</BRow>
+					<BCol cols="12" xl="3" order="0" order-xl="1">
+						<LocationDetails :location="location" class="mb-4" />
+					</BCol>
+				</BRow>
+			</BCardBody>
+		</BCard>
 
 		{{ location}}
 	</BContainer>

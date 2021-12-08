@@ -1,7 +1,11 @@
 @import './variables.scss';
+
+
 body {
-	background-color: white;
+	@extend .bg-light;
 }
+
+
 // [BG][DEFAULT][SHADE-&-SHINE] //
 .bg-shade-light {
 	background-color: rgba(0, 0, 0, 0.2) !important;

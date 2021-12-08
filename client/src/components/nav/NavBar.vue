@@ -1,11 +1,12 @@
 <template>
 	<BContainer
 		fluid
-		class="fixed-top m-0 p-0 w-100 transition"
+		class="fixed-top m-0 p-0 w-100 border-secondary transition"
 		:class="[
 			navClass,
 			{ 'bg-shine-lighter border-bottom': !$store.state.isHomePage }
 		]"
+		style="border-width: 4px !important;"
 	>
 		<BContainer class="d-none d-xl-flex">
 			<!-- Logo Holder -->

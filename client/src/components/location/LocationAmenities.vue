@@ -10,7 +10,7 @@
 				bg-variant="white"
 				border-variant=""
 				no-body
-				class="w-100 mb-5"
+				class="w-100 mb-3"
 			>
 				<BCardHeader class="text-center text-light bg-gradient">
 					<h4 class="my-3">

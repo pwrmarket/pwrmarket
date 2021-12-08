@@ -1,0 +1,13 @@
+<template>
+	<div>
+		<iframe
+			width="100%"
+			height="450"
+			style="border:0"
+			loading="lazy"
+			allowfullscreen
+			src="https://www.google.com/maps/embed/v1/place?key=AIzaSyATCfUixd68NmJufZwJv4yp_GY_a3IUF_s&q=Space+Needle,Seattle+WA"
+		>
+		</iframe>
+	</div>
+</template>

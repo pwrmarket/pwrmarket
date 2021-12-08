@@ -19,16 +19,21 @@
 						<LocationDetails :location="location" class="mb-4" />
 					</BCol>
 				</BRow>
+
+				<BRow>
+					<BCol cols="12">
+						<LocationMap />
+					</BCol>
+				</BRow>
 			</BCardBody>
 		</BCard>
-
-		{{ location}}
 	</BContainer>
 </template>
 
 <script>
 	import LocationAmenities from '../components/location/LocationAmenities'
 	import LocationDetails from '../components/location/LocationDetails'
+	import LocationMap from '../components/location/LocationMap'
 	import locations from '../defaults/locations'
 
 	export default {
@@ -42,6 +47,7 @@
 		components: {
 			LocationAmenities,
 			LocationDetails,
+			LocationMap,
 		},
 
 		created() {

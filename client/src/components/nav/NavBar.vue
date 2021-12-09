@@ -142,7 +142,7 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '../../assets/styles/style.scss';
+	@import '../../assets/styles/index.scss';
 
 	.transition {
 		-webkit-transition: 0.5s;

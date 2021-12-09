@@ -39,7 +39,7 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '../../assets/styles/style.scss';
+	@import '../../assets/styles/index.scss';
 
 	.img-container {
 		height: 500px;
@@ -81,6 +81,7 @@
 				top: 0;
 				left: 0;
 				background-color: $secondary-shine;
+				backdrop-filter: blur(10px) !important;
 			}
 		}
 

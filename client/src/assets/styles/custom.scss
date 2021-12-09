@@ -2,7 +2,16 @@
 
 
 body {
-	@extend .bg-light;
+	//@extend .bg-light;
+
+	background-image: $bg-img;
+	background-size: 100%;
+}
+
+.bg-bg-img {
+	background-image: $bg-img;
+	background-size: 100%;
+
 }
 
 
@@ -26,6 +35,13 @@ body {
 
 .bg-shine-lighter {
 	background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+
+// [BG][GLASS] //
+.bg-glass-light {
+	background-color: rgba(255, 255, 255, .15) !important;  
+	backdrop-filter: blur(5px) !important;
 }
 
 

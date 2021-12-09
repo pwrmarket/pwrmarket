@@ -95,7 +95,7 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '../../assets/styles/style.scss';
+	@import '../../assets/styles/index.scss';
 
 	.main-section {
 		position: relative;

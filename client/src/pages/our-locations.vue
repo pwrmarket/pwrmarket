@@ -13,12 +13,11 @@
 						cols="12" md="6" lg="4" xl="3"
 						class="d-flex align-items-stretch"
 					>
-						<RouterLink :to="`/location/${l.id}`" class="w-100 py-3 ">
+						<RouterLink :to="`/location/${l.id}`" class="w-100 py-3 text-decoration-none">
 							<BCard
-								bg-variant="secondary-lightest"
-								border-variant="light"
+								bg-variant="bg-img"
 								text-variant="dark"
-								class="w-100 h-100 mb-4"
+								class="w-100 h-100 mb-4 location-card"
 							>
 									<h5 class="text-primary">
 										{{ l.address.street }}
@@ -48,3 +47,14 @@
 		},
 	}
 </script>
+
+<style lang="scss" scoped>
+	@import '../assets/styles/index.scss';
+
+	.location-card {		
+		&:hover {
+			border-color: $primary;
+			border-width: 1px;
+		}
+	}
+</style>

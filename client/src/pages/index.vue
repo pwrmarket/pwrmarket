@@ -8,15 +8,17 @@
 			</BContainer>
 		</BContainer>
 
+		<Conveyor
+			:images="conveyorImages"
+			:totalOnLg="4"
+			class="pb-5 bg-white"
+		/>
+
 		<Loyalty />
 
 		<Info />
 
-		<Conveyor
-			:images="conveyorImages"
-			:totalOnLg="4"
-			class="bg-white"
-		/>
+		
 		
 		<CurrentPrices />
 	</div>

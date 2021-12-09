@@ -1,5 +1,5 @@
 <template>
-	<BContainer fluid class="py-5 bg-secondary-shine">
+	<BContainer fluid class="py-5 bg-white">
 		<BContainer class="main-section">
 			<!--  -->
 			<BRow class="w-100">
@@ -50,7 +50,7 @@
 </template>
 
 <style lang="scss" scoped>
-	@import '../../assets/styles/style.scss';
+	@import '../../assets/styles/index.scss';
 
 	// Main Section //
 	.main-section {

@@ -1,7 +1,7 @@
 <template>
 	<BContainer fluid class="m-0 p-0">
 		<BRow class="w-100 m-0">
-			<BCol cols="12" lg="3" class="p-0 center bg-secondary-light">
+			<BCol cols="12" lg="3" class="p-0 center bg-secondary">
 				<div class="text-center text-light">
 					<h1 class="my-3 text-center text-uppercase">
 						Follow Us
@@ -13,7 +13,7 @@
 			</BCol>
 
 			<BCol cols="12" lg="9" class="p-0 ">
-				<div class="wrap bg-primary-shine">
+				<div class="wrap bg-white">
 					<div class="p-3 p-lg-5 m-auto rounded-lg content" style="max-width: 1000px;">
 						<div class="p-3 p-lg-5 shadow bg-gradient">
 							<h1 class="text-center text-uppercase text-light">
@@ -63,7 +63,7 @@
 </script>
 
 <style lang="scss" scoped>
-	@import '../../assets/styles/style.scss';
+	@import '../../assets/styles/index.scss';
 
 	.center {
 		display: flex;
@@ -90,7 +90,7 @@
 				top: 0;
 				width: 3%;
 				height: 100%;
-				background-color: $secondary-light;
+				background-color: $secondary;
 
 				&:before {
 					content: '';

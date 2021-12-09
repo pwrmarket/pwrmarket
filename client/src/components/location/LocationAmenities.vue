@@ -48,7 +48,9 @@
 									>
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>
-											<span class="h6">PML</span>
+											<span class="small font-weight-bold">
+												PML
+											</span>
 										</h6>
 									</div>
 
@@ -118,7 +120,9 @@
 									>
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>
-											<span class="h6">{{ p }}</span>
+											<span class="small font-weight-bold">
+												{{ p }}
+											</span>
 										</h6>
 									</div>
 								</BCol>

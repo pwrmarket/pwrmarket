@@ -180,7 +180,9 @@
 									>
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>
-											<span class="h6">{{ d }}</span>
+											<span class="small font-weight-bold">
+												{{ d }}
+											</span>
 										</h6>
 									</div>
 								</BCol>

@@ -2,10 +2,14 @@
 	<div class="text-light bg-gradient">
 		<BContainer class="py-2">
 			<BRow class="m-0 p-0 contact-info">
+				<BCol cols="12">	
+					<h6 class="m-0 text-center text-light">At a Glance</h6>
+				</BCol>
+
 				<!-- EMAIL -->
 				<BCol
 					v-for="(a, i) in location.amenities" :key="i"
-					cols="12" sm="6" md="6" lg="6" xl="3" class="py-2"
+					cols="12" sm="6" md="6" lg="6" xl="3" class="mx-auto py-2"
 				>
 					<!-- Store -->
 					<div v-if="a.type == 'store'">
@@ -54,6 +58,22 @@
 							</a>
 						</h6>
 					</div>
+
+					<!-- Carwash -->
+					<div v-if="a.type == 'service-shop'">
+						<i class="py-1">
+							<ToolIcon  size="1.1x" />
+						</i>
+					
+						<h6 class="small font-weight-bold">
+							Service Service
+						</h6>
+						<h6 class="m-0 font-weight-bold">
+							<a :href="companyInfo.emailLink" class="text-light">
+								Car Servicing
+							</a>
+						</h6>
+					</div>
 				</BCol>
 			</BRow>
 		</BContainer>
@@ -61,7 +81,7 @@
 </template>
 
 <script>
-import { BatteryChargingIcon, DropletIcon, ShoppingCartIcon } from 'vue-feather-icons'
+import { BatteryChargingIcon, DropletIcon, ShoppingCartIcon, ToolIcon } from 'vue-feather-icons'
 
 import companyInfo from '@/defaults/companyInfo'
 
@@ -83,8 +103,7 @@ export default {
 		BatteryChargingIcon,
 		ShoppingCartIcon,
 		DropletIcon,
-		//ClockIcon,
-		//MapIcon,
+		ToolIcon,
 	},
 }
 </script>

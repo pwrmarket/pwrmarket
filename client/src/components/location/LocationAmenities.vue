@@ -11,7 +11,23 @@
 				no-body
 				class="w-100 mb-3"
 			>
-				<BCardHeader class="text-center text-light bg-gradient-weak-2">
+				<BCardHeader class="text-light bg-gradient-weak-2">
+					<i v-if="a.type == 'energy-station'" class="py-1">
+						<BatteryChargingIcon  size="1.1x" />
+					</i>
+
+					<i v-if="a.type == 'car-wash'" class="py-1">
+						<DropletIcon  size="1.1x" />
+					</i>
+
+					<i v-if="a.type == 'service-shop'" class="py-1">
+						<ToolIcon  size="1.1x" />
+					</i>
+
+					<i v-if="a.type == 'store'" class="py-1">
+						<ShoppingCartIcon  size="1.1x" />
+					</i>
+
 					<h4 class="my-3">
 						{{ a.name }}
 						<span v-if="a.type == 'energy-station'">Energy Station</span>
@@ -198,6 +214,8 @@
 
 
 <script>
+	import { BatteryChargingIcon, DropletIcon, ShoppingCartIcon, ToolIcon } from 'vue-feather-icons'
+
 	export default {
 		props: {
 			location: {
@@ -205,5 +223,31 @@
 				require: true,
 			},
 		},
+
+		components: {
+			BatteryChargingIcon,
+			DropletIcon,
+			ShoppingCartIcon,
+			ToolIcon
+		},
 	}
 </script>
+
+<style lang="scss" scoped>
+	i {
+		display: block;
+		float: left;
+		width: 60px;
+		height: 60px;
+		line-height: 52px;
+		text-align: center;
+		background: #fff;
+		color: #c0996b;
+		font-size: 30px;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		-ms-border-radius: 50%;
+		border-radius: 50%;
+		margin-right: 20px;
+	}
+</style>

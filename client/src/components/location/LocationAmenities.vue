@@ -3,16 +3,15 @@
 		<BCol
 			v-for="(a, i) in location.amenities"
 			:key="i"
-			cols="12" xl="6"
+			cols="12" lg="6" xl="4"
 			class="mb-3 d-flex align-items-stretch"
 		>
 			<BCard
 				bg-variant="white"
-				border-variant=""
 				no-body
 				class="w-100 mb-3"
 			>
-				<BCardHeader class="text-center text-light bg-gradient">
+				<BCardHeader class="text-center text-light bg-gradient-weak">
 					<h4 class="my-3">
 						{{ a.name }}
 						<span v-if="a.type == 'energy-station'">Energy Station</span>
@@ -26,7 +25,7 @@
 				<BCardBody>
 					<BRow>
 						<!-- Services -->
-						<BCol cols="12" lg="12" class="mb-3 ">
+						<BCol cols="12" lg="12" class="mb-3">
 							<BRow v-if="a.services.length > 0" class="mb-4">
 								<BCol cols="12">
 									<h5 class="mb-2 text-center text-primary">
@@ -38,13 +37,13 @@
 								<BCol
 									v-for="(s, ii) in a.services"
 									:key="ii"
-									cols="6" sm="3"
+									cols="6" sm="4"
 									class="text-center"
 								>
 									<div
 										v-if="s == 'power-market-loyalty'"
 										class="w-100 px-1 py-3 bg-success"
-										style="border-radius: .8rem !important"
+										style="border-radius: .5rem !important"
 									>
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>
@@ -71,11 +70,13 @@
 									<div
 										v-else
 										class="w-100 px-1 py-3 bg-success"
-										style="border-radius: .8rem !important"
+										style="border-radius: .5rem !important"
 									>
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>
-											<span class="h6">{{ s }}</span>
+											<span class="small font-weight-bold">
+												{{ s }}
+											</span>
 										</h6>
 									</div>
 								</BCol>
@@ -116,7 +117,7 @@
 									<div
 										v-else
 										class="w-100 px-1 py-3 bg-success"
-										style="border-radius: .8rem !important"
+										style="border-radius: .5rem !important"
 									>
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>
@@ -176,7 +177,7 @@
 									<div
 										v-else
 										class="w-100 px-1 py-3 bg-success"
-										style="border-radius: .8rem !important"
+										style="border-radius: .5rem !important"
 									>
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>

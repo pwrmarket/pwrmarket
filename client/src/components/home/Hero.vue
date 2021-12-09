@@ -3,7 +3,7 @@
 		fluid
 		class="hero-section"
 		:class="
-			$store.state.node_env == 'production' ? 'bg-gradient-weak' : 'bg-gradient-weak'
+			$store.state.node_env == 'production' ? 'bg-gradient-weak' : 'bg-gradient-classic'
 		"
 	>
 		<BContainer>

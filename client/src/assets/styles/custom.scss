@@ -2,10 +2,11 @@
 
 
 body {
-	//@extend .bg-light;
+	@extend .bg-light;
 
-	background-image: $bg-img;
-	background-size: 100%;
+	//background-image: $bg-img;
+	//background-size: 100%;
+
 }
 
 .bg-bg-img {
@@ -95,6 +96,19 @@ body {
 }
 
 .bg-gradient-weak {
+	display: block;
+	background-image: $hero-img;
+	background-position: left;
+}
+
+.bg-gradient-weak-2 {
+	display: block;
+	background-image: $hero-img;
+	background-size: 300%;
+	background-position: center;
+}
+
+.bg-gradient-classic {
 	background: $primary;
 	background:
 		linear-gradient(

@@ -1,7 +1,7 @@
 <template>
 	<BContainer class="mb-5 py-5">
 		<BCard no-body bg-variant="white" class="shadow">
-			<BCardHeader class="text-light bg-gradient">
+			<BCardHeader class="text-light bg-gradient-weak">
 				<h3 class="my-3 text-center font-weight-bold">
 					{{ location.address.street }}
 					{{ location.address.city }} {{ location.address.state }}
@@ -11,18 +11,19 @@
 
 			<BCardBody>
 				<BRow>
-					<BCol cols="12" xl="9" order="1" order-xl="0">
-						<LocationAmenities :location="location" />
+					<BCol cols="12" xl="9">
+						<LocationAtAGlance :location="location" class="mb-4" />
+						<hr>
+						<LocationMap :location="location" class="d-none d-xl-block mb-4" />
 					</BCol>
 
-					<BCol cols="12" xl="3" order="0" order-xl="1">
+					<BCol cols="12" xl="3">
 						<LocationDetails :location="location" class="mb-4" />
+						<hr>
 					</BCol>
-				</BRow>
 
-				<BRow>
 					<BCol cols="12">
-						<LocationMap :location="location" />
+						<LocationAmenities :location="location" />
 					</BCol>
 				</BRow>
 			</BCardBody>
@@ -32,6 +33,7 @@
 
 <script>
 	import LocationAmenities from '../components/location/LocationAmenities'
+	import LocationAtAGlance from '../components/location/LocationAtAGlance'
 	import LocationDetails from '../components/location/LocationDetails'
 	import LocationMap from '../components/location/LocationMap'
 	import locations from '../defaults/locations'
@@ -46,6 +48,7 @@
 
 		components: {
 			LocationAmenities,
+			LocationAtAGlance,
 			LocationDetails,
 			LocationMap,
 		},

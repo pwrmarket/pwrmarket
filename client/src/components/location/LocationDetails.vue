@@ -1,5 +1,5 @@
 <template>
-	<div class="mb-3 px-3 py-3 text-light bg-gradient-weak">
+	<div class="mb-3 px-3 py-3 text-light bg-gradient-weak-2">
 		<BRow class="text-center">
 			<!-- Hours of Operations -->
 			<BCol cols="6" lg="12" class="pb-xl-4">

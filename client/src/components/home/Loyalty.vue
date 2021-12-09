@@ -120,7 +120,7 @@
 	}
 	
 	.bg-one {
-		background-image: url('https://source.unsplash.com/1920x800/?money');
+		background-image: url('https://source.unsplash.com/1920x800/?points');
 	}
 
 	.title-col {

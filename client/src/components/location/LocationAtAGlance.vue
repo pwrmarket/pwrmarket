@@ -1,5 +1,5 @@
 <template>
-	<div class="text-light bg-gradient-weak">
+	<div class="text-light bg-gradient">
 		<BContainer class="py-2">
 			<BRow class="m-0 p-0 contact-info">
 				<!-- EMAIL -->

@@ -3,21 +3,21 @@
 		<BRow class="text-center">
 			<!-- Hours of Operations -->
 			<BCol cols="6" lg="12" class="pb-xl-4">
-				<h6 class="mb-3">
+				<h5 class="mb-3 font-weight-bold">
 					Hours
-				</h6>
+				</h5>
 
-				<h5 class="font-weight-bold">{{ location.hoursOfOperation }}</h5>
+				<h5 class="">{{ location.hoursOfOperation }}</h5>
 			</BCol>
 
 			<!-- Phone Number -->
 			<BCol cols="6" xl="12" class="pb-xl-4">
-				<h6 class="mb-3">
+				<h5 class="mb-3 font-weight-bold">
 					Phone Number
-				</h6>
+				</h5>
 
 				<a :href="location.contact.phone.link" class="text-light">
-					<BButton variant="outline-light" class="w-100 mb-3">
+					<BButton variant="outline-light" size="lg" class="w-100 mb-3">
 						{{ location.contact.phone.string }}
 					</BButton>
 				</a>
@@ -25,24 +25,24 @@
 
 			<!-- Email -->
 			<BCol cols="12" class="pb-xl-4">
-				<h6 class="mb-3">
+				<h5 class="mb-3 font-weight-bold">
 					Email
-				</h6>
+				</h5>
 			
 				<a :href="location.contact.email.link" class="text-light">
-					<BButton variant="outline-light" class="w-100 mb-3">
+					<BButton variant="outline-light" size="lg" class="w-100 mb-3">
 						{{ location.contact.email.string }}
 					</BButton>
 				</a>
 			</BCol>
 
 			<BCol cols="12" class="pt-0">
-				<h6 class="mb-3">
+				<h5 class="mb-3 font-weight-bold">
 					Visit Location
-				</h6>
+				</h5>
 
 				<a :href="googleMapsLink">
-					<BButton variant="outline-light" class="w-100">
+					<BButton variant="light" size="lg" class="w-100">
 						Open Google Maps
 					</BButton>
 				</a>

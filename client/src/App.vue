@@ -44,10 +44,8 @@
 					(position) => {
 						this.$store.state.app.location.latitude = position.coords.latitude
 						this.$store.state.app.location.longitude = position.coords.longitude
-
-						console.log(this.$store.state.app.location)
 					},
-					(err) => { console.log(err.message) },
+					(err) => { console.log('APP ERROR:', err.message) },
 				)
 			}
 		},

@@ -27,6 +27,13 @@ export default new Vuex.Store({
 		window: {
 			innerWidth: window.innerWidth
 		},
+
+		app: {
+			location: {
+				latitude: '',
+				longitude: '',
+			}
+		},
 	},
 
 	// Syncrous //

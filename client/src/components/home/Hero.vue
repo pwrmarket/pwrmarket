@@ -3,11 +3,11 @@
 		fluid
 		class="hero-section"
 		:class="
-			$store.state.node_env == 'production' ? 'bg-gradient-weak' : 'bg-gradient-classic'
+			$store.state.node_env == 'production' ? 'bg-gradient-classic' : 'bg-gradient-classic'
 		"
 	>
 		<BContainer>
-			<BRow class="w-100">
+			<BRow class="w-100 m-0">
 				<!-- HERO INFO -->
 				<BCol cols="12" md="6" class="py-md-3">
 					<div class="hero-info-holder">

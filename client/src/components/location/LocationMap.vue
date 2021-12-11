@@ -1,5 +1,7 @@
 <template>
-	<div class="">
+	<div>
+		<h4 class="text-primary">{{ Math.round(distance * 100) / 100 }} Miles</h4>
+		
 		<iframe
 			width="100%"
 			height="450"
@@ -17,6 +19,11 @@
 		props: {
 			location: {
 				type: Object,
+				required: true,
+			},
+
+			distance: {
+				type: Number,
 				required: true,
 			},
 		},

@@ -1,10 +1,20 @@
 <template>
-	<div class="mb-3 px-3 py-3 text-light bg-gradient-weak-2">
-		<BRow class="text-center">
+	<div class="mb-3 px-3 py-3 text-light bg-gradient">
+		<BRow class="">
+			<!-- Distance -->
+			<!-- Hours of Operations -->
+			<BCol cols="12" class="pb-xl-4">
+				<h5 class="mb-4 font-weight-bold">
+					<MapPinIcon /> <span class="border-bottom">Distance</span>
+				</h5>
+
+				<h5 class="">{{ Math.round(distance * 100) / 100 }} Miles Away</h5>
+			</BCol>
+
 			<!-- Hours of Operations -->
 			<BCol cols="6" lg="12" class="pb-xl-4">
-				<h5 class="mb-3 font-weight-bold">
-					Hours
+				<h5 class="mb-4 font-weight-bold">
+					<ClockIcon /> <span class="border-bottom">Hours</span>
 				</h5>
 
 				<h5 class="">{{ location.hoursOfOperation }}</h5>
@@ -12,12 +22,12 @@
 
 			<!-- Phone Number -->
 			<BCol cols="6" xl="12" class="pb-xl-4">
-				<h5 class="mb-3 font-weight-bold">
-					Phone Number
+				<h5 class="mb-4 font-weight-bold">
+					<PhoneCallIcon /> <span class="border-bottom">Phone Number</span>
 				</h5>
 
 				<a :href="location.contact.phone.link" class="text-light">
-					<BButton variant="light" size="" class="w-100 mb-3">
+					<BButton variant="outline-light" pill class="w-100 mb-3">
 						{{ location.contact.phone.string }}
 					</BButton>
 				</a>
@@ -25,20 +35,20 @@
 
 			<!-- Email -->
 			<BCol cols="12" class="pb-xl-4">
-				<h5 class="mb-3 font-weight-bold">
-					Email
+				<h5 class="mb-4 font-weight-bold">
+					<MailIcon /> <span class="border-bottom">Email</span>
 				</h5>
 			
 				<a :href="location.contact.email.link" class="text-light">
-					<BButton variant="light" size="" class="w-100 mb-3">
+					<BButton variant="outline-light" pill class="w-100 mb-3">
 						{{ location.contact.email.string }}
 					</BButton>
 				</a>
 			</BCol>
 
 			<BCol cols="12" class="pt-0">
-				<h5 class="mb-3 font-weight-bold">
-					Visit Location
+				<h5 class="mb-4 font-weight-bold">
+					<ArrowRightIcon /> <span class="border-bottom">Visit Location</span>
 				</h5>
 
 				<a :href="googleMapsLink">
@@ -53,11 +63,18 @@
 
 
 <script>
+	import { ArrowRightIcon, ClockIcon, MapPinIcon, MailIcon, PhoneCallIcon } from 'vue-feather-icons'
+	
 	export default {
 		props: {
 			location: {
 				type: Object,
 				require: true,
+			},
+
+			distance: {
+				type: Number,
+				required: true
 			},
 		},
 
@@ -65,6 +82,14 @@
 			return {
 				googleMapsLink: 'https://maps.google.com/',
 			}
+		},
+
+		components: {
+			ArrowRightIcon,
+			ClockIcon,
+			MapPinIcon,
+			MailIcon,
+			PhoneCallIcon,
 		},
 
 		created() {

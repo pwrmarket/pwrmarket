@@ -14,11 +14,19 @@
 					<BCol cols="12" xl="9">
 						<LocationAtAGlance :location="location" class="mb-4" />
 						<hr>
-						<LocationMap :location="location" class="d-none d-xl-block mb-4" />
+						<LocationMap
+							:location="location"
+							:distance="distance"
+							class="d-none d-xl-block mb-4"
+						/>
 					</BCol>
 
 					<BCol cols="12" xl="3">
-						<LocationDetails :location="location" class="mb-4" />
+						<LocationDetails
+							:location="location"
+							:distance="distance"
+							class="mb-4"
+						/>
 						<hr>
 					</BCol>
 
@@ -32,6 +40,7 @@
 </template>
 
 <script>
+	import tools_distance from '../tools/distance'
 	import LocationAmenities from '../components/location/LocationAmenities'
 	import LocationAtAGlance from '../components/location/LocationAtAGlance'
 	import LocationDetails from '../components/location/LocationDetails'
@@ -43,6 +52,7 @@
 			return {
 				locations: locations,
 				location: {},
+				distance: 0,
 			}
 		},
 
@@ -59,6 +69,13 @@
 					this.location = l
 				}	
 			})
+
+			this.distance = tools_distance.caculateBetweenCoordinates(
+				this.location.location.latitude,
+				this.location.location.longitude,
+				this.$store.state.app.location.latitude,
+				this.$store.state.app.location.longitude,
+			)
 		},
 	}
 </script>

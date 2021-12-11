@@ -2,7 +2,7 @@
 	<div class="">
 		<Hero />
 
-		<BContainer fluid class="py-5 bg-white">
+		<BContainer fluid class="d-none d-md-block py-5 bg-white">
 			<BContainer>
 				<ImgLinks />
 			</BContainer>

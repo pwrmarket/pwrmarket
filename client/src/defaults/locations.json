@@ -1,27 +1,31 @@
 [
 	{
 		"id":2003,
-		"address":{
-			"street":"9500 Valley View St.",
-			"city":"Cypress",
-			"state":"CA",
+		"address": {
+			"street": "9500 Valley View St.",
+			"city": "Cypress",
+			"state": "CA",
 			"zip":90630
 		},
-		"contact":{
-			"phone":{
-				"string":"(714) 821-8021",
-				"link":"tel:7148218021"
+		"location": {
+			"latitude":33.8242815,
+			"longitude":-118.0278492
+		},
+		"contact": {
+			"phone": {
+				"string": "(714) 821-8021",
+				"link": "tel:7148218021"
 			},
-			"email":{
-				"string":"2003@hasoil.com",
-				"link":"mailto:2003@hasoil.com"
+			"email": {
+				"string": "2003@hasoil.com",
+				"link": "mailto:2003@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"24/7",
+		"hoursOfOperation": "24/7",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"e85",
 					"propane"
@@ -34,8 +38,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"",
+				"type": "store",
+				"name": "PM GO",
 				"products":[
 					
 				],
@@ -50,27 +54,31 @@
 	},
 	{
 		"id":2017,
-		"address":{
-			"street":"9700 Central Ave.",
-			"city":"Montclair",
-			"state":"CA",
+		"address": {
+			"street": "9700 Central Ave.",
+			"city": "Montclair",
+			"state": "CA",
 			"zip":91763
 		},
-		"contact":{
-			"phone":{
-				"string":"(909) 625-8888",
-				"link":"tel:9096258888"
+		"location": {
+			"latitude":34.07731130000001,
+			"longitude":-117.690073
+		},
+		"contact": {
+			"phone": {
+				"string": "(909) 625-8888",
+				"link": "tel:9096258888"
 			},
-			"email":{
-				"string":"2017@hasoil.com",
-				"link":"mailto:2017@hasoil.com"
+			"email": {
+				"string": "2017@hasoil.com",
+				"link": "mailto:2017@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"24/7",
+		"hoursOfOperation": "24/7",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -82,8 +90,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"",
+				"type": "store",
+				"name": "PM GO",
 				"products":[
 					
 				],
@@ -98,27 +106,31 @@
 	},
 	{
 		"id":2036,
-		"address":{
-			"street":"2546 E. Coast Hwy.",
-			"city":"Corona Del Mar",
-			"state":"CA",
+		"address": {
+			"street": "2546 E. Coast Hwy.",
+			"city": "Corona Del Mar",
+			"state": "CA",
 			"zip":92625
 		},
-		"contact":{
-			"phone":{
-				"string":"(949) 717-5095",
-				"link":"tel:9497175095"
+		"location": {
+			"latitude":33.6036146,
+			"longitude":-117.872923
+		},
+		"contact": {
+			"phone": {
+				"string": "(949) 717-5095",
+				"link": "tel:9497175095"
 			},
-			"email":{
-				"string":"2036@hasoil.com",
-				"link":"mailto:2036@hasoil.com"
+			"email": {
+				"string": "2036@hasoil.com",
+				"link": "mailto:2036@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"24/7",
+		"hoursOfOperation": "24/7",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"e85",
 					"propane"
@@ -131,8 +143,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"",
+				"type": "store",
+				"name": "PM GO",
 				"products":[
 					
 				],
@@ -144,8 +156,8 @@
 				]
 			},
 			{
-				"type":"service-shop",
-				"name":"",
+				"type": "service-shop",
+				"name": "",
 				"products":[
 					
 				],
@@ -160,27 +172,31 @@
 	},
 	{
 		"id":2037,
-		"address":{
-			"street":"30072 Crown Valley Pkwy.",
-			"city":"Laguna Niguel",
-			"state":"CA",
+		"address": {
+			"street": "30072 Crown Valley Pkwy.",
+			"city": "Laguna Niguel",
+			"state": "CA",
 			"zip":92677
 		},
-		"contact":{
-			"phone":{
-				"string":"(949) 495-0345",
-				"link":"tel:9494950345"
+		"location": {
+			"latitude":33.5259625,
+			"longitude":-117.7116676
+		},
+		"contact": {
+			"phone": {
+				"string": "(949) 495-0345",
+				"link": "tel:9494950345"
 			},
-			"email":{
-				"string":"2037@hasoil.com",
-				"link":"mailto:2037@hasoil.com"
+			"email": {
+				"string": "2037@hasoil.com",
+				"link": "mailto:2037@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"24/7",
+		"hoursOfOperation": "24/7",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"e85",
 					"propane"
@@ -193,8 +209,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"",
+				"type": "store",
+				"name": "PM GO",
 				"products":[
 					
 				],
@@ -206,8 +222,8 @@
 				]
 			},
 			{
-				"type":"service-shop",
-				"name":"",
+				"type": "service-shop",
+				"name": "",
 				"products":[
 					
 				],
@@ -222,27 +238,31 @@
 	},
 	{
 		"id":2052,
-		"address":{
-			"street":"14088 Euclid Ave.",
-			"city":"Chino",
-			"state":"CA",
+		"address": {
+			"street": "14088 Euclid Ave.",
+			"city": "Chino",
+			"state": "CA",
 			"zip":91710
 		},
-		"contact":{
-			"phone":{
-				"string":"(909) 858-3023",
-				"link":"tel:9098583023"
+		"location": {
+			"latitude":33.9979189,
+			"longitude":-117.6512308
+		},
+		"contact": {
+			"phone": {
+				"string": "(909) 858-3023",
+				"link": "tel:9098583023"
 			},
-			"email":{
-				"string":"2052@hasoil.com",
-				"link":"mailto:2052@hasoil.com"
+			"email": {
+				"string": "2052@hasoil.com",
+				"link": "mailto:2052@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"24/7",
+		"hoursOfOperation": "24/7",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					
 				],
@@ -254,8 +274,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -267,8 +287,8 @@
 				]
 			},
 			{
-				"type":"car-wash",
-				"name":"",
+				"type": "car-wash",
+				"name": "",
 				"products":[
 					
 				],
@@ -284,27 +304,31 @@
 	},
 	{
 		"id":3001,
-		"address":{
-			"street":"3825 Santa Rosa Ave.",
-			"city":"Santa Rosa",
-			"state":"CA",
+		"address": {
+			"street": "3825 Santa Rosa Ave.",
+			"city": "Santa Rosa",
+			"state": "CA",
 			"zip":95407
 		},
-		"contact":{
-			"phone":{
-				"string":"(707) 585-9341",
-				"link":"tel:7075859341"
+		"location": {
+			"latitude":38.3867877,
+			"longitude":-122.7141227
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 585-9341",
+				"link": "tel:7075859341"
 			},
-			"email":{
-				"string":"3001@hasoil.com",
-				"link":"mailto:3001@hasoil.com"
+			"email": {
+				"string": "3001@hasoil.com",
+				"link": "mailto:3001@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -316,8 +340,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -335,27 +359,31 @@
 	},
 	{
 		"id":3002,
-		"address":{
-			"street":"1300 Farmers Lane",
-			"city":"Santa Rosa",
-			"state":"CA",
+		"address": {
+			"street": "1300 Farmers Lane",
+			"city": "Santa Rosa",
+			"state": "CA",
 			"zip":95405
 		},
-		"contact":{
-			"phone":{
-				"string":"(707) 575-9700",
-				"link":"tel:7075759700"
+		"location": {
+			"latitude":38.4380041,
+			"longitude":-122.6871528
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 575-9700",
+				"link": "tel:7075759700"
 			},
-			"email":{
-				"string":"3002@hasoil.com",
-				"link":"mailto:3002@hasoil.com"
+			"email": {
+				"string": "3002@hasoil.com",
+				"link": "mailto:3002@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -367,8 +395,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -386,27 +414,31 @@
 	},
 	{
 		"id":3003,
-		"address":{
-			"street":"12589 E. Hwy 20",
-			"city":"Clearlake Oaks",
-			"state":"CA",
+		"address": {
+			"street": "12589 E. Hwy 20",
+			"city": "Clearlake Oaks",
+			"state": "CA",
 			"zip":95423
 		},
-		"contact":{
-			"phone":{
-				"string":"(707) 998-9316",
-				"link":"tel:7079989316"
+		"location": {
+			"latitude":39.0800539,
+			"longitude":-122.788391
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 998-9316",
+				"link": "tel:7079989316"
 			},
-			"email":{
-				"string":"3003@hasoil.com",
-				"link":"mailto:3003@hasoil.com"
+			"email": {
+				"string": "3003@hasoil.com",
+				"link": "mailto:3003@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -418,8 +450,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -436,27 +468,31 @@
 	},
 	{
 		"id":3004,
-		"address":{
-			"street":"9815 Hwy 53",
-			"city":"Lower Lake",
-			"state":"CA",
+		"address": {
+			"street": "9815 Hwy 53",
+			"city": "Lower Lake",
+			"state": "CA",
 			"zip":95457
 		},
-		"contact":{
-			"phone":{
-				"string":"(707) 994-5846",
-				"link":"tel:7079945846"
+		"location": {
+			"latitude":38.9112176,
+			"longitude":-122.612643
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 994-5846",
+				"link": "tel:7079945846"
 			},
-			"email":{
-				"string":"3004@hasoil.com",
-				"link":"mailto:3004@hasoil.com"
+			"email": {
+				"string": "3004@hasoil.com",
+				"link": "mailto:3004@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -468,8 +504,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -486,27 +522,31 @@
 	},
 	{
 		"id":3005,
-		"address":{
-			"street":"2935 Lakeshore Blvd.",
-			"city":"Lakeport",
-			"state":"CA",
+		"address": {
+			"street": "2935 Lakeshore Blvd.",
+			"city": "Lakeport",
+			"state": "CA",
 			"zip":95453
 		},
-		"contact":{
-			"phone":{
-				"string":"(707) 263-7434",
-				"link":"tel:7072637434"
+		"location": {
+			"latitude":39.0711985,
+			"longitude":-122.9145559
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 263-7434",
+				"link": "tel:7072637434"
 			},
-			"email":{
-				"string":"3005@hasoil.com",
-				"link":"mailto:3005@hasoil.com"
+			"email": {
+				"string": "3005@hasoil.com",
+				"link": "mailto:3005@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -518,8 +558,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -536,27 +576,31 @@
 	},
 	{
 		"id":3006,
-		"address":{
-			"street":"6282 Hwy 20",
-			"city":"Lucerne",
-			"state":"CA",
+		"address": {
+			"street": "6282 Hwy 20",
+			"city": "Lucerne",
+			"state": "CA",
 			"zip":95458
 		},
-		"contact":{
-			"phone":{
-				"string":"(707) 274-8196",
-				"link":"tel:7072748196"
+		"location": {
+			"latitude":39.088113,
+			"longitude":-122.7936152
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 274-8196",
+				"link": "tel:7072748196"
 			},
-			"email":{
-				"string":"3006@hasoil.com",
-				"link":"mailto:3006@hasoil.com"
+			"email": {
+				"string": "3006@hasoil.com",
+				"link": "mailto:3006@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -568,8 +612,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -586,27 +630,31 @@
 	},
 	{
 		"id":3007,
-		"address":{
-			"street":"1088 Lakeport Blvd.",
-			"city":"Lakeport",
-			"state":"CA",
+		"address": {
+			"street": "1088 Lakeport Blvd.",
+			"city": "Lakeport",
+			"state": "CA",
 			"zip":95453
 		},
-		"contact":{
-			"phone":{
-				"string":"(707) 263-0870",
-				"link":"tel:7072630870"
+		"location": {
+			"latitude":39.0330047,
+			"longitude":-122.9250569
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 263-0870",
+				"link": "tel:7072630870"
 			},
-			"email":{
-				"string":"3007@hasoil.com",
-				"link":"mailto:3007@hasoil.com"
+			"email": {
+				"string": "3007@hasoil.com",
+				"link": "mailto:3007@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -618,8 +666,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -636,27 +684,31 @@
 	},
 	{
 		"id":3008,
-		"address":{
-			"street":"202 S. Main St.",
-			"city":"Lakeport",
-			"state":"CA",
+		"address": {
+			"street": "202 S. Main St.",
+			"city": "Lakeport",
+			"state": "CA",
 			"zip":95453
 		},
-		"contact":{
-			"phone":{
-				"string":"(707) 263-7220",
-				"link":"tel:7072637220"
+		"location": {
+			"latitude":39.0411266,
+			"longitude":-122.9149962
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 263-7220",
+				"link": "tel:7072637220"
 			},
-			"email":{
-				"string":"3008@hasoil.com",
-				"link":"mailto:3008@hasoil.com"
+			"email": {
+				"string": "3008@hasoil.com",
+				"link": "mailto:3008@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"5:00AM - 10:00PM",
+		"hoursOfOperation": "5:00AM - 10:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -668,8 +720,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -686,27 +738,31 @@
 	},
 	{
 		"id":3010,
-		"address":{
-			"street":"1670 Hartnell Ave.",
-			"city":"Redding",
-			"state":"CA",
+		"address": {
+			"street": "1670 Hartnell Ave.",
+			"city": "Redding",
+			"state": "CA",
 			"zip":96002
 		},
-		"contact":{
-			"phone":{
-				"string":"(530) 222-2348",
-				"link":"tel:5302222348"
+		"location": {
+			"latitude":40.5640935,
+			"longitude":-122.3402688
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 222-2348",
+				"link": "tel:5302222348"
 			},
-			"email":{
-				"string":"3010@hasoil.com",
-				"link":"mailto:3010@hasoil.com"
+			"email": {
+				"string": "3010@hasoil.com",
+				"link": "mailto:3010@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -718,8 +774,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -737,27 +793,31 @@
 	},
 	{
 		"id":3011,
-		"address":{
-			"street":"1495 Lake Blvd.",
-			"city":"Redding",
-			"state":"CA",
+		"address": {
+			"street": "1495 Lake Blvd.",
+			"city": "Redding",
+			"state": "CA",
 			"zip":96003
 		},
-		"contact":{
-			"phone":{
-				"string":"(530) 241-4629",
-				"link":"tel:5302414629"
+		"location": {
+			"latitude":40.6267034,
+			"longitude":-122.4045397
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 241-4629",
+				"link": "tel:5302414629"
 			},
-			"email":{
-				"string":"3011@hasoil.com",
-				"link":"mailto:3011@hasoil.com"
+			"email": {
+				"string": "3011@hasoil.com",
+				"link": "mailto:3011@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -769,8 +829,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -786,8 +846,8 @@
 				]
 			},
 			{
-				"type":"car-wash",
-				"name":"",
+				"type": "car-wash",
+				"name": "",
 				"products":[
 					
 				],
@@ -803,27 +863,31 @@
 	},
 	{
 		"id":3012,
-		"address":{
-			"street":"1975 Ponderosa Way",
-			"city":"Anderson",
-			"state":"CA",
+		"address": {
+			"street": "1975 Ponderosa Way",
+			"city": "Anderson",
+			"state": "CA",
 			"zip":96007
 		},
-		"contact":{
-			"phone":{
-				"string":"(530) 365-0332",
-				"link":"tel:5303650332"
+		"location": {
+			"latitude":40.437928,
+			"longitude":-122.291937
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 365-0332",
+				"link": "tel:5303650332"
 			},
-			"email":{
-				"string":"3012@hasoil.com",
-				"link":"mailto:3012@hasoil.com"
+			"email": {
+				"string": "3012@hasoil.com",
+				"link": "mailto:3012@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"e85",
 					"propane"
@@ -836,8 +900,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -854,27 +918,31 @@
 	},
 	{
 		"id":3013,
-		"address":{
-			"street":"3480 West Center St.",
-			"city":"Anderson",
-			"state":"CA",
+		"address": {
+			"street": "3480 West Center St.",
+			"city": "Anderson",
+			"state": "CA",
 			"zip":96007
 		},
-		"contact":{
-			"phone":{
-				"string":"(530) 365-5357",
-				"link":"tel:5303655357"
+		"location": {
+			"latitude":40.4538655,
+			"longitude":-122.3072005
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 365-5357",
+				"link": "tel:5303655357"
 			},
-			"email":{
-				"string":"3013@hasoil.com",
-				"link":"mailto:3013@hasoil.com"
+			"email": {
+				"string": "3013@hasoil.com",
+				"link": "mailto:3013@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -886,8 +954,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -904,27 +972,31 @@
 	},
 	{
 		"id":3014,
-		"address":{
-			"street":"710 E. Lassen Ave.",
-			"city":"Chico",
-			"state":"CA",
+		"address": {
+			"street": "710 E. Lassen Ave.",
+			"city": "Chico",
+			"state": "CA",
 			"zip":95973
 		},
-		"contact":{
-			"phone":{
-				"string":"(530) 892-2812",
-				"link":"tel:5308922812"
+		"location": {
+			"latitude":39.7672431,
+			"longitude":-121.8563617
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 892-2812",
+				"link": "tel:5308922812"
 			},
-			"email":{
-				"string":"3014@hasoil.com",
-				"link":"mailto:3014@hasoil.com"
+			"email": {
+				"string": "3014@hasoil.com",
+				"link": "mailto:3014@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -936,8 +1008,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -955,27 +1027,31 @@
 	},
 	{
 		"id":3015,
-		"address":{
-			"street":"1255 W. East Ave.",
-			"city":"Chico",
-			"state":"CA",
+		"address": {
+			"street": "1255 W. East Ave.",
+			"city": "Chico",
+			"state": "CA",
 			"zip":95926
 		},
-		"contact":{
-			"phone":{
-				"string":"(530) 892-2793",
-				"link":"tel:5308922793"
+		"location": {
+			"latitude":39.7423789,
+			"longitude":-121.8824545
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 892-2793",
+				"link": "tel:5308922793"
 			},
-			"email":{
-				"string":"3015@hasoil.com",
-				"link":"mailto:3015@hasoil.com"
+			"email": {
+				"string": "3015@hasoil.com",
+				"link": "mailto:3015@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"e85",
 					"propane"
@@ -988,8 +1064,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1007,27 +1083,31 @@
 	},
 	{
 		"id":3016,
-		"address":{
-			"street":"110 E. Park Ave.",
-			"city":"Chico",
-			"state":"CA",
+		"address": {
+			"street": "110 E. Park Ave.",
+			"city": "Chico",
+			"state": "CA",
 			"zip":95926
 		},
-		"contact":{
-			"phone":{
-				"string":"(530) 345-4265",
-				"link":"tel:5303454265"
+		"location": {
+			"latitude":39.7147216,
+			"longitude":-121.8126962
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 345-4265",
+				"link": "tel:5303454265"
 			},
-			"email":{
-				"string":"3016@hasoil.com",
-				"link":"mailto:3016@hasoil.com"
+			"email": {
+				"string": "3016@hasoil.com",
+				"link": "mailto:3016@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -1039,8 +1119,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1057,27 +1137,31 @@
 	},
 	{
 		"id":3017,
-		"address":{
-			"street":"2970 Olive Hwy.",
-			"city":"Oroville",
-			"state":"CA",
+		"address": {
+			"street": "2970 Olive Hwy.",
+			"city": "Oroville",
+			"state": "CA",
 			"zip":95966
 		},
-		"contact":{
-			"phone":{
-				"string":"(530) 534-3081",
-				"link":"tel:5305343081"
+		"location": {
+			"latitude":39.5025461,
+			"longitude":-121.5393419
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 534-3081",
+				"link": "tel:5305343081"
 			},
-			"email":{
-				"string":"3017@hasoil.com",
-				"link":"mailto:3017@hasoil.com"
+			"email": {
+				"string": "3017@hasoil.com",
+				"link": "mailto:3017@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -1089,8 +1173,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1107,27 +1191,31 @@
 	},
 	{
 		"id":3020,
-		"address":{
-			"street":"2330 Nicolaus Rd.",
-			"city":"Lincoln",
-			"state":"CA",
+		"address": {
+			"street": "2330 Nicolaus Rd.",
+			"city": "Lincoln",
+			"state": "CA",
 			"zip":95648
 		},
-		"contact":{
-			"phone":{
-				"string":"(916) 543-2176",
-				"link":"tel:9165432176"
+		"location": {
+			"latitude":38.8979404,
+			"longitude":-121.3231558
+		},
+		"contact": {
+			"phone": {
+				"string": "(916) 543-2176",
+				"link": "tel:9165432176"
 			},
-			"email":{
-				"string":"3020@hasoil.com",
-				"link":"mailto:3020@hasoil.com"
+			"email": {
+				"string": "3020@hasoil.com",
+				"link": "mailto:3020@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -1139,8 +1227,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1153,8 +1241,8 @@
 				]
 			},
 			{
-				"type":"amazon-locker",
-				"name":"",
+				"type": "amazon-locker",
+				"name": "",
 				"products":[
 					
 				],
@@ -1170,27 +1258,31 @@
 	},
 	{
 		"id":3023,
-		"address":{
-			"street":"1050 Sunset Blvd.",
-			"city":"Rocklin",
-			"state":"CA",
+		"address": {
+			"street": "1050 Sunset Blvd.",
+			"city": "Rocklin",
+			"state": "CA",
 			"zip":95765
 		},
-		"contact":{
-			"phone":{
-				"string":"(916) 435-8465",
-				"link":"tel:9164358465"
+		"location": {
+			"latitude":38.8142814,
+			"longitude":-121.2866424
+		},
+		"contact": {
+			"phone": {
+				"string": "(916) 435-8465",
+				"link": "tel:9164358465"
 			},
-			"email":{
-				"string":"3023@hasoil.com",
-				"link":"mailto:3023@hasoil.com"
+			"email": {
+				"string": "3023@hasoil.com",
+				"link": "mailto:3023@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -1202,8 +1294,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1220,8 +1312,8 @@
 				]
 			},
 			{
-				"type":"amazon-locker",
-				"name":"",
+				"type": "amazon-locker",
+				"name": "",
 				"products":[
 					
 				],
@@ -1237,27 +1329,31 @@
 	},
 	{
 		"id":3024,
-		"address":{
-			"street":"9811 Live Oak Blvd.",
-			"city":"Live Oak",
-			"state":"CA",
+		"address": {
+			"street": "9811 Live Oak Blvd.",
+			"city": "Live Oak",
+			"state": "CA",
 			"zip":95953
 		},
-		"contact":{
-			"phone":{
-				"string":"(530) 695-0585",
-				"link":"tel:5306950585"
+		"location": {
+			"latitude":39.2742169,
+			"longitude":-121.6603489
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 695-0585",
+				"link": "tel:5306950585"
 			},
-			"email":{
-				"string":"3024@hasoil.com",
-				"link":"mailto:3024@hasoil.com"
+			"email": {
+				"string": "3024@hasoil.com",
+				"link": "mailto:3024@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -1269,8 +1365,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1288,27 +1384,31 @@
 	},
 	{
 		"id":3025,
-		"address":{
-			"street":"1976 McGowan Pkwy.",
-			"city":"Olivehurst",
-			"state":"CA",
+		"address": {
+			"street": "1976 McGowan Pkwy.",
+			"city": "Olivehurst",
+			"state": "CA",
 			"zip":95961
 		},
-		"contact":{
-			"phone":{
-				"string":"(530) 743-1810",
-				"link":"tel:5307431810"
+		"location": {
+			"latitude":39.076825,
+			"longitude":-121.5436582
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 743-1810",
+				"link": "tel:5307431810"
 			},
-			"email":{
-				"string":"3025@hasoil.com",
-				"link":"mailto:3025@hasoil.com"
+			"email": {
+				"string": "3025@hasoil.com",
+				"link": "mailto:3025@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -1320,8 +1420,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1337,27 +1437,31 @@
 	},
 	{
 		"id":3026,
-		"address":{
-			"street":"4217 Arboga Rd.",
-			"city":"Olivehurst",
-			"state":"CA",
+		"address": {
+			"street": "4217 Arboga Rd.",
+			"city": "Olivehurst",
+			"state": "CA",
 			"zip":95961
 		},
-		"contact":{
-			"phone":{
-				"string":"(530) 749-9600",
-				"link":"tel:5307499600"
+		"location": {
+			"latitude":39.0766047,
+			"longitude":-121.5607041
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 749-9600",
+				"link": "tel:5307499600"
 			},
-			"email":{
-				"string":"3026@hasoil.com",
-				"link":"mailto:3026@hasoil.com"
+			"email": {
+				"string": "3026@hasoil.com",
+				"link": "mailto:3026@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -1369,8 +1473,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1386,8 +1490,8 @@
 				]
 			},
 			{
-				"type":"car-wash",
-				"name":"",
+				"type": "car-wash",
+				"name": "",
 				"products":[
 					
 				],
@@ -1403,27 +1507,31 @@
 	},
 	{
 		"id":3027,
-		"address":{
-			"street":"901 East St.",
-			"city":"Woodland",
-			"state":"CA",
+		"address": {
+			"street": "901 East St.",
+			"city": "Woodland",
+			"state": "CA",
 			"zip":95695
 		},
-		"contact":{
-			"phone":{
-				"string":"(530) 668-8164",
-				"link":"tel:5306688164"
+		"location": {
+			"latitude":38.6681148,
+			"longitude":-121.7651807
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 668-8164",
+				"link": "tel:5306688164"
 			},
-			"email":{
-				"string":"3027@hasoil.com",
-				"link":"mailto:3027@hasoil.com"
+			"email": {
+				"string": "3027@hasoil.com",
+				"link": "mailto:3027@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -1435,8 +1543,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1454,27 +1562,31 @@
 	},
 	{
 		"id":3028,
-		"address":{
-			"street":"4430 Auburn Blvd.",
-			"city":"Sacramento",
-			"state":"CA",
+		"address": {
+			"street": "4430 Auburn Blvd.",
+			"city": "Sacramento",
+			"state": "CA",
 			"zip":95841
 		},
-		"contact":{
-			"phone":{
-				"string":"(916) 484-9710",
-				"link":"tel:9164849710"
+		"location": {
+			"latitude":38.6482051,
+			"longitude":-121.3595238
+		},
+		"contact": {
+			"phone": {
+				"string": "(916) 484-9710",
+				"link": "tel:9164849710"
 			},
-			"email":{
-				"string":"3028@hasoil.com",
-				"link":"mailto:3028@hasoil.com"
+			"email": {
+				"string": "3028@hasoil.com",
+				"link": "mailto:3028@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -1486,8 +1598,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1507,27 +1619,31 @@
 	},
 	{
 		"id":3029,
-		"address":{
-			"street":"530 Bogue Rd.",
-			"city":"Yuba City",
-			"state":"CA",
+		"address": {
+			"street": "530 Bogue Rd.",
+			"city": "Yuba City",
+			"state": "CA",
 			"zip":95991
 		},
-		"contact":{
-			"phone":{
-				"string":"(530) 671-3999",
-				"link":"tel:5306713999"
+		"location": {
+			"latitude":39.1000693,
+			"longitude":-121.6173013
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 671-3999",
+				"link": "tel:5306713999"
 			},
-			"email":{
-				"string":"3029@hasoil.com",
-				"link":"mailto:3029@hasoil.com"
+			"email": {
+				"string": "3029@hasoil.com",
+				"link": "mailto:3029@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -1539,8 +1655,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1560,27 +1676,31 @@
 	},
 	{
 		"id":3032,
-		"address":{
-			"street":"130 Pleasant Vly Rd.",
-			"city":"Diamond Springs",
-			"state":"CA",
+		"address": {
+			"street": "130 Pleasant Vly Rd.",
+			"city": "Diamond Springs",
+			"state": "CA",
 			"zip":95619
 		},
-		"contact":{
-			"phone":{
-				"string":"(530) 621-1895",
-				"link":"tel:5306211895"
+		"location": {
+			"latitude":38.6888456,
+			"longitude":-120.8312727
+		},
+		"contact": {
+			"phone": {
+				"string": "(530) 621-1895",
+				"link": "tel:5306211895"
 			},
-			"email":{
-				"string":"3032@hasoil.com",
-				"link":"mailto:3032@hasoil.com"
+			"email": {
+				"string": "3032@hasoil.com",
+				"link": "mailto:3032@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -1592,8 +1712,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1611,27 +1731,31 @@
 	},
 	{
 		"id":3033,
-		"address":{
-			"street":"1049 South Main St.",
-			"city":"Angels Camp",
-			"state":"CA",
+		"address": {
+			"street": "1049 South Main St.",
+			"city": "Angels Camp",
+			"state": "CA",
 			"zip":95222
 		},
-		"contact":{
-			"phone":{
-				"string":"(209) 736-9469",
-				"link":"tel:2097369469"
+		"location": {
+			"latitude":38.072192,
+			"longitude":-120.5419304
+		},
+		"contact": {
+			"phone": {
+				"string": "(209) 736-9469",
+				"link": "tel:2097369469"
 			},
-			"email":{
-				"string":"3033@hasoil.com",
-				"link":"mailto:3033@hasoil.com"
+			"email": {
+				"string": "3033@hasoil.com",
+				"link": "mailto:3033@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"5:00AM - 11:00PM",
+		"hoursOfOperation": "5:00AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -1643,8 +1767,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1661,27 +1785,31 @@
 	},
 	{
 		"id":3034,
-		"address":{
-			"street":"1434 W. Yosemite Ave.",
-			"city":"Manteca",
-			"state":"CA",
+		"address": {
+			"street": "1434 W. Yosemite Ave.",
+			"city": "Manteca",
+			"state": "CA",
 			"zip":95337
 		},
-		"contact":{
-			"phone":{
-				"string":"(209) 823-2057",
-				"link":"tel:2098232057"
+		"location": {
+			"latitude":37.7969832,
+			"longitude":-121.2389836
+		},
+		"contact": {
+			"phone": {
+				"string": "(209) 823-2057",
+				"link": "tel:2098232057"
 			},
-			"email":{
-				"string":"3034@hasoil.com",
-				"link":"mailto:3034@hasoil.com"
+			"email": {
+				"string": "3034@hasoil.com",
+				"link": "mailto:3034@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"5:00AM - 11:00PM",
+		"hoursOfOperation": "5:00AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Texaco",
+				"type": "energy-station",
+				"name": "Texaco",
 				"products":[
 					"propane"
 				],
@@ -1693,8 +1821,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1712,27 +1840,31 @@
 	},
 	{
 		"id":3035,
-		"address":{
-			"street":"192 Lathrop Rd.",
-			"city":"Lathrop",
-			"state":"CA",
+		"address": {
+			"street": "192 Lathrop Rd.",
+			"city": "Lathrop",
+			"state": "CA",
 			"zip":95330
 		},
-		"contact":{
-			"phone":{
-				"string":"(209) 858-4998",
-				"link":"tel:2098584998"
+		"location": {
+			"latitude":37.8257802,
+			"longitude":-121.2860613
+		},
+		"contact": {
+			"phone": {
+				"string": "(209) 858-4998",
+				"link": "tel:2098584998"
 			},
-			"email":{
-				"string":"3035@hasoil.com",
-				"link":"mailto:3035@hasoil.com"
+			"email": {
+				"string": "3035@hasoil.com",
+				"link": "mailto:3035@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"H&S",
+				"type": "energy-station",
+				"name": "H&S",
 				"products":[
 					"propane"
 				],
@@ -1744,8 +1876,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1763,27 +1895,31 @@
 	},
 	{
 		"id":3036,
-		"address":{
-			"street":"440 W. St. Charles St.",
-			"city":"San Andreas",
-			"state":"CA",
+		"address": {
+			"street": "440 W. St. Charles St.",
+			"city": "San Andreas",
+			"state": "CA",
 			"zip":95249
 		},
-		"contact":{
-			"phone":{
-				"string":"(209) 754-1478",
-				"link":"tel:2097541478"
+		"location": {
+			"latitude":38.1997867,
+			"longitude":-120.6888033
+		},
+		"contact": {
+			"phone": {
+				"string": "(209) 754-1478",
+				"link": "tel:2097541478"
 			},
-			"email":{
-				"string":"3036@hasoil.com",
-				"link":"mailto:3036@hasoil.com"
+			"email": {
+				"string": "3036@hasoil.com",
+				"link": "mailto:3036@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"24/7",
+		"hoursOfOperation": "24/7",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -1795,8 +1931,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1813,27 +1949,31 @@
 	},
 	{
 		"id":3040,
-		"address":{
-			"street":"3475 Main St.",
-			"city":"Oakley",
-			"state":"CA",
+		"address": {
+			"street": "3475 Main St.",
+			"city": "Oakley",
+			"state": "CA",
 			"zip":94561
 		},
-		"contact":{
-			"phone":{
-				"string":"(925) 625-3602",
-				"link":"tel:9256253602"
+		"location": {
+			"latitude":37.9975143,
+			"longitude":-121.7145361
+		},
+		"contact": {
+			"phone": {
+				"string": "(925) 625-3602",
+				"link": "tel:9256253602"
 			},
-			"email":{
-				"string":"3040@hasoil.com",
-				"link":"mailto:3040@hasoil.com"
+			"email": {
+				"string": "3040@hasoil.com",
+				"link": "mailto:3040@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -1845,8 +1985,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1864,27 +2004,31 @@
 	},
 	{
 		"id":3041,
-		"address":{
-			"street":"3180 Jefferson Blvd.",
-			"city":"West Sacramento",
-			"state":"CA",
+		"address": {
+			"street": "3180 Jefferson Blvd.",
+			"city": "West Sacramento",
+			"state": "CA",
 			"zip":95691
 		},
-		"contact":{
-			"phone":{
-				"string":"(916) 371-1422",
-				"link":"tel:9163711422"
+		"location": {
+			"latitude":38.5396268,
+			"longitude":-121.5509601
+		},
+		"contact": {
+			"phone": {
+				"string": "(916) 371-1422",
+				"link": "tel:9163711422"
 			},
-			"email":{
-				"string":"3041@hasoil.com",
-				"link":"mailto:3041@hasoil.com"
+			"email": {
+				"string": "3041@hasoil.com",
+				"link": "mailto:3041@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -1896,8 +2040,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1914,8 +2058,8 @@
 				]
 			},
 			{
-				"type":"amazon-locker",
-				"name":"",
+				"type": "amazon-locker",
+				"name": "",
 				"products":[
 					
 				],
@@ -1931,27 +2075,31 @@
 	},
 	{
 		"id":3042,
-		"address":{
-			"street":"4720 Gold Hill Rd.",
-			"city":"Fairfield",
-			"state":"CA",
+		"address": {
+			"street": "4720 Gold Hill Rd.",
+			"city": "Fairfield",
+			"state": "CA",
 			"zip":94534
 		},
-		"contact":{
-			"phone":{
-				"string":"(707) 864-2506",
-				"link":"tel:7078642506"
+		"location": {
+			"latitude":38.1763597,
+			"longitude":-122.1377516
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 864-2506",
+				"link": "tel:7078642506"
 			},
-			"email":{
-				"string":"3042@hasoil.com",
-				"link":"mailto:3042@hasoil.com"
+			"email": {
+				"string": "3042@hasoil.com",
+				"link": "mailto:3042@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"e85",
 					"propane"
@@ -1964,8 +2112,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -1985,27 +2133,31 @@
 	},
 	{
 		"id":3043,
-		"address":{
-			"street":"119 Red Top Rd.",
-			"city":"Fairfield",
-			"state":"CA",
+		"address": {
+			"street": "119 Red Top Rd.",
+			"city": "Fairfield",
+			"state": "CA",
 			"zip":94534
 		},
-		"contact":{
-			"phone":{
-				"string":"(707) 863-0421",
-				"link":"tel:7078630421"
+		"location": {
+			"latitude":38.2030245,
+			"longitude":-122.1579595
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 863-0421",
+				"link": "tel:7078630421"
 			},
-			"email":{
-				"string":"3043@hasoil.com",
-				"link":"mailto:3043@hasoil.com"
+			"email": {
+				"string": "3043@hasoil.com",
+				"link": "mailto:3043@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"24/7",
+		"hoursOfOperation": "24/7",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -2017,8 +2169,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -2033,8 +2185,8 @@
 				]
 			},
 			{
-				"type":"amazon-locker",
-				"name":"",
+				"type": "amazon-locker",
+				"name": "",
 				"products":[
 					
 				],
@@ -2050,27 +2202,31 @@
 	},
 	{
 		"id":3044,
-		"address":{
-			"street":"3012 Howe Rd.",
-			"city":"Martinez",
-			"state":"CA",
+		"address": {
+			"street": "3012 Howe Rd.",
+			"city": "Martinez",
+			"state": "CA",
 			"zip":94553
 		},
-		"contact":{
-			"phone":{
-				"string":"(925) 372-7135",
-				"link":"tel:9253727135"
+		"location": {
+			"latitude":37.9964946,
+			"longitude":-122.120089
+		},
+		"contact": {
+			"phone": {
+				"string": "(925) 372-7135",
+				"link": "tel:9253727135"
 			},
-			"email":{
-				"string":"3044@hasoil.com",
-				"link":"mailto:3044@hasoil.com"
+			"email": {
+				"string": "3044@hasoil.com",
+				"link": "mailto:3044@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -2082,8 +2238,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -2098,8 +2254,8 @@
 				]
 			},
 			{
-				"type":"amazon-locker",
-				"name":"",
+				"type": "amazon-locker",
+				"name": "",
 				"products":[
 					
 				],
@@ -2115,27 +2271,31 @@
 	},
 	{
 		"id":3045,
-		"address":{
-			"street":"3575 Willow Pass Rd.",
-			"city":"Bay Point",
-			"state":"CA",
+		"address": {
+			"street": "3575 Willow Pass Rd.",
+			"city": "Bay Point",
+			"state": "CA",
 			"zip":94565
 		},
-		"contact":{
-			"phone":{
-				"string":"(925) 458-3894",
-				"link":"tel:9254583894"
+		"location": {
+			"latitude":38.0263618,
+			"longitude":-121.9580205
+		},
+		"contact": {
+			"phone": {
+				"string": "(925) 458-3894",
+				"link": "tel:9254583894"
 			},
-			"email":{
-				"string":"3045@hasoil.com",
-				"link":"mailto:3045@hasoil.com"
+			"email": {
+				"string": "3045@hasoil.com",
+				"link": "mailto:3045@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -2147,8 +2307,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -2166,27 +2326,31 @@
 	},
 	{
 		"id":3046,
-		"address":{
-			"street":"8750 Brentwood Blvd.",
-			"city":"Brentwood",
-			"state":"CA",
+		"address": {
+			"street": "8750 Brentwood Blvd.",
+			"city": "Brentwood",
+			"state": "CA",
 			"zip":94513
 		},
-		"contact":{
-			"phone":{
-				"string":"(925) 516-7528",
-				"link":"tel:9255167528"
+		"location": {
+			"latitude":37.9251033,
+			"longitude":-121.6893945
+		},
+		"contact": {
+			"phone": {
+				"string": "(925) 516-7528",
+				"link": "tel:9255167528"
 			},
-			"email":{
-				"string":"3046@hasoil.com",
-				"link":"mailto:3046@hasoil.com"
+			"email": {
+				"string": "3046@hasoil.com",
+				"link": "mailto:3046@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"H&S",
+				"type": "energy-station",
+				"name": "H&S",
 				"products":[
 					"e85",
 					"propane"
@@ -2199,8 +2363,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -2218,27 +2382,31 @@
 	},
 	{
 		"id":3047,
-		"address":{
-			"street":"1805 Willow Pass Rd.",
-			"city":"Bay Point",
-			"state":"CA",
+		"address": {
+			"street": "1805 Willow Pass Rd.",
+			"city": "Bay Point",
+			"state": "CA",
 			"zip":94565
 		},
-		"contact":{
-			"phone":{
-				"string":"(925) 458-2689",
-				"link":"tel:9254582689"
+		"location": {
+			"latitude":38.0265192,
+			"longitude":-121.9279781
+		},
+		"contact": {
+			"phone": {
+				"string": "(925) 458-2689",
+				"link": "tel:9254582689"
 			},
-			"email":{
-				"string":"3047@hasoil.com",
-				"link":"mailto:3047@hasoil.com"
+			"email": {
+				"string": "3047@hasoil.com",
+				"link": "mailto:3047@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -2250,8 +2418,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -2269,27 +2437,31 @@
 	},
 	{
 		"id":3048,
-		"address":{
-			"street":"4155 Suisun Vly Rd.",
-			"city":"Suisun City",
-			"state":"CA",
+		"address": {
+			"street": "4155 Suisun Vly Rd.",
+			"city": "Suisun City",
+			"state": "CA",
 			"zip":94534
 		},
-		"contact":{
-			"phone":{
-				"string":"(707) 864-1608",
-				"link":"tel:7078641608"
+		"location": {
+			"latitude":38.2435823,
+			"longitude":-122.1227511
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 864-1608",
+				"link": "tel:7078641608"
 			},
-			"email":{
-				"string":"3048@hasoil.com",
-				"link":"mailto:3048@hasoil.com"
+			"email": {
+				"string": "3048@hasoil.com",
+				"link": "mailto:3048@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -2301,8 +2473,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -2320,27 +2492,31 @@
 	},
 	{
 		"id":3049,
-		"address":{
-			"street":"254 Bailey Rd.",
-			"city":"Pittsburg",
-			"state":"CA",
+		"address": {
+			"street": "254 Bailey Rd.",
+			"city": "Pittsburg",
+			"state": "CA",
 			"zip":94565
 		},
-		"contact":{
-			"phone":{
-				"string":"(925) 458-4317",
-				"link":"tel:9254584317"
+		"location": {
+			"latitude":38.020629,
+			"longitude":-121.9422226
+		},
+		"contact": {
+			"phone": {
+				"string": "(925) 458-4317",
+				"link": "tel:9254584317"
 			},
-			"email":{
-				"string":"3049@hasoil.com",
-				"link":"mailto:3049@hasoil.com"
+			"email": {
+				"string": "3049@hasoil.com",
+				"link": "mailto:3049@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -2352,8 +2528,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -2371,27 +2547,31 @@
 	},
 	{
 		"id":3050,
-		"address":{
-			"street":"425 Laurel St.",
-			"city":"Vallejo",
-			"state":"CA",
+		"address": {
+			"street": "425 Laurel St.",
+			"city": "Vallejo",
+			"state": "CA",
 			"zip":94591
 		},
-		"contact":{
-			"phone":{
-				"string":"(707) 557-0450",
-				"link":"tel:7075570450"
+		"location": {
+			"latitude":38.0937627,
+			"longitude":-122.2285752
+		},
+		"contact": {
+			"phone": {
+				"string": "(707) 557-0450",
+				"link": "tel:7075570450"
 			},
-			"email":{
-				"string":"3050@hasoil.com",
-				"link":"mailto:3050@hasoil.com"
+			"email": {
+				"string": "3050@hasoil.com",
+				"link": "mailto:3050@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"5:30AM - 11:00PM",
+		"hoursOfOperation": "5:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Texaco",
+				"type": "energy-station",
+				"name": "Texaco",
 				"products":[
 					"propane"
 				],
@@ -2403,8 +2583,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -2422,27 +2602,31 @@
 	},
 	{
 		"id":3051,
-		"address":{
-			"street":"3519 A St.",
-			"city":"North Highlands",
-			"state":"CA",
+		"address": {
+			"street": "3519 A St.",
+			"city": "North Highlands",
+			"state": "CA",
 			"zip":95660
 		},
-		"contact":{
-			"phone":{
-				"string":"(916) 332-9740",
-				"link":"tel:9163329740"
+		"location": {
+			"latitude":38.6689938,
+			"longitude":-121.382005
+		},
+		"contact": {
+			"phone": {
+				"string": "(916) 332-9740",
+				"link": "tel:9163329740"
 			},
-			"email":{
-				"string":"3051@hasoil.com",
-				"link":"mailto:3051@hasoil.com"
+			"email": {
+				"string": "3051@hasoil.com",
+				"link": "mailto:3051@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"4:30AM - 11:00PM",
+		"hoursOfOperation": "4:30AM - 11:00PM",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Texaco",
+				"type": "energy-station",
+				"name": "Texaco",
 				"products":[
 					"e85",
 					"propane"
@@ -2455,8 +2639,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"Power Market",
+				"type": "store",
+				"name": "Power Market",
 				"products":[
 					"alcohol"
 				],
@@ -2474,27 +2658,31 @@
 	},
 	{
 		"id":3053,
-		"address":{
-			"street":"545 West Alma Street",
-			"city":"San Jose",
-			"state":"CA",
+		"address": {
+			"street": "545 West Alma Street",
+			"city": "San Jose",
+			"state": "CA",
 			"zip":95125
 		},
-		"contact":{
-			"phone":{
-				"string":"(408) 547-1988",
-				"link":"tel:4085471988"
+		"location": {
+			"latitude":37.309443,
+			"longitude":-121.8863452
+		},
+		"contact": {
+			"phone": {
+				"string": "(408) 547-1988",
+				"link": "tel:4085471988"
 			},
-			"email":{
-				"string":"3053@hasoil.com",
-				"link":"mailto:3053@hasoil.com"
+			"email": {
+				"string": "3053@hasoil.com",
+				"link": "mailto:3053@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"24/7",
+		"hoursOfOperation": "24/7",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Texaco",
+				"type": "energy-station",
+				"name": "Texaco",
 				"products":[
 					"e85",
 					"propane"
@@ -2507,8 +2695,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"",
+				"type": "store",
+				"name": "PM GO",
 				"products":[
 					
 				],
@@ -2525,27 +2713,31 @@
 	},
 	{
 		"id":3054,
-		"address":{
-			"street":"3501 Homestead Rd",
-			"city":"Santa Clara",
-			"state":"CA",
+		"address": {
+			"street": "3501 Homestead Rd",
+			"city": "Santa Clara",
+			"state": "CA",
 			"zip":95051
 		},
-		"contact":{
-			"phone":{
-				"string":"(669) 600-0933",
-				"link":"tel:6696000933"
+		"location": {
+			"latitude":37.3382043,
+			"longitude":-121.9933186
+		},
+		"contact": {
+			"phone": {
+				"string": "(669) 600-0933",
+				"link": "tel:6696000933"
 			},
-			"email":{
-				"string":"3054@hasoil.com",
-				"link":"mailto:3054@hasoil.com"
+			"email": {
+				"string": "3054@hasoil.com",
+				"link": "mailto:3054@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"24/7",
+		"hoursOfOperation": "24/7",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Texaco",
+				"type": "energy-station",
+				"name": "Texaco",
 				"products":[
 					"propane"
 				],
@@ -2557,8 +2749,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"",
+				"type": "store",
+				"name": "PM GO",
 				"products":[
 					
 				],
@@ -2575,27 +2767,31 @@
 	},
 	{
 		"id":3057,
-		"address":{
-			"street":"31300 Alvarado Niles Rd",
-			"city":"Union City",
-			"state":"CA",
+		"address": {
+			"street": "31300 Alvarado Niles Rd",
+			"city": "Union City",
+			"state": "CA",
 			"zip":94587
 		},
-		"contact":{
-			"phone":{
-				"string":"(510) 588-1005",
-				"link":"tel:5105881005"
+		"location": {
+			"latitude":37.5985624,
+			"longitude":-122.0661448
+		},
+		"contact": {
+			"phone": {
+				"string": "(510) 588-1005",
+				"link": "tel:5105881005"
 			},
-			"email":{
-				"string":"3057@hasoil.com",
-				"link":"mailto:3057@hasoil.com"
+			"email": {
+				"string": "3057@hasoil.com",
+				"link": "mailto:3057@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"24/7",
+		"hoursOfOperation": "24/7",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Chevron",
+				"type": "energy-station",
+				"name": "Chevron",
 				"products":[
 					"propane"
 				],
@@ -2607,8 +2803,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"",
+				"type": "store",
+				"name": "PM GO",
 				"products":[
 					
 				],
@@ -2625,27 +2821,31 @@
 	},
 	{
 		"id":3059,
-		"address":{
-			"street":"36979 Fremont Blvd.",
-			"city":"Fremont",
-			"state":"CA",
+		"address": {
+			"street": "36979 Fremont Blvd.",
+			"city": "Fremont",
+			"state": "CA",
 			"zip":94536
 		},
-		"contact":{
-			"phone":{
-				"string":"(510) 588-1010",
-				"link":"tel:5105881010"
+		"location": {
+			"latitude":37.5605734,
+			"longitude":-122.0124624
+		},
+		"contact": {
+			"phone": {
+				"string": "(510) 588-1010",
+				"link": "tel:5105881010"
 			},
-			"email":{
-				"string":"3059@hasoil.com",
-				"link":"mailto:3059@hasoil.com"
+			"email": {
+				"string": "3059@hasoil.com",
+				"link": "mailto:3059@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"24/7",
+		"hoursOfOperation": "24/7",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Texaco",
+				"type": "energy-station",
+				"name": "Texaco",
 				"products":[
 					"propane"
 				],
@@ -2657,8 +2857,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"",
+				"type": "store",
+				"name": "PM GO",
 				"products":[
 					
 				],
@@ -2675,27 +2875,31 @@
 	},
 	{
 		"id":3061,
-		"address":{
-			"street":"3800 3rd Street",
-			"city":"San Francisco",
-			"state":"CA",
+		"address": {
+			"street": "3800 3rd Street",
+			"city": "San Francisco",
+			"state": "CA",
 			"zip":94124
 		},
-		"contact":{
-			"phone":{
-				"string":"(415) 707-1330",
-				"link":"tel:4157071330"
+		"location": {
+			"latitude":37.7425903,
+			"longitude":-122.3884857
+		},
+		"contact": {
+			"phone": {
+				"string": "(415) 707-1330",
+				"link": "tel:4157071330"
 			},
-			"email":{
-				"string":"3061@hasoil.com",
-				"link":"mailto:3061@hasoil.com"
+			"email": {
+				"string": "3061@hasoil.com",
+				"link": "mailto:3061@hasoil.com"
 			}
 		},
-		"hoursOfOperation":"24/7",
+		"hoursOfOperation": "24/7",
 		"amenities":[
 			{
-				"type":"energy-station",
-				"name":"Texaco",
+				"type": "energy-station",
+				"name": "Texaco",
 				"products":[
 					"propane"
 				],
@@ -2707,8 +2911,8 @@
 				]
 			},
 			{
-				"type":"store",
-				"name":"",
+				"type": "store",
+				"name": "PM GO",
 				"products":[
 					
 				],

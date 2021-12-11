@@ -1,15 +1,22 @@
 <template>
 	<BContainer class="py-5">
-		<BRow>
-			<BCol cols="12" md="6">
-				<p v-html="defaultData.aboutHTML"></p>
-			</BCol>
+		<BCard no-body bg-variant="white" class="mb-6 shadow">
+			<BCardHeader class="bg-gradient">
+				<h1 class="my-3 text-center text-light">About Power Market</h1>
+			</BCardHeader>
 
-			<BCol cols="12" md="6">
-				<img :src="image" class="w-100 rounded">
-			</BCol>
-		</BRow>
-		<br><br><br>
+			<BCardBody>
+				<BRow>
+					<BCol cols="12" md="7">
+						<p v-html="defaultData.aboutHTML"></p>
+					</BCol>
+
+					<BCol cols="12" md="5">
+						<img :src="image" class="w-100 rounded">
+					</BCol>
+				</BRow>
+			</BCardBody>
+		</BCard>
 	</BContainer>
 </template>
 

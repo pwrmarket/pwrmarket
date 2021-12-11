@@ -3,13 +3,16 @@
 		<BContainer class="py-2">
 			<BRow class="m-0 p-0 contact-info">
 				<BCol cols="12">	
-					<h6 class="m-0 text-center text-light">At a Glance</h6>
+					<h6 class="m-0 text-center text-light font-weight-bold">
+						At a Glance
+					</h6>
+					<hr class="bg-light">
 				</BCol>
 
 				<!-- EMAIL -->
 				<BCol
 					v-for="(a, i) in location.amenities" :key="i"
-					cols="12" sm="6" md="6" lg="6" xl="3" class="mx-auto py-2"
+					cols="12" md="4" lg="4" xl="3" class="py-2"
 				>
 					<!-- Store -->
 					<div v-if="a.type == 'store'">
@@ -66,7 +69,7 @@
 						</i>
 					
 						<h6 class="small font-weight-bold">
-							Service Service
+							Service Shop
 						</h6>
 						<h6 class="m-0 font-weight-bold">
 							<a :href="companyInfo.emailLink" class="text-light">

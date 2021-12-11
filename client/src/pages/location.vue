@@ -1,5 +1,5 @@
 <template>
-	<BContainer class="mb-5 py-5">
+	<BContainer class="mb-6 py-5">
 		<BCard no-body bg-variant="white" class="shadow">
 			<BCardHeader class="text-light bg-gradient">
 				<h3 class="my-3 text-center font-weight-bold">

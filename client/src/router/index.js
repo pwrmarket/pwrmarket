@@ -7,9 +7,9 @@ import VueRouter from 'vue-router'
 import companyInfo from '@/defaults/companyInfo'
 import index from '@/pages'
 import about from '@/pages/about'
-import contact from '@/pages/contact'
 import location from '@/pages/location'
 import ourLocations from '@/pages/our-locations'
+import pml from '@/pages/pml'
 import notFound from '@/pages/404'
 
 
@@ -52,11 +52,11 @@ const routes = [
 		},
 	},
 	{
-		path: '/contact',
-		name: 'contact',
-		component: contact,
+		path: '/pml',
+		name: 'pml',
+		component: pml,
 		meta: {
-			title: 'Contact',
+			title: 'Power Market Loyalty',
 			show: true,
 		},
 	},

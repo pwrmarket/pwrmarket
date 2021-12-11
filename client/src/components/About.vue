@@ -29,7 +29,7 @@
 			
 
 			<div class="text-center">
-				<RouterLink to="/contact">
+				<RouterLink to="/pml">
 					<BButton size="lg" class="">Contact Us</BButton>
 				</RouterLink>
 			</div>

@@ -9,7 +9,7 @@
 				<BCol cols="12" md="7">
 					<BListGroup class="shadow">
 						<BListGroupItem variant="light">
-							<h4 class="m-0 text-primary">HOW IT WORKS</h4> 
+							<h4 class="m-0 text-center text-primary">How It Works</h4> 
 						</BListGroupItem>
 
 						<BListGroupItem variant="light" class="text-secondary">

@@ -1,7 +1,7 @@
 <template>
 	<BContainer fluid class="mb-6 p-0 pb-5">
 		<div class="py-5 bg-gradient">
-			<h2 class="m-0 text-center text-light">About Power Market</h2>
+			<h2 class="m-0 text-center text-light">Our Loyalty System</h2>
 		</div>
 
 		<BContainer class="py-4">

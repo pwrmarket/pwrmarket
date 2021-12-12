@@ -1,42 +1,38 @@
 <template>
 	<BContainer fluid class="mb-6 pb-5 px-0">
-		<BCard no-body bg-variant="white" class="border-0">
-			<BCardHeader class="text-light bg-gradient">
-				<h2 class="my-5 text-center">
-					{{ location.address.street }}
-					{{ location.address.city }} {{ location.address.state }}
-					{{ location.address.zip }}
-				</h2>
-			</BCardHeader>
+		<div class="py-5 text-light bg-gradient">
+			<h2 class="m-0 text-center">
+				{{ location.address.street }}
+				{{ location.address.city }} {{ location.address.state }}
+				{{ location.address.zip }}
+			</h2>
+		</div>
 
-			<BCardBody>
-				<BContainer>
-					<BRow>
-						<BCol cols="12" xl="9">
-							<LocationAtAGlance :location="location" class="mb-4" />
-							<LocationMap
-								:location="location"
-								:distance="distance"
-								class="d-none d-xl-block mb-4"
-							/>
-						</BCol>
+		<BContainer class="py-4">
+			<BRow>
+				<BCol cols="12" xl="9">
+					<LocationAtAGlance :location="location" class="mb-4" />
+					<LocationMap
+						:location="location"
+						:distance="distance"
+						class="d-none d-xl-block mb-4"
+					/>
+				</BCol>
 
-						<BCol cols="12" xl="3">
-							<LocationDetails
-								:location="location"
-								:distance="distance"
-								class="mb-4"
-							/>
-							<hr>
-						</BCol>
+				<BCol cols="12" xl="3">
+					<LocationDetails
+						:location="location"
+						:distance="distance"
+						class="mb-4"
+					/>
+					<hr>
+				</BCol>
 
-						<BCol cols="12">
-							<LocationAmenities :location="location" />
-						</BCol>
-					</BRow>
-				</BContainer>
-			</BCardBody>
-		</BCard>
+				<BCol cols="12">
+					<LocationAmenities :location="location" />
+				</BCol>
+			</BRow>
+		</BContainer>
 	</BContainer>
 </template>
 

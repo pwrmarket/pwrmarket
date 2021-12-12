@@ -8,8 +8,8 @@ import companyInfo from '@/defaults/companyInfo'
 import index from '@/pages'
 import about from '@/pages/about'
 import location from '@/pages/location'
+import loyalty from '@/pages/loyalty'
 import ourLocations from '@/pages/our-locations'
-import pml from '@/pages/pml'
 import notFound from '@/pages/404'
 
 
@@ -52,11 +52,11 @@ const routes = [
 		},
 	},
 	{
-		path: '/pml',
-		name: 'pml',
-		component: pml,
+		path: '/loyalty',
+		name: 'loyalty',
+		component: loyalty,
 		meta: {
-			title: 'Power Market Loyalty',
+			title: 'Loyalty Rewards',
 			show: true,
 		},
 	},

@@ -1,127 +1,127 @@
 <template>
-	<BContainer class="mb-5 py-5">
-		<BCard no-body bg-variant="white" class="shadow">
-			<BCardHeader class="bg-gradient">
-				<h1 class="my-3 text-center text-light">Our Locations</h1>
-			</BCardHeader>
-			
-			<BCardBody class="pb-0">
-				<BRow>
-					<BCol cols="12">
-						<h5 class="text-primary">
-							Filter
-						</h5>
-					</BCol>
-				</BRow>
+	<BContainer fluid class="mb-6 p-0 pb-5">
+		<div class="py-5 bg-gradient">
+			<h2 class="m-0 text-center text-light">Our Locations</h2>
+		</div>
 
-				<BRow>
-					<BCol cols="12" class="">
-						<h6 class="text-secondary">Amenities</h6>
-						<input
-							v-model="filters_amenities"
-							type="checkbox"
-							id="energy-station"
-							value="energy-station"
-							class="mr-1"
-						>
-						<label for="powermarket" class="mr-3">Energy Station</label>
+		<BContainer class="py-4">
+			<BRow>
+				<BCol cols="12">
+					<h5 class="text-primary">
+						Filter
+					</h5>
+				</BCol>
+			</BRow>
 
-						<input
-							v-model="filters_amenities"
-							type="checkbox"
-							id="store"
-							value="store"
-							class="mr-1"
-						>
-						<label for="powermarket" class="mr-3">Store</label>
-
-						<input
-							v-model="filters_amenities"
-							type="checkbox"
-							id="service-shop"
-							value="service-shop"
-							class="mr-1"
-						>
-						<label for="service-shop" class="mr-3">Service Shop</label>
-						
-						<input
-							v-model="filters_amenities"
-							type="checkbox"
-							id="car-wash"
-							value="car-wash"
-							class="mr-1"
-						>
-						<label for="car-wash" class="mr-3">Car Wash</label>
-
-						<input
-							v-model="filters_amenities"
-							type="checkbox"
-							id="amazon-locker"
-							value="amazon-locker"
-							class="mr-1"
-						>
-						<label for="amazon-locker" class="mr-3">Amazon Locker</label>
-					</BCol>
-						
-					<BCol cols="12">
-						<BButton @click="setLocations_display()" class="mt-1">Filter</BButton>
-						<hr>
-					</BCol>
-				</BRow>
-			</BCardBody>
-
-			<BCardBody>
-				<BRow v-if="!loading">
-					<BCol cols="12">
-						<h6 class="text-secondary">Number of Results Found: {{ locations_display.length }}</h6>
-					</BCol>
-
-					<BCol
-						v-for="(l, i) in locations_display"
-						:key="i"
-						cols="12" md="6" lg="4"
-						class="d-flex align-items-stretch"
+			<BRow class="py-3">
+				<BCol cols="12" class="">
+					<h6 class="text-secondary">Amenities</h6>
+					<input
+						v-model="filters_amenities"
+						type="checkbox"
+						id="energy-station"
+						value="energy-station"
+						class="mr-1"
 					>
-						<RouterLink :to="`/location/${l.id}`" class="w-100 py-3 text-decoration-none">
-							<BCard
-								no-body
-								bg-variant="bg-img"
-								text-variant="dark"
-								class="w-100 h-100 location-card"
-							>
+					<label for="powermarket" class="mr-3">Energy Station</label>
 
-								<BCardHeader class="bg-transparent">
-									<h6 class="m-0 text-secondary">
-										<span>
-											<ClockIcon /> {{ l.hoursOfOperation }}
-										</span>
-										<span class="float-right">
-											<MapPinIcon />
-											{{ Math.round(l.distance * 100) / 100 }}
-											mi.
-										</span>
-									</h6>
-								</BCardHeader>
+					<input
+						v-model="filters_amenities"
+						type="checkbox"
+						id="store"
+						value="store"
+						class="mr-1"
+					>
+					<label for="powermarket" class="mr-3">Store</label>
 
-								<BCardBody>
-									<h5 class="text-primary">
-										{{ l.address.street }}
-										{{ l.address.city }} {{ l.address.state }}
-										{{ l.address.zip }}
-									</h5>
-								</BCardBody>
+					<input
+						v-model="filters_amenities"
+						type="checkbox"
+						id="service-shop"
+						value="service-shop"
+						class="mr-1"
+					>
+					<label for="service-shop" class="mr-3">Service Shop</label>
+					
+					<input
+						v-model="filters_amenities"
+						type="checkbox"
+						id="car-wash"
+						value="car-wash"
+						class="mr-1"
+					>
+					<label for="car-wash" class="mr-3">Car Wash</label>
 
-								<BCardFooter>
-									<BButton variant="secondary" class="w-100">
-										View More Details
-									</BButton>
-								</BCardFooter>
-							</BCard>
-						</RouterLink>
-					</BCol>
-				</BRow>
-			</BCardBody>
-		</BCard>
+					<input
+						v-model="filters_amenities"
+						type="checkbox"
+						id="amazon-locker"
+						value="amazon-locker"
+						class="mr-1"
+					>
+					<label for="amazon-locker" class="mr-3">Amazon Locker</label>
+				</BCol>
+					
+				<BCol cols="12">
+					<BButton @click="setLocations_display()" size="lg" class="mt-1">
+						Filter
+					</BButton>
+				</BCol>
+			</BRow>
+			
+			<hr>
+			<BRow v-if="!loading">
+				<BCol cols="12">
+					<h6 class="text-secondary">
+						Results Count: {{ locations_display.length }}
+					</h6>
+				</BCol>
+
+				<BCol
+					v-for="(l, i) in locations_display"
+					:key="i"
+					cols="12" md="6" lg="4"
+					class="d-flex align-items-stretch"
+				>
+					<RouterLink :to="`/location/${l.id}`" class="w-100 py-3 text-decoration-none">
+						<BCard
+							no-body
+							bg-variant="bg-img"
+							text-variant="dark"
+							class="w-100 h-100 location-card"
+						>
+
+							<BCardHeader class="bg-transparent">
+								<h6 class="m-0 text-secondary">
+									<span>
+										<ClockIcon /> {{ l.hoursOfOperation }}
+									</span>
+									<span class="float-right">
+										<MapPinIcon />
+										{{ Math.round(l.distance * 100) / 100 }}
+										mi.
+									</span>
+								</h6>
+							</BCardHeader>
+
+							<BCardBody>
+								<h5 class="text-primary">
+									{{ l.address.street }}
+									{{ l.address.city }} {{ l.address.state }}
+									{{ l.address.zip }}
+								</h5>
+							</BCardBody>
+
+							<BCardFooter class="bg-transparent">
+								<BButton variant="secondary" class="w-100">
+									View More Details
+								</BButton>
+							</BCardFooter>
+						</BCard>
+					</RouterLink>
+				</BCol>
+			</BRow>
+		</BContainer>
 	</BContainer>
 </template>
 

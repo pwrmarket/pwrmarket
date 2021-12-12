@@ -1,22 +1,20 @@
 <template>
-	<BContainer class="py-5">
-		<BCard no-body bg-variant="white" class="mb-6 shadow">
-			<BCardHeader class="bg-gradient">
-				<h1 class="my-3 text-center text-light">About Power Market</h1>
-			</BCardHeader>
+	<BContainer fluid class="mb-6 p-0 pb-5">
+		<div class="py-5 bg-gradient">
+			<h2 class="m-0 text-center text-light">About Power Market</h2>
+		</div>
 
-			<BCardBody>
-				<BRow>
-					<BCol cols="12" md="7">
-						<p v-html="defaultData.aboutHTML"></p>
-					</BCol>
+		<BContainer class="py-4">
+			<BRow>
+				<BCol cols="12" md="7">
+					<p v-html="defaultData.aboutHTML"></p>
+				</BCol>
 
-					<BCol cols="12" md="5">
-						<img :src="image" class="w-100 rounded">
-					</BCol>
-				</BRow>
-			</BCardBody>
-		</BCard>
+				<BCol cols="12" md="5">
+					<img :src="image" class="w-100 rounded">
+				</BCol>
+			</BRow>
+		</BContainer>
 	</BContainer>
 </template>
 

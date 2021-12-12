@@ -10,6 +10,7 @@
 				bg-variant="white"
 				no-body
 				class="w-100 mb-3"
+				style="border-style: dashed !important;"
 			>
 				<BCardHeader class="text-light bg-gradient-weak-2">
 					<i v-if="a.type == 'energy-station'" class="py-1">

@@ -2,11 +2,11 @@
 	<BContainer fluid class="mb-6 pb-5 px-0">
 		<BCard no-body bg-variant="white" class="border-0">
 			<BCardHeader class="text-light bg-gradient">
-				<h3 class="my-5 text-center font-weight-bold">
+				<h2 class="my-5 text-center">
 					{{ location.address.street }}
 					{{ location.address.city }} {{ location.address.state }}
 					{{ location.address.zip }}
-				</h3>
+				</h2>
 			</BCardHeader>
 
 			<BCardBody>
@@ -14,7 +14,6 @@
 					<BRow>
 						<BCol cols="12" xl="9">
 							<LocationAtAGlance :location="location" class="mb-4" />
-							<hr>
 							<LocationMap
 								:location="location"
 								:distance="distance"

@@ -1,6 +1,8 @@
 <template>
 	<div>
-		<h4 class="text-primary">{{ Math.round(distance * 100) / 100 }} Miles From Your Location</h4>
+		<h4 class="my-4 text-primary">
+			{{ Math.round(distance * 100) / 100 }} Miles From Your Location
+		</h4>
 
 		<iframe
 			width="100%"

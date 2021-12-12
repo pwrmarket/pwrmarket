@@ -7,8 +7,69 @@
 			
 			<BCardBody>
 				<BRow>
+					<BCol cols="12">
+						<h4 class="text-primary">Filter</h4>
+					</BCol>
+
+					<BCol cols="12" md="6" lg="4">
+						<h6 class="text-secondary">Amenities</h6>
+						<input
+							v-model="filters_amenities"
+							type="checkbox"
+							id="powermarket"
+							value="powermarket"
+							class="mr-2"
+						>
+						<label for="powermarket" class="mr-4">Power Market</label>
+					</BCol>
+						
+					<BCol cols="12" md="6" lg="4">
+						<h6 class="text-secondary">Products</h6>
+						<input
+							v-model="filters_productsAndServices"
+							type="checkbox"
+							id="e85"
+							value="e85"
+							class="mr-2"
+						>
+						<label for="e85" class="mr-4">E85 Fuel</label>
+
+						<input
+							v-model="filters_productsAndServices"
+							type="checkbox"
+							id="propane"
+							value="propane"
+							class="mr-2"
+						>
+						<label for="propane" class="mr-4">Propane</label>
+
+						<input
+							v-model="filters_productsAndServices"
+							type="checkbox"
+							id="ebt"
+							value="ebt"
+							class="mr-2"
+						>
+						<label for="ebt" class="mr-4">EBT</label>
+
+						<input
+							v-model="filters_productsAndServices"
+							type="checkbox"
+							id="alcohal"
+							value="alcohal"
+							class="mr-2"
+						>
+						<label for="alcohal" class="mr-4">Alcohal</label>
+					</BCol>
+
+					<BCol cols="12" md="6" lg="4"></BCol>
+					<span>filters_amenities: {{ filters_amenities }}</span>
+					<span>filters_productsAndServices: {{ filters_productsAndServices }}</span>
+				</BRow>
+
+				<BRow>
 					<BCol
-						v-for="(l, i) in locations"
+						v-for="(l, i) in locations_display"
 						:key="i"
 						cols="12" md="6" lg="4"
 						class="d-flex align-items-stretch"
@@ -54,8 +115,25 @@
 	export default {
 		data() {
 			return {
+				locations_hidden: [],
+				locations_display: [],
+				filters_amenities: [],
+				filters_productsAndServices: [],
+				checkedAmenities: [],
 				locations: locations,
 			}
+		},
+
+		methods: {
+			setLocations_display() {
+				this.locations_hidden = locations
+
+				this.locations_display = locations
+			},
+		},
+
+		created() {
+			this.setLocations_display()
 		},
 	}
 </script>

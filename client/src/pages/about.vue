@@ -4,7 +4,7 @@
 			<h2 class="m-0 text-center text-light">About Power Market</h2>
 		</div>
 
-		<BContainer class="py-4">
+		<BContainer class="py-5">
 			<BRow>
 				<BCol cols="12" md="7">
 					<p v-html="defaultData.aboutHTML"></p>

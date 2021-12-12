@@ -1,16 +1,17 @@
 [
 	{
-		"id":2003,
+		"id": 2003,
 		"address": {
 			"street": "9500 Valley View St.",
 			"city": "Cypress",
 			"state": "CA",
-			"zip":90630
+			"zip": 90630
 		},
 		"location": {
-			"latitude":33.8242815,
-			"longitude":-118.0278492
+			"latitude": 33.8242815,
+			"longitude": -118.0278492
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(714) 821-8021",
@@ -22,48 +23,45 @@
 			}
 		},
 		"hoursOfOperation": "24/7",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"e85",
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "PM GO",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"Uber"
 				]
 			}
 		]
 	},
 	{
-		"id":2017,
+		"id": 2017,
 		"address": {
 			"street": "9700 Central Ave.",
 			"city": "Montclair",
 			"state": "CA",
-			"zip":91763
+			"zip": 91763
 		},
 		"location": {
-			"latitude":34.07731130000001,
-			"longitude":-117.690073
+			"latitude": 34.07731130000001,
+			"longitude": -117.690073
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(909) 625-8888",
@@ -75,47 +73,42 @@
 			}
 		},
 		"hoursOfOperation": "24/7",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "PM GO",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			}
 		]
 	},
 	{
-		"id":2036,
+		"id": 2036,
 		"address": {
 			"street": "2546 E. Coast Hwy.",
 			"city": "Corona Del Mar",
 			"state": "CA",
-			"zip":92625
+			"zip": 92625
 		},
 		"location": {
-			"latitude":33.6036146,
-			"longitude":-117.872923
+			"latitude": 33.6036146,
+			"longitude": -117.872923
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(949) 717-5095",
@@ -127,61 +120,54 @@
 			}
 		},
 		"hoursOfOperation": "24/7",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"e85",
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "PM GO",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"Uber"
 				]
 			},
 			{
 				"type": "service-shop",
 				"name": "",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			}
 		]
 	},
 	{
-		"id":2037,
+		"id": 2037,
 		"address": {
 			"street": "30072 Crown Valley Pkwy.",
 			"city": "Laguna Niguel",
 			"state": "CA",
-			"zip":92677
+			"zip": 92677
 		},
 		"location": {
-			"latitude":33.5259625,
-			"longitude":-117.7116676
+			"latitude": 33.5259625,
+			"longitude": -117.7116676
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(949) 495-0345",
@@ -193,61 +179,54 @@
 			}
 		},
 		"hoursOfOperation": "24/7",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"e85",
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "PM GO",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"Uber"
 				]
 			},
 			{
 				"type": "service-shop",
 				"name": "",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			}
 		]
 	},
 	{
-		"id":2052,
+		"id": 2052,
 		"address": {
 			"street": "14088 Euclid Ave.",
 			"city": "Chino",
 			"state": "CA",
-			"zip":91710
+			"zip": 91710
 		},
 		"location": {
-			"latitude":33.9979189,
-			"longitude":-117.6512308
+			"latitude": 33.9979189,
+			"longitude": -117.6512308
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(909) 858-3023",
@@ -259,61 +238,54 @@
 			}
 		},
 		"hoursOfOperation": "24/7",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash"
 				]
 			},
 			{
 				"type": "car-wash",
 				"name": "",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty",
 					"drive-thru"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			}
 		]
 	},
 	{
-		"id":3001,
+		"id": 3001,
 		"address": {
 			"street": "3825 Santa Rosa Ave.",
 			"city": "Santa Rosa",
 			"state": "CA",
-			"zip":95407
+			"zip": 95407
 		},
 		"location": {
-			"latitude":38.3867877,
-			"longitude":-122.7141227
+			"latitude": 38.3867877,
+			"longitude": -122.7141227
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(707) 585-9341",
@@ -325,31 +297,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -358,17 +328,18 @@
 		]
 	},
 	{
-		"id":3002,
+		"id": 3002,
 		"address": {
 			"street": "1300 Farmers Lane",
 			"city": "Santa Rosa",
 			"state": "CA",
-			"zip":95405
+			"zip": 95405
 		},
 		"location": {
-			"latitude":38.4380041,
-			"longitude":-122.6871528
+			"latitude": 38.4380041,
+			"longitude": -122.6871528
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(707) 575-9700",
@@ -380,31 +351,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -413,17 +382,18 @@
 		]
 	},
 	{
-		"id":3003,
+		"id": 3003,
 		"address": {
 			"street": "12589 E. Hwy 20",
 			"city": "Clearlake Oaks",
 			"state": "CA",
-			"zip":95423
+			"zip": 95423
 		},
 		"location": {
-			"latitude":39.0800539,
-			"longitude":-122.788391
+			"latitude": 39.0800539,
+			"longitude": -122.788391
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(707) 998-9316",
@@ -435,31 +405,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Grubhub"
 				]
@@ -467,17 +435,18 @@
 		]
 	},
 	{
-		"id":3004,
+		"id": 3004,
 		"address": {
 			"street": "9815 Hwy 53",
 			"city": "Lower Lake",
 			"state": "CA",
-			"zip":95457
+			"zip": 95457
 		},
 		"location": {
-			"latitude":38.9112176,
-			"longitude":-122.612643
+			"latitude": 38.9112176,
+			"longitude": -122.612643
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(707) 994-5846",
@@ -489,31 +458,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Grubhub"
 				]
@@ -521,17 +488,18 @@
 		]
 	},
 	{
-		"id":3005,
+		"id": 3005,
 		"address": {
 			"street": "2935 Lakeshore Blvd.",
 			"city": "Lakeport",
 			"state": "CA",
-			"zip":95453
+			"zip": 95453
 		},
 		"location": {
-			"latitude":39.0711985,
-			"longitude":-122.9145559
+			"latitude": 39.0711985,
+			"longitude": -122.9145559
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(707) 263-7434",
@@ -543,31 +511,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Grubhub"
 				]
@@ -575,17 +541,18 @@
 		]
 	},
 	{
-		"id":3006,
+		"id": 3006,
 		"address": {
 			"street": "6282 Hwy 20",
 			"city": "Lucerne",
 			"state": "CA",
-			"zip":95458
+			"zip": 95458
 		},
 		"location": {
-			"latitude":39.088113,
-			"longitude":-122.7936152
+			"latitude": 39.088113,
+			"longitude": -122.7936152
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(707) 274-8196",
@@ -597,31 +564,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Grubhub"
 				]
@@ -629,17 +594,18 @@
 		]
 	},
 	{
-		"id":3007,
+		"id": 3007,
 		"address": {
 			"street": "1088 Lakeport Blvd.",
 			"city": "Lakeport",
 			"state": "CA",
-			"zip":95453
+			"zip": 95453
 		},
 		"location": {
-			"latitude":39.0330047,
-			"longitude":-122.9250569
+			"latitude": 39.0330047,
+			"longitude": -122.9250569
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(707) 263-0870",
@@ -651,31 +617,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Grubhub"
 				]
@@ -683,17 +647,18 @@
 		]
 	},
 	{
-		"id":3008,
+		"id": 3008,
 		"address": {
 			"street": "202 S. Main St.",
 			"city": "Lakeport",
 			"state": "CA",
-			"zip":95453
+			"zip": 95453
 		},
 		"location": {
-			"latitude":39.0411266,
-			"longitude":-122.9149962
+			"latitude": 39.0411266,
+			"longitude": -122.9149962
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(707) 263-7220",
@@ -705,31 +670,29 @@
 			}
 		},
 		"hoursOfOperation": "5:00AM - 10:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Grubhub"
 				]
@@ -737,17 +700,18 @@
 		]
 	},
 	{
-		"id":3010,
+		"id": 3010,
 		"address": {
 			"street": "1670 Hartnell Ave.",
 			"city": "Redding",
 			"state": "CA",
-			"zip":96002
+			"zip": 96002
 		},
 		"location": {
-			"latitude":40.5640935,
-			"longitude":-122.3402688
+			"latitude": 40.5640935,
+			"longitude": -122.3402688
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(530) 222-2348",
@@ -759,31 +723,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -792,17 +754,18 @@
 		]
 	},
 	{
-		"id":3011,
+		"id": 3011,
 		"address": {
 			"street": "1495 Lake Blvd.",
 			"city": "Redding",
 			"state": "CA",
-			"zip":96003
+			"zip": 96003
 		},
 		"location": {
-			"latitude":40.6267034,
-			"longitude":-122.4045397
+			"latitude": 40.6267034,
+			"longitude": -122.4045397
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(530) 241-4629",
@@ -814,32 +777,30 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -848,31 +809,28 @@
 			{
 				"type": "car-wash",
 				"name": "",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty",
 					"drive-thru"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			}
 		]
 	},
 	{
-		"id":3012,
+		"id": 3012,
 		"address": {
 			"street": "1975 Ponderosa Way",
 			"city": "Anderson",
 			"state": "CA",
-			"zip":96007
+			"zip": 96007
 		},
 		"location": {
-			"latitude":40.437928,
-			"longitude":-122.291937
+			"latitude": 40.437928,
+			"longitude": -122.291937
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(530) 365-0332",
@@ -884,32 +842,30 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"e85",
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Grubhub"
 				]
@@ -917,17 +873,18 @@
 		]
 	},
 	{
-		"id":3013,
+		"id": 3013,
 		"address": {
 			"street": "3480 West Center St.",
 			"city": "Anderson",
 			"state": "CA",
-			"zip":96007
+			"zip": 96007
 		},
 		"location": {
-			"latitude":40.4538655,
-			"longitude":-122.3072005
+			"latitude": 40.4538655,
+			"longitude": -122.3072005
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(530) 365-5357",
@@ -939,31 +896,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Grubhub"
 				]
@@ -971,17 +926,18 @@
 		]
 	},
 	{
-		"id":3014,
+		"id": 3014,
 		"address": {
 			"street": "710 E. Lassen Ave.",
 			"city": "Chico",
 			"state": "CA",
-			"zip":95973
+			"zip": 95973
 		},
 		"location": {
-			"latitude":39.7672431,
-			"longitude":-121.8563617
+			"latitude": 39.7672431,
+			"longitude": -121.8563617
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(530) 892-2812",
@@ -993,31 +949,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -1026,17 +980,18 @@
 		]
 	},
 	{
-		"id":3015,
+		"id": 3015,
 		"address": {
 			"street": "1255 W. East Ave.",
 			"city": "Chico",
 			"state": "CA",
-			"zip":95926
+			"zip": 95926
 		},
 		"location": {
-			"latitude":39.7423789,
-			"longitude":-121.8824545
+			"latitude": 39.7423789,
+			"longitude": -121.8824545
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(530) 892-2793",
@@ -1048,32 +1003,30 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"e85",
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -1082,17 +1035,18 @@
 		]
 	},
 	{
-		"id":3016,
+		"id": 3016,
 		"address": {
 			"street": "110 E. Park Ave.",
 			"city": "Chico",
 			"state": "CA",
-			"zip":95926
+			"zip": 95926
 		},
 		"location": {
-			"latitude":39.7147216,
-			"longitude":-121.8126962
+			"latitude": 39.7147216,
+			"longitude": -121.8126962
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(530) 345-4265",
@@ -1104,30 +1058,28 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -1136,17 +1088,18 @@
 		]
 	},
 	{
-		"id":3017,
+		"id": 3017,
 		"address": {
 			"street": "2970 Olive Hwy.",
 			"city": "Oroville",
 			"state": "CA",
-			"zip":95966
+			"zip": 95966
 		},
 		"location": {
-			"latitude":39.5025461,
-			"longitude":-121.5393419
+			"latitude": 39.5025461,
+			"longitude": -121.5393419
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(530) 534-3081",
@@ -1158,31 +1111,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Grubhub"
 				]
@@ -1190,17 +1141,18 @@
 		]
 	},
 	{
-		"id":3020,
+		"id": 3020,
 		"address": {
 			"street": "2330 Nicolaus Rd.",
 			"city": "Lincoln",
 			"state": "CA",
-			"zip":95648
+			"zip": 95648
 		},
 		"location": {
-			"latitude":38.8979404,
-			"longitude":-121.3231558
+			"latitude": 38.8979404,
+			"longitude": -121.3231558
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(916) 543-2176",
@@ -1212,62 +1164,57 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash"
 				]
 			},
 			{
 				"type": "amazon-locker",
 				"name": "",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty",
 					"amazonLockerTorso"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			}
 		]
 	},
 	{
-		"id":3023,
+		"id": 3023,
 		"address": {
 			"street": "1050 Sunset Blvd.",
 			"city": "Rocklin",
 			"state": "CA",
-			"zip":95765
+			"zip": 95765
 		},
 		"location": {
-			"latitude":38.8142814,
-			"longitude":-121.2866424
+			"latitude": 38.8142814,
+			"longitude": -121.2866424
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(916) 435-8465",
@@ -1279,32 +1226,30 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub",
@@ -1314,31 +1259,28 @@
 			{
 				"type": "amazon-locker",
 				"name": "",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty",
 					"amazonLockerCourthouse"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			}
 		]
 	},
 	{
-		"id":3024,
+		"id": 3024,
 		"address": {
 			"street": "9811 Live Oak Blvd.",
 			"city": "Live Oak",
 			"state": "CA",
-			"zip":95953
+			"zip": 95953
 		},
 		"location": {
-			"latitude":39.2742169,
-			"longitude":-121.6603489
+			"latitude": 39.2742169,
+			"longitude": -121.6603489
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(530) 695-0585",
@@ -1350,32 +1292,30 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Vroom"
 				]
@@ -1383,17 +1323,18 @@
 		]
 	},
 	{
-		"id":3025,
+		"id": 3025,
 		"address": {
 			"street": "1976 McGowan Pkwy.",
 			"city": "Olivehurst",
 			"state": "CA",
-			"zip":95961
+			"zip": 95961
 		},
 		"location": {
-			"latitude":39.076825,
-			"longitude":-121.5436582
+			"latitude": 39.076825,
+			"longitude": -121.5436582
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(530) 743-1810",
@@ -1405,48 +1346,47 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash"
 				]
 			}
 		]
 	},
 	{
-		"id":3026,
+		"id": 3026,
 		"address": {
 			"street": "4217 Arboga Rd.",
 			"city": "Olivehurst",
 			"state": "CA",
-			"zip":95961
+			"zip": 95961
 		},
 		"location": {
-			"latitude":39.0766047,
-			"longitude":-121.5607041
+			"latitude": 39.0766047,
+			"longitude": -121.5607041
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(530) 749-9600",
@@ -1458,32 +1398,30 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Vroom"
@@ -1492,31 +1430,28 @@
 			{
 				"type": "car-wash",
 				"name": "",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty",
 					"drive-thru"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			}
 		]
 	},
 	{
-		"id":3027,
+		"id": 3027,
 		"address": {
 			"street": "901 East St.",
 			"city": "Woodland",
 			"state": "CA",
-			"zip":95695
+			"zip": 95695
 		},
 		"location": {
-			"latitude":38.6681148,
-			"longitude":-121.7651807
+			"latitude": 38.6681148,
+			"longitude": -121.7651807
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(530) 668-8164",
@@ -1528,31 +1463,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -1561,17 +1494,18 @@
 		]
 	},
 	{
-		"id":3028,
+		"id": 3028,
 		"address": {
 			"street": "4430 Auburn Blvd.",
 			"city": "Sacramento",
 			"state": "CA",
-			"zip":95841
+			"zip": 95841
 		},
 		"location": {
-			"latitude":38.6482051,
-			"longitude":-121.3595238
+			"latitude": 38.6482051,
+			"longitude": -121.3595238
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(916) 484-9710",
@@ -1583,32 +1517,30 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub",
@@ -1618,17 +1550,18 @@
 		]
 	},
 	{
-		"id":3029,
+		"id": 3029,
 		"address": {
 			"street": "530 Bogue Rd.",
 			"city": "Yuba City",
 			"state": "CA",
-			"zip":95991
+			"zip": 95991
 		},
 		"location": {
-			"latitude":39.1000693,
-			"longitude":-121.6173013
+			"latitude": 39.1000693,
+			"longitude": -121.6173013
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(530) 671-3999",
@@ -1640,32 +1573,30 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub",
@@ -1675,17 +1606,18 @@
 		]
 	},
 	{
-		"id":3032,
+		"id": 3032,
 		"address": {
 			"street": "130 Pleasant Vly Rd.",
 			"city": "Diamond Springs",
 			"state": "CA",
-			"zip":95619
+			"zip": 95619
 		},
 		"location": {
-			"latitude":38.6888456,
-			"longitude":-120.8312727
+			"latitude": 38.6888456,
+			"longitude": -120.8312727
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(530) 621-1895",
@@ -1697,31 +1629,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -1730,17 +1660,18 @@
 		]
 	},
 	{
-		"id":3033,
+		"id": 3033,
 		"address": {
 			"street": "1049 South Main St.",
 			"city": "Angels Camp",
 			"state": "CA",
-			"zip":95222
+			"zip": 95222
 		},
 		"location": {
-			"latitude":38.072192,
-			"longitude":-120.5419304
+			"latitude": 38.072192,
+			"longitude": -120.5419304
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(209) 736-9469",
@@ -1752,31 +1683,29 @@
 			}
 		},
 		"hoursOfOperation": "5:00AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Grubhub"
 				]
@@ -1784,17 +1713,18 @@
 		]
 	},
 	{
-		"id":3034,
+		"id": 3034,
 		"address": {
 			"street": "1434 W. Yosemite Ave.",
 			"city": "Manteca",
 			"state": "CA",
-			"zip":95337
+			"zip": 95337
 		},
 		"location": {
-			"latitude":37.7969832,
-			"longitude":-121.2389836
+			"latitude": 37.7969832,
+			"longitude": -121.2389836
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(209) 823-2057",
@@ -1806,31 +1736,29 @@
 			}
 		},
 		"hoursOfOperation": "5:00AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Texaco",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -1839,17 +1767,18 @@
 		]
 	},
 	{
-		"id":3035,
+		"id": 3035,
 		"address": {
 			"street": "192 Lathrop Rd.",
 			"city": "Lathrop",
 			"state": "CA",
-			"zip":95330
+			"zip": 95330
 		},
 		"location": {
-			"latitude":37.8257802,
-			"longitude":-121.2860613
+			"latitude": 37.8257802,
+			"longitude": -121.2860613
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(209) 858-4998",
@@ -1861,31 +1790,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "H&S",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -1894,17 +1821,18 @@
 		]
 	},
 	{
-		"id":3036,
+		"id": 3036,
 		"address": {
 			"street": "440 W. St. Charles St.",
 			"city": "San Andreas",
 			"state": "CA",
-			"zip":95249
+			"zip": 95249
 		},
 		"location": {
-			"latitude":38.1997867,
-			"longitude":-120.6888033
+			"latitude": 38.1997867,
+			"longitude": -120.6888033
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(209) 754-1478",
@@ -1916,31 +1844,29 @@
 			}
 		},
 		"hoursOfOperation": "24/7",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Grubhub"
 				]
@@ -1948,17 +1874,18 @@
 		]
 	},
 	{
-		"id":3040,
+		"id": 3040,
 		"address": {
 			"street": "3475 Main St.",
 			"city": "Oakley",
 			"state": "CA",
-			"zip":94561
+			"zip": 94561
 		},
 		"location": {
-			"latitude":37.9975143,
-			"longitude":-121.7145361
+			"latitude": 37.9975143,
+			"longitude": -121.7145361
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(925) 625-3602",
@@ -1970,31 +1897,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2003,17 +1928,18 @@
 		]
 	},
 	{
-		"id":3041,
+		"id": 3041,
 		"address": {
 			"street": "3180 Jefferson Blvd.",
 			"city": "West Sacramento",
 			"state": "CA",
-			"zip":95691
+			"zip": 95691
 		},
 		"location": {
-			"latitude":38.5396268,
-			"longitude":-121.5509601
+			"latitude": 38.5396268,
+			"longitude": -121.5509601
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(916) 371-1422",
@@ -2025,32 +1951,30 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub",
@@ -2060,31 +1984,28 @@
 			{
 				"type": "amazon-locker",
 				"name": "",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty",
 					"amazonLockerQuota"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			}
 		]
 	},
 	{
-		"id":3042,
+		"id": 3042,
 		"address": {
 			"street": "4720 Gold Hill Rd.",
 			"city": "Fairfield",
 			"state": "CA",
-			"zip":94534
+			"zip": 94534
 		},
 		"location": {
-			"latitude":38.1763597,
-			"longitude":-122.1377516
+			"latitude": 38.1763597,
+			"longitude": -122.1377516
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(707) 864-2506",
@@ -2096,33 +2017,31 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"e85",
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt",
 					"deli"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub",
@@ -2132,17 +2051,18 @@
 		]
 	},
 	{
-		"id":3043,
+		"id": 3043,
 		"address": {
 			"street": "119 Red Top Rd.",
 			"city": "Fairfield",
 			"state": "CA",
-			"zip":94534
+			"zip": 94534
 		},
 		"location": {
-			"latitude":38.2030245,
-			"longitude":-122.1579595
+			"latitude": 38.2030245,
+			"longitude": -122.1579595
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(707) 863-0421",
@@ -2154,31 +2074,29 @@
 			}
 		},
 		"hoursOfOperation": "24/7",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2187,31 +2105,28 @@
 			{
 				"type": "amazon-locker",
 				"name": "",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty",
 					"amazonLockerTypewriter"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			}
 		]
 	},
 	{
-		"id":3044,
+		"id": 3044,
 		"address": {
 			"street": "3012 Howe Rd.",
 			"city": "Martinez",
 			"state": "CA",
-			"zip":94553
+			"zip": 94553
 		},
 		"location": {
-			"latitude":37.9964946,
-			"longitude":-122.120089
+			"latitude": 37.9964946,
+			"longitude": -122.120089
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(925) 372-7135",
@@ -2223,31 +2138,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2256,31 +2169,28 @@
 			{
 				"type": "amazon-locker",
 				"name": "",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty",
 					"amazonLockerCopyright"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			}
 		]
 	},
 	{
-		"id":3045,
+		"id": 3045,
 		"address": {
 			"street": "3575 Willow Pass Rd.",
 			"city": "Bay Point",
 			"state": "CA",
-			"zip":94565
+			"zip": 94565
 		},
 		"location": {
-			"latitude":38.0263618,
-			"longitude":-121.9580205
+			"latitude": 38.0263618,
+			"longitude": -121.9580205
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(925) 458-3894",
@@ -2292,31 +2202,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2325,17 +2233,18 @@
 		]
 	},
 	{
-		"id":3046,
+		"id": 3046,
 		"address": {
 			"street": "8750 Brentwood Blvd.",
 			"city": "Brentwood",
 			"state": "CA",
-			"zip":94513
+			"zip": 94513
 		},
 		"location": {
-			"latitude":37.9251033,
-			"longitude":-121.6893945
+			"latitude": 37.9251033,
+			"longitude": -121.6893945
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(925) 516-7528",
@@ -2347,32 +2256,30 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "H&S",
-				"products":[
+				"products": [
 					"e85",
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2381,17 +2288,18 @@
 		]
 	},
 	{
-		"id":3047,
+		"id": 3047,
 		"address": {
 			"street": "1805 Willow Pass Rd.",
 			"city": "Bay Point",
 			"state": "CA",
-			"zip":94565
+			"zip": 94565
 		},
 		"location": {
-			"latitude":38.0265192,
-			"longitude":-121.9279781
+			"latitude": 38.0265192,
+			"longitude": -121.9279781
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(925) 458-2689",
@@ -2403,31 +2311,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2436,17 +2342,18 @@
 		]
 	},
 	{
-		"id":3048,
+		"id": 3048,
 		"address": {
 			"street": "4155 Suisun Vly Rd.",
 			"city": "Suisun City",
 			"state": "CA",
-			"zip":94534
+			"zip": 94534
 		},
 		"location": {
-			"latitude":38.2435823,
-			"longitude":-122.1227511
+			"latitude": 38.2435823,
+			"longitude": -122.1227511
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(707) 864-1608",
@@ -2458,31 +2365,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2491,17 +2396,18 @@
 		]
 	},
 	{
-		"id":3049,
+		"id": 3049,
 		"address": {
 			"street": "254 Bailey Rd.",
 			"city": "Pittsburg",
 			"state": "CA",
-			"zip":94565
+			"zip": 94565
 		},
 		"location": {
-			"latitude":38.020629,
-			"longitude":-121.9422226
+			"latitude": 38.020629,
+			"longitude": -121.9422226
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(925) 458-4317",
@@ -2513,31 +2419,29 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2546,17 +2450,18 @@
 		]
 	},
 	{
-		"id":3050,
+		"id": 3050,
 		"address": {
 			"street": "425 Laurel St.",
 			"city": "Vallejo",
 			"state": "CA",
-			"zip":94591
+			"zip": 94591
 		},
 		"location": {
-			"latitude":38.0937627,
-			"longitude":-122.2285752
+			"latitude": 38.0937627,
+			"longitude": -122.2285752
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(707) 557-0450",
@@ -2568,31 +2473,29 @@
 			}
 		},
 		"hoursOfOperation": "5:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Texaco",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2601,17 +2504,18 @@
 		]
 	},
 	{
-		"id":3051,
+		"id": 3051,
 		"address": {
 			"street": "3519 A St.",
 			"city": "North Highlands",
 			"state": "CA",
-			"zip":95660
+			"zip": 95660
 		},
 		"location": {
-			"latitude":38.6689938,
-			"longitude":-121.382005
+			"latitude": 38.6689938,
+			"longitude": -121.382005
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(916) 332-9740",
@@ -2623,32 +2527,30 @@
 			}
 		},
 		"hoursOfOperation": "4:30AM - 11:00PM",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Texaco",
-				"products":[
+				"products": [
 					"e85",
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "Power Market",
-				"products":[
+				"products": [
 					"alcohol"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty",
 					"ebt"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2657,17 +2559,18 @@
 		]
 	},
 	{
-		"id":3053,
+		"id": 3053,
 		"address": {
 			"street": "545 West Alma Street",
 			"city": "San Jose",
 			"state": "CA",
-			"zip":95125
+			"zip": 95125
 		},
 		"location": {
-			"latitude":37.309443,
-			"longitude":-121.8863452
+			"latitude": 37.309443,
+			"longitude": -121.8863452
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(408) 547-1988",
@@ -2679,31 +2582,27 @@
 			}
 		},
 		"hoursOfOperation": "24/7",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Texaco",
-				"products":[
+				"products": [
 					"e85",
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "PM GO",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2712,17 +2611,18 @@
 		]
 	},
 	{
-		"id":3054,
+		"id": 3054,
 		"address": {
 			"street": "3501 Homestead Rd",
 			"city": "Santa Clara",
 			"state": "CA",
-			"zip":95051
+			"zip": 95051
 		},
 		"location": {
-			"latitude":37.3382043,
-			"longitude":-121.9933186
+			"latitude": 37.3382043,
+			"longitude": -121.9933186
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(669) 600-0933",
@@ -2734,30 +2634,26 @@
 			}
 		},
 		"hoursOfOperation": "24/7",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Texaco",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "PM GO",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2766,17 +2662,18 @@
 		]
 	},
 	{
-		"id":3057,
+		"id": 3057,
 		"address": {
 			"street": "31300 Alvarado Niles Rd",
 			"city": "Union City",
 			"state": "CA",
-			"zip":94587
+			"zip": 94587
 		},
 		"location": {
-			"latitude":37.5985624,
-			"longitude":-122.0661448
+			"latitude": 37.5985624,
+			"longitude": -122.0661448
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(510) 588-1005",
@@ -2788,30 +2685,26 @@
 			}
 		},
 		"hoursOfOperation": "24/7",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Chevron",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "PM GO",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2820,17 +2713,18 @@
 		]
 	},
 	{
-		"id":3059,
+		"id": 3059,
 		"address": {
 			"street": "36979 Fremont Blvd.",
 			"city": "Fremont",
 			"state": "CA",
-			"zip":94536
+			"zip": 94536
 		},
 		"location": {
-			"latitude":37.5605734,
-			"longitude":-122.0124624
+			"latitude": 37.5605734,
+			"longitude": -122.0124624
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(510) 588-1010",
@@ -2842,30 +2736,26 @@
 			}
 		},
 		"hoursOfOperation": "24/7",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Texaco",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "PM GO",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"
@@ -2874,17 +2764,18 @@
 		]
 	},
 	{
-		"id":3061,
+		"id": 3061,
 		"address": {
 			"street": "3800 3rd Street",
 			"city": "San Francisco",
 			"state": "CA",
-			"zip":94124
+			"zip": 94124
 		},
 		"location": {
-			"latitude":37.7425903,
-			"longitude":-122.3884857
+			"latitude": 37.7425903,
+			"longitude": -122.3884857
 		},
+		"distance": 0,
 		"contact": {
 			"phone": {
 				"string": "(415) 707-1330",
@@ -2896,30 +2787,26 @@
 			}
 		},
 		"hoursOfOperation": "24/7",
-		"amenities":[
+		"amenities": [
 			{
 				"type": "energy-station",
 				"name": "Texaco",
-				"products":[
+				"products": [
 					"propane"
 				],
-				"services":[
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
-					
-				]
+				"deliveryMethods": []
 			},
 			{
 				"type": "store",
 				"name": "PM GO",
-				"products":[
-					
-				],
-				"services":[
+				"products": [],
+				"services": [
 					"power-market-loyalty"
 				],
-				"deliveryMethods":[
+				"deliveryMethods": [
 					"DoorDash",
 					"Uber",
 					"Grubhub"

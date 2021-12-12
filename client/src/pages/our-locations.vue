@@ -5,69 +5,77 @@
 				<h1 class="my-3 text-center text-light">Our Locations</h1>
 			</BCardHeader>
 			
-			<BCardBody>
+			<BCardBody class="pb-0">
 				<BRow>
 					<BCol cols="12">
-						<h4 class="text-primary">Filter</h4>
+						<h5 class="text-primary">
+							Filter
+						</h5>
 					</BCol>
+				</BRow>
 
-					<BCol cols="12" md="6" lg="4">
+				<BRow>
+					<BCol cols="12" class="">
 						<h6 class="text-secondary">Amenities</h6>
 						<input
 							v-model="filters_amenities"
 							type="checkbox"
-							id="powermarket"
-							value="powermarket"
-							class="mr-2"
+							id="energy-station"
+							value="energy-station"
+							class="mr-1"
 						>
-						<label for="powermarket" class="mr-4">Power Market</label>
+						<label for="powermarket" class="mr-3">Energy Station</label>
+
+						<input
+							v-model="filters_amenities"
+							type="checkbox"
+							id="store"
+							value="store"
+							class="mr-1"
+						>
+						<label for="powermarket" class="mr-3">Store</label>
+
+						<input
+							v-model="filters_amenities"
+							type="checkbox"
+							id="service-shop"
+							value="service-shop"
+							class="mr-1"
+						>
+						<label for="service-shop" class="mr-3">Service Shop</label>
+						
+						<input
+							v-model="filters_amenities"
+							type="checkbox"
+							id="car-wash"
+							value="car-wash"
+							class="mr-1"
+						>
+						<label for="car-wash" class="mr-3">Car Wash</label>
+
+						<input
+							v-model="filters_amenities"
+							type="checkbox"
+							id="amazon-locker"
+							value="amazon-locker"
+							class="mr-1"
+						>
+						<label for="amazon-locker" class="mr-3">Amazon Locker</label>
 					</BCol>
 						
-					<BCol cols="12" md="6" lg="4">
-						<h6 class="text-secondary">Products</h6>
-						<input
-							v-model="filters_productsAndServices"
-							type="checkbox"
-							id="e85"
-							value="e85"
-							class="mr-2"
-						>
-						<label for="e85" class="mr-4">E85 Fuel</label>
+					<BCol cols="12">
+						<BButton @click="setLocations_display()" class="mt-1">Filter</BButton>
+						<hr>
+					</BCol>
+				</BRow>
+			</BCardBody>
 
-						<input
-							v-model="filters_productsAndServices"
-							type="checkbox"
-							id="propane"
-							value="propane"
-							class="mr-2"
-						>
-						<label for="propane" class="mr-4">Propane</label>
-
-						<input
-							v-model="filters_productsAndServices"
-							type="checkbox"
-							id="ebt"
-							value="ebt"
-							class="mr-2"
-						>
-						<label for="ebt" class="mr-4">EBT</label>
-
-						<input
-							v-model="filters_productsAndServices"
-							type="checkbox"
-							id="alcohal"
-							value="alcohal"
-							class="mr-2"
-						>
-						<label for="alcohal" class="mr-4">Alcohal</label>
+			<BCardBody>
+				<BRow v-if="!loading">
+					<BCol cols="12">
+						<h6 class="text-secondary">Number of Results Found: {{ locations_display.length }}</h6>
 					</BCol>
 
-					<BCol cols="12" md="6" lg="4"></BCol>
-					<span>filters_amenities: {{ filters_amenities }}</span>
-					<span>filters_productsAndServices: {{ filters_productsAndServices }}</span>
-				</BRow>
-
-				<BRow>
 					<BCol
 						v-for="(l, i) in locations_display"
 						:key="i"
@@ -115,20 +123,56 @@
 	export default {
 		data() {
 			return {
-				locations_hidden: [],
+				loading: true,
+				showFilters: false,
+				flag: false,
+
+				locations: locations,
+
 				locations_display: [],
+
 				filters_amenities: [],
 				filters_productsAndServices: [],
-				checkedAmenities: [],
-				locations: locations,
 			}
 		},
 
 		methods: {
 			setLocations_display() {
-				this.locations_hidden = locations
-
+				this.loading = true
 				this.locations_display = locations
+
+				// For each filter
+				for (let i = 0; i < this.filters_amenities.length; i++) {
+					const fa = this.filters_amenities[i]
+
+					let updatedLocation_display = []
+					
+					// For each location
+					for (let ii = 0; ii < this.locations_display.length; ii++) {
+						const ld = this.locations_display[ii]
+
+						this.flag = false
+
+						// For each location amenity
+						for (let iii = 0; iii < ld.amenities.length; iii++) {
+							const ld_a = ld.amenities[iii]
+
+							// Location is safe
+							if (ld_a.type == fa) { this.flag = true }
+						}
+
+						if (this.flag == true) {
+							// Remove unsafe location
+							updatedLocation_display.push(ld)
+						}
+					}
+
+					this.locations_display = updatedLocation_display
+				}
+
+				// Reorder by distance
+
+				this.loading = false
 			},
 		},
 

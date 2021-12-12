@@ -40,12 +40,12 @@
 </template>
 
 <script>
-	import tools_distance from '../tools/distance'
 	import LocationAmenities from '../components/location/LocationAmenities'
 	import LocationAtAGlance from '../components/location/LocationAtAGlance'
 	import LocationDetails from '../components/location/LocationDetails'
 	import LocationMap from '../components/location/LocationMap'
 	import locations from '../defaults/locations'
+	import tools_distance from '../tools/distance'
 
 	export default {
 		data() {

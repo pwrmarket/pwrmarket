@@ -89,9 +89,17 @@
 								text-variant="dark"
 								class="w-100 h-100 location-card"
 							>
+
 								<BCardHeader class="bg-transparent">
-									<h6 class="m-0 small text-secondary">
-										{{ l.hoursOfOperation }}
+									<h6 class="m-0 text-secondary">
+										<span>
+											<ClockIcon /> {{ l.hoursOfOperation }}
+										</span>
+										<span class="float-right">
+											<MapPinIcon />
+											{{ Math.round(l.distance * 100) / 100 }}
+											mi.
+										</span>
 									</h6>
 								</BCardHeader>
 
@@ -118,7 +126,10 @@
 </template>
 
 <script>
+	import { ClockIcon, MapPinIcon, } from 'vue-feather-icons'
+
 	import locations from '../defaults/locations'
+	import tools_distance from '../tools/distance'
 
 	export default {
 		data() {
@@ -171,9 +182,29 @@
 				}
 
 				// Reorder by distance
+				for (let iiiii = 0; iiiii < this.locations_display.length; iiiii++) {
+					const ld = this.locations_display[iiiii]
+
+					ld.distance = tools_distance.caculateBetweenCoordinates(
+						ld.location.latitude,
+						ld.location.longitude,
+						this.$store.state.app.location.latitude,
+						this.$store.state.app.location.longitude,
+					)
+				}
+
+				// Sort closest first
+				this.locations_display.sort((a, b) => {
+					return a.distance - b.distance;
+				})
 
 				this.loading = false
 			},
+		},
+
+		components: {
+			ClockIcon,
+			MapPinIcon,
 		},
 
 		created() {

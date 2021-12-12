@@ -1,5 +1,5 @@
 <template>
-	<BContainer fluid class="mb-6 pb-5 px-0">
+	<BContainer fluid class="mb-6 p-0 pb-5">
 		<div class="py-5 text-light bg-gradient">
 			<h2 class="m-0 text-center">
 				{{ location.address.street }}

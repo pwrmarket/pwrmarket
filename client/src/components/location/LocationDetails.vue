@@ -3,7 +3,7 @@
 		<BRow class="">
 			<!-- Distance -->
 			<!-- Hours of Operations -->
-			<BCol cols="12" class="pb-xl-4">
+			<BCol cols="6" lg="12" class="pb-4">
 				<h5 class="mb-3 font-weight-bold">
 					<MapPinIcon /> <span class="border-bottom">Distance</span>
 				</h5>
@@ -16,7 +16,7 @@
 			</BCol>
 
 			<!-- Hours of Operations -->
-			<BCol cols="6" lg="12" class="pb-xl-4">
+			<BCol cols="6" lg="12" class="pb-4">
 				<h5 class="mb-3 font-weight-bold">
 					<ClockIcon /> <span class="border-bottom">Hours</span>
 				</h5>
@@ -25,7 +25,7 @@
 			</BCol>
 
 			<!-- Phone Number -->
-			<BCol cols="6" xl="12" class="pb-xl-4">
+			<BCol cols="12" class="pb-4">
 				<h5 class="mb-3 font-weight-bold">
 					<PhoneCallIcon /> <span class="border-bottom">Phone Number</span>
 				</h5>
@@ -38,7 +38,7 @@
 			</BCol>
 
 			<!-- Email -->
-			<BCol cols="12" class="pb-xl-4">
+			<BCol cols="12" class="pb-4">
 				<h5 class="mb-3 font-weight-bold">
 					<MailIcon /> <span class="border-bottom">Email</span>
 				</h5>
@@ -50,7 +50,7 @@
 				</a>
 			</BCol>
 
-			<BCol cols="12" class="pt-0">
+			<BCol cols="12" class="">
 				<h5 class="mb-3 font-weight-bold">
 					<ArrowRightIcon /> <span class="border-bottom">Visit Location</span>
 				</h5>

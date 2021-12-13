@@ -16,6 +16,7 @@
 			<BRow class="py-3">
 				<BCol cols="12" class="">
 					<h6 class="text-secondary">Amenities</h6>
+					<!-- Energy Station -->
 					<input
 						v-model="filters_amenities"
 						type="checkbox"
@@ -25,6 +26,7 @@
 					>
 					<label for="powermarket" class="mr-3">Energy Station</label>
 
+					<!-- Store -->
 					<input
 						v-model="filters_amenities"
 						type="checkbox"
@@ -34,6 +36,7 @@
 					>
 					<label for="powermarket" class="mr-3">Store</label>
 
+					<!-- Service Shop -->
 					<input
 						v-model="filters_amenities"
 						type="checkbox"
@@ -43,6 +46,7 @@
 					>
 					<label for="service-shop" class="mr-3">Service Shop</label>
 					
+					<!-- Car Wash -->
 					<input
 						v-model="filters_amenities"
 						type="checkbox"
@@ -52,6 +56,7 @@
 					>
 					<label for="car-wash" class="mr-3">Car Wash</label>
 
+					<!-- Amazon Locker -->
 					<input
 						v-model="filters_amenities"
 						type="checkbox"
@@ -61,9 +66,23 @@
 					>
 					<label for="amazon-locker" class="mr-3">Amazon Locker</label>
 				</BCol>
+
+				<BCol cols="12" class="">
+					<h6 class="text-secondary">Products or Services</h6>
+					<!-- Energy Station -->
+					<input
+						v-model="filters_productsAndServices"
+						type="checkbox"
+						id="e85"
+						value="e85"
+						class="mr-1"
+					>
+					<label for="e85" class="mr-3">E85</label>
+				</BCol>
 					
 				<BCol cols="12">
-					<BButton @click="setLocations_display()" size="lg" class="mt-1">
+					{{ filters_productsAndServices }}
+					<BButton @click="setLocations_display()" size="sm" class="mt-1">
 						Filter
 					</BButton>
 				</BCol>
@@ -161,24 +180,72 @@
 					
 					// For each location
 					for (let ii = 0; ii < this.locations_display.length; ii++) {
-						const ld = this.locations_display[ii]
+						const l_d = this.locations_display[ii]
 
 						this.flag = false
 
 						// For each location amenity
-						for (let iii = 0; iii < ld.amenities.length; iii++) {
-							const ld_a = ld.amenities[iii]
+						for (let iii = 0; iii < l_d.amenities.length; iii++) {
+							const l_d_a = l_d.amenities[iii]
 
 							// Location is safe
-							if (ld_a.type == fa) { this.flag = true }
+							if (l_d_a.type == fa) { this.flag = true }
 						}
 
 						if (this.flag == true) {
 							// Remove unsafe location
-							updatedLocation_display.push(ld)
+							updatedLocation_display.push(l_d)
 						}
 					}
 
+					// [UPDATE] //
+					this.locations_display = updatedLocation_display
+				}
+
+				// For each filter
+				for (let i = 0; i < this.filters_productsAndServices.length; i++) {
+					const f_ps = this.filters_productsAndServices[i]
+					
+					// [INIT] //
+					let updatedLocation_display = []
+
+					// For each location
+					for (let ii = 0; ii < this.locations_display.length; ii++) {
+						const l_d = this.locations_display[ii]
+
+						this.flag = false
+
+						// For each location amenity
+						for (let iii = 0; iii < l_d.amenities.length; iii++) {
+							const l_d_a = l_d.amenities[iii]
+						
+							// For each location amenitiy products
+							for (let iiii = 0; iiii < l_d_a.products.length; iiii++) {
+								const l_d_a_p = l_d_a.products[iiii]
+							
+								if (l_d_a_p == f_ps) {
+									this.flag = true
+								}
+							}
+
+							// For each location amenitiy services
+							for (let iiii = 0; iiii < l_d_a.services.length; iiii++) {
+								const l_d_a_s = l_d_a.services[iiii]
+							
+								if (l_d_a_s == f_ps) {
+									this.flag = true
+								}
+							}
+						}
+
+						if (this.flag == true) {
+							// Remove unsafe location
+							updatedLocation_display.push(l_d)
+						}
+
+					}
+					
+					// [UPDATE] //
 					this.locations_display = updatedLocation_display
 				}
 
@@ -196,7 +263,7 @@
 
 				// Sort closest first
 				this.locations_display.sort((a, b) => {
-					return a.distance - b.distance;
+					return a.distance - b.distance
 				})
 
 				this.loading = false

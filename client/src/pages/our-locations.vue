@@ -69,7 +69,7 @@
 
 				<BCol cols="12" class="">
 					<h6 class="text-secondary">Products or Services</h6>
-					<!-- Energy Station -->
+					<!-- E85 -->
 					<input
 						v-model="filters_productsAndServices"
 						type="checkbox"
@@ -78,10 +78,49 @@
 						class="mr-1"
 					>
 					<label for="e85" class="mr-3">E85</label>
+
+					<!-- Propane -->
+					<input
+						v-model="filters_productsAndServices"
+						type="checkbox"
+						id="propane"
+						value="propane"
+						class="mr-1"
+					>
+					<label for="propane" class="mr-3">Propane</label>
+
+					<!-- Alcohol -->
+					<input
+						v-model="filters_productsAndServices"
+						type="checkbox"
+						id="alcohol"
+						value="alcohol"
+						class="mr-1"
+					>
+					<label for="alcohol" class="mr-3">Alcohol</label>
+
+					<!-- EBT -->
+					<input
+						v-model="filters_productsAndServices"
+						type="checkbox"
+						id="ebt"
+						value="ebt"
+						class="mr-1"
+					>
+					<label for="ebt" class="mr-3">EBT</label>
+
+					<!-- Deli -->
+					<input
+						v-model="filters_productsAndServices"
+						type="checkbox"
+						id="deli"
+						value="deli"
+						class="mr-1"
+					>
+					<label for="ebt" class="mr-3">Deli</label>
 				</BCol>
 					
 				<BCol cols="12">
-					{{ filters_productsAndServices }}
 					<BButton @click="setLocations_display()" size="sm" class="mt-1">
 						Filter
 					</BButton>

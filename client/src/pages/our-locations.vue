@@ -156,6 +156,7 @@
 				for (let i = 0; i < this.filters_amenities.length; i++) {
 					const fa = this.filters_amenities[i]
 
+					// [INIT] //
 					let updatedLocation_display = []
 					
 					// For each location

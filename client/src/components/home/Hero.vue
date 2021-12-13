@@ -31,7 +31,7 @@
 
 							<BCol cols="12" sm="6">
 								<div class="text-center">
-									<RouterLink to="/deals">
+									<RouterLink to="/our-locations">
 										<BButton variant="outline-light" size="lg" class="w-100">
 											Find a Location
 										</BButton>

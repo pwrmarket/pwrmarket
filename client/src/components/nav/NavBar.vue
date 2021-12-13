@@ -153,15 +153,6 @@
 		z-index: 100;
 	}
 
-	.text-gradient {
-		background: $secondary;
-		background: -webkit-linear-gradient($primary, $secondary);
-		background-clip: text;
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		-webkit-text-fill-color: transparent;
-	}
-
 	.logo-container {
 		display: flex;
 		align-items: center;

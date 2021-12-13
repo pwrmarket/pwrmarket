@@ -1,7 +1,7 @@
 <template>
 	<BContainer fluid class="mb-6 p-0 pb-5">
 		<div class="py-5 bg-gradient">
-			<h2 class="m-0 text-center text-light">Our Locations</h2>
+			<h2 class="m-0 text-center text-light" data-aos="fade">Our Locations</h2>
 		</div>
 
 		<BContainer class="py-4">
@@ -140,6 +140,8 @@
 					:key="i"
 					cols="12" md="6" lg="4"
 					class="d-flex align-items-stretch"
+					data-aos="fade-up"
+					:data-aos-once="true"
 				>
 					<RouterLink :to="`/location/${l.id}`" class="w-100 py-3 text-decoration-none">
 						<BCard

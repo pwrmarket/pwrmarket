@@ -5,8 +5,9 @@ import VueRouter from 'vue-router'
 
 // [IMPORT] Personal (Ordered by path) //
 import companyInfo from '@/defaults/companyInfo'
-import index from '@/pages'
 import about from '@/pages/about'
+import deals from '@/pages/deals'
+import index from '@/pages'
 import location from '@/pages/location'
 import loyalty from '@/pages/loyalty'
 import ourLocations from '@/pages/our-locations'
@@ -34,20 +35,20 @@ const routes = [
 		},
 	},
 	{
-		path: '/location/:location_id',
-		name: 'location',
-		component: location,
-		meta: {
-			title: 'Location',
-			show: false,
-		},
-	},
-	{
 		path: '/about',
 		name: 'about',
 		component: about,
 		meta: {
 			title: 'About',
+			show: true,
+		},
+	},
+	{
+		path: '/deals',
+		name: 'deals',
+		component: deals,
+		meta: {
+			title: 'Deals',
 			show: true,
 		},
 	},
@@ -61,6 +62,15 @@ const routes = [
 		},
 	},
 	// Not-Found //
+	{
+		path: '/location/:location_id',
+		name: 'location',
+		component: location,
+		meta: {
+			title: 'Location',
+			show: false,
+		},
+	},
 	{
 		path: '/**',
 		name: 'not_found',

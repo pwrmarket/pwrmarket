@@ -11,7 +11,7 @@
 				<!-- HERO INFO -->
 				<BCol cols="12" md="6" class="py-md-3">
 					<div class="hero-info-holder">
-						<BRow>
+						<BRow class="">
 							<BCol cols="12">
 								<h1
 									class="my-5 text-center text-light"
@@ -114,7 +114,7 @@
 		}
 
 		.hero-info-holder {
-			padding: 100px 0 0 0;
+			padding: 100px 0 100px 0;
 
 			@media (max-width: 768px) {
 				padding: 100px 0 0 0;
@@ -136,6 +136,10 @@
 				display: block;
 				width: calc(150% + 1.3px);
 				height: 302px;
+
+				@media (max-width: 1300px) {
+					height: 150px;
+				}
 
 				@media (max-width: 768px) {
 					height: 100px;

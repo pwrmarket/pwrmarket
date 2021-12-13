@@ -11,6 +11,7 @@ const path = require('path')
 const config = require('./s-config')
 const Functionality = require('./s-middleware/Functionality')
 
+const a_ = require('./s-routes/api')
 const a_payments = require('./s-routes/api/payments')
 
 const p_ = require('./s-routes/pages')
@@ -44,6 +45,10 @@ mongoose.connect(
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cors())
+
+
+// [USE][ROUTE][API] //
+app.use('/api', a_)
 
 
 // [HEROKU] Set Static Folder for Heroku //

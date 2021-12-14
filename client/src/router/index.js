@@ -6,6 +6,7 @@ import VueRouter from 'vue-router'
 // [IMPORT] Personal (Ordered by path) //
 import companyInfo from '@/defaults/companyInfo'
 import about from '@/pages/about'
+import careers from '@/pages/careers'
 import deals from '@/pages/deals'
 import index from '@/pages'
 import location from '@/pages/location'
@@ -59,6 +60,16 @@ const routes = [
 		meta: {
 			title: 'Loyalty Rewards',
 			show: true,
+		},
+	},
+	// Careers //
+	{
+		path: '/careers',
+		name: 'careers',
+		component: careers,
+		meta: {
+			title: 'Careers',
+			show: false,
 		},
 	},
 	// Not-Found //

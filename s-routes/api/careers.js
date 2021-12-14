@@ -1,8 +1,10 @@
 // [REQUIRE] //
 const cors = require('cors')
 const express = require('express')
-const nodemailer = require('nodemailer')
+const fs = require('fs')
 const { google } = require('googleapis')
+const nodemailer = require('nodemailer')
+const multer = require('multer')
 
 
 // [REQUIRE] Personal //
@@ -13,6 +15,18 @@ const config = require('../../s-config/index')
 const router = express.Router().use(cors())
 
 
+// [MULTER] //
+const upload = multer({
+	storage: multer.diskStorage({
+		destination: function (req, file, callBack) { callBack(null, './s-uploads') },
+	
+		filename: function (req, file, callBack) {
+			callBack(null, `${new Date().toISOString()}-${file.originalname}`)
+		}
+	})
+})
+
+
 // [INIT] //
 const USER = config.api.google.user
 const CLIENT_ID = config.api.google.client_id
@@ -21,8 +35,9 @@ const REDIRECT_URI = config.api.google.redirectURI
 const REFRESH_TOKEN = config.api.google.refreshToken
 
 
-router.get(
-	'/:to/:message',
+router.post(
+	'/careers',
+	upload.single('file'),
 	async (req, res) => {
 		try {
 			const OAuth2Client = new google.auth.OAuth2(
@@ -49,7 +64,7 @@ router.get(
 	
 			// [SEND-MAIL] //
 			const sentEmail = await transporter.sendMail({
-				to: req.params.to,
+				to: config.emails.career,
 				subject: 'Careers Request - PwrMarket.com',
 				html: `
 					<h5>From Email: ${req.params.to}</h5>

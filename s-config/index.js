@@ -27,6 +27,10 @@ module.exports = {
 	// [STRIPE] //
 	STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY || '',
 
+	email: {
+		careers: process.env.EMAIL__CAREERS || '',
+	},
+
 	// [API] //
 	api: {
 		google: {

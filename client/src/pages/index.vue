@@ -12,13 +12,11 @@
 
 		<Info />
 
-		<h3 class="m-0 py-5 bg-light text-center">
-			<span
-				class="
-					m-0 p-3 bg-primary-light text-light text-uppercase rounded-lg
-				"
-			>Our Affiliates</span>
-		</h3>
+		<div class="py-5 bg-light">
+			<h2 class="m-0 py-2 mx-auto text-center text-light bg-primary-light rounded-lg"
+				style="max-width: 300px;"
+			>Our Affiliates</h2>
+		</div>
 
 		<Conveyor
 			:images="conveyorImages"

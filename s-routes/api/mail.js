@@ -47,12 +47,12 @@ router.post(
 						attachments: [ { path: req.file.path } ],
 					})
 
-					// [DELETE] //
+					// [DELETE] attachment //
 					fs.unlink(req.file.path, async (err) => {
 						if (!err) {
 							switch (mObj.status) {
 								case true:
-									res.status(200).send({
+									res.send({
 										executed: true,
 										status: true,
 										message: mObj.message,
@@ -60,13 +60,12 @@ router.post(
 								break
 							
 								default:
-									res.status(200).send(mObj)
+									res.send(mObj)
 								break
 							}
 						}
 						else {
-							console.log('ss', err)
-							res.status(200).send({
+							res.send({
 								executed: true,
 								status: false,
 								location: '/api/mail/careers',

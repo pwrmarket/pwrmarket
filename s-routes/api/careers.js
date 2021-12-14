@@ -10,6 +10,7 @@ const config = require('../../s-config/index')
 
 
 // [INIT] //
+const USER = config.api.google.user
 const CLIENT_ID = config.api.google.client_id
 const CLIENT_SECRET = config.api.google.client_secret
 const REDIRECT_URI = config.api.google.redirectURI
@@ -39,7 +40,7 @@ router.get(
 				service: 'gmail',
 				auth: {
 					type: 'OAuth2',
-					user: 'w3st.io2021@gmail.com',
+					user: USER,
 					clientId: CLIENT_ID,
 					clientSecret: CLIENT_SECRET,
 					refreshToken: REFRESH_TOKEN,

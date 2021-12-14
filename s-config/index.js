@@ -30,6 +30,7 @@ module.exports = {
 	// [API] //
 	api: {
 		google: {
+			user: process.env.API__GOOGLE__USER || '',
 			client_id: process.env.API__GOOGLE__CLIENT_ID || '',
 			client_secret: process.env.API__GOOGLE__CLIENT_SECRET || '',
 			redirectURI: process.env.API__GOOGLE__REDIRECT_URI || '',

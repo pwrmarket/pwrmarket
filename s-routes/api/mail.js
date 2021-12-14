@@ -3,6 +3,11 @@ const cors = require('cors')
 const express = require('express')
 const fs = require('fs')
 const multer = require('multer')
+const validator = require('validator')
+
+
+// [REQUIRE] Personal //
+const mailerUtil = require('../../s-utils/mailerUtil')
 
 
 // [USE] //
@@ -60,6 +65,7 @@ router.post(
 							}
 						}
 						else {
+							console.log('ss', err)
 							res.status(200).send({
 								executed: true,
 								status: false,

@@ -95,7 +95,6 @@ module.exports = {
 	
 			// [SEND-MAIL] //
 			await transporter.sendMail({
-				from: email,
 				to: config.email.careers,
 				subject: `PM Careers: ${subject}`,
 				html: `

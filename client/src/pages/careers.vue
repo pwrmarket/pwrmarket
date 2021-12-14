@@ -1,5 +1,5 @@
 <template>
-	<div class="nav-spacer">
+	<div class="mb-6">
 		<BContainer class="my-5">
 			<BRow class="mb-3">
 				<BCol cols="12">
@@ -14,19 +14,6 @@
 			<BRow>
 				<BCol cols="12" md="8">
 					<form @submit.prevent="sendFile" enctype="multipart/form-data">
-						<!-- Position
-						<label for="position" class="w-100 h3 form-label text-primary">
-							Position
-						</label>
-						<select v-model="position" name="position" class="form-select w-100 mb-3 p-2">
-							<option disabled value="">Please choose a position</option>
-							<option value="engineering">Engineering</option>
-							<option value="fire-sprinkler-inspector">Fire Sprinkler Inspector</option>
-							<option value="extinguisher-inspector">Extinguisher Inspector</option>
-							<option value="installers">Installers</option>
-						</select>
-						-->
-
 						<!-- Client Email -->
 						<label for="client-email" class="w-100 h3 form-label text-primary">
 							Your Email
@@ -144,7 +131,7 @@
 					}
 
 					const formData = new FormData()
-					
+
 					formData.append('subject', this.subject)
 					formData.append('clientEmail', this.clientEmail)
 					formData.append('name', this.name)

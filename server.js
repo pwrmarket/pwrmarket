@@ -12,7 +12,7 @@ const config = require('./s-config')
 const Functionality = require('./s-middleware/Functionality')
 
 const a_ = require('./s-routes/api')
-const a_careers = require('./s-routes/api/careers')
+const a_mail = require('./s-routes/api/mail')
 const a_payments = require('./s-routes/api/payments')
 
 const p_ = require('./s-routes/pages')
@@ -50,7 +50,7 @@ app.use(cors())
 
 // [USE][ROUTE][API] //
 app.use('/api', a_)
-app.use('/api/careers', a_careers)
+app.use('/api/mail', a_mail)
 
 
 // [HEROKU] Set Static Folder for Heroku //

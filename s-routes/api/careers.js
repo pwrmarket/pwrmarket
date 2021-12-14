@@ -2,13 +2,7 @@
 const cors = require('cors')
 const express = require('express')
 const fs = require('fs')
-const { google } = require('googleapis')
-const nodemailer = require('nodemailer')
 const multer = require('multer')
-
-
-// [REQUIRE] Personal //
-const config = require('../../s-config/index')
 
 
 // [USE] //
@@ -27,61 +21,86 @@ const upload = multer({
 })
 
 
-// [INIT] //
-const USER = config.api.google.user
-const CLIENT_ID = config.api.google.client_id
-const CLIENT_SECRET = config.api.google.client_secret
-const REDIRECT_URI = config.api.google.redirectURI
-const REFRESH_TOKEN = config.api.google.refreshToken
-
-
 router.post(
 	'/careers',
 	upload.single('file'),
 	async (req, res) => {
 		try {
-			const OAuth2Client = new google.auth.OAuth2(
-				CLIENT_ID,
-				CLIENT_SECRET,
-				REDIRECT_URI
-			)
+			if (
+				validator.isAscii(req.body.subject) &&
+				validator.isAscii(req.body.clientEmail) &&
+				validator.isAscii(req.body.name) &&
+				req.body.message
+			) {
+				// [MAIL-UTIL] WITH ATTACHMENT //
+				if (req.file) {
+					const mObj = await mailerUtil.sendCareersEmail({
+						subject: req.body.subject,
+						clientEmail: req.body.clientEmail,
+						name: req.body.name,
+						message: req.body.message,
+						attachments: [ { path: req.file.path } ],
+					})
 
-			OAuth2Client.setCredentials({ refresh_token: REFRESH_TOKEN })
-
-			const accessToken = await OAuth2Client.getAccessToken()
-
-			const transporter = nodemailer.createTransport({
-				service: 'gmail',
-				auth: {
-					type: 'OAuth2',
-					user: USER,
-					clientId: CLIENT_ID,
-					clientSecret: CLIENT_SECRET,
-					refreshToken: REFRESH_TOKEN,
-					accessToken: accessToken
+					// [DELETE] //
+					fs.unlink(req.file.path, async (err) => {
+						if (!err) {
+							switch (mObj.status) {
+								case true:
+									res.status(200).send({
+										executed: true,
+										status: true,
+										message: mObj.message,
+									})
+								break
+							
+								default:
+									res.status(200).send(mObj)
+								break
+							}
+						}
+						else {
+							res.status(200).send({
+								executed: true,
+								status: false,
+								location: '/api/mail/careers',
+								message: `/api/mail/careers: Error --> ${err}`,
+							})
+						}
+					})
 				}
-			})
-	
-			// [SEND-MAIL] //
-			const sentEmail = await transporter.sendMail({
-				to: config.emails.career,
-				subject: 'Careers Request - PwrMarket.com',
-				html: `
-					<h5>From Email: ${req.params.to}</h5>
+				// [MAIL-UTIL] WITHOUT ATTACHMENT //
+				else {
+					const mObj = await mailerUtil.sendCareersEmail({
+						subject: req.body.subject,
+						clientEmail: req.body.clientEmail,
+						name: req.body.name,
+						message: req.body.message,
+						position: req.body.position,
+					})
 
-					<h6>== Message ==</h6>
-					<p>${req.params.message}</p>
-				`
-			})
-
-			res.send(sentEmail)
+					res.status(200).send({
+						executed: true,
+						status: true,
+						message: mObj.message,
+					})
+				}
+			}
+			else {
+				res.status(200).send({
+					executed: true,
+					status: false,
+					location: `/api/mail/careers`,
+					message: `/api/mail/careers: Invalid params`,
+				})
+			}
 		}
 		catch (err) {
-			res.send({
+			res.status(200).send({
 				executed: false,
 				status: false,
-				location: '/api/careers',
-				message: `Error --> ${err}`,
+				location: '/api/mail/careers',
+				message: `/api/mail/careers: Error --> ${err}`,
 			})
 		}
 	}

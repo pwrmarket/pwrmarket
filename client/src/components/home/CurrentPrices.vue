@@ -1,6 +1,6 @@
 <template>
-	<BContainer fluid class="py-5 bg-secondary-lighter">
-		<BContainer class="main-section">
+	<BContainer fluid class="pb-5 bg-secondary-lighter">
+		<BContainer class="py-5 main-section">
 			<!--  -->
 			<BRow class="w-100">
 				<!-- DEALS CONTENT COLUMN -->

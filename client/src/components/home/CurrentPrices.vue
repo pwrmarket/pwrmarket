@@ -1,5 +1,5 @@
 <template>
-	<BContainer fluid class="py-5 bg-white">
+	<BContainer fluid class="py-5 bg-secondary-lighter">
 		<BContainer class="main-section">
 			<!--  -->
 			<BRow class="w-100">

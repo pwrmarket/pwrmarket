@@ -3,12 +3,11 @@
 		<BRow class="w-100 m-0">
 			<BCol cols="12" lg="3" class="p-0 center bg-secondary">
 				<div class="text-center text-light">
-					<h1 class="my-3 text-center text-uppercase">
-						Follow Us
-					</h1>
+					<h2 class="my-3 text-center text-uppercase">
+						See Our Ongoing Story
+					</h2>
 
-					<SocialMediaPlug size="4x" />
-					<br><br>
+					<SocialMediaPlug size="4x" class="mb-3" />
 				</div>
 			</BCol>
 

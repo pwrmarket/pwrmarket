@@ -8,18 +8,26 @@
 			</BContainer>
 		</BContainer>
 
-		<Conveyor
-			:images="conveyorImages"
-			:totalOnLg="4"
-			class="pb-5 bg-white"
-		/>
-
 		<Loyalty />
 
 		<Info />
 
-		
-		
+		<h3 class="m-0 py-5 bg-light text-center">
+			<span
+				class="
+					m-0 p-3 bg-primary-light text-light text-uppercase rounded-lg
+				"
+			>Our Affiliates</span>
+		</h3>
+
+		<Conveyor
+			:images="conveyorImages"
+			:totalOnLg="4"
+			class="pb-5 bg-light"
+		/>
+
+		<Careers />
+
 		<CurrentPrices />
 	</div>
 </template>
@@ -28,6 +36,7 @@
 	import Conveyor from '../components/display/Conveyor.vue'
 	import ImgLinks from '../components/ImgLinks.vue'
 	import Hero from '../components/home/Hero'
+	import Careers from '../components/home/Careers'
 	import CurrentPrices from '../components/home/CurrentPrices'
 	import Info from '../components/home/Info'
 	import Loyalty from '../components/home/Loyalty'
@@ -51,6 +60,7 @@
 			Conveyor,
 			ImgLinks,
 			Hero,
+			Careers,
 			CurrentPrices,
 			Info,
 			Loyalty,

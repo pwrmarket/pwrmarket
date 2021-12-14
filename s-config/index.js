@@ -25,5 +25,15 @@ module.exports = {
 	SECRET_KEY: process.env.SECRET_KEY || 'secret',
 
 	// [STRIPE] //
-	STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY || ''
+	STRIPE_SECRET_KEY: process.env.STRIPE_SECRET_KEY || '',
+
+	// [API] //
+	api: {
+		google: {
+			client_id: process.env.API__GOOGLE__CLIENT_ID || '',
+			client_secret: process.env.API__GOOGLE__CLIENT_SECRET || '',
+			redirectURI: process.env.API__GOOGLE__REDIRECT_URI || '',
+			refreshToken: process.env.API__GOOGLE__REFRESH_TOKEN || '',
+		}
+	},
 }

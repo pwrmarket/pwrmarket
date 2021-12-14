@@ -10,10 +10,10 @@ const config = require('../../s-config/index')
 
 
 // [INIT] //
-const CLIENT_ID = ''
-const CLIENT_SECRET = ''
-const REDIRECT_URI = ''
-const REFRESH_TOKEN = ''
+const CLIENT_ID = config.api.google.client_id
+const CLIENT_SECRET = config.api.google.client_secret
+const REDIRECT_URI = config.api.google.redirectURI
+const REFRESH_TOKEN = config.api.google.refreshToken
 
 
 
@@ -47,14 +47,12 @@ router.get(
 				}
 			})
 	
-			const mailOptions = {
+			// [SEND-MAIL] //
+			const sentEmail = await transporter.sendMail({
 				to: 'aleem.ahmed1997@gmail.com',
 				subject: 'test',
 				html: 'hi'
-			}
-	
-			// [SEND-MAIL] //
-			const sentEmail = await transporter.sendMail(mailOptions)
+			})
 
 			res.send(sentEmail)
 		}

@@ -1,33 +1,39 @@
 <template>
 	<BRow class="w-100 m-0 p-0 content" style="height: 200px;">
 		<BCol md="4">
-			<div class="w-100 rounded shadow img-container">
-				<div class="child bg-one">
-					<span style="max-width: 600px;">
-						Shop
-					</span>
+			<RouterLink to="/our-locations">
+				<div class="w-100 rounded shadow img-container">
+					<div class="child bg-one">
+						<span style="max-width: 600px;">
+							Find Us
+						</span>
+					</div>
 				</div>
-			</div>
+			</RouterLink>
 		</BCol>
 
 		<BCol md="4">
-			<div class="w-100 rounded shadow img-container">
-				<div class="child bg-two">
-					<span style="max-width: 600px;">
-						Charge
-					</span>
+			<RouterLink to="/deals">
+				<div class="w-100 rounded shadow img-container">
+					<div class="child bg-two">
+						<span style="max-width: 600px;">
+							Deals
+						</span>
+					</div>
 				</div>
-			</div>
+			</RouterLink>
 		</BCol>
 
 		<BCol md="4">
-			<div class="w-100 rounded shadow img-container">
-				<div class="child bg-three">
-					<span style="max-width: 600px;">
-						Save
-					</span>
+			<RouterLink to="/loyalty">
+				<div class="w-100 rounded shadow img-container">
+					<div class="child bg-three">
+						<span style="max-width: 600px;">
+							Loyalty
+						</span>
+					</div>
 				</div>
-			</div>
+			</RouterLink>
 		</BCol>
 	</BRow>
 </template>
@@ -47,7 +53,7 @@
 		cursor: pointer;
 
 		.bg-one {
-			background-image: url('https://source.unsplash.com/600x400/?food');
+			background-image: url('https://source.unsplash.com/600x400/?supermarket');
 		}
 
 		.bg-two {
@@ -55,7 +61,7 @@
 		}
 
 		.bg-three {
-			background-image: url('https://source.unsplash.com/600x400/?money');
+			background-image: url('https://source.unsplash.com/600x400/?discount');
 		}
 
 		.child {

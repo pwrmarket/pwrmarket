@@ -8,6 +8,7 @@ import companyInfo from '@/defaults/companyInfo'
 import about from '@/pages/about'
 import careers from '@/pages/careers'
 import deals from '@/pages/deals'
+import emailSent from '@/pages/email-sent'
 import index from '@/pages'
 import location from '@/pages/location'
 import loyalty from '@/pages/loyalty'
@@ -58,7 +59,7 @@ const routes = [
 		name: 'loyalty',
 		component: loyalty,
 		meta: {
-			title: 'Loyalty Rewards',
+			title: 'PML',
 			show: true,
 		},
 	},
@@ -69,6 +70,16 @@ const routes = [
 		component: careers,
 		meta: {
 			title: 'Careers',
+			show: true,
+		},
+	},
+	// email-sent //
+	{
+		path: '/email-sent',
+		name: 'email-sent',
+		component: emailSent,
+		meta: {
+			title: 'Email Sent',
 			show: false,
 		},
 	},

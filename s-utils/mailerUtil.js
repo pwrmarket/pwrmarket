@@ -98,8 +98,6 @@ module.exports = {
 				to: config.email.careers,
 				subject: `PM Careers: ${subject}`,
 				html: `
-					<h1>Customer Quote Request</h1>
-					<h3 style="margin: 0;">Type: Careers</h3>
 					<h3 style="margin: 0;">Email: ${clientEmail}</h3>
 					<h3 style="margin: 0;">Name: ${name}</h3>
 					<h3 style="margin: 0; margin-top: 20px;">Message:</h3>

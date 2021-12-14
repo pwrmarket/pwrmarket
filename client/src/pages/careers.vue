@@ -1,18 +1,14 @@
 <template>
-	<div class="mb-6">
-		<BContainer class="my-5">
-			<BRow class="mb-3">
-				<BCol cols="12">
-					<!-- Title -->
-					<h1 class="text-center text-primary">Apply for a Career!</h1>
-					<h4 class="text-center text-secondary">
-						Send us an email and we will gladly review your request!
-					</h4>
-				</BCol>
-			</BRow>
+	<BContainer fluid class="mb-6 p-0 pb-5">
+		<div class="py-5 bg-gradient">
+			<h2 class="m-0 text-center text-light" data-aos="fade">
+				Join Our Team & Start your journey
+			</h2>
+		</div>
 
+		<BContainer class="py-5">
 			<BRow>
-				<BCol cols="12" md="8">
+				<BCol cols="12" md="8" class="mx-auto">
 					<form @submit.prevent="sendFile" enctype="multipart/form-data">
 						<!-- Client Email -->
 						<label for="client-email" class="w-100 h3 form-label text-primary">
@@ -89,10 +85,8 @@
 					<h6 v-if="error" class="mt-3 text-danger">{{ error }}</h6>
 				</BCol>
 			</BRow>
-
-
 		</BContainer>
-	</div>
+	</BContainer>
 </template>
 
 <script>

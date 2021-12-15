@@ -92,7 +92,7 @@
 				top: 0;
 				left: 0;
 				background-color: $secondary-shine;
-				backdrop-filter: blur(8px) !important;
+				backdrop-filter: blur(6px) !important;
 			}
 		}
 

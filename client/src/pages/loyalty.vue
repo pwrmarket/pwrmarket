@@ -15,8 +15,9 @@
 						</BCol>
 
 						<BCol cols="12" sm="6" lg="4">
-							<div class="text-center">
+							<div class="text-center" data-aos="fade-right" data-aos-delay="0">
 								<SmartphoneIcon size="5x" class="mb-3 text-secondary" />
+
 								<h5 class="mb-3 text-primary">
 									1. Download our app
 								</h5>
@@ -24,8 +25,9 @@
 						</BCol>
 
 						<BCol cols="12" sm="6" lg="4">
-							<div class="text-center">
+							<div class="text-center" data-aos="fade-right" data-aos-delay="200">
 								<ClipboardIcon size="5x" class="mb-3 text-secondary" />
+
 								<h5 class="mb-3 text-primary">
 									2. Sign up for your free Power Market membership
 								</h5>
@@ -33,8 +35,9 @@
 						</BCol>
 
 						<BCol cols="12" sm="6" lg="4">
-							<div class="text-center">
+							<div class="text-center" data-aos="fade-right" data-aos-delay="400">
 								<MapPinIcon size="5x" class="mb-3 text-secondary" />
+
 								<h5 class="mb-3 text-primary">
 									3. Find a participating location or select an offer that you like
 								</h5>
@@ -42,8 +45,9 @@
 						</BCol>
 
 						<BCol cols="12" sm="6" lg="4">
-							<div class="text-center">
+							<div class="text-center" data-aos="fade-right" data-aos-delay="600">
 								<DollarSignIcon size="5x" class="mb-3 text-secondary" />
+
 								<h5 class="mb-3 text-primary">
 									4. Scan your barcode before you pay inside to earn and redeem rewards
 								</h5>
@@ -51,8 +55,9 @@
 						</BCol>
 
 						<BCol cols="12" sm="6" lg="4">
-							<div class="text-center">
+							<div class="text-center"  data-aos="fade-right" data-aos-delay="800">
 								<BatteryChargingIcon size="5x" class="mb-3 text-secondary" />
+
 								<h5 class="mb-3 text-primary">
 									5. Just getting gas? Enter your Alt ID at the pump to apply your reward balance and pay less for fuel
 								</h5>

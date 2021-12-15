@@ -2,7 +2,7 @@
 	<BRow class="w-100 m-0 p-0 content" style="height: 200px;">
 		<BCol md="4">
 			<RouterLink to="/our-locations">
-				<div class="w-100 rounded shadow img-container">
+				<div class="w-100 rounded shadow-sm img-container">
 					<div class="child bg-one">
 						<span style="max-width: 600px;">
 							Find Us
@@ -14,7 +14,7 @@
 
 		<BCol md="4">
 			<RouterLink to="/deals">
-				<div class="w-100 rounded shadow img-container">
+				<div class="w-100 rounded shadow-sm img-container">
 					<div class="child bg-two">
 						<span style="max-width: 600px;">
 							Deals
@@ -26,7 +26,7 @@
 
 		<BCol md="4">
 			<RouterLink to="/loyalty">
-				<div class="w-100 rounded shadow img-container">
+				<div class="w-100 rounded shadow-sm img-container">
 					<div class="child bg-three">
 						<span style="max-width: 600px;">
 							Loyalty

@@ -3,10 +3,13 @@
 		<BRow class="w-100 m-0 bg-light">
 			<BCol cols="12" lg="6" class="d-none d-lg-block py-5 bg-primary">
 				<div class="h-100 title-col">
-					<h1
-						class="text-center text-light"
-						style="font-size: 3em; max-width: 600px;"
-					>Learn About Our Reward System</h1>
+					<div class="w-100 text-center">
+						<img :src="loyaltyImage" alt="" class="w-100 mx-auto" style="max-width: 250px;">
+						<h1
+							class="text-center text-light mx-auto"
+							style="font-size: 3em; max-width: 600px;"
+						>Power Market Loyalty</h1>
+					</div>
 				</div>
 			</BCol>
 
@@ -15,6 +18,13 @@
 					<div class="child bg-one">
 						<span class="" style="max-width: 600px;">
 							Save More With Rewards
+							<br>
+
+							<RouterLink to="/loyalty">
+								<BButton variant="light" size="lg">
+									Learn More
+								</BButton>
+							</RouterLink>
 						</span>
 					</div>
 				</div>
@@ -30,6 +40,7 @@
 		data() {
 			return {
 				companyInfo,
+				loyaltyImage: require('../../assets/images/loyalty-points.png')
 			}
 		},
 

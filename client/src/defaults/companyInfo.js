@@ -51,11 +51,11 @@ module.exports = {
 
 	socialMedia: {
 		facebook: {
-			link: 'https://www.instagram.com',
+			link: 'https://www.facebook.com/HnSenergy',
 		},
 
 		instagram: {
-			link: 'https://www.instagram.com',
+			link: 'https://www.instagram.com/pwrmarket/',
 		},
 
 		twitter: {
@@ -65,6 +65,10 @@ module.exports = {
 		youtube: {
 			link: '',
 		},
+
+		linkedin: {
+			link: 'https://www.linkedin.com/company/h-s-energy-llc',
+		}
 	},
 
 	aboutHTML: `

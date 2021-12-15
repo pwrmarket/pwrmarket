@@ -84,18 +84,32 @@
 					<!-- Error -->
 					<h6 v-if="error" class="mt-3 text-danger">{{ error }}</h6>
 				</BCol>
+
+				<BCol cols="12" md="4">
+					<h4 class="text-center text-gradient">Find Us on LinkedIn</h4>
+
+					<div class="text-center">
+						<a :href="companyInfo.socialMedia.linkedin.link" target="_blank">
+							<LinkedinIcon size="4x" />
+						</a>
+					</div>
+				</BCol>
 			</BRow>
 		</BContainer>
 	</BContainer>
 </template>
 
 <script>
+	import { LinkedinIcon } from 'vue-feather-icons'
+
 	import router from '@/router'
 	import MailService from '@/services/MailService'
+	import companyInfo from '../defaults/companyInfo'
 
 	export default {
 		data() {
 			return {
+				companyInfo: companyInfo,
 				subject: '',
 				clientEmail: '',
 				name: '',
@@ -146,6 +160,10 @@
 				}
 				catch (err) { this.error = err }
 			},
+		},
+
+		components: {
+			LinkedinIcon,
 		},
 	}
 </script>

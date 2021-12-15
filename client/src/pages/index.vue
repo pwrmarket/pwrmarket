@@ -26,7 +26,10 @@
 
 		<Careers />
 
-		<CurrentPrices />
+		<CurrentPrices v-if="0 == 1" />
+
+		<div class="bg-primary-lighter" style="min-height: 0px;">
+		</div>
 	</div>
 </template>
 

@@ -1,12 +1,16 @@
 <template>
 	<BContainer fluid class="m-0 p-0">
-		<BRow class="w-100 m-0 bg-light">
-			<BCol cols="12" lg="8" class="d-none d-lg-block py-5 bg-primary-light">
+		<BRow class="w-100 m-0">
+			<BCol cols="12" lg="8" class="d-none d-lg-block py-5 bg-gradient-weak">
 				<div class="h-100 title-col">
 					<h1
 						class="text-center text-light"
 						style="font-size: 3em; max-width: 600px;"
-					>Looking for a Career?</h1>
+					>
+						<span class="p-3 bg-glass-light shadow">
+							Looking for a Career?
+						</span>
+					</h1>
 				</div>
 			</BCol>
 
@@ -145,7 +149,7 @@
 				height: 0;
 				border-top: 20px solid transparent;
 				border-bottom: 20px solid transparent;
-				border-left: 20px solid $primary-light;
+				border-left: 20px solid $primary;
 			}
 		}
 	}

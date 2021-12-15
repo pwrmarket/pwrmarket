@@ -90,6 +90,7 @@
 				width: 3%;
 				height: 100%;
 				background-color: $secondary;
+				
 
 				&:before {
 					content: '';
@@ -98,6 +99,8 @@
 					width: 100%;
 					height:50%;
 					background-color: inherit;
+					box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.15);
+
 
 					bottom: 50%;
 					-ms-transform-origin: 0 100%;
@@ -115,6 +118,7 @@
 					width: 100%;
 					height: 50%;
 					background-color: inherit;
+					box-shadow: 5px 5px 5px rgba(3, 3, 3, 0.15);
 
 					top: 50%;
 					-ms-transform-origin: 0 0;

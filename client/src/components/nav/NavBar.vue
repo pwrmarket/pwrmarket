@@ -4,7 +4,8 @@
 		class="fixed-top m-0 p-0 w-100 border-secondary transition"
 		:class="[
 			navClass,
-			{ 'bg-shine-lighter border-bottom': !$store.state.isHomePage }
+			// Remove fade effect by having it on always
+			{ 'bg-glass-light border-bottom': !$store.state.isHomePage }
 		]"
 		style="border-width: 4px !important;"
 	>
@@ -123,7 +124,7 @@
 			handleScroll() {
 				// Not Scrolled //
 				if (window.scrollY > 0) {
-					this.navClass = 'bg-shine-lighter border-bottom'
+					this.navClass = 'bg-glass-light border-bottom'
 					this.linkClass = 'text-gradient'
 				}
 				else {

@@ -7,7 +7,7 @@
 						class="text-center text-light"
 						style="font-size: 3em; max-width: 600px;"
 					>
-						<span class="p-3 bg-glass-light shadow">
+						<span class="p-3 bg-glass-lighter shadow">
 							Looking for a Career?
 						</span>
 					</h1>

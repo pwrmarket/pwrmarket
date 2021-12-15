@@ -53,10 +53,17 @@ body {
 // [BG][GLASS] //
 .bg-glass-light {
 	border-radius: 5px;
+	background-color: rgba(255, 255, 255, 0.75);
+	backdrop-filter: blur(20px) !important;
+	-webkit-backdrop-filter: blur(15px) !important;
+}
+
+
+.bg-glass-lighter {
+	border-radius: 5px;
 	background-color: rgba(255, 255, 255, 0.2);
 	backdrop-filter: blur(20px) !important;
 	-webkit-backdrop-filter: blur(20px) !important;
-
 }
 
 

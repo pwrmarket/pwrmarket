@@ -18,6 +18,19 @@
 			<!-- Hours of Operations -->
 			<BCol cols="6" lg="12" class="pb-4">
 				<h5 class="mb-3 font-weight-bold">
+					<MapIcon /> Address
+				</h5>
+
+				<h5 class="">
+					{{ location.address.street }}
+					{{ location.address.city }} {{ location.address.state }}
+					{{ location.address.zip }}
+				</h5>
+			</BCol>
+
+			<!-- Hours of Operations -->
+			<BCol cols="6" lg="12" class="pb-4">
+				<h5 class="mb-3 font-weight-bold">
 					<ClockIcon /> <span class="border-bottom">Hours</span>
 				</h5>
 
@@ -67,7 +80,7 @@
 
 
 <script>
-	import { ArrowRightIcon, ClockIcon, MapPinIcon, MailIcon, PhoneCallIcon } from 'vue-feather-icons'
+	import { ArrowRightIcon, ClockIcon, MapPinIcon, MailIcon, MapIcon, PhoneCallIcon } from 'vue-feather-icons'
 	
 	export default {
 		props: {
@@ -93,6 +106,7 @@
 			ClockIcon,
 			MapPinIcon,
 			MailIcon,
+			MapIcon,
 			PhoneCallIcon,
 		},
 

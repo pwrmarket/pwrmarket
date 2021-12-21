@@ -2,9 +2,7 @@
 	<BContainer fluid class="mb-6 p-0 pb-5">
 		<div class="py-5 text-light bg-gradient">
 			<h2 class="m-0 text-center">
-				{{ location.address.street }}
-				{{ location.address.city }} {{ location.address.state }}
-				{{ location.address.zip }}
+				{{ location.amenities[1].name }} {{ location.id }}
 			</h2>
 		</div>
 

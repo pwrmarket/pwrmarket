@@ -3,7 +3,7 @@
 		<BCol cols="4">
 			<RouterLink to="/our-locations">
 				<div class="w-100 rounded shadow-sm img-container">
-					<div class="child bg-one">
+					<div class="child bg-one" :style="`background-image: url(${imgOne});`">
 						<span style="max-width: 600px;">
 							Find Us
 						</span>
@@ -15,7 +15,7 @@
 		<BCol cols="4">
 			<RouterLink to="/deals">
 				<div class="w-100 rounded shadow-sm img-container">
-					<div class="child bg-two">
+					<div class="child bg-two" :style="`background-image: url(${imgTwo});`">
 						<span style="max-width: 600px;">
 							Deals
 						</span>
@@ -27,7 +27,7 @@
 		<BCol cols="4">
 			<RouterLink to="/loyalty">
 				<div class="w-100 rounded shadow-sm img-container">
-					<div class="child bg-three">
+					<div class="child bg-three" :style="`background-image: url(${imgThree});`">
 						<span style="max-width: 600px;">
 							Loyalty
 						</span>
@@ -37,6 +37,18 @@
 		</BCol>
 	</BRow>
 </template>
+
+<script>
+export default {
+	data() {
+		return {
+			imgOne: require('../assets/images/small/find-us.jpg'),
+			imgTwo: require('../assets/images/small/deal.jpg'),
+			imgThree: require('../assets/images/small/loyalty.jpg'),
+		}
+	},
+}
+</script>
 
 <style lang="scss" scoped>
 	@import '../assets/styles/index.scss';

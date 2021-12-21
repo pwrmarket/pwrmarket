@@ -13,7 +13,17 @@
 				</BCol>
 
 				<BCol cols="12" md="5">
-					<img :src="image" class="w-100 rounded" data-aos="fade-up">
+					<div
+						class="rounded shadow"
+						style="height: 350px; overflow: hidden;"
+						data-aos="fade-up"
+					>
+						<img
+							:src="`https://images2.imgbox.com/6b/87/5scWpmyb_o.jpg`"
+							class="w-100"
+							
+						>
+					</div>
 				</BCol>
 			</BRow>
 		</BContainer>

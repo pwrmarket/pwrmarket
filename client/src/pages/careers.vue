@@ -90,8 +90,16 @@
 
 					<div class="text-center">
 						<a :href="companyInfo.socialMedia.linkedin.link" target="_blank">
-							<LinkedinIcon size="4x" />
+							<LinkedinIcon size="4x" class="mb-5" />
 						</a>
+
+						<div class="" style="overflow: hidden;">
+							<img
+								src="https://images2.imgbox.com/2e/4e/e1IUFMLw_o.jpg"
+								class="w-100"
+								style="object-position: 0px -180px;"
+							/>
+						</div>
 					</div>
 				</BCol>
 			</BRow>

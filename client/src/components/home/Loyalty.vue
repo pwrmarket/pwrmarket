@@ -9,7 +9,7 @@
 
 			<BCol cols="12" lg="6" class="p-0 bg-light">
 				<div class="img-container w-100" >
-					<div class="child bg-one">
+					<div class="child bg-one" :style="`background-image: url(${bgImage});`">
 						<span class="" style="max-width: 600px;">
 							Save More With Power Market Loyalty
 							<br>
@@ -38,6 +38,8 @@
 				loyaltyImage: require('../../assets/images/app.png'),
 				googleStoreImage: require('../../assets/images/google-store.png'),
 				appStoreImage: require('../../assets/images/app-store.png'),
+
+				bgImage: require('../../assets/images/small/loyalty2.jpg')
 			}
 		},
 
@@ -85,7 +87,7 @@
 				top: 0;
 				left: 0;
 				background-color: $secondary-shine;
-				backdrop-filter: blur(6px) !important;
+				backdrop-filter: blur(4px) !important;
 			}
 		}
 

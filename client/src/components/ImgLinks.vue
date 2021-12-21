@@ -1,6 +1,6 @@
 <template>
 	<BRow class="w-100 m-0 p-0 content" style="height: 200px;">
-		<BCol md="4">
+		<BCol cols="4">
 			<RouterLink to="/our-locations">
 				<div class="w-100 rounded shadow-sm img-container">
 					<div class="child bg-one">
@@ -12,7 +12,7 @@
 			</RouterLink>
 		</BCol>
 
-		<BCol md="4">
+		<BCol cols="4">
 			<RouterLink to="/deals">
 				<div class="w-100 rounded shadow-sm img-container">
 					<div class="child bg-two">
@@ -24,7 +24,7 @@
 			</RouterLink>
 		</BCol>
 
-		<BCol md="4">
+		<BCol cols="4">
 			<RouterLink to="/loyalty">
 				<div class="w-100 rounded shadow-sm img-container">
 					<div class="child bg-three">

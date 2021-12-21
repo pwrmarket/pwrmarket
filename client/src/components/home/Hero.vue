@@ -142,7 +142,7 @@
 				}
 
 				@media (max-width: 768px) {
-					height: 100px;
+					height: 0px;
 				}
 			}
 

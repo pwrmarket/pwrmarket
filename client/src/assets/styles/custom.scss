@@ -50,8 +50,8 @@ body {
 }
 
 
-// [BG][GLASS] //
-.bg-glass-light {
+// [BG][FROST][LIGHT] //
+.bg-frost-shine {
 	border-radius: 5px;
 	background-color: rgba(255, 255, 255, 0.75);
 	backdrop-filter: blur(15px) !important;
@@ -59,9 +59,24 @@ body {
 }
 
 
-.bg-glass-lighter {
+.bg-frost-shinier {
 	border-radius: 5px;
 	background-color: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(15px) !important;
+	-webkit-backdrop-filter: blur(15px) !important;
+}
+
+
+// [BG][FROST][SHADE] //
+.bg-frost-shade {
+	background-color: rgba(0, 0, 0, 0.4) !important;
+	backdrop-filter: blur(10px) !important;
+	-webkit-backdrop-filter: blur(10px) !important;
+}
+
+
+.bg-frosty-shade {
+	background-color: rgba(0, 0, 0, 0.4) !important;
 	backdrop-filter: blur(15px) !important;
 	-webkit-backdrop-filter: blur(15px) !important;
 }

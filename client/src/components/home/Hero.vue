@@ -22,7 +22,7 @@
 							<BCol cols="12" sm="6">
 								<div class="text-center mb-3">
 									<RouterLink to="/deals">
-										<BButton variant="light" size="lg" class="w-100 bg-glass-light">
+										<BButton variant="light" size="lg" class="w-100 bg-frost-shine">
 											Current Deals
 										</BButton>
 									</RouterLink>
@@ -32,7 +32,7 @@
 							<BCol cols="12" sm="6">
 								<div class="text-center">
 									<RouterLink to="/our-locations">
-										<BButton variant="outline-light" size="lg" class="bg-glass-lighter w-100">
+										<BButton variant="outline-light" size="lg" class="bg-frost-shinier w-100">
 											Find a Location
 										</BButton>
 									</RouterLink>

@@ -5,7 +5,7 @@
 		:class="[
 			navClass,
 			// Remove fade effect by having it on always
-			{ 'bg-glass-light border-bottom': !$store.state.isHomePage }
+			{ 'bg-frost-lighter border-bottom': !$store.state.isHomePage }
 		]"
 		style="border-width: 4px !important;"
 	>
@@ -124,7 +124,7 @@
 			handleScroll() {
 				// Not Scrolled //
 				if (window.scrollY > 0) {
-					this.navClass = 'bg-glass-light border-bottom'
+					this.navClass = 'bg-frost-lighter border-bottom'
 					this.linkClass = 'text-gradient'
 				}
 				else {

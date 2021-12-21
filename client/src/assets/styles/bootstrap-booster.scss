@@ -79,3 +79,29 @@
 .bg-secondary-shine-light {
 	background-color: $secondary-shine-light !important;
 }
+
+
+// [BG][FROST][PRIMARY] //
+.bg-frost-primary-lightest {
+	border-radius: 5px;
+	background-color: mix($primary, rgba(255, 255, 255, .75), $weight: 10%);
+	backdrop-filter: blur(15px) !important;
+	-webkit-backdrop-filter: blur(15px) !important;
+}
+
+
+// [BG][FROST][LIGHT] //
+.bg-frost-light {
+	border-radius: 5px;
+	background-color: mix($light, rgba(255, 255, 255, .75), $weight: 30%);
+	backdrop-filter: blur(15px) !important;
+	-webkit-backdrop-filter: blur(15px) !important;
+}
+
+
+.bg-frost-lighter {
+	border-radius: 5px;
+	background-color: mix($light, rgba(255, 255, 255, .75), $weight: 10%);
+	backdrop-filter: blur(15px) !important;
+	-webkit-backdrop-filter: blur(15px) !important;
+}

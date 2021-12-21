@@ -67,7 +67,11 @@
 				</BCol>
 
 				<BCol cols="12" md="5">
-					<img :src="image" class="w-100 rounded" data-aos="fade-up">
+					<BCard class="shadow bg-gradient" data-aos="fade-up">
+						<BCardBody class="p-1 h-100 title-col">
+							<DownloadOurApp />
+						</BCardBody>
+					</BCard>
 				</BCol>
 			</BRow>
 		</BContainer>
@@ -76,13 +80,14 @@
 
 <script>
 	import { BatteryChargingIcon, ClipboardIcon, DollarSignIcon, MapPinIcon, SmartphoneIcon } from 'vue-feather-icons'
+	import DownloadOurApp from '../components/DownloadOurApp.vue'
 
-	import defaultData from '../defaults/companyInfo'
+	import companyInfo from '../defaults/companyInfo'
 
 	export default {
 		data() {
 			return {
-				defaultData: defaultData,
+				companyInfo: companyInfo,
 				image: require('../assets/images/shop.jpg')
 			}
 		},
@@ -91,8 +96,31 @@
 			BatteryChargingIcon,
 			ClipboardIcon,
 			DollarSignIcon,
+			DownloadOurApp,
 			MapPinIcon,
 			SmartphoneIcon,
 		},
 	}
 </script>
+
+<style lang="scss">
+	@import '../assets/styles/index.scss';
+	
+	.title-col {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		@media (min-width: 992px) {
+			&::after {
+				content: "";
+				position: absolute;
+				z-index: 1;
+				top: 30%;
+				right: -20px;
+				width: 0;
+				height: 0;
+			}
+		}
+	}
+</style>

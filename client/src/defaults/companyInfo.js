@@ -71,6 +71,16 @@ module.exports = {
 		}
 	},
 
+	app: {
+		apple: {
+			link: 'https://apps.apple.com/us/app/h-s-power-market/id1515421302',
+		},
+
+		google: {
+			link: 'https://play.google.com/store/apps/details?id=com.rovertown.hnsenergy',
+		},
+	},
+
 	aboutHTML: `
 		Looking for a store that offers convenience and grocery items at the same time?
 		<br>

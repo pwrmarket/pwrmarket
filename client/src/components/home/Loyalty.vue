@@ -1,23 +1,17 @@
 <template>
 	<BContainer fluid class="m-0 p-0">
-		<BRow class="w-100 m-0 bg-light">
-			<BCol cols="12" lg="6" class="d-none d-lg-block py-5 bg-primary">
+		<BRow class="w-100 m-0 bg-light" >
+			<BCol cols="12" lg="6" class=" py-5 bg-primary-light">
 				<div class="h-100 title-col">
-					<div class="w-100 text-center">
-						<img :src="loyaltyImage" alt="" class="w-100 mx-auto" style="max-width: 250px;">
-						<h1
-							class="text-center text-light mx-auto"
-							style="font-size: 3em; max-width: 600px;"
-						>Power Market Loyalty</h1>
-					</div>
+					<DownloadOurApp />
 				</div>
 			</BCol>
 
 			<BCol cols="12" lg="6" class="p-0 bg-light">
-				<div class="img-container w-100">
+				<div class="img-container w-100" >
 					<div class="child bg-one">
 						<span class="" style="max-width: 600px;">
-							Save More With Rewards
+							Save More With Power Market Loyalty
 							<br>
 
 							<RouterLink to="/loyalty">
@@ -34,17 +28,21 @@
 </template>
 
 <script>
+	import DownloadOurApp from '../../components/DownloadOurApp.vue'
 	import companyInfo from '../../defaults/companyInfo'
 
 	export default {
 		data() {
 			return {
 				companyInfo,
-				loyaltyImage: require('../../assets/images/loyalty-points.png')
+				loyaltyImage: require('../../assets/images/app.png'),
+				googleStoreImage: require('../../assets/images/google-store.png'),
+				appStoreImage: require('../../assets/images/app-store.png'),
 			}
 		},
 
 		components: {
+			DownloadOurApp,
 		},
 	}
 </script>
@@ -73,13 +71,8 @@
 
 			span {
 				position: absolute;
-				
 				text-align: center;
-				
 				font-size: 3em !important;
-
-				cursor: pointer;
-
 				color: $light;
 			}
 
@@ -150,7 +143,7 @@
 				height: 0;
 				border-top: 20px solid transparent;
 				border-bottom: 20px solid transparent;
-				border-left: 20px solid $primary;
+				border-left: 20px solid $primary-light;
 			}
 		}
 	}

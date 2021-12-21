@@ -6,7 +6,7 @@
 			<a :href="companyInfo.app.apple.link" target="_blank">
 				<img
 					:src="appStoreImage"
-					alt="Power Market Loyalty App Image Here"
+					alt="Download From Apple App Store"
 					class="w-100 mb-4"
 					style="max-width: 280px;"
 				>
@@ -15,7 +15,7 @@
 			<a :href="companyInfo.app.google.link" target="_blank">
 				<img
 					:src="googleStoreImage"
-					alt="Power Market Loyalty App Image Here"
+					alt="Download From Google App Store"
 					class="w-100 mb-4"
 					style="max-width: 280px;"
 				>

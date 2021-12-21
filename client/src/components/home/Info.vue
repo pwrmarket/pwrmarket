@@ -1,8 +1,8 @@
 <template>
 	<BContainer fluid class="m-0 p-0">
 		<BRow class="w-100 m-0">
-			<BCol cols="12" lg="3" class="p-0 center bg-secondary">
-				<div class="text-center text-light">
+			<BCol cols="12" lg="3" class="p-0 center bg-secondary-light">
+				<div class="d-none d-lg-block text-center text-light">
 					<h2 class="my-3 text-center text-uppercase">
 						See Our Ongoing Story
 					</h2>
@@ -89,7 +89,7 @@
 				top: 0;
 				width: 3%;
 				height: 100%;
-				background-color: $secondary;
+				background-color: $secondary-light;
 				
 
 				&:before {

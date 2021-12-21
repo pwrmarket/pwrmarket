@@ -65,7 +65,7 @@
 										<h6 class="m-0 text-uppercase text-light">
 											<span class="h3">✓</span><br>
 											<span class="small font-weight-bold">
-												PML
+												Rewards
 											</span>
 										</h6>
 									</div>

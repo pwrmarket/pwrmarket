@@ -20,7 +20,7 @@
 
 		<Conveyor
 			:images="conveyorImages"
-			:totalOnLg="4"
+			:totalOnLg="3"
 			class="pb-5 bg-light"
 		/>
 
@@ -50,9 +50,6 @@
 					require('../assets/images/affiliates/1.png'),
 					require('../assets/images/affiliates/2.png'),
 					require('../assets/images/affiliates/3.png'),
-					require('../assets/images/affiliates/4.png'),
-					require('../assets/images/affiliates/5.png'),
-					require('../assets/images/affiliates/6.png'),
 				]
 			}
 		},

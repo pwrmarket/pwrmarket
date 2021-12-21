@@ -23,6 +23,7 @@ const routes = [
 		name: '/',
 		component: index,
 		meta: {
+			altLink: '',
 			title: 'Home',
 			show: true,
 		},
@@ -32,6 +33,7 @@ const routes = [
 		name: 'ourLocations',
 		component: ourLocations,
 		meta: {
+			altLink: '',
 			title: 'Our Locations',
 			show: true,
 		},
@@ -41,6 +43,7 @@ const routes = [
 		name: 'about',
 		component: about,
 		meta: {
+			altLink: '',
 			title: 'About',
 			show: true,
 		},
@@ -50,16 +53,18 @@ const routes = [
 		name: 'deals',
 		component: deals,
 		meta: {
+			altLink: '',
 			title: 'Deals',
 			show: true,
 		},
 	},
 	{
-		path: '/loyalty',
-		name: 'loyalty',
+		path: '/rewards',
+		name: 'rewards',
 		component: loyalty,
 		meta: {
-			title: 'PML',
+			altLink: '',
+			title: 'Rewards',
 			show: true,
 		},
 	},
@@ -69,6 +74,7 @@ const routes = [
 		name: 'careers',
 		component: careers,
 		meta: {
+			altLink: 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fe247937-30ea-42e9-897c-7e49746c78f8&ccId=9200028200615_2&lang=en_US',
 			title: 'Careers',
 			show: true,
 		},
@@ -79,6 +85,7 @@ const routes = [
 		name: 'email-sent',
 		component: emailSent,
 		meta: {
+			altLink: '',
 			title: 'Email Sent',
 			show: false,
 		},
@@ -89,6 +96,7 @@ const routes = [
 		name: 'location',
 		component: location,
 		meta: {
+			altLink: '',
 			title: 'Location',
 			show: false,
 		},
@@ -98,6 +106,7 @@ const routes = [
 		name: 'not_found',
 		component: notFound,
 		meta: {
+			altLink: '',
 			title: 'Not Found',
 			show: false,
 		},

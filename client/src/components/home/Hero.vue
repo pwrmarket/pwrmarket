@@ -16,7 +16,7 @@
 								<h1
 									class="my-5 text-center text-light"
 									style="font-size: 4em;"
-								>We'd Love to See You Stop By!</h1>
+								>Everything You Need Right Around the Corner!</h1>
 							</BCol>
 
 							<BCol cols="12" sm="6">

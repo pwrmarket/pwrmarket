@@ -2,7 +2,7 @@
 	<BContainer fluid class="mb-6 p-0 pb-5">
 		<div class="py-5 bg-gradient">
 			<h2 class="m-0 text-center text-light" data-aos="fade">
-				Power Market Loyalty (PML)
+				Power Market Loyalty (Rewards)
 			</h2>
 		</div>
 

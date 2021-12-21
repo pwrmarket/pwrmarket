@@ -26,29 +26,15 @@
 					</BCol>
 
 					<BCol cols="12" sm="4" class="text-center text-sm-left">
-						<h4 class="text-primary">Location</h4>
-						<a :href="companyInfo.googleMapsLink" class="mb-3 text-white">
-							<h5 class="mb-4">{{ companyInfo.address }}</h5>
-						</a>
-
-						<h4 class="text-primary">Hours</h4>
-						<ul class="list-unstyled text-small text-light">
-							<li
-								v-for="(hoo, index) in companyInfo.hoursOfOperation"
-								:key="index"
-							>
-								<span class="text-primary">{{ hoo.days }}:</span>
-								{{ hoo.hours }}
-							</li>
-						</ul>
-						<hr>
+						<h4 class="text-primary">Download Our App</h4>
+						<DownloadOurAppSmall />
 					</BCol>
 
 					<BCol cols="12" sm="4" class="text-center">
 						<h4 class="text-primary">Check Us Out</h4>
 						<ul class="list-unstyled text-small">
 							<li v-for="(link, i) in routes" :key="i">
-								<RouterLink v-if="link.meta.show" to="/services" class="text-light">
+								<RouterLink v-if="link.meta.show" :to="link.path" class="text-light">
 									<span>{{ link.meta.title }}</span>
 								</RouterLink>
 							</li>
@@ -76,13 +62,15 @@
 </template>
 
 <script>
+	import DownloadOurAppSmall from '../../components/DownloadOurAppSmall'
 	import SocialMediaPlug from '../../components/SocialMediaPlug'
 	import companyInfo from '../../defaults/companyInfo'
 	import { routes } from '@/router'
 
 	export default {
 		components: {
-			SocialMediaPlug
+			DownloadOurAppSmall,
+			SocialMediaPlug,
 		},
 
 		data() {

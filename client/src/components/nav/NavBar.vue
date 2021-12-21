@@ -18,12 +18,7 @@
 						<img :src="companyInfo.logo" class="w-100" style="max-width: 60px;">
 					
 						<div class="text-holder">
-							<h1
-								class="font-weight-bold"
-								:class="[
-									$store.state.isHomePage ? linkClass : 'text-gradient'
-								]"
-							>power market</h1>
+							<img :src="companyInfo.fullLogo" class="w-100" style="max-width: 350px;">
 						</div>
 					</div>
 				</RouterLink>
@@ -33,7 +28,7 @@
 			<div class="d-none d-xl-flex ml-auto h5 font-weight-bold">
 				<div v-for="(r, i) in routes" :key="i" class="menu-item">
 					<RouterLink
-						v-if="r.meta.show"
+						v-if="r.meta.show && r.meta.altLink == ''"
 						:to="r.path"
 						class="
 							h5
@@ -48,6 +43,24 @@
 					>
 						{{ r.meta.title }}
 					</RouterLink>
+
+					<a
+						v-if="r.meta.show && r.meta.altLink !== ''"
+						:href="r.meta.altLink"
+						target="_blank"
+						class="
+							h5
+							my-5
+							mx-3
+							menu-item-link
+						"
+						:class="[
+							$store.state.isHomePage ? linkClass : 'text-gradient'
+						]"
+						style="height: 24px;"
+					>
+						{{ r.meta.title }}
+					</a>
 				</div>
 			</div>
 		</BContainer>

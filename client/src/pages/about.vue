@@ -16,13 +16,15 @@
 		</div>
 
 		<BContainer class="content">
-			<BCard
-				class="mx-auto p-5 shadow text-dark text-center bg-frost-primary-lightest"
-				data-aos="fade-up"
-			>
 				<BRow>
 					<BCol cols="12" lg="7">
-						<h6 v-html="defaultData.aboutHTML" data-aos="fade"></h6>
+						<BCard
+							class="mx-auto p-3 shadow text-dark bg-frost-light"
+							data-aos="fade-up"
+						>
+							<h3 class="text-center text-primary">We Are Power Market!</h3>
+							<h6 v-html="defaultData.aboutHTML" data-aos="fade" class="text-primary"></h6>
+						</BCard>
 					</BCol>
 
 					<BCol cols="12" lg="5" class="d-none d-lg-block">
@@ -30,7 +32,6 @@
 					</BCol>
 				</BRow>
 
-			</BCard>
 		</BContainer>
 		
 		<BContainer>

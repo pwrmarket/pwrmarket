@@ -12,8 +12,6 @@
 			>
 				<div
 					class="img-holder shadow"
-					data-aos="fade-up"
-					data-aos-once="true"
 				>
 					<img
 						:src="img"

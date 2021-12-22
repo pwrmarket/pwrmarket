@@ -19,6 +19,10 @@ $theme-colors: (
 	//border-radius: 0 !important;
 //}
 
+.btn-secondary {
+	color: white !important;
+}
+
 // [CONTAINER] //
 @media (min-width: 1600px) {
 	.container { max-width: 1400px; }

@@ -5,7 +5,7 @@
 				<img
 					:src="appStoreImage"
 					alt="Download From Apple App Store"
-					class="w-100 mb-4"
+					class="w-100 mb-3"
 					style="max-width: 130px;"
 				>
 			</a>
@@ -16,7 +16,7 @@
 				<img
 					:src="googleStoreImage"
 					alt="Download From Google App Store"
-					class="w-100 mb-4"
+					class="w-100 mb-3"
 					style="max-width: 130px;"
 				>
 			</a>

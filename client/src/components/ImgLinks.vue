@@ -1,6 +1,6 @@
 <template>
-	<BRow class="w-100 m-0 p-0 content" style="height: 200px;">
-		<BCol cols="4">
+	<BRow class="w-100 m-0 p-0 content" style="height: ;">
+		<BCol cols="12" md="4">
 			<RouterLink to="/our-locations">
 				<div class="w-100 rounded shadow-sm img-container">
 					<div class="child bg-one" :style="`background-image: url(${imgOne});`">
@@ -12,7 +12,7 @@
 			</RouterLink>
 		</BCol>
 
-		<BCol cols="4">
+		<BCol cols="12" md="4">
 			<RouterLink to="/deals">
 				<div class="w-100 rounded shadow-sm img-container">
 					<div class="child bg-two" :style="`background-image: url(${imgTwo});`">
@@ -24,8 +24,8 @@
 			</RouterLink>
 		</BCol>
 
-		<BCol cols="4">
-			<RouterLink to="/loyalty">
+		<BCol cols="12" md="4">
+			<RouterLink to="/rewards">
 				<div class="w-100 rounded shadow-sm img-container">
 					<div class="child bg-three" :style="`background-image: url(${imgThree});`">
 						<span style="max-width: 600px;">
@@ -54,10 +54,10 @@ export default {
 	@import '../assets/styles/index.scss';
 
 	// CONTENT //
-	.content {
-		-webkit-transform: translateY(-150px);
-		transform: translateY(-150px);
-	}
+	//.content {
+		//-webkit-transform: translateY(-150px);
+		//transform: translateY(-150px);
+	//}
 
 	.img-container {
 		height: 300px;
@@ -100,6 +100,10 @@ export default {
 				cursor: pointer;
 
 				color: $light;
+
+				@media (max-width: 500px) {
+					font-size: 2em !important;
+				}
 			}
 
 			&:before {
@@ -148,6 +152,11 @@ export default {
 				}
 			}
 
+		}
+
+		@media (max-width: 768px) {
+			height: 100px;
+			margin-bottom: 30px;
 		}
 	}
 </style>

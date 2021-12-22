@@ -88,7 +88,6 @@
 		data() {
 			return {
 				companyInfo: companyInfo,
-				image: require('../assets/images/shop.jpg')
 			}
 		},
 

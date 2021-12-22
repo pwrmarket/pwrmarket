@@ -23,7 +23,7 @@
 
 		<!-- [CENTER] OF SLIDER -->
 		<div class="d-none d-sm-block slider-center" style="max-width: 750px;">
-			<BRow class="w-100 mx-auto p-3 bg-frost-lighter">
+			<BRow class="w-100 mx-auto p-3 bg-light rounded shadow">
 				<BCol cols="12">
 					<h1
 						class="

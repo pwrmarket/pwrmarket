@@ -22,8 +22,8 @@
 		</VueTinySlider>
 
 		<!-- [CENTER] OF SLIDER -->
-		<div class="d-none d-sm-block slider-center">
-			<BRow class="w-100 mx-auto p-3 bg-frost-lightest">
+		<div class="d-none d-sm-block slider-center" style="max-width: 750px;">
+			<BRow class="w-100 mx-auto p-3 bg-frost-lighter">
 				<BCol cols="12">
 					<h1
 						class="
@@ -32,9 +32,7 @@
 							mb-3
 							title
 							font-weight-light
-							text-light
-							text-fancy
-							text-shadow
+							text-gradient
 						"
 						style="font-size: 3em;"
 					>{{ mainText }}</h1>
@@ -44,15 +42,13 @@
 							d-lg-none
 							d-md-block
 							d-none
-							mb-3
+							mb-0
 							title
 							font-weight-light
-							text-light
-							text-fancy
-							text-shadow
+							text-gradient
 						"
 						style="font-size: 2.3em;"
-					>{{ mainText }}</h1>
+					>Power Market</h1>
 
 					<h3
 						class="
@@ -63,20 +59,6 @@
 							title
 							font-weight-light
 							text-gradient
-							text-fancy
-						"
-					>Power Market</h3>
-
-					<h3
-						class="
-							d-sm-none
-							d-none
-							mb-0
-							title
-							font-weight-light
-							text-light
-							text-fancy
-							text-shadow
 						"
 					>Power Market</h3>
 				</BCol>

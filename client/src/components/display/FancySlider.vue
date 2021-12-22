@@ -66,7 +66,7 @@
 				<BCol cols="12" md="6" class="d-none d-lg-block">
 					<div class="text-center mb-3">
 						<RouterLink to="/deals">
-							<BButton variant="primary" class="w-100">
+							<BButton variant="secondary" class="w-100">
 								Current Deals
 							</BButton>
 						</RouterLink>
@@ -76,7 +76,7 @@
 				<BCol cols="12" md="6" class="d-none d-lg-block">
 					<div class="text-center">
 						<RouterLink to="/our-locations">
-							<BButton variant="secondary" class="w-100">
+							<BButton variant="primary" class="w-100">
 								Find a Location
 							</BButton>
 						</RouterLink>
@@ -144,6 +144,22 @@
 
 <style lang="scss" scoped>
 	@import '../../assets/styles/variables.scss';
+
+	.title {
+		font-size: 3em !important;
+
+		@media (max-width: 1200px) {
+			font-size: 2em !important;
+		}
+
+		@media (max-width: 900px) {
+			font-size: 2em !important;
+		}
+
+		@media (max-width: 500px) {
+			font-size: 1em !important;
+		}
+	}
 
 	.slider-holder {
 		position: relative;

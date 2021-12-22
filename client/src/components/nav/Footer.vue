@@ -25,7 +25,7 @@
 						</RouterLink>
 					</BCol>
 
-					<BCol cols="12" sm="4" class="text-center text-sm-left">
+					<BCol cols="12" sm="4" class="text-center">
 						<h4 class="text-primary">Download Our App</h4>
 						<DownloadOurAppSmall />
 					</BCol>

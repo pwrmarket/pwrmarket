@@ -23,7 +23,7 @@
 							data-aos="fade-up"
 						>
 							<h3 class="text-center text-primary">We Are Power Market!</h3>
-							<h6 v-html="defaultData.aboutHTML" data-aos="fade" class="text-primary"></h6>
+							<h6 v-html="defaultData.aboutHTML" class="text-secondary"></h6>
 						</BCard>
 					</BCol>
 

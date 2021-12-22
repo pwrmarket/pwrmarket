@@ -2,12 +2,9 @@
 	<div class="">
 		<!-- Caraousel -->
 		<FancySlider
-			:showContent="true"
 			:mainText="'Everything You Need Right Around the Corner!'"
-			:slideObjs="caraousel"
+			:slides="caraousel"
 			:maxHeight="700"
-			:rellaxNumber="1"
-			class=""
 			data-aos="fade"
 		/>
 

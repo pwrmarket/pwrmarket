@@ -126,11 +126,11 @@
 
 // [TEXT][SHADOW] //
 .text-shadow {
-	text-shadow: 1px 1px 1px $secondary !important;
+	text-shadow: 1px 1px 1px black !important;
 }
 
 .text-shadow-primary {
-	text-shadow: 1px 1px 1px black !important;
+	text-shadow: 1px 1px 1px $primary !important;
 }
 
 .text-shadow-light {

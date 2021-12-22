@@ -18,7 +18,7 @@
 						<img :src="companyInfo.logo" class="w-100" style="max-width: 60px;">
 					
 						<div class="text-holder">
-							<img :src="companyInfo.fullLogo" class="w-100" style="max-width: 350px;">
+							<img :src="companyInfo.fullLogo" class="w-100 full-logo">
 						</div>
 					</div>
 				</RouterLink>
@@ -214,6 +214,14 @@
 					transform: scaleX(1);
 				}
 			}
+		}
+	}
+
+	.full-logo {
+		max-width: 380px;
+
+		@media (max-width: 1600px) {
+			max-width: 300px;
 		}
 	}
 		

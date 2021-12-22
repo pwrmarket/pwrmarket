@@ -1,20 +1,20 @@
 <template>
 	<BContainer fluid class="m-0 p-0">
 		<BRow class="w-100 m-0">
-			<BCol cols="12" lg="8" class="d-none d-lg-block py-5 bg-gradient-weak">
+			<BCol cols="12" lg="6" class="d-none d-lg-block py-5 bg-gradient-weak">
 				<div class="h-100 title-col">
 					<h1
 						class="text-center text-light"
 						style="font-size: 3em; max-width: 600px;"
 					>
-						<span class="p-3 bg-primary shadow">
+						<span class="p-3 bg-frost-lighter shadow">
 							Looking for a Career?
 						</span>
 					</h1>
 				</div>
 			</BCol>
 
-			<BCol cols="12" lg="4" class="p-0 bg-light">
+			<BCol cols="12" lg="6" class="p-0 bg-light">
 				<div class="img-container w-100">
 					<div class="child bg-one">
 						<span class="" style="max-width: 600px;">

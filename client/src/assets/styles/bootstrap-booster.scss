@@ -110,7 +110,7 @@
 
 .bg-frost-lighter {
 	border-radius: 5px;
-	background-color: mix($light, rgba(255, 255, 255, .75), $weight: 10%);
+	background-color: mix($light, rgba(255, 255, 255, .5), $weight: 10%);
 	backdrop-filter: blur(15px) !important;
 	-webkit-backdrop-filter: blur(15px) !important;
 }

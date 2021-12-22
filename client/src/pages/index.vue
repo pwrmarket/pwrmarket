@@ -31,11 +31,6 @@
 		/>
 
 		<Careers />
-
-		<CurrentPrices v-if="0 == 1" />
-
-		<div class="bg-primary-lighter" style="min-height: 0px;">
-		</div>
 	</div>
 </template>
 
@@ -44,7 +39,6 @@
 	import FancySlider from '../components/display/FancySlider.vue'
 	import ImgLinks from '../components/ImgLinks.vue'
 	import Careers from '../components/home/Careers'
-	import CurrentPrices from '../components/home/CurrentPrices'
 	import Info from '../components/home/Info'
 	import Loyalty from '../components/home/Loyalty'
 
@@ -88,7 +82,6 @@
 			Conveyor,
 			ImgLinks,
 			Careers,
-			CurrentPrices,
 			Info,
 			Loyalty,
 		},

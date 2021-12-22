@@ -1,19 +1,9 @@
 <template>
 	<BContainer fluid class="mb-6 p-0 pb-5 bg-white">
-		<div
-			class="center"
-			style="height: 360px; overflow: hidden;"
-			:style="`
-				background-image: url(${require('../assets/images/small/about.jpg')});
-				background-size: 100%;
-			`"
-		>
-			<div class="py-0 bg-frost-shade w-100 h-100 center">
-				<h1 class="my-3 text-center text-light" style="font-size: 3.5em;" data-aos="fade">
-					About Power Market
-				</h1>
-			</div>
-		</div>
+		<TitleHeader
+			:imageURL="require('../assets/images/small/about.jpg')"
+			:text="`About Power Market`"
+		/>
 
 		<BContainer class="content">
 				<BRow>
@@ -68,7 +58,8 @@
 
 <script>
 import defaultData from '../defaults/companyInfo'
-import Gallery from '@/components/Gallery.vue'
+import Gallery from '@/components/Gallery'
+import TitleHeader from '@/components/UI/TitleHeader'
 
 export default {
 	data() {
@@ -78,7 +69,7 @@ export default {
 		}
 	},
 
-	components: { Gallery },
+	components: { Gallery, TitleHeader },
 }
 </script>
 
@@ -87,11 +78,5 @@ export default {
 	.content {
 		-webkit-transform: translateY(-80px);
 		transform: translateY(-80px);
-	}
-
-	.center {
-		display: flex;
-		justify-content: center;
-		align-items: center;
 	}
 </style>

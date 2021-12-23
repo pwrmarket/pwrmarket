@@ -13,7 +13,7 @@
 					cols="12" sm="6" md="6" lg="4" xl="4"
 					class="p-0"
 				>
-					<img :src="img" class="w-100">
+					<img :src="img" v-lazy="img" class="w-100">
 				</BCol>
 			</BRow>
 		</div>

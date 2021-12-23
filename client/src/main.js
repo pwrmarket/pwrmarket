@@ -4,6 +4,7 @@ import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import Vue from 'vue'
 import Viewer from 'v-viewer'
 import VueRellax from 'vue-rellax'
+import VueLazyload from 'vue-lazyload'
 import 'aos/dist/aos.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import 'tiny-slider/src/tiny-slider.scss'
@@ -21,6 +22,12 @@ Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
 Vue.use(Viewer)
 Vue.use(VueRellax)
+Vue.use(VueLazyload, {
+	preLoad: 1.3,
+	error: require('./assets/media/err.png'),
+	loading: require('./assets/media/loading.gif'),
+	attempt: 1
+})
 
 
 Vue.config.productionTip = false

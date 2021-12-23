@@ -5,30 +5,18 @@
 			:text="`Save More With These Everyday Deals!`"
 		/>
 
-		<BContainer class="p-0 content">
+		<div class="p-0 pb-5 ">
 			<BRow class="w-100 m-0">
-				<BCol cols="12" sm="6" md="6" lg="4" xl="4" class="mx-auto p-0">
-					<img src="https://images2.imgbox.com/fa/72/boL8ZhCd_o.png" class="w-100">
-				</BCol>
-
-				<BCol cols="12" sm="6" md="6" lg="4" xl="4" class="mx-auto p-0">
-					<img src="https://images2.imgbox.com/0f/f2/hgfOYHou_o.png" class="w-100">
-				</BCol>
-
-				<BCol cols="12" sm="6" md="6" lg="4" xl="4" class="mx-auto p-0">
-					<img src="https://images2.imgbox.com/a3/91/dQH5F6Mu_o.png" class="w-100">
-				</BCol>
-
-				<BCol cols="12" sm="6" md="6" lg="4" xl="4" class="mx-auto p-0">
-					<img src="https://images2.imgbox.com/6d/1e/7cVd2rU5_o.png" class="w-100">
-				</BCol>
-
-				<BCol cols="12" sm="6" md="6" lg="4" xl="4" class="mx-auto p-0">
-					<img src="https://images2.imgbox.com/97/9a/4TSWOET5_o.png" class="w-100">
+				<BCol
+					v-for="(img, i) in images"
+					:key="i"
+					cols="12" sm="6" md="6" lg="4" xl="4"
+					class="p-0"
+				>
+					<img :src="img" class="w-100">
 				</BCol>
 			</BRow>
-
-		</BContainer>
+		</div>
 	</BContainer>
 </template>
 
@@ -38,7 +26,13 @@ import TitleHeader from '@/components/UI/TitleHeader'
 export default {
 	data() {
 		return {
-			image: require('../assets/images/about.jpg')
+			images: [
+				"https://images2.imgbox.com/f1/c8/XKrDps69_o.png",
+				"https://images2.imgbox.com/43/bc/yIzF2Mg1_o.png",
+				"https://images2.imgbox.com/3a/99/e5Gs7gVp_o.png",
+				"https://images2.imgbox.com/a1/90/0DTXvT4E_o.png",
+				"https://images2.imgbox.com/8a/40/g5aozA7m_o.png",
+			],
 		}
 	},
 

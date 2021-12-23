@@ -1,8 +1,7 @@
 <template>
 	<BContainer
 		fluid
-		class="fixed-top m-0 p-0 w-100 bg-light border-secondary border-bottom"
-		style="border-width: 4px !important;"
+		class="fixed-top m-0 p-0 w-100 bg-light border-bottom"
 	>
 		<!-- [MENU][1] -->
 		<div class="d-none d-xl-flex py-2 bg-gradient">

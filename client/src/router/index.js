@@ -25,6 +25,7 @@ const routes = [
 		meta: {
 			altLink: '',
 			title: 'Home',
+			menu: 2,
 			show: true,
 		},
 	},
@@ -35,6 +36,7 @@ const routes = [
 		meta: {
 			altLink: '',
 			title: 'Our Locations',
+			menu: 2,
 			show: true,
 		},
 	},
@@ -45,6 +47,7 @@ const routes = [
 		meta: {
 			altLink: '',
 			title: 'About',
+			menu: 2,
 			show: true,
 		},
 	},
@@ -55,6 +58,7 @@ const routes = [
 		meta: {
 			altLink: '',
 			title: 'Deals',
+			menu: 2,
 			show: true,
 		},
 	},
@@ -65,6 +69,7 @@ const routes = [
 		meta: {
 			altLink: '',
 			title: 'Rewards',
+			menu: 2,
 			show: true,
 		},
 	},
@@ -76,6 +81,7 @@ const routes = [
 		meta: {
 			altLink: 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fe247937-30ea-42e9-897c-7e49746c78f8&ccId=9200028200615_2&lang=en_US',
 			title: 'Careers',
+			menu: 1,
 			show: true,
 		},
 	},
@@ -87,6 +93,7 @@ const routes = [
 		meta: {
 			altLink: '',
 			title: 'Email Sent',
+			menu: 0,
 			show: false,
 		},
 	},
@@ -98,6 +105,7 @@ const routes = [
 		meta: {
 			altLink: '',
 			title: 'Location',
+			menu: 0,
 			show: false,
 		},
 	},
@@ -108,6 +116,7 @@ const routes = [
 		meta: {
 			altLink: '',
 			title: 'Not Found',
+			menu: 0,
 			show: false,
 		},
 	},

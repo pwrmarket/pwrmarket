@@ -4,10 +4,10 @@
 		<NavBar />
 
 		<!-- Desktop Spacer -->
-		<div class="d-block d-lg-none" style="height: 85.11px;" />
+		<div class="d-none d-xl-block bg-primary" style="height: 153px;" />
 
 		<!-- Mobile Spacer -->
-		<div class="d-none d-lg-block" style="height: 109px;" />
+		<div class="d-block d-xl-none bg-primary" style="height: 96px;" />
 
 		<!-- RouterView -->
 		<RouterView />

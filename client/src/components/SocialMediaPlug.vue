@@ -1,5 +1,5 @@
 <template>
-	<div class="text-center">
+	<div :class="`text-${align}`">
 		<a
 			v-if="defaultData.socialMedia.facebook.link != ''"
 			:href="defaultData.socialMedia.facebook.link"
@@ -38,6 +38,11 @@
 
 	export default {
 		props: {
+			align: {
+				type: String,
+				default: "center",
+			},
+
 			size: {
 				type: String,
 				default: "24",

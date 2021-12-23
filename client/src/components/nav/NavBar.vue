@@ -2,9 +2,51 @@
 	<BContainer
 		fluid
 		class="fixed-top m-0 p-0 w-100 bg-light border-secondary border-bottom"
-		
 		style="border-width: 4px !important;"
 	>
+		<!-- [MENU][1] -->
+		<div class="d-none d-xl-flex py-2 bg-gradient">
+			<BContainer>
+				<BRow>
+					<BCol cols="6">
+						<SocialMediaPlug align="left" />
+					</BCol>
+
+					<BCol cols="6">
+						<div v-for="(r, i) in routes" :key="i" class="text-right">
+							<RouterLink
+								v-if="r.meta.menu == 1 && r.meta.altLink == ''"
+								:to="r.path"
+								class="
+									h5
+									mx-3
+									text-light
+								"
+								style="height: 24px;"
+							>
+								{{ r.meta.title }}
+							</RouterLink>
+
+							<a
+								v-if="r.meta.menu == 1 && r.meta.altLink !== ''"
+								:href="r.meta.altLink"
+								target="_blank"
+								class="
+									h5
+									mx-3
+									text-light
+								"
+								style="height: 24px;"
+							>
+								{{ r.meta.title }}
+							</a>
+						</div>
+					</BCol>
+				</BRow>
+			</BContainer>
+		</div>
+		
+		<!-- [MENU][2] -->
 		<BContainer class="d-none d-xl-flex">
 			<!-- [LOGO] Logo Holder -->
 			<div class="d-flex justify-content-center py-4">
@@ -24,7 +66,7 @@
 			<div class="d-none d-xl-flex ml-auto h5 font-weight-bold">
 				<div v-for="(r, i) in routes" :key="i" class="menu-item">
 					<RouterLink
-						v-if="r.meta.show && r.meta.altLink == ''"
+						v-if="r.meta.menu == 2 && r.meta.altLink == ''"
 						:to="r.path"
 						class="
 							h5
@@ -39,7 +81,7 @@
 					</RouterLink>
 
 					<a
-						v-if="r.meta.show && r.meta.altLink !== ''"
+						v-if="r.meta.menu == 2 && r.meta.altLink !== ''"
 						:href="r.meta.altLink"
 						target="_blank"
 						class="
@@ -101,6 +143,7 @@
 
 	// [IMPORT] Personal //
 	import SideMenu from '@/components/nav/SideMenu'
+	import SocialMediaPlug from '../../components/SocialMediaPlug'
 	import companyInfo from '@/defaults/companyInfo'
 	import router, { routes } from '@/router'
 
@@ -108,6 +151,7 @@
 		components: {
 			MenuIcon,
 			SideMenu,
+			SocialMediaPlug,
 		},
 
 		data() {

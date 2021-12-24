@@ -26,8 +26,12 @@ const upload = multer({
 })
 
 
+// [INIT] Const //
+const location = '/api/mail/careers'
+
+
 router.post(
-	'/careers',
+	'/contact',
 	upload.single('file'),
 	async (req, res) => {
 		try {
@@ -39,7 +43,7 @@ router.post(
 			) {
 				// [MAIL-UTIL] WITH ATTACHMENT //
 				if (req.file) {
-					const mObj = await mailerUtil.sendCareersEmail({
+					const mObj = await mailerUtil.sendContactEmail({
 						subject: req.body.subject,
 						clientEmail: req.body.clientEmail,
 						name: req.body.name,
@@ -68,15 +72,15 @@ router.post(
 							res.send({
 								executed: true,
 								status: false,
-								location: '/api/mail/careers',
-								message: `/api/mail/careers: Error --> ${err}`,
+								location: location,
+								message: `${location}: Error --> ${err}`,
 							})
 						}
 					})
 				}
 				// [MAIL-UTIL] WITHOUT ATTACHMENT //
 				else {
-					const mObj = await mailerUtil.sendCareersEmail({
+					const mObj = await mailerUtil.sendContactEmail({
 						subject: req.body.subject,
 						clientEmail: req.body.clientEmail,
 						name: req.body.name,
@@ -84,7 +88,7 @@ router.post(
 						position: req.body.position,
 					})
 
-					res.status(200).send({
+					res.send({
 						executed: true,
 						status: true,
 						message: mObj.message,
@@ -92,20 +96,20 @@ router.post(
 				}
 			}
 			else {
-				res.status(200).send({
+				res.send({
 					executed: true,
 					status: false,
-					location: `/api/mail/careers`,
-					message: `/api/mail/careers: Invalid params`,
+					location: location,
+					message: `${location}: Invalid params`,
 				})
 			}
 		}
 		catch (err) {
-			res.status(200).send({
+			res.send({
 				executed: false,
 				status: false,
-				location: '/api/mail/careers',
-				message: `/api/mail/careers: Error --> ${err}`,
+				location: location,
+				message: `${location}: Error --> ${err}`,
 			})
 		}
 	}

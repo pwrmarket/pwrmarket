@@ -36,7 +36,7 @@ class Auth {
 							// Check if the role is admin
 							if (decoded.role == 'admin') { next() }
 							else {
-								res.status(200).send({
+								res.send({
 									executed: true,
 									status: false,
 									message: 'Access Denied: Invalid Token',
@@ -45,7 +45,7 @@ class Auth {
 							}
 						}
 						else {
-							res.status(200).send({
+							res.send({
 								executed: true,
 								status: false,
 								message: `Access Denied: JWT Error --> ${err}`,
@@ -55,7 +55,7 @@ class Auth {
 					})
 				}
 				else {
-					res.status(200).send({
+					res.send({
 						executed: true,
 						status: false,
 						message: 'Access denied: Not valid JWT',
@@ -64,7 +64,7 @@ class Auth {
 				}
 			}
 			else {
-				res.status(200).send({
+				res.send({
 					executed: true,
 					status: false,
 					message: 'Access denied: No token passed',
@@ -90,7 +90,7 @@ class Auth {
 						// Check if the role is admin
 						if (decoded.role == 'admin') { req.decoded2 = decoded }
 						else {
-							res.status(200).send({
+							res.send({
 								executed: true,
 								status: false,
 								message: 'Access Denied: Invalid Token',
@@ -147,7 +147,7 @@ class Auth {
 							}
 
 							else {
-								res.status(200).send({
+								res.send({
 									executed: true,
 									status: false,
 									message: `Access denied: JWT Error --> ${err}`,
@@ -156,7 +156,7 @@ class Auth {
 							}
 						}
 						catch (err) {
-							res.status(200).send({
+							res.send({
 								executed: false,
 								status: false,
 								message: `Auth: Error --> ${err}`
@@ -165,7 +165,7 @@ class Auth {
 					})
 				}
 				else {
-					res.status(200).send({
+					res.send({
 						executed: true,
 						status: false,
 						message: 'Access denied: Not valid JWT',
@@ -174,7 +174,7 @@ class Auth {
 				}
 			}
 			else {
-				res.status(200).send({
+				res.send({
 					executed: true,
 					status: false,
 					message: 'Access denied: No token passed',
@@ -205,7 +205,7 @@ class Auth {
 
 							try { next() }
 							catch (err) {
-								res.status(200).send({
+								res.send({
 									executed: false,
 									status: false,
 									message: `Auth: Error --> ${err}`
@@ -213,7 +213,7 @@ class Auth {
 							}
 						}
 						else {
-							res.status(200).send({
+							res.send({
 								executed: true,
 								status: false,
 								message: `Access denied: JWT Error --> ${err}`,
@@ -223,7 +223,7 @@ class Auth {
 					})
 				}
 				else {
-					res.status(200).send({
+					res.send({
 						executed: true,
 						status: false,
 						message: 'Access denied: Not valid JWT',
@@ -232,7 +232,7 @@ class Auth {
 				}
 			}
 			else {
-				res.status(200).send({
+				res.send({
 					executed: true,
 					status: false,
 					message: 'Access denied: No token passed',
@@ -264,7 +264,7 @@ class Auth {
 					catch (err) {
 						console.log('JWT Verify:', err)
 
-						res.status(200).send({
+						res.send({
 							executed: true,
 							status: false,
 							message: err

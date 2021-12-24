@@ -7,6 +7,7 @@ import VueRouter from 'vue-router'
 import companyInfo from '@/defaults/companyInfo'
 import about from '@/pages/about'
 import careers from '@/pages/careers'
+import contact from '@/pages/contact'
 import deals from '@/pages/deals'
 import emailSent from '@/pages/email-sent'
 import index from '@/pages'
@@ -81,6 +82,18 @@ const routes = [
 		meta: {
 			altLink: 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fe247937-30ea-42e9-897c-7e49746c78f8&ccId=9200028200615_2&lang=en_US',
 			title: 'Careers',
+			menu: 1,
+			show: true,
+		},
+	},
+	// Contact //
+	{
+		path: '/contact',
+		name: 'contact',
+		component: contact,
+		meta: {
+			altLink: '',
+			title: 'Contact',
 			menu: 1,
 			show: true,
 		},

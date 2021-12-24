@@ -11,22 +11,23 @@
 						<SocialMediaPlug align="left" />
 					</BCol>
 
-					<BCol cols="6">
-						<div v-for="(r, i) in routes" :key="i" class="text-right">
-							<RouterLink
+					<BCol cols="6" class="text-right">
+						<div v-for="(r, i) in routes" :key="i" class="d-inline">
+							<span><RouterLink
 								v-if="r.meta.menu == 1 && r.meta.altLink == ''"
 								:to="r.path"
 								class="
 									h5
 									mx-3
 									text-light
+									menu-item-link
 								"
 								style="height: 24px;"
 							>
 								{{ r.meta.title }}
-							</RouterLink>
+							</RouterLink></span>
 
-							<a
+							<span><a
 								v-if="r.meta.menu == 1 && r.meta.altLink !== ''"
 								:href="r.meta.altLink"
 								target="_blank"
@@ -34,11 +35,12 @@
 									h5
 									mx-3
 									text-light
+									menu-item-link
 								"
 								style="height: 24px;"
 							>
 								{{ r.meta.title }}
-							</a>
+							</a></span>
 						</div>
 					</BCol>
 				</BRow>

@@ -32,4 +32,20 @@ export default {
 			}
 		}
 	},
+
+
+	s_contact: async function (formData) {
+		try {
+			const authAxios = await this.authAxios()
+	
+			return (await authAxios.post('/contact', formData)).data
+		}
+		catch (err) {
+			return {
+				executed: false,
+				status: false,
+				message: `MailService: Error --> ${err}`,
+			}
+		}
+	},
 }

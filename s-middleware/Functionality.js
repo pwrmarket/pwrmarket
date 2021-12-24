@@ -7,7 +7,7 @@ class Auth {
 		return (req, res, next) => {
 			if (config.ADMIN_USER_SYSTEM) { next() }
 			else {
-				res.status(200).send({
+				res.send({
 					executed: true,
 					status: false,
 					message: 'This app does not support a user/admin system'
@@ -20,7 +20,7 @@ class Auth {
 		return (req, res, next) => {
 			if (config.PAYMENT_SYSTEM) { next() }
 			else {
-				res.status(200).send({
+				res.send({
 					executed: true,
 					status: false,
 					message: 'This app does not support a payment system'

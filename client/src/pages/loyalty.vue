@@ -80,11 +80,17 @@
 </template>
 
 <script>
-	import { BatteryChargingIcon, ClipboardIcon, DollarSignIcon, MapPinIcon, SmartphoneIcon } from 'vue-feather-icons'
+	import {
+		BatteryChargingIcon,
+		ClipboardIcon,
+		DollarSignIcon,
+		MapPinIcon,
+		SmartphoneIcon
+	} from 'vue-feather-icons'
 
-	import DownloadOurApp from '../components/DownloadOurApp.vue'
+	import DownloadOurApp from '@/components/DownloadOurApp.vue'
 	import TitleHeader from '@/components/UI/TitleHeader'
-	import companyInfo from '../defaults/companyInfo'
+	import companyInfo from '@/defaults/companyInfo'
 
 	export default {
 		data() {

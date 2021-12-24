@@ -28,18 +28,18 @@ module.exports = {
 
 
 	phone: {
-		number: '(916) 285-7402',
-		link: 'tel:916-285-7402',
+		number: '(714) 761-5426',
+		link: 'tel:714-761-5426',
 	},
 	
 
 	location: {
 		mainAddress: {
-			full: '20 Goldenland Ct, Sacramento, CA 95834',
-			street: '20 Goldenland Ct',
-			state: 'Sacramento',
+			full: '2860 N Santiago Blvd Orange CA 92867',
+			street: '2860 N Santiago Blvd',
+			state: 'Orange',
 			city: 'CA',
-			zip: '95834',
+			zip: '92867',
 
 			googleMaps: {
 				link: '',

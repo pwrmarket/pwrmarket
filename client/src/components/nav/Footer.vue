@@ -15,42 +15,44 @@
 		<BContainer fluid class="bg-secondary-light">
 			<BContainer class="">
 				<BRow class="pt-4">
-					<BCol cols="12" class="text-center" data-aos="fade">
-						<RouterLink to="/" class="text-decoration-none">
-							<h4 class="m-0 text-primary">
-								{{ companyInfo.companyName }}
-							</h4>
-							<h6 v-html="companyInfo.companyCaption1" class="text-primary small">
+					<BCol cols="12" sm="4" class="text-center">
+						<h4 class="mb-3 text-light">Our Main Location</h4>
+						<a :href="googleMapsLink" target="_blank">
+							<h6 class="mb-3">
+								{{ companyInfo.location.mainAddress.full }}
 							</h6>
-							<hr>
-						</RouterLink>
+						</a>
+
+						<h4 class="text-light">Call Us 24/7</h4>
+						<a :href="companyInfo.phone.link" target="_blank">
+							<h6 class="mb-3">
+								{{ companyInfo.phone.number }}
+							</h6>
+						</a>
 					</BCol>
 
 					<BCol cols="12" sm="4" class="text-center">
-						<h4 class="text-primary">Download Our App</h4>
+						<h4 class="mb-3 text-light">Download Our App</h4>
 						<DownloadOurAppSmall />
 					</BCol>
 
 					<BCol cols="12" sm="4" class="text-center">
-						<h4 class="text-primary">Check Us Out</h4>
+						<h4 class="mb-3 text-light">Follow Us</h4>
+						<SocialMediaPlug variant="primary" class="mb-3" />
+
+						<h4 class="mb-3 text-light">Check Us Out</h4>
 						<ul class="list-unstyled text-small">
 							<li v-for="(link, i) in routes" :key="i">
-								<RouterLink v-if="link.meta.show" :to="link.path" class="text-light">
+								<RouterLink v-if="link.meta.show" :to="link.path">
 									<span>{{ link.meta.title }}</span>
 								</RouterLink>
 							</li>
 						</ul>
-						<hr>
 					</BCol>
 
-					<BCol cols="12" sm="4" class="text-center">
-						<h4 class="text-primary">Follow Us</h4>
-						<SocialMediaPlug variant="light" />
-					</BCol>
-
-					<BCol cols="12" class="my-3 text-center">
+					<BCol cols="12" class="mb-3 text-center">
 						<h6 class="">
-							<a href="https://www.w3st.io" target="_blank" class="text-light">
+							<a href="https://www.w3st.io" target="_blank">
 							© w3st.io {{ new Date().getFullYear() }}
 							</a>
 						</h6>
@@ -78,7 +80,15 @@
 			return {
 				companyInfo: companyInfo,
 				routes: routes,
+				location: '',
+				googleMapsLink: '',
 			}
+		},
+
+		created() {
+			this.location = this.companyInfo.location.mainAddress
+
+			this.googleMapsLink = `https://maps.google.com/?q=${this.location.street} ${this.location.city} ${this.location.state} ${this.location.zip}`
 		},
 	}
 </script>

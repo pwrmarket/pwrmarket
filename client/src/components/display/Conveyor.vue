@@ -101,6 +101,20 @@
 				],
 			}
 		},
+
+		created() {
+			if (this.totalOnLg == 3) {
+				this.sliders[1].items = 2
+				this.sliders[2].items = 1
+				this.sliders[3].items = 1
+			}
+
+			if (this.totalOnLg == 2) {
+				this.sliders[1].items = 2
+				this.sliders[2].items = 1
+				this.sliders[3].items = 1
+			} 
+		},
 	}
 </script>
 

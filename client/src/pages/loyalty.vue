@@ -6,9 +6,9 @@
 		/>
 
 		<BContainer class="content p-0 py-4">
-			<BCard class="border-0">
-				<BRow>
-					<BCol cols="12" md="7">
+			<BRow>
+				<BCol cols="12" md="7">
+					<BCard class="border-0">
 						<BRow>
 							<BCol cols="12">
 								<h1 class="mb-5 text-center text-gradient">How It Works</h1>
@@ -64,17 +64,17 @@
 								</div>
 							</BCol>
 						</BRow>
-					</BCol>
+					</BCard>
+				</BCol>
 
-					<BCol cols="12" md="5">
-						<BCard class="shadow bg-gradient rounded-0" data-aos="fade-up">
-							<BCardBody class="p-1 h-100 title-col">
-								<DownloadOurApp />
-							</BCardBody>
-						</BCard>
-					</BCol>
-				</BRow>
-			</BCard>
+				<BCol cols="12" md="5">
+					<BCard class="shadow bg-gradient rounded-0" data-aos="fade-up">
+						<BCardBody class="p-1 h-100 title-col">
+							<DownloadOurApp />
+						</BCardBody>
+					</BCard>
+				</BCol>
+			</BRow>
 		</BContainer>
 	</BContainer>
 </template>

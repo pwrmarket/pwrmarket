@@ -25,7 +25,7 @@
 
 		<Conveyor
 			:images="conveyorImages"
-			:totalOnLg="3"
+			:totalOnLg="2"
 			class="pb-5 bg-light"
 		/>
 
@@ -47,8 +47,7 @@
 				serviceImg: require('../assets/images/service.jpeg'),
 				conveyorImages: [
 					require('../assets/images/affiliates/1.png'),
-					require('../assets/images/affiliates/2.png'),
-					require('../assets/images/affiliates/3.png'),
+					require('../assets/images/affiliates/6.png'),
 				],
 
 				caraousel: [
@@ -60,12 +59,12 @@
 					{
 						caption:'',
 						text: '',
-						img: require('../assets/images/slider/slide1.jpg'),
+						img: require('../assets/images/slider/slide6.jpg'),
 					},
 					{
-						caption: '',
+						caption:'',
 						text: '',
-						img: require('../assets/images/slider/slide2.jpg'),
+						img: require('../assets/images/slider/slide1.jpg'),
 					},
 					{
 						caption: '',

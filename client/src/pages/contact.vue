@@ -1,10 +1,9 @@
 <template>
 	<BContainer fluid class="mb-6 p-0 pb-5">
-		<div class="py-5 bg-gradient">
-			<h2 class="m-0 text-center text-light" data-aos="fade">
-				Contact Us
-			</h2>
-		</div>
+		<TitleHeader
+			:imageURL="require('../assets/images/slider/slide6.jpg')"
+			:text="`Contact Us`"
+		/>
 
 		<BContainer class="py-5">
 			<BRow>
@@ -105,8 +104,9 @@
 <script>
 
 	import router from '@/router'
-	import MailService from '@/services/MailService'
+	import TitleHeader from '../components/UI/TitleHeader.vue'
 	import companyInfo from '../defaults/companyInfo'
+	import MailService from '@/services/MailService'
 
 	export default {
 		data() {
@@ -163,5 +163,9 @@
 				catch (err) { this.error = err }
 			},
 		},
+
+		components: {
+			TitleHeader,
+		}
 	}
 </script>

@@ -130,7 +130,7 @@
 					autoplay: true,
 					autoplayButtonOutput: false,
 					items: 1,
-					autoplayTimeout: 3000,
+					autoplayTimeout: 5000,
 					speed: 1000,
 				},
 			}

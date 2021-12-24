@@ -15,7 +15,7 @@
 							</BCol>
 
 							<BCol cols="12" sm="6" lg="4">
-								<div class="text-center" data-aos="fade-right" data-aos-delay="0">
+								<div class="text-center" data-aos="fade-right" data-aos-delay="0" data-aos-offset="-400">
 									<SmartphoneIcon size="5x" class="mb-3 text-secondary" />
 
 									<h5 class="mb-3 text-primary">
@@ -25,7 +25,7 @@
 							</BCol>
 
 							<BCol cols="12" sm="6" lg="4">
-								<div class="text-center" data-aos="fade-right" data-aos-delay="200">
+								<div class="text-center" data-aos="fade-right" data-aos-delay="200" data-aos-offset="-400">
 									<ClipboardIcon size="5x" class="mb-3 text-secondary" />
 
 									<h5 class="mb-3 text-primary">
@@ -35,7 +35,7 @@
 							</BCol>
 
 							<BCol cols="12" sm="6" lg="4">
-								<div class="text-center" data-aos="fade-right" data-aos-delay="400">
+								<div class="text-center" data-aos="fade-right" data-aos-delay="400" data-aos-offset="-400">
 									<MapPinIcon size="5x" class="mb-3 text-secondary" />
 
 									<h5 class="mb-3 text-primary">
@@ -45,7 +45,7 @@
 							</BCol>
 
 							<BCol cols="12" sm="6" lg="4">
-								<div class="text-center" data-aos="fade-right" data-aos-delay="600">
+								<div class="text-center" data-aos="fade-right" data-aos-delay="600" data-aos-offset="-400">
 									<DollarSignIcon size="5x" class="mb-3 text-secondary" />
 
 									<h5 class="mb-3 text-primary">
@@ -55,7 +55,7 @@
 							</BCol>
 
 							<BCol cols="12" sm="6" lg="4">
-								<div class="text-center"  data-aos="fade-right" data-aos-delay="800">
+								<div class="text-center"  data-aos="fade-right" data-aos-delay="800" data-aos-offset="-400">
 									<BatteryChargingIcon size="5x" class="mb-3 text-secondary" />
 
 									<h5 class="mb-3 text-primary">

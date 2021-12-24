@@ -143,6 +143,7 @@
 						cols="12" md="6" lg="4"
 						class="d-flex align-items-stretch"
 						data-aos="fade-up"
+						data-aos-offset="-400"
 						:data-aos-once="true"
 					>
 						<RouterLink :to="`/location/${l.id}`" class="w-100 py-3 text-decoration-none">

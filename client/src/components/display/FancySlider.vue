@@ -25,7 +25,7 @@
 		</VueTinySlider>
 
 		<!-- [CENTER] OF SLIDER -->
-		<div class="d-none d-sm-block slider-center" style="max-width: 600px;">
+		<div class="slider-center" style="max-width: 600px;">
 			<BRow class="w-100 mx-auto p-3 bg-frost-lighter rounded" style="border-radius: 20px !important;">
 				<BCol cols="12">
 					<h1
@@ -40,30 +40,15 @@
 						"
 					>{{ mainText }}</h1>
 
-					<h1
+					
+					<img
+						:src="companyInfo.fullLogo"
 						class="
 							d-lg-none
-							d-md-block
-							d-none
-							mb-0
-							title
-							font-weight-light
-							text-gradient
+							d-block
+							w-100
 						"
-						style="font-size: 2.3em;"
-					>Power Market</h1>
-
-					<h3
-						class="
-							d-none
-							d-md-none
-							d-sm-block
-							mb-0
-							title
-							font-weight-light
-							text-gradient
-						"
-					>Power Market</h3>
+					>
 				</BCol>
 
 				<BCol cols="12" md="6" class="d-none d-lg-block">

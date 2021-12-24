@@ -1,7 +1,7 @@
 <template>
 	<div
 		class="center"
-		style="height: 360px; overflow: hidden;"
+		style="height: 320px; overflow: hidden;"
 		:style="`
 			background-image: url(${imageURL});
 			background-size: 100%;

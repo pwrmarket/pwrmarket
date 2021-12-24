@@ -1,12 +1,11 @@
 <template>
 	<BContainer fluid class="mb-6 p-0 pb-5">
-		<div class="py-5 text-light bg-gradient">
-			<h2 class="m-0 text-center">
-				{{ location.amenities[1].name }} {{ location.id }}
-			</h2>
-		</div>
+		<TitleHeader
+			:imageURL="require('../assets/images/slider/slide7.jpg')"
+			:text="`${location.amenities[1].name} ${location.id}`"
+		/>
 
-		<BContainer class="py-4">
+		<BContainer class="content py-4">
 			<BRow>
 				<BCol cols="12" xl="9">
 					<LocationAtAGlance :location="location" class="mb-4" />
@@ -39,6 +38,7 @@
 	import LocationAtAGlance from '../components/location/LocationAtAGlance'
 	import LocationDetails from '../components/location/LocationDetails'
 	import LocationMap from '../components/location/LocationMap'
+	import TitleHeader from '../components/UI/TitleHeader.vue'
 	import locations from '../defaults/locations'
 	import tools_distance from '../tools/distance'
 
@@ -56,6 +56,7 @@
 			LocationAtAGlance,
 			LocationDetails,
 			LocationMap,
+			TitleHeader,
 		},
 
 		created() {
@@ -74,3 +75,10 @@
 		},
 	}
 </script>
+
+<style lang="scss" scoped>
+	.content {
+		-webkit-transform: translateY(-80px);
+		transform: translateY(-80px);
+	}	
+</style>

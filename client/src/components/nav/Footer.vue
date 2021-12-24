@@ -15,15 +15,19 @@
 		<BContainer fluid class="bg-secondary-light">
 			<BContainer class="">
 				<BRow class="pt-4">
-					<BCol cols="12" sm="4" class="text-center">
-						<h4 class="mb-3 text-light">Our Main Location</h4>
+					<BCol cols="12" sm="6" md="4" class="text-center">
+						<h4 class="mb-3 font-weight-bold text-light">
+							Our Main Location
+						</h4>
 						<a :href="googleMapsLink" target="_blank">
 							<h6 class="mb-3">
 								{{ companyInfo.location.mainAddress.full }}
 							</h6>
 						</a>
 
-						<h4 class="text-light">Call Us 24/7</h4>
+						<h4 class="mb-3 font-weight-bold text-light">
+							Call Us 24/7
+						</h4>
 						<a :href="companyInfo.phone.link" target="_blank">
 							<h6 class="mb-3">
 								{{ companyInfo.phone.number }}
@@ -31,16 +35,21 @@
 						</a>
 					</BCol>
 
-					<BCol cols="12" sm="4" class="text-center">
-						<h4 class="mb-3 text-light">Download Our App</h4>
+					<BCol cols="12" sm="6" md="4" class="text-center">
+						<h4 class="mb-3 font-weight-bold text-light">
+							Download Our App
+						</h4>
 						<DownloadOurAppSmall />
 					</BCol>
 
-					<BCol cols="12" sm="4" class="text-center">
-						<h4 class="mb-3 text-light">Follow Us</h4>
+					<BCol cols="12" sm="6" md="4" class="text-center">
+						<h4 class="mb-3 font-weight-bold text-light">
+							Follow Us</h4>
 						<SocialMediaPlug variant="primary" class="mb-3" />
 
-						<h4 class="mb-3 text-light">Check Us Out</h4>
+						<h4 class="mb-3 font-weight-bold text-light">
+							Check Us Out
+						</h4>
 						<ul class="list-unstyled text-small">
 							<li v-for="(link, i) in routes" :key="i">
 								<RouterLink v-if="link.meta.show" :to="link.path">

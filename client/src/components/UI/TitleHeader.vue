@@ -7,10 +7,15 @@
 			background-size: 100%;
 		`"
 	>
-		<div class="py-0 bg-frost-shade w-100 h-100 center">
-			<h1 class="my-3 text-center text-light" style="font-size: 3.5em;" data-aos="fade">
-				{{ text }}
-			</h1>
+		<div
+			class="py-0 w-100 h-100 center"
+			:class="[frost ? 'bg-frost-shade' : 'bg-shade' ]"
+		>
+			<h1
+				class="my-3 text-center text-light"
+				style="font-size: 3.5em;"
+				data-aos="fade"
+			>{{ text }}</h1>
 		</div>
 	</div>
 </template>
@@ -26,6 +31,11 @@ export default {
 		text: {
 			type: String,
 			required: true,
+		},
+
+		frost: {
+			type: Boolean,
+			default: true,
 		},
 	}
 }

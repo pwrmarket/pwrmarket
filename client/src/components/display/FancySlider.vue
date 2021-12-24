@@ -13,10 +13,13 @@
 						data-rellax-xs-speed="0"
 						data-rellax-mobile-speed="0"
 						data-rellax-tablet-speed="0"
+					>
+
+					<!--
 						:data-rellax-desktop-speed="
 							$store.state.window.innerWidth >= 1367 ? -9 : -3
 						"
-					>
+					-->
 				</div>
 			</div>
 		</VueTinySlider>

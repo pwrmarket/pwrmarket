@@ -3,6 +3,7 @@
 		<TitleHeader
 			:imageURL="require('../assets/images/slider/slide6.jpg')"
 			:text="`Contact Us`"
+			:frost="false"
 		/>
 
 		<BContainer class="py-5">

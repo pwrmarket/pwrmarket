@@ -11,12 +11,13 @@
 				<div class="img-container w-100" >
 					<div class="child bg-one" :style="`background-image: url(${bgImage});`">
 						<span class="" style="max-width: 600px;">
-							Save More With Power Market Loyalty
-							<br>
+							<h5 class="mb-4 text-light" style="font-size: 3em !important;">
+								Save More With Power Market Loyalty
+							</h5>
 
 							<RouterLink to="/loyalty">
-								<BButton variant="light" size="lg">
-									Learn More
+								<BButton variant="outline-light" size="lg" style="border-width: 2px;">
+									<p class="m-0 h3">Learn More</p>
 								</BButton>
 							</RouterLink>
 						</span>
@@ -74,8 +75,6 @@
 			span {
 				position: absolute;
 				text-align: center;
-				font-size: 3em !important;
-				color: $light;
 			}
 
 			&:before {

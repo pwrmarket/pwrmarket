@@ -25,8 +25,8 @@
 		</VueTinySlider>
 
 		<!-- [CENTER] OF SLIDER -->
-		<div class="d-none d-sm-block slider-center" style="max-width: 750px;">
-			<BRow class="w-100 mx-auto p-3 bg-light rounded shadow">
+		<div class="d-none d-sm-block slider-center" style="max-width: 600px;">
+			<BRow class="w-100 mx-auto p-3 bg-frost-lighter rounded" style="border-radius: 20px !important;">
 				<BCol cols="12">
 					<h1
 						class="
@@ -36,8 +36,8 @@
 							title
 							font-weight-light
 							text-gradient
+							
 						"
-						style="font-size: 3em;"
 					>{{ mainText }}</h1>
 
 					<h1
@@ -69,7 +69,7 @@
 				<BCol cols="12" md="6" class="d-none d-lg-block">
 					<div class="text-center mb-3">
 						<RouterLink to="/deals">
-							<BButton variant="secondary" class="w-100">
+							<BButton variant="primary" size="lg" pill class="w-100">
 								Current Deals
 							</BButton>
 						</RouterLink>
@@ -79,7 +79,7 @@
 				<BCol cols="12" md="6" class="d-none d-lg-block">
 					<div class="text-center">
 						<RouterLink to="/our-locations">
-							<BButton variant="primary" class="w-100">
+							<BButton variant="secondary" size="lg" pill class="w-100">
 								Find a Location
 							</BButton>
 						</RouterLink>
@@ -122,7 +122,7 @@
 			return {
 				companyInfo: companyInfo,
 
-				mainText: 'Everything You Need Right Around the Corner!',
+				mainText: 'Everything You Need, Right Around the Corner.',
 
 				options: {
 					mouseDrag: true,

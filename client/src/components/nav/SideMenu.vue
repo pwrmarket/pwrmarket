@@ -22,7 +22,7 @@
 					v-if="button.meta.show"
 					variant="outline-seconadry"
 					class="w-100 text-primary"
-					@click="menuItemClicked(button.path)"
+					@click="menuItemClicked(button)"
 				>{{ button.meta.title }}</BButton>
 			</div>
 			
@@ -79,8 +79,14 @@
 				this.$store.state.showMenu = !this.$store.state.showMenu
 			},
 
-			menuItemClicked(path) {	
-				router.push(path)
+			menuItemClicked(button) {	
+				if (button.meta.altLink == '') {
+					router.push(button.path)
+				}
+				else {
+					window.open(button.meta.altLink, '_blank');
+				}
+
 				this.closeMenu()
 			}
 		}

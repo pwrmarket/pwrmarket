@@ -7,7 +7,7 @@
 						class="text-center text-light"
 						style="font-size: 3em; max-width: 600px;"
 					>
-						<span class="p-3 bg-frost-lighter shadow">
+						<span class="p-3 bg-frost-lightest shadow">
 							Looking for a Career?
 						</span>
 					</h1>
@@ -23,8 +23,8 @@
 							>Start your Journey With Us!</h3>
 
 							<a href="https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fe247937-30ea-42e9-897c-7e49746c78f8&ccId=9200028200615_2&lang=en_US" target="_blank">
-								<BButton variant="outline-light" size="lg" class="">
-									<h2 class="m-0">Apply Now</h2>
+								<BButton variant="outline-light" size="lg" style="border-width: 2px;">
+									<p class="m-0 h2">Apply Now</p>
 								</BButton>
 							</a>
 						</span>

@@ -65,7 +65,12 @@
 </script>
 
 <style lang="scss">
-	@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+	@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&family=Noto+Sans&display=swap');
+	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Mulish', sans-serif !important;
+	}
 
-	* { font-family: 'Comfortaa', cursive; }
+	* {
+		font-family: 'Noto Sans', sans-serif !important;
+	}
 </style>

@@ -168,11 +168,11 @@
 								</BCardHeader>
 
 								<BCardBody>
-									<h5 class="text-primary">
+									<p class="h5 text-primary">
 										{{ l.address.street }}
 										{{ l.address.city }} {{ l.address.state }}
 										{{ l.address.zip }}
-									</h5>
+									</p>
 								</BCardBody>
 
 								<BCardFooter class="bg-transparent">

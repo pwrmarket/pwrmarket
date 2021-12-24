@@ -13,34 +13,36 @@
 
 					<BCol cols="6" class="text-right">
 						<div v-for="(r, i) in routes" :key="i" class="d-inline">
-							<span><RouterLink
+							<RouterLink
 								v-if="r.meta.menu == 1 && r.meta.altLink == ''"
 								:to="r.path"
 								class="
-									h5
+									h6
 									mx-3
 									text-light
 									menu-item-link
+									text-uppercase
 								"
 								style="height: 24px;"
 							>
 								{{ r.meta.title }}
-							</RouterLink></span>
+							</RouterLink>
 
-							<span><a
+							<a
 								v-if="r.meta.menu == 1 && r.meta.altLink !== ''"
 								:href="r.meta.altLink"
 								target="_blank"
 								class="
-									h5
+									h6
 									mx-3
 									text-light
 									menu-item-link
+									text-uppercase
 								"
 								style="height: 24px;"
 							>
 								{{ r.meta.title }}
-							</a></span>
+							</a>
 						</div>
 					</BCol>
 				</BRow>
@@ -70,11 +72,12 @@
 						v-if="r.meta.menu == 2 && r.meta.altLink == ''"
 						:to="r.path"
 						class="
-							h5
+							h6
 							my-5
 							mx-3
 							menu-item-link
 							text-gradient
+							text-uppercase
 						"
 						style="height: 24px;"
 					>
@@ -86,11 +89,12 @@
 						:href="r.meta.altLink"
 						target="_blank"
 						class="
-							h5
+							h6
 							my-5
 							mx-3
 							menu-item-link
 							text-gradient
+							text-uppercase
 						"
 						style="height: 24px;"
 					>

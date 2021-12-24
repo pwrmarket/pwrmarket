@@ -2,11 +2,11 @@
 	<BRow class="w-100 m-0 p-0 content" style="height: ;">
 		<BCol cols="12" md="4">
 			<RouterLink to="/our-locations">
-				<div class="w-100 rounded shadow-sm img-container">
+				<div class="w-100 rounded shadow-sm img-container" style="border-radius: 20px !important;">
 					<div class="child bg-one" :style="`background-image: url(${imgOne});`">
-						<span style="max-width: 600px;">
+						<h5 style="max-width: 600px;">
 							Find Us
-						</span>
+						</h5>
 					</div>
 				</div>
 			</RouterLink>
@@ -14,11 +14,11 @@
 
 		<BCol cols="12" md="4">
 			<RouterLink to="/deals">
-				<div class="w-100 rounded shadow-sm img-container">
+				<div class="w-100 rounded shadow-sm img-container" style="border-radius: 20px !important;">
 					<div class="child bg-two" :style="`background-image: url(${imgTwo});`">
-						<span style="max-width: 600px;">
+						<h5 style="max-width: 600px;">
 							Deals
-						</span>
+						</h5>
 					</div>
 				</div>
 			</RouterLink>
@@ -26,11 +26,11 @@
 
 		<BCol cols="12" md="4">
 			<RouterLink to="/rewards">
-				<div class="w-100 rounded shadow-sm img-container">
+				<div class="w-100 rounded shadow-sm img-container" style="border-radius: 20px !important;">
 					<div class="child bg-three" :style="`background-image: url(${imgThree});`">
-						<span style="max-width: 600px;">
+						<h5 style="max-width: 600px;">
 							Loyalty
-						</span>
+						</h5>
 					</div>
 				</div>
 			</RouterLink>
@@ -90,7 +90,7 @@ export default {
 			justify-content: center;
 			align-items: center;
 
-			span {
+			h5 {
 				position: absolute;
 				
 				text-align: center;

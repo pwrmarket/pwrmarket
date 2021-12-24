@@ -30,7 +30,9 @@
 
 							<div class="text-center">
 								<RouterLink to="/about">
-									<BButton variant="outline-light" size="lg">Read More About Us</BButton>
+									<BButton variant="outline-light" size="lg" style="border-width: 2px !important;">
+										Read More About Us
+									</BButton>
 								</RouterLink>
 							</div>
 						</div>

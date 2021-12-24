@@ -2,7 +2,7 @@
 	<BContainer fluid class="m-0 p-0 pb-5 bg-primary">
 		<TitleHeader
 			:imageURL="require('../assets/images/slider/slide1.jpg')"
-			:text="`Save More With These Everyday Deals!`"
+			:text="`Everyday Deals!`"
 		/>
 
 		<BContainer class="content">

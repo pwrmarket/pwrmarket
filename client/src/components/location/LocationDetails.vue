@@ -8,11 +8,11 @@
 					<MapPinIcon /> <span class="border-bottom">Distance</span>
 				</h5>
 
-				<h5 class="">
+				<p class="h5">
 					{{ Math.round(distance * 100) / 100 }} mi.
 					<br>
 					From Your Location
-				</h5>
+				</p>
 			</BCol>
 
 			<!-- Hours of Operations -->
@@ -21,11 +21,11 @@
 					<MapIcon /> Address
 				</h5>
 
-				<h5 class="">
+				<p class="h5">
 					{{ location.address.street }}
 					{{ location.address.city }} {{ location.address.state }}
 					{{ location.address.zip }}
-				</h5>
+				</p>
 			</BCol>
 
 			<!-- Hours of Operations -->
@@ -34,7 +34,7 @@
 					<ClockIcon /> <span class="border-bottom">Hours</span>
 				</h5>
 
-				<h5 class="">{{ location.hoursOfOperation }}</h5>
+				<p class="h5">{{ location.hoursOfOperation }}</p>
 			</BCol>
 
 			<!-- Phone Number -->

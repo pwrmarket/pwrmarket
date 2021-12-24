@@ -1,6 +1,6 @@
 <template>
 	<div class="text-light bg-gradient">
-		<BContainer class="py-2">
+		<BContainer class="py-3">
 			<BRow class="m-0 p-0 contact-info">
 				<BCol cols="12">	
 					<h6 class="m-0 text-center text-light font-weight-bold">

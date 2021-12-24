@@ -5,22 +5,35 @@
 			:text="`Save More With These Everyday Deals!`"
 		/>
 
-		<div class="p-0 pb-5 ">
-			<BRow class="w-100 m-0">
-				<BCol
-					v-for="(img, i) in images"
-					:key="i"
-					cols="12" sm="6" md="6" lg="4" xl="4"
-					class="p-0"
-				>
-					<img :src="img" v-lazy="img" class="w-100">
+		<BContainer class="content">
+			<BRow class="m-0 p-0 pb-5">
+				<BCol cols="12" xl="8" order="1"  order-xl="0">
+					<BRow class="w-100 m-0">
+						<BCol
+							v-for="(img, i) in images"
+							:key="i"
+							cols="12"  lg="6"
+							class="p-0"
+						>
+							<img :src="img" v-lazy="img" class="w-100">
+						</BCol>
+					</BRow>
+				</BCol>
+
+				<BCol cols="12" xl="4"  order="0" order-xl="1">
+					<BCard class="mb-3 shadow bg-gradient rounded-0" data-aos="fade-up">
+						<BCardBody class="p-1 h-100 title-col">
+							<DownloadOurApp />
+						</BCardBody>
+					</BCard>
 				</BCol>
 			</BRow>
-		</div>
+		</BContainer>
 	</BContainer>
 </template>
 
 <script>
+import DownloadOurApp from '../components/DownloadOurApp.vue'
 import TitleHeader from '@/components/UI/TitleHeader'
 
 export default {
@@ -36,7 +49,7 @@ export default {
 		}
 	},
 
-	components: { TitleHeader },
+	components: { DownloadOurApp, TitleHeader },
 }
 </script>
 
@@ -45,5 +58,17 @@ export default {
 	.content {
 		-webkit-transform: translateY(-80px);
 		transform: translateY(-80px);
+	}
+	
+	.top-half-circle {
+		height: 100%;
+		width: 100%;
+		border-top-right-radius: 100%;
+	}
+
+	.bottom-half-circle {
+		height: 100%;
+		width: 100%;
+		border-bottom-right-radius: 100%;
 	}
 </style>

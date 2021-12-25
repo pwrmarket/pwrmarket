@@ -9,7 +9,7 @@
 
 			<BCol cols="12" lg="6" class="p-0 bg-light">
 				<div class="img-container w-100" >
-					<div class="child bg-one" :style="`background-image: url(${bgImage});`">
+					<div class="child" :style="`background-image: url(${bgImage});`">
 						<span class="" style="max-width: 600px;">
 							<h5 class="mb-4 text-light" style="font-size: 3em !important;">
 								Save More With Power Market Loyalty
@@ -53,12 +53,34 @@
 <style lang="scss" scoped>
 	@import '../../assets/styles/index.scss';
 
+	.title-col {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		@media (min-width: 992px) {
+			&::after {
+				content: "";
+				position: absolute;
+				z-index: 1;
+				top: 30%;
+				right: -20px;
+				width: 0;
+				height: 0;
+				border-top: 20px solid transparent;
+				border-bottom: 20px solid transparent;
+				border-left: 20px solid $primary-light;
+			}
+		}
+	}
+
 	.img-container {
 		height: 500px;
 		overflow: hidden;
-		cursor: pointer;
 
 		.child {
+			background-image: url('https://source.unsplash.com/1920x800/?points');
+
 			height: 100%;
 			width: 100%;
 			background-size: cover;
@@ -87,64 +109,6 @@
 				left: 0;
 				background-color: $secondary-shine;
 				backdrop-filter: blur(4px) !important;
-			}
-		}
-
-
-		&:hover {
-			.child {
-				-ms-transform: scale(1);
-				-moz-transform: scale(1);
-				-webkit-transform: scale(1);
-				-o-transform: scale(1);
-				transform: scale(1);
-
-				// Show Text //
-				span {
-					color: $light;
-				}
-			}
-		}
-		
-		&:focus {
-			.child {
-				-ms-transform: scale(1);
-				-moz-transform: scale(1);
-				-webkit-transform: scale(1);
-				-o-transform: scale(1);
-				transform: scale(1);
-
-				span { display: block; }
-
-				&:before {
-					display: block;
-				}
-			}
-
-		}
-	}
-	
-	.bg-one {
-		background-image: url('https://source.unsplash.com/1920x800/?points');
-	}
-
-	.title-col {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
-		@media (min-width: 992px) {
-			&::after {
-				content: "";
-				position: absolute;
-				z-index: 1;
-				top: 30%;
-				right: -20px;
-				width: 0;
-				height: 0;
-				border-top: 20px solid transparent;
-				border-bottom: 20px solid transparent;
-				border-left: 20px solid $primary-light;
 			}
 		}
 	}

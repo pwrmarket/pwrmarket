@@ -35,10 +35,19 @@
 							mb-3
 							title
 							font-weight-light
-							text-gradient
+							text-primary
+							font-weight-bold
 							
 						"
-					>{{ mainText }}</h1>
+					>
+						<span class="text-secondary font-weight-bold">
+							Everything
+						</span>
+						You Need, Right Around the
+						<span class="text-secondary font-weight-bold">
+							Corner
+						</span>.
+					</h1>
 
 					
 					<img
@@ -106,8 +115,6 @@
 		data() {
 			return {
 				companyInfo: companyInfo,
-
-				mainText: 'Everything You Need, Right Around the Corner.',
 
 				options: {
 					mouseDrag: true,

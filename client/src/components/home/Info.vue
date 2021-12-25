@@ -22,6 +22,7 @@
 							<div
 								class="m-3 p-3 p-lg-4 bg-light-frost-lighter border border-light rounded-xxl"
 								style="max-width: 1000px; border-width: 2px !important;"
+								data-aos="fade-up"
 							>
 								<h2 class="text-center text-uppercase text-light">
 								Our Story

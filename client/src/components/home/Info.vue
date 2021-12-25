@@ -9,11 +9,15 @@
 							style="max-width: 360px;"
 							data-aos="fade-up"
 						>
-							<h2 class="my-3 text-center text-uppercase text-light">
-								Follow Us to See Our Ongoing Story
-							</h2>
+							<h1 class="text-center text-uppercase text-light">
+								Follow Us
+							</h1>
 
 							<SocialMediaPlug size="4x" variant="primary" class="" />
+
+							<h2 class="my-3 text-center text-uppercase text-light">
+								& See Our Ongoing Story
+							</h2>
 						</span>
 					</div>
 				</div>

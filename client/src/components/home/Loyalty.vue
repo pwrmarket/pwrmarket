@@ -10,13 +10,13 @@
 			<BCol cols="12" lg="6" class="p-0 bg-light">
 				<div class="img-container w-100" >
 					<div class="child" :style="`background-image: url(${bgImage});`">
-						<span class="" style="max-width: 600px;">
-							<h5 class="mb-4 text-light" style="font-size: 3em !important;">
+						<span data-aos="fade-up" class="p-3 bg-light-frost-lighter rounded-xxl" style="max-width: 600px;">
+							<h5 class="mb-3 text-light" style="font-size: 3em !important;">
 								Save More With Power Market Loyalty
 							</h5>
 
 							<RouterLink to="/loyalty">
-								<BButton variant="outline-light" size="lg" style="border-width: 2px;">
+								<BButton variant="secondary" pill size="lg" style="border-width: 2px;">
 									<p class="m-0 h3">Learn More</p>
 								</BButton>
 							</RouterLink>

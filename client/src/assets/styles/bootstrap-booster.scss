@@ -83,7 +83,6 @@
 
 // [BG][FROST][PRIMARY] //
 .bg-frost-primary-lightest {
-	border-radius: 5px;
 	background-color: mix($primary, rgba(255, 255, 255, .75), $weight: 10%);
 	backdrop-filter: blur(15px) !important;
 	-webkit-backdrop-filter: blur(15px) !important;
@@ -92,7 +91,6 @@
 
 // [BG][FROST][PRIMARY] //
 .bg-frost-secondary-lightest {
-	border-radius: 5px;
 	background-color: mix($secondary, rgba(255, 255, 255, .75), $weight: 10%);
 	backdrop-filter: blur(15px) !important;
 	-webkit-backdrop-filter: blur(15px) !important;
@@ -101,7 +99,6 @@
 
 // [BG][FROST][LIGHT] //
 .bg-frost-light {
-	border-radius: 5px;
 	background-color: mix($light, rgba(255, 255, 255, .75), $weight: 30%);
 	backdrop-filter: blur(15px) !important;
 	-webkit-backdrop-filter: blur(15px) !important;
@@ -109,7 +106,6 @@
 
 
 .bg-frost-lighter {
-	border-radius: 5px;
 	background-color: mix($light, rgba(255, 255, 255, .3), $weight: 20%);
 	backdrop-filter: blur(10px) !important;
 	-webkit-backdrop-filter: blur(10px) !important;
@@ -117,7 +113,6 @@
 
 
 .bg-frost-lightest {
-	border-radius: 5px;
 	background-color: mix($light, rgba(255, 255, 255, 0.1), $weight: 10%);
 	backdrop-filter: blur(5px) !important;
 	-webkit-backdrop-filter: blur(5px) !important;

@@ -44,9 +44,7 @@
 							Everything
 						</span>
 						You Need, Right Around the
-						<span class="text-secondary font-weight-bold">
-							Corner
-						</span>.
+						<span class="text-secondary font-weight-bold">Corner!</span>
 					</h1>
 
 					

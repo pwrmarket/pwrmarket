@@ -156,7 +156,7 @@
 				content: "";
 				
 				background-color: $primary-shine;
-				backdrop-filter: blur(4px) !important;
+				backdrop-filter: blur(6px) !important;
 			}
 		}
 	}

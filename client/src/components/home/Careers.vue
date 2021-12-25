@@ -1,7 +1,7 @@
 <template>
 	<BContainer fluid class="m-0 p-0">
 		<BRow class="w-100 m-0">
-			<BCol cols="12" lg="6" class="d-none d-lg-block py-5 bg-gradient-weak">
+			<BCol cols="12" lg="6" class="d-none d-lg-block py-5 bg-gradient">
 				<div class="h-100 title-col">
 					<h1
 						class="text-center text-light"
@@ -140,19 +140,6 @@
 		justify-content: center;
 		align-items: center;
 
-		@media (min-width: 992px) {
-			&::after {
-				content: "";
-				position: absolute;
-				z-index: 1;
-				top: 30%;
-				right: -20px;
-				width: 0;
-				height: 0;
-				border-top: 20px solid transparent;
-				border-bottom: 20px solid transparent;
-				border-left: 20px solid $primary;
-			}
-		}
+		
 	}
 </style>

@@ -16,7 +16,7 @@
 							</h5>
 
 							<RouterLink to="/loyalty">
-								<BButton variant="secondary" pill size="lg" style="border-width: 2px;">
+								<BButton variant="primary" pill size="lg" style="border-width: 2px;">
 									<p class="m-0 h3">Learn More</p>
 								</BButton>
 							</RouterLink>

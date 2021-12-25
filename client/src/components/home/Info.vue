@@ -53,7 +53,7 @@
 										size="lg"
 										pill
 										style="border-width: 2px !important;"
-									>Read More About Us</BButton>
+									><p class="m-0 h3">Read More About Us</p></BButton>
 								</RouterLink>
 							</div>
 							</div>

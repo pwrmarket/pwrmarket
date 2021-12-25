@@ -1,5 +1,6 @@
 @import './variables.scss';
 
+$regulard-blur: 10px;
 
 // [BOOSTER-STRAP] //
 .mb-6 {
@@ -83,38 +84,44 @@
 // [BG][FROST][PRIMARY] //
 .bg-primary-frost-lightest {
 	background-color: mix($primary, rgba(255, 255, 255, .75), $weight: 10%);
-	backdrop-filter: blur(15px) !important;
-	-webkit-backdrop-filter: blur(15px) !important;
+	backdrop-filter: blur($regulard-blur) !important;
+	-webkit-backdrop-filter: blur($regulard-blur) !important;
 }
 
 
-// [BG][FROST][PRIMARY] //
+// [BG][FROST][SECONDARY] //
+.bg-secondary-frost {
+	background-color: mix($secondary, rgba(255, 255, 255, .1), $weight: 40%);
+	backdrop-filter: blur($regulard-blur) !important;
+	-webkit-backdrop-filter: blur($regulard-blur) !important;
+}
+
 .bg-secondary-frost-lightest {
 	background-color: mix($secondary, rgba(255, 255, 255, .75), $weight: 10%);
-	backdrop-filter: blur(15px) !important;
-	-webkit-backdrop-filter: blur(15px) !important;
+	backdrop-filter: blur($regulard-blur) !important;
+	-webkit-backdrop-filter: blur($regulard-blur) !important;
 }
 
 
 // [BG][FROST][LIGHT] //
 .bg-light-frost {
 	background-color: mix($light, rgba(255, 255, 255, .75), $weight: 30%);
-	backdrop-filter: blur(15px) !important;
-	-webkit-backdrop-filter: blur(15px) !important;
+	backdrop-filter: blur($regulard-blur) !important;
+	-webkit-backdrop-filter: blur($regulard-blur) !important;
 }
 
 
 .bg-light-frost-light {
 	background-color: mix($light, rgba(255, 255, 255, .3), $weight: 20%);
-	backdrop-filter: blur(10px) !important;
-	-webkit-backdrop-filter: blur(10px) !important;
+	backdrop-filter: blur($regulard-blur) !important;
+	-webkit-backdrop-filter: blur($regulard-blur) !important;
 }
 
 
 .bg-light-frost-lighter {
 	background-color: mix($light, rgba(255, 255, 255, 0.1), $weight: 10%);
-	backdrop-filter: blur(5px) !important;
-	-webkit-backdrop-filter: blur(5px) !important;
+	backdrop-filter: blur($regulard-blur) !important;
+	-webkit-backdrop-filter: blur($regulard-blur) !important;
 }
 
 

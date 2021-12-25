@@ -15,14 +15,15 @@
 				</div>
 			</BCol>
 
-			<BCol cols="12" lg="8" order="0" order-lg="1" class="p-0 ">
+			<BCol cols="12" lg="8" order="0" order-lg="1" class="p-0">
 				<div class="second-section">
 					<div class="child">
-						<span
-							class="p-3 p-lg-4 border border-light rounded-xxl"
-							style="max-width: 1000px; border-width: 2px !important;"
-						>
-							<h2 class="text-center text-uppercase text-light">
+						<span>
+							<div
+								class="m-3 p-3 p-lg-4 border border-light rounded-xxl"
+								style="max-width: 1000px; border-width: 2px !important;"
+							>
+								<h2 class="text-center text-uppercase text-light">
 								Our Story
 							</h2>
 							
@@ -45,6 +46,7 @@
 										style="border-width: 2px !important;"
 									>Read More About Us</BButton>
 								</RouterLink>
+							</div>
 							</div>
 						</span>
 					</div>
@@ -158,6 +160,10 @@
 				background-color: $primary-shine;
 				backdrop-filter: blur(6px) !important;
 			}
+		}
+
+		@media (max-width: 500px) {
+			height: 750px;
 		}
 	}
 </style>

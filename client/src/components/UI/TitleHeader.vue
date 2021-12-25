@@ -9,7 +9,7 @@
 	>
 		<div
 			class="py-0 w-100 h-100 center"
-			:class="[frost ? 'bg-frost-shade' : 'bg-shade' ]"
+			:class="[frost ? 'bg-secondary-frost' : 'bg-shade' ]"
 		>
 			<h1
 				class="my-3 text-center text-light"

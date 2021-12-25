@@ -1,13 +1,24 @@
+// [IMPORT] //
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&family=Noto+Sans&display=swap');
+
+
+// [IMPORT] Persona //
 @import './variables.scss';
 
 
+// [HTML] //
+* {
+	font-family: 'Noto Sans', sans-serif !important;
+}
+
 body {
 	@extend .bg-white;
-
-	//background-image: $bg-img;
-	//background-size: 100%;
-
 }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Mulish', sans-serif !important;
+}
+
 
 // [TEXT][GRADIENT] //
 .text-gradient {

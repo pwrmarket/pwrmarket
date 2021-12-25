@@ -40,6 +40,21 @@
 							Download Our App
 						</h4>
 						<DownloadOurAppSmall />
+
+						<h4>Legal</h4>
+						<ul class="list-unstyled text-small">
+							<li>
+								<a href="https://www.freeprivacypolicy.com/live/31d58d3d-6835-41f9-b729-f3abc9918ab7">
+									Privacy & Policy Statement
+								</a>
+							</li>
+
+							<li>
+								<RouterLink to="/privacy-policy">
+									Privacy & Policy Statement
+								</RouterLink>
+							</li>
+						</ul>
 					</BCol>
 
 					<BCol cols="12" sm="6" md="4" class="text-center">

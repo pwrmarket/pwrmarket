@@ -14,6 +14,7 @@ import index from '@/pages'
 import location from '@/pages/location'
 import loyalty from '@/pages/loyalty'
 import ourLocations from '@/pages/our-locations'
+import privacyPolicy from '@/pages/privacy-policy'
 import notFound from '@/pages/404'
 
 
@@ -106,6 +107,18 @@ const routes = [
 		meta: {
 			altLink: '',
 			title: 'Email Sent',
+			menu: 0,
+			show: false,
+		},
+	},
+	// privacy-policy //
+	{
+		path: '/privacy-policy',
+		name: 'privacy-policy',
+		component: privacyPolicy,
+		meta: {
+			altLink: '',
+			title: 'Privacy Policy',
 			menu: 0,
 			show: false,
 		},

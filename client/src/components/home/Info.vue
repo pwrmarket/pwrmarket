@@ -20,7 +20,7 @@
 					<div class="child">
 						<span>
 							<div
-								class="m-3 p-3 p-lg-4 border border-light rounded-xxl"
+								class="m-3 p-3 p-lg-4 bg-light-frost-lighter border border-light rounded-xxl"
 								style="max-width: 1000px; border-width: 2px !important;"
 							>
 								<h2 class="text-center text-uppercase text-light">
@@ -40,7 +40,7 @@
 							<div class="mx-auto">
 								<RouterLink to="/about">
 									<BButton
-										variant="outline-light"
+										variant="light"
 										size="lg"
 										pill
 										style="border-width: 2px !important;"

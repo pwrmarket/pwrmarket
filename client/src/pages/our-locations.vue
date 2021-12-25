@@ -16,7 +16,7 @@
 				</BRow>
 
 				<BRow class="py-3">
-					<BCol cols="12" class="">
+					<BCol cols="12" md="6" class="">
 						<h6 class="text-secondary">Amenities</h6>
 						<!-- Energy Station -->
 						<input
@@ -69,7 +69,7 @@
 						<label for="amazon-locker" class="mr-3">Amazon Locker</label>
 					</BCol>
 
-					<BCol cols="12" class="">
+					<BCol cols="12" md="6" class="">
 						<h6 class="text-secondary">Products or Services</h6>
 						<!-- E85 -->
 						<input

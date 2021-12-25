@@ -19,8 +19,8 @@
 				<div class="second-section">
 					<div class="child">
 						<span
-							class="p-3 p-lg-4 border border-light"
-							style="max-width: 1000px; border-width: 2px !important; border-radius: 20px !important"
+							class="p-3 p-lg-4 border border-light rounded-xxl"
+							style="max-width: 1000px; border-width: 2px !important;"
 						>
 							<h2 class="text-center text-uppercase text-light">
 								Our Story

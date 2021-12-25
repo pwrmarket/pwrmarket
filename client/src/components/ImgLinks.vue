@@ -2,7 +2,7 @@
 	<BRow class="w-100 m-0 p-0 content" style="height: ;">
 		<BCol cols="12" md="4">
 			<RouterLink to="/our-locations">
-				<div class="w-100 rounded shadow-sm img-container" style="border-radius: 20px !important;">
+				<div class="w-100 rounded shadow-sm img-container rounded-xxl">
 					<div class="child bg-one" :style="`background-image: url(${imgOne});`">
 						<h5 style="max-width: 600px;">
 							Find Us
@@ -14,7 +14,7 @@
 
 		<BCol cols="12" md="4">
 			<RouterLink to="/deals">
-				<div class="w-100 rounded shadow-sm img-container" style="border-radius: 20px !important;">
+				<div class="w-100 rounded shadow-sm img-container rounded-xxl">
 					<div class="child bg-two" :style="`background-image: url(${imgTwo});`">
 						<h5 style="max-width: 600px;">
 							Deals
@@ -26,7 +26,7 @@
 
 		<BCol cols="12" md="4">
 			<RouterLink to="/rewards">
-				<div class="w-100 rounded shadow-sm img-container" style="border-radius: 20px !important;">
+				<div class="w-100 rounded shadow-sm img-container rounded-xxl">
 					<div class="child bg-three" :style="`background-image: url(${imgThree});`">
 						<h5 style="max-width: 600px;">
 							Loyalty

@@ -98,10 +98,9 @@
 					<BCardHeader class="bg-dark">
 						<BButton
 							variant="danger"
-							class="my-2 p-1 px-4 float-right"
+							class="my-2 p-1 px-4 float-right rounded-xxl"
 							pill
 							@click="viewingProduct = false"
-							style="border-radius: 20px !important;"
 						>✖</BButton>
 					</BCardHeader>
 

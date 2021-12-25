@@ -4,12 +4,16 @@
 			<BCol cols="12" lg="4" order="1" order-lg="0" class="p-0 bg-secondary-light">
 				<div class="first-section">
 					<div class="child" :style="`background-image: url(${ourStoryImage});`">
-						<span>
+						<span
+							class="m-3 p-3 bg-light-frost-lighter rounded-xxl"
+							style="max-width: 360px;"
+							data-aos="fade-up"
+						>
 							<h2 class="my-3 text-center text-uppercase text-light">
-								See Our Ongoing Story
+								Follow Us to See Our Ongoing Story
 							</h2>
 
-							<SocialMediaPlug size="4x" class="" />
+							<SocialMediaPlug size="4x" variant="primary" class="" />
 						</span>
 					</div>
 				</div>

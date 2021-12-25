@@ -26,7 +26,7 @@
 
 		<!-- [CENTER] OF SLIDER -->
 		<div class="slider-center" style="max-width: 600px;">
-			<BRow class="w-100 mx-auto p-3 bg-frost-lighter rounded-xxl">
+			<BRow class="w-100 mx-auto p-3 bg-light-frost-lighter rounded-xxl">
 				<BCol cols="12">
 					<h1
 						class="

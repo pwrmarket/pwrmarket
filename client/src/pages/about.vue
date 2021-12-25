@@ -9,7 +9,7 @@
 				<BRow>
 					<BCol cols="12" lg="7">
 						<BCard
-							class="mx-auto p-3 shadow text-dark bg-frost-light"
+							class="mx-auto p-3 shadow text-dark bg-light-frost-light"
 							data-aos="fade-up"
 						>
 							<h3 class="text-center text-primary">We Are Power Market!</h3>

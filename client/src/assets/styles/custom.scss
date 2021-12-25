@@ -20,10 +20,9 @@ body {
 }
 
 
-.bg-bg-img {
-	background-image: $bg-img;
-	background-size: 100%;
-
+// [TEXT][SHADOW] //
+.text-shadow {
+	text-shadow: 1px 1px 1px black !important;
 }
 
 
@@ -171,6 +170,7 @@ body {
 }
 
 
+// Align in center of div //
 .center-content {
 	display: flex;
 	justify-content: center;

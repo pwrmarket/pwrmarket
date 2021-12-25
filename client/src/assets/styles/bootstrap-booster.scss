@@ -66,18 +66,17 @@
 	background-color: $secondary-shine !important;
 }
 
+.bg-secondary-shine-light {
+	background-color: $secondary-shine-light !important;
+}
+
+
 .bg-light-shine {
 	background-color: $light-shine !important;
 }
 
 .bg-dark-shine {
 	background-color: $dark-shine !important;
-}
-
-
-// [BG][MIX][SHINE-LIGHT] //
-.bg-secondary-shine-light {
-	background-color: $secondary-shine-light !important;
 }
 
 
@@ -98,25 +97,26 @@
 
 
 // [BG][FROST][LIGHT] //
-.bg-light-frost-light {
+.bg-light-frost {
 	background-color: mix($light, rgba(255, 255, 255, .75), $weight: 30%);
 	backdrop-filter: blur(15px) !important;
 	-webkit-backdrop-filter: blur(15px) !important;
 }
 
 
-.bg-light-frost-lighter {
+.bg-light-frost-light {
 	background-color: mix($light, rgba(255, 255, 255, .3), $weight: 20%);
 	backdrop-filter: blur(10px) !important;
 	-webkit-backdrop-filter: blur(10px) !important;
 }
 
 
-.bg-light-frost-lightest {
+.bg-light-frost-lighter {
 	background-color: mix($light, rgba(255, 255, 255, 0.1), $weight: 10%);
 	backdrop-filter: blur(5px) !important;
 	-webkit-backdrop-filter: blur(5px) !important;
 }
+
 
 // [TEXT] //
 .text-primary-light {
@@ -126,6 +126,7 @@
 .text-primary-lighter {
 	color: $primary-lighter !important;
 }
+
 
 // [ROUNDED] //
 .rounded-xxl {

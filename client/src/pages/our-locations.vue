@@ -176,7 +176,7 @@
 								</BCardBody>
 
 								<BCardFooter class="bg-transparent">
-									<BButton variant="secondary" class="w-100">
+									<BButton variant="secondary" pill class="w-100">
 										View More Details
 									</BButton>
 								</BCardFooter>

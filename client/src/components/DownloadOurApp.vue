@@ -25,7 +25,7 @@
 		<BCol cols="12" lg="5" class="d-none d-lg-block text-left">
 			<img
 				:src="loyaltyImage"
-				alt="Power Market Loyalty App Image Here"
+				alt="Power Market Rewards App Image Here"
 				class="w-100"
 				style="max-width: 200px;"
 				data-aos="fade-up"

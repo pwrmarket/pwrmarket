@@ -83,7 +83,7 @@ const routes = [
 		meta: {
 			altLink: 'https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=fe247937-30ea-42e9-897c-7e49746c78f8&ccId=9200028200615_2&lang=en_US',
 			title: 'Careers',
-			menu: 1,
+			menu: 2,
 			show: true,
 		},
 	},
@@ -95,7 +95,7 @@ const routes = [
 		meta: {
 			altLink: '',
 			title: 'Contact',
-			menu: 1,
+			menu: 2,
 			show: true,
 		},
 	},

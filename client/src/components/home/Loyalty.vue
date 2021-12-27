@@ -12,7 +12,7 @@
 					<div class="child" :style="`background-image: url(${bgImage});`">
 						<span data-aos="fade-up" class="mx-3 p-3 bg-light-frost-lighter rounded-xxl" style="max-width: 600px;">
 							<h5 class="mb-3 text-light" style="font-size: 3em !important;">
-								Save More With Power Market Loyalty
+								Save More With Power Market Rewards
 							</h5>
 
 							<RouterLink to="/loyalty">

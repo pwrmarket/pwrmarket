@@ -58,7 +58,7 @@
 									class="text-center"
 								>
 									<div
-										v-if="s == 'power-market-loyalty'"
+										v-if="s == 'power-market-rewards'"
 										class="w-100 px-1 py-3 bg-success"
 										style="border-radius: .5rem !important"
 									>

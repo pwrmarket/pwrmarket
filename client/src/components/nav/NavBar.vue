@@ -7,10 +7,6 @@
 		<div class="d-none d-xl-flex py-2 bg-gradient">
 			<BContainer>
 				<BRow>
-					<BCol cols="6">
-						<SocialMediaPlug align="left" />
-					</BCol>
-
 					<BCol cols="6" class="text-right">
 						<div v-for="(r, i) in routes" :key="i" class="d-inline">
 							<RouterLink
@@ -44,6 +40,10 @@
 								{{ r.meta.title }}
 							</a>
 						</div>
+					</BCol>
+
+					<BCol cols="6">
+						<SocialMediaPlug align="right" />
 					</BCol>
 				</BRow>
 			</BContainer>

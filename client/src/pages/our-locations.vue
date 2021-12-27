@@ -18,26 +18,6 @@
 				<BRow class="py-3">
 					<BCol cols="12" md="6" class="">
 						<h6 class="text-secondary">Amenities</h6>
-						<!-- Energy Station -->
-						<input
-							v-model="filters_amenities"
-							type="checkbox"
-							id="energy-station"
-							value="energy-station"
-							class="mr-1"
-						>
-						<label for="powermarket" class="mr-3">Energy Station</label>
-
-						<!-- Store -->
-						<input
-							v-model="filters_amenities"
-							type="checkbox"
-							id="store"
-							value="store"
-							class="mr-1"
-						>
-						<label for="powermarket" class="mr-3">Store</label>
-
 						<!-- Service Shop -->
 						<input
 							v-model="filters_amenities"

@@ -194,3 +194,15 @@ h1, h2, h3, h4, h5, h6 {
 	background-image: $bg-img;
 	background-size: 100%;
 }
+
+
+// CONTENT //
+.offset-content {
+	-webkit-transform: translateY(-80px);
+	transform: translateY(-80px);
+
+	@media (max-width: 500px) {
+		-webkit-transform: translateY(-50px);
+		transform: translateY(-50px);
+	}
+}

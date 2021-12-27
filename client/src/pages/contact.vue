@@ -8,7 +8,12 @@
 
 		<BContainer class="py-5">
 			<BRow>
-				<BCol cols="12" md="8" class="mx-auto">
+				<BCol cols="12" md="8" order="1" order-md="0" class="mx-auto">
+					<!-- Subject -->
+					<h3 class="w-100 mb-3 text-center text-primary">
+						Email Us
+					</h3>
+
 					<form @submit.prevent="sendFile" enctype="multipart/form-data">
 						<!-- Client Email -->
 						<label for="client-email" class="w-100 h3 form-label text-primary">
@@ -74,10 +79,11 @@
 						<!-- Submit -->
 						<BButton
 							:disabled="loading"
+							pill
 							type="submit"
 							variant="primary"
 							size="lg"
-							class="w-100"
+							class="w-100 mb-3"
 						>submit</BButton>
 					</form>
 
@@ -85,14 +91,14 @@
 					<h6 v-if="error" class="mt-3 text-danger">{{ error }}</h6>
 				</BCol>
 
-				<BCol cols="12" md="4">
+				<BCol cols="12" md="4" order="0" order-md="1">
 					<!-- Subject -->
 					<h3 class="w-100 mb-3 text-center text-primary">
-						Or Call Us (24/7)
+						Call Us (24/7)
 					</h3>
 
 					<a :href="companyInfo.phone.link" target="_blank">
-						<BButton size="lg" class="w-100">
+						<BButton size="lg" pill class="w-100 mb-3">
 							{{ companyInfo.phone.number }}
 						</BButton>
 					</a>

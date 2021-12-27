@@ -5,7 +5,7 @@
 			:text="`${location.amenities[1].name} ${location.id}`"
 		/>
 
-		<BContainer class="content py-4">
+		<BContainer class="offset-content py-4">
 			<BRow>
 				<BCol cols="12" xl="9">
 					<LocationAtAGlance :location="location" class="mb-4" />
@@ -75,10 +75,3 @@
 		},
 	}
 </script>
-
-<style lang="scss" scoped>
-	.content {
-		-webkit-transform: translateY(-80px);
-		transform: translateY(-80px);
-	}	
-</style>

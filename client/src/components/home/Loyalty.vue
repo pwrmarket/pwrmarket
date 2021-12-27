@@ -10,7 +10,7 @@
 			<BCol cols="12" lg="6" class="p-0 bg-light">
 				<div class="img-container w-100" >
 					<div class="child" :style="`background-image: url(${bgImage});`">
-						<span data-aos="fade-up" class="p-3 bg-light-frost-lighter rounded-xxl" style="max-width: 600px;">
+						<span data-aos="fade-up" class="mx-3 p-3 bg-light-frost-lighter rounded-xxl" style="max-width: 600px;">
 							<h5 class="mb-3 text-light" style="font-size: 3em !important;">
 								Save More With Power Market Loyalty
 							</h5>

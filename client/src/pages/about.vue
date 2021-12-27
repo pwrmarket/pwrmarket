@@ -5,7 +5,7 @@
 			:text="`About Power Market`"
 		/>
 
-		<BContainer class="content">
+		<BContainer class="offset-content">
 				<BRow>
 					<BCol cols="12" lg="7">
 						<BCard
@@ -72,11 +72,3 @@ export default {
 	components: { Gallery, TitleHeader },
 }
 </script>
-
-<style lang="scss" scoped>
-	// CONTENT //
-	.content {
-		-webkit-transform: translateY(-80px);
-		transform: translateY(-80px);
-	}
-</style>

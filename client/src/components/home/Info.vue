@@ -6,7 +6,7 @@
 					<div class="child" :style="`background-image: url(${ourStoryImage});`">
 						<span
 							class="m-3 p-3 bg-light-frost-lighter rounded-xxl"
-							style="max-width: 360px;"
+							style="max-width: 500px;"
 							data-aos="fade-up"
 						>
 							<h1 class="text-center text-uppercase text-light">

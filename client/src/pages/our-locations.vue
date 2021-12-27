@@ -5,8 +5,8 @@
 			:text="`Our Locations`"
 		/>
 
-		<BContainer class="content p-0 py-4">
-			<BCard class="border-0">
+		<BContainer class="offset-content p-0 py-4">
+			<BCard class="mx-3 border-0">
 				<BRow>
 					<BCol cols="12">
 						<h5 class="text-primary">
@@ -330,12 +330,6 @@
 
 <style lang="scss" scoped>
 	@import '../assets/styles/index.scss';
-
-	// CONTENT //
-	.content {
-		-webkit-transform: translateY(-80px);
-		transform: translateY(-80px);
-	}
 
 	.location-card {		
 		&:hover {

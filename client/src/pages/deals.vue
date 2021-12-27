@@ -5,7 +5,7 @@
 			:text="`Everyday Deals!`"
 		/>
 
-		<BContainer class="content">
+		<BContainer class="offset-content">
 			<BRow class="m-0 p-0 pb-5">
 				<BCol cols="12" xl="8" order="1"  order-xl="0">
 					<BRow class="w-100 m-0">
@@ -54,12 +54,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-	// CONTENT //
-	.content {
-		-webkit-transform: translateY(-80px);
-		transform: translateY(-80px);
-	}
-	
 	.top-half-circle {
 		height: 100%;
 		width: 100%;

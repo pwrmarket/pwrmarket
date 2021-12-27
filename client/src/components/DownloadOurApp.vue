@@ -1,5 +1,5 @@
 <template>
-	<BRow class="w-100">
+	<BRow class="w-100 m-0">
 		<BCol cols="12" lg="7" class="p-0 text-center">
 			<h1 class="mb-4 mb-lg-5 text-light">Download Our App!</h1>
 

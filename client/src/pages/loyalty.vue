@@ -2,13 +2,13 @@
 	<BContainer fluid class="mb-6 p-0 pb-5">
 		<TitleHeader
 			:imageURL="require('../assets/images/slider/slide4.jpg')"
-			:text="`Power Market Loyalty (Rewards)`"
+			:text="`Power Market Loyalty`"
 		/>
 
-		<BContainer class="content p-0 py-4">
+		<BContainer class="offset-content p-0 py-4">
 			<BRow>
 				<BCol cols="12" md="7">
-					<BCard class="border-0">
+					<BCard class="border-0 mx-3">
 						<BRow>
 							<BCol cols="12">
 								<h1 class="mb-5 text-center text-gradient">How It Works</h1>
@@ -113,12 +113,6 @@
 
 <style lang="scss" scoped>
 	@import '../assets/styles/index.scss';
-
-	// CONTENT //
-	.content {
-		-webkit-transform: translateY(-80px);
-		transform: translateY(-80px);
-	}
 	
 	.title-col {
 		display: flex;

@@ -1,7 +1,7 @@
 <template>
 	<BContainer fluid class="mb-6 p-0 pb-5">
 		<TitleHeader
-			:imageURL="require('../assets/images/slider/slide5.jpg')"
+			:imageURL="require('../assets/images/hero/slide5.jpg')"
 			:text="`Our Locations`"
 		/>
 

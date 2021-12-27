@@ -59,7 +59,7 @@
 					{
 						caption:'',
 						text: '',
-						img: require('../assets/images/slider/slide6.jpg'),
+						img: require('../assets/images/slider/slide2.jpg'),
 					},
 					{
 						caption:'',

@@ -66,11 +66,6 @@
 						text: '',
 						img: require('../assets/images/slider/slide1.jpg'),
 					},
-					{
-						caption: '',
-						text: '',
-						img: require('../assets/images/slider/slide3.jpg'),
-					},
 				],
 			}
 		},

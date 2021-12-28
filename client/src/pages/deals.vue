@@ -8,48 +8,53 @@
 		<BContainer class="offset-content">
 			<BRow class="m-0 p-0 pb-5">
 				<BCol cols="12" xl="8" class="m-0 p-0">
-					<BRow class="w-100 m-0">
-						<!-- infoImages -->
-						<BCol
-							v-for="(img, i) in infoImages"
-							:key="i"
-							cols="12" lg="6"
-							class="p-0"
-						>
-							<img :src="img" v-lazy="img" class="w-100">
-						</BCol>
+					<viewer
+						:options="{ title: false, transition: false, }"
+						class="text-center"
+					>
+						<BRow class="w-100 m-0">
+							<!-- infoImages -->
+							<BCol
+								v-for="(img, i) in infoImages"
+								:key="i"
+								cols="12" lg="6"
+								class="p-0"
+							>
+								<img :src="img" v-lazy="img" class="w-100">
+							</BCol>
 
-						<!-- standardImages -->
-						<BCol
-							v-for="(img, i) in standardImages"
-							:key="i"
-							cols="12" lg="6"
-							class="p-0"
-						>
-							<img :src="img" v-lazy="img" class="w-100">
-						</BCol>						
+							<!-- standardImages -->
+							<BCol
+								v-for="(img, i) in standardImages"
+								:key="i"
+								cols="12" lg="6"
+								class="p-0"
+							>
+								<img :src="img" v-lazy="img" class="w-100">
+							</BCol>						
 
-						<!-- largeImages -->
-						<BCol cols="12">
-							<BRow>
-								<BCol cols="12" xl="5" class="m-0 p-0">
-									<!-- WhiteBgImages -->
-									<BCol
-										v-for="(img, i) in whiteBgImages"
-										:key="i"
-										cols="12"
-										class="p-0"
-									>
-										<img :src="img" v-lazy="img" class="w-100">
+							<!-- largeImages -->
+							<BCol cols="12">
+								<BRow>
+									<BCol cols="12" xl="5" class="m-0 p-0">
+										<!-- WhiteBgImages -->
+										<BCol
+											v-for="(img, i) in whiteBgImages"
+											:key="i"
+											cols="12"
+											class="p-0"
+										>
+											<img :src="img" v-lazy="img" class="w-100">
+										</BCol>
 									</BCol>
-								</BCol>
 
-								<BCol cols="12" xl="7" class="m-0 p-0">
-									<img :src="largeImages[0]" alt="" class="w-100">
-								</BCol>
-							</BRow>
-						</BCol>
-					</BRow>
+									<BCol cols="12" xl="7" class="m-0 p-0">
+										<img :src="largeImages[0]" v-lazy="largeImages[0]" class="w-100">
+									</BCol>
+								</BRow>
+							</BCol>
+						</BRow>
+					</viewer>
 				</BCol>
 
 				<BCol cols="12" xl="4" class="m-0 p-0">

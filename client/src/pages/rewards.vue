@@ -104,7 +104,6 @@
 <script>
 	import {
 		BatteryChargingIcon,
-		//ClipboardIcon,
 		DollarSignIcon,
 		MapPinIcon,
 		SmartphoneIcon
@@ -130,7 +129,6 @@
 
 		components: {
 			BatteryChargingIcon,
-			//ClipboardIcon,
 			DollarSignIcon,
 			DownloadOurApp,
 			MapPinIcon,

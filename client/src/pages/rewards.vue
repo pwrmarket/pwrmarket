@@ -65,7 +65,7 @@
 					</BCard>
 				</BCol>
 
-				<BCol cols="12" md="4">
+				<BCol cols="12" xl="4">
 					<BCard border-variant="white">
 						<BRow>
 							<BCol cols="12">
@@ -79,12 +79,12 @@
 					</BCard>
 				</BCol>
 
-				<BCol cols="12" md="8">
+				<BCol cols="12" xl="8">
 					<BRow class="w-100 m-0">
 						<BCol
 							v-for="(img, i) in images"
 							:key="i"
-							cols="12"  lg="6"
+							cols="12" xl="6"
 							class="p-0"
 						>
 							<img :src="img" v-lazy="img" class="w-100">

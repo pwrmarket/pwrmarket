@@ -1,5 +1,5 @@
 <template>
-	<BContainer fluid class="m-0 p-0 pb-5 bg-primary">
+	<BContainer fluid class="m-0 p-0 pb-5 bg-white">
 		<TitleHeader
 			:imageURL="require('../assets/images/slider/slide1.jpg')"
 			:text="`Everyday Deals!`"
@@ -7,12 +7,58 @@
 
 		<BContainer class="offset-content">
 			<BRow class="m-0 p-0 pb-5">
-				<BCol cols="12" xl="8" order="1"  order-xl="0">
+				<BCol cols="12" xl="8" class="m-0 p-0">
+					<BRow class="w-100 m-0">
+						<!-- infoImages -->
+						<BCol
+							v-for="(img, i) in infoImages"
+							:key="i"
+							cols="12" lg="6"
+							class="p-0"
+						>
+							<img :src="img" v-lazy="img" class="w-100">
+						</BCol>
+
+						<!-- standardImages -->
+						<BCol
+							v-for="(img, i) in standardImages"
+							:key="i"
+							cols="12" lg="6"
+							class="p-0"
+						>
+							<img :src="img" v-lazy="img" class="w-100">
+						</BCol>						
+
+						<!-- largeImages -->
+						<BCol cols="12">
+							<BRow>
+								<BCol cols="12" xl="5" class="m-0 p-0">
+									<!-- WhiteBgImages -->
+									<BCol
+										v-for="(img, i) in whiteBgImages"
+										:key="i"
+										cols="12"
+										class="p-0"
+									>
+										<img :src="img" v-lazy="img" class="w-100">
+									</BCol>
+								</BCol>
+
+								<BCol cols="12" xl="7" class="m-0 p-0">
+									<img :src="largeImages[0]" alt="" class="w-100">
+								</BCol>
+							</BRow>
+						</BCol>
+					</BRow>
+				</BCol>
+
+				<BCol cols="12" xl="4" class="m-0 p-0">
+					<!-- tallImages -->
 					<BRow class="w-100 m-0">
 						<BCol
-							v-for="(img, i) in images"
+							v-for="(img, i) in tallImages"
 							:key="i"
-							cols="12"  lg="6"
+							cols="12"
 							class="p-0"
 						>
 							<img :src="img" v-lazy="img" class="w-100">
@@ -20,8 +66,8 @@
 					</BRow>
 				</BCol>
 
-				<BCol cols="12" xl="4"  order="0" order-xl="1">
-					<BCard class="mb-3 shadow bg-gradient rounded-0" data-aos="fade-up">
+				<BCol cols="12" xl="4" class="mx-auto">
+					<BCard class="mb-4 shadow bg-gradient rounded-0">
 						<BCardBody class="p-1 h-100 title-col">
 							<DownloadOurApp small />
 						</BCardBody>
@@ -39,12 +85,29 @@ import TitleHeader from '@/components/UI/TitleHeader'
 export default {
 	data() {
 		return {
-			images: [
-				"https://images2.imgbox.com/f1/c8/XKrDps69_o.png",
-				"https://images2.imgbox.com/43/bc/yIzF2Mg1_o.png",
-				"https://images2.imgbox.com/3a/99/e5Gs7gVp_o.png",
-				"https://images2.imgbox.com/a1/90/0DTXvT4E_o.png",
-				"https://images2.imgbox.com/8a/40/g5aozA7m_o.png",
+			infoImages: [
+				'https://images2.imgbox.com/d3/ea/UatclRrI_o.jpg',
+				'https://images2.imgbox.com/ec/e9/AXfVrhol_o.jpg',
+			],
+
+			whiteBgImages: [
+				'https://images2.imgbox.com/70/b3/bVKv3MdG_o.jpg',
+				'https://images2.imgbox.com/13/39/2Bd8LucZ_o.jpg',
+			],
+
+			standardImages: [
+				'https://images2.imgbox.com/65/43/tZpwWwLb_o.jpg',
+				'https://images2.imgbox.com/94/11/wHepw6tO_o.jpg',
+				'https://images2.imgbox.com/2e/56/Qawn7RvV_o.jpg',
+				'https://images2.imgbox.com/36/11/t3P9KREv_o.jpg',
+			],
+
+			largeImages: ['https://images2.imgbox.com/4c/2d/2mSOxuxe_o.jpg',],
+
+			tallImages: [
+				'https://images2.imgbox.com/75/3c/B8qQRIbw_o.jpg',
+				'https://images2.imgbox.com/bf/7b/CrbeNeyn_o.jpg',
+				'https://images2.imgbox.com/69/bd/yFxXCBud_o.jpg',
 			],
 		}
 	},

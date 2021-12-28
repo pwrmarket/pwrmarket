@@ -70,7 +70,7 @@
 
 				<BCol cols="12" md="6" class="d-none d-lg-block">
 					<div class="text-center">
-						<RouterLink to="/our-locations">
+						<RouterLink to="/locations">
 							<BButton variant="secondary" size="lg" pill class="w-100">
 								Find a Location
 							</BButton>

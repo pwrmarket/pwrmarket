@@ -1,7 +1,7 @@
 <template>
 	<BRow class="w-100 m-0 p-0 content" style="height: ;">
 		<BCol cols="12" md="4">
-			<RouterLink to="/our-locations">
+			<RouterLink to="/locations">
 				<div class="w-100 rounded shadow-sm img-container rounded-xxl">
 					<div class="child-1 bg-one" :style="`background-image: url(${imgOne});`">
 						<h5 style="max-width: 600px;">

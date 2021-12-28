@@ -12,9 +12,9 @@ import deals from '@/pages/deals'
 import emailSent from '@/pages/email-sent'
 import index from '@/pages'
 import location from '@/pages/location'
-import loyalty from '@/pages/loyalty'
-import ourLocations from '@/pages/our-locations'
+import locations from '@/pages/locations'
 import privacyPolicy from '@/pages/privacy-policy'
+import rewards from '@/pages/rewards'
 import notFound from '@/pages/404'
 
 
@@ -32,23 +32,12 @@ const routes = [
 		},
 	},
 	{
-		path: '/our-locations',
-		name: 'ourLocations',
-		component: ourLocations,
+		path: '/locations',
+		name: 'locations',
+		component: locations,
 		meta: {
 			altLink: '',
-			title: 'Our Locations',
-			menu: 2,
-			show: true,
-		},
-	},
-	{
-		path: '/about',
-		name: 'about',
-		component: about,
-		meta: {
-			altLink: '',
-			title: 'About',
+			title: 'Locations',
 			menu: 2,
 			show: true,
 		},
@@ -67,7 +56,7 @@ const routes = [
 	{
 		path: '/rewards',
 		name: 'rewards',
-		component: loyalty,
+		component: rewards,
 		meta: {
 			altLink: '',
 			title: 'Rewards',
@@ -99,6 +88,19 @@ const routes = [
 			show: true,
 		},
 	},
+
+	{
+		path: '/about',
+		name: 'about',
+		component: about,
+		meta: {
+			altLink: '',
+			title: 'About',
+			menu: 2,
+			show: true,
+		},
+	},
+
 	// email-sent //
 	{
 		path: '/email-sent',

@@ -23,7 +23,7 @@
 				<BCol cols="12" xl="4"  order="0" order-xl="1">
 					<BCard class="mb-3 shadow bg-gradient rounded-0" data-aos="fade-up">
 						<BCardBody class="p-1 h-100 title-col">
-							<DownloadOurApp />
+							<DownloadOurApp small />
 						</BCardBody>
 					</BCard>
 				</BCol>

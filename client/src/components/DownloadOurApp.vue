@@ -1,7 +1,15 @@
 <template>
 	<BRow class="w-100 m-0">
+		<BCol cols="12" v-if="small" class="">
+			<h3 class="mb-3 text-center text-light">
+				Download Our App
+			</h3>
+		</BCol>
+
 		<BCol cols="12" lg="7" class="p-0 text-center">
-			<h1 class="mb-4 mb-lg-5 text-light">Download Our App!</h1>
+			<h1 v-if="!small" class="mb-4 mb-xl-5 text-center text-light">
+				Download Our App
+			</h1>
 
 			<a :href="companyInfo.app.apple.link" target="_blank">
 				<img
@@ -38,6 +46,13 @@
 import companyInfo from '@/defaults/companyInfo'
 
 export default {
+	props: {
+		small: {
+			type: Boolean,
+			default: false,
+		},
+	},
+
 	data() {
 		return {
 			companyInfo,

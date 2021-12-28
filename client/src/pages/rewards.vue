@@ -5,7 +5,7 @@
 			:text="`Power Market Rewards`"
 		/>
 
-		<BContainer class="offset-content p-0 py-4">
+		<BContainer class="offset-content px-3 py-4">
 			<BRow>
 				<BCol cols="12">
 					<BCard no-body border-variant="white" class="border-0">
@@ -21,7 +21,7 @@
 								<BCol cols="12">
 								</BCol>
 
-								<BCol cols="12" sm="6" lg="4" xl="3">
+								<BCol cols="6" sm="6" lg="4" xl="3">
 									<div class="text-center" data-aos="fade-right" data-aos-delay="200" data-aos-offset="-400">
 										<SmartphoneIcon size="5x" class="mb-3 text-secondary" />
 
@@ -31,7 +31,7 @@
 									</div>
 								</BCol>
 
-								<BCol cols="12" sm="6" lg="4" xl="3">
+								<BCol cols="6" sm="6" lg="4" xl="3">
 									<div class="text-center" data-aos="fade-right" data-aos-delay="400" data-aos-offset="-400">
 										<MapPinIcon size="5x" class="mb-3 text-secondary" />
 
@@ -41,7 +41,7 @@
 									</div>
 								</BCol>
 
-								<BCol cols="12" sm="6" lg="4" xl="3">
+								<BCol cols="6" sm="6" lg="4" xl="3">
 									<div class="text-center" data-aos="fade-right" data-aos-delay="600" data-aos-offset="-400">
 										<DollarSignIcon size="5x" class="mb-3 text-secondary" />
 
@@ -51,7 +51,7 @@
 									</div>
 								</BCol>
 
-								<BCol cols="12" sm="6" lg="4" xl="3">
+								<BCol cols="6" sm="6" lg="4" xl="3">
 									<div class="text-center"  data-aos="fade-right" data-aos-delay="800" data-aos-offset="-400">
 										<BatteryChargingIcon size="5x" class="mb-3 text-secondary" />
 

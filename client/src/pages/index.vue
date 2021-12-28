@@ -59,12 +59,22 @@
 					{
 						caption:'',
 						text: '',
-						img: require('../assets/images/slider/slide2.jpg'),
+						img: require('../assets/images/slider/slide4.jpg'),
+					},
+					{
+						caption:'',
+						text: '',
+						img: require('../assets/images/slider/slide5.jpg'),
 					},
 					{
 						caption:'',
 						text: '',
 						img: require('../assets/images/slider/slide1.jpg'),
+					},
+					{
+						caption:'',
+						text: '',
+						img: require('../assets/images/slider/slide2.jpg'),
 					},
 				],
 			}

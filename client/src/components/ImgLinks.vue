@@ -29,7 +29,7 @@
 				<div class="w-100 rounded shadow-sm img-container rounded-xxl">
 					<div class="child-1 bg-three" :style="`background-image: url(${imgThree});`">
 						<h5 style="max-width: 600px;">
-							Loyalty
+							Rewards
 						</h5>
 					</div>
 				</div>

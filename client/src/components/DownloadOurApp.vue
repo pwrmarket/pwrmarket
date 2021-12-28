@@ -7,7 +7,9 @@
 		</BCol>
 
 		<BCol cols="12" lg="7" class="p-0 text-center">
-			<h1 v-if="!small" class="mb-4 mb-xl-5 text-center text-light">
+			<h1 v-if="!small" class="mb-4 mb-xl-5 text-center text-light"
+				style="font-size: 3em;"
+			>
 				Download Our App
 			</h1>
 

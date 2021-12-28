@@ -80,16 +80,21 @@
 				</BCol>
 
 				<BCol cols="12" xl="8">
-					<BRow class="w-100 m-0">
-						<BCol
-							v-for="(img, i) in images"
-							:key="i"
-							cols="12" xl="6"
-							class="p-0"
-						>
-							<img :src="img" v-lazy="img" class="w-100">
-						</BCol>
-					</BRow>
+					<viewer
+						:options="{ title: false, transition: false, }"
+						class="text-center"
+					>
+						<BRow class="w-100 m-0">
+							<BCol
+								v-for="(img, i) in images"
+								:key="i"
+								cols="12" xl="6"
+								class="p-0"
+							>
+								<img :src="img" v-lazy="img" class="w-100">
+							</BCol>
+						</BRow>
+					</viewer>
 				</BCol>
 			</BRow>
 		</BContainer>

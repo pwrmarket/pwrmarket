@@ -105,9 +105,9 @@ export default {
 			largeImages: ['https://images2.imgbox.com/4c/2d/2mSOxuxe_o.jpg',],
 
 			tallImages: [
+				'https://images2.imgbox.com/69/bd/yFxXCBud_o.jpg',
 				'https://images2.imgbox.com/75/3c/B8qQRIbw_o.jpg',
 				'https://images2.imgbox.com/bf/7b/CrbeNeyn_o.jpg',
-				'https://images2.imgbox.com/69/bd/yFxXCBud_o.jpg',
 			],
 		}
 	},

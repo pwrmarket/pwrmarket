@@ -7,32 +7,47 @@
 
 		<BContainer class="offset-content">
 			<BRow class="m-0 p-0 pb-5">
+				<BCol
+					v-for="(d, i) in deals"
+					:key="i"
+					cols="12" :xl="d.size"
+					class="d-flex-0 align-items-stretch"
+				>
+					<BCard no-body border-variant="white" class="mb-4 border-0">
+						<BCardHeader class="bg-secondary">
+							<h1 v-if="d.size >= 6" class="m-0 text-center text-light" style="font-size: 3em;">
+								{{ d.title }}
+							</h1>
+
+							<h1 v-else class="m-0 text-center text-light" style="font-size: 2em;">
+								{{ d.title }}
+							</h1>
+						</BCardHeader>
+
+						<BCardBody class="p-0">
+							<img :src="d.img" alt="Image" class="w-100" />
+						</BCardBody>
+						
+						<BCardFooter class="bg-primary">
+							<h1 v-if="d.size >= 6" class="m-0 text-center text-light" style="font-size: 4em;">
+								{{ d.price }}
+								<span class="font-weight-bold small" style="font-size: .5em;">{{ d.priceTag }}</span>
+							</h1>
+
+							<h1 v-else class="m-0 text-center text-light bg-primary" style="font-size: 2.2em;">
+								{{ d.price }}
+								<span class="font-weight-bold small" style="font-size: .5em;">{{ d.priceTag }}</span>
+							</h1>
+						</BCardFooter>
+					</BCard>
+				</BCol>
+
 				<BCol cols="12" xl="8" class="m-0 p-0">
 					<viewer
 						:options="{ title: false, transition: false, }"
 						class="text-center"
 					>
-						<BRow class="w-100 m-0">
-							<!-- infoImages -->
-							<BCol
-								v-for="(img, i) in infoImages"
-								:key="i"
-								cols="12" lg="6"
-								class="p-0"
-							>
-								<img :src="img" v-lazy="img" class="w-100">
-							</BCol>
-
-							<!-- standardImages -->
-							<BCol
-								v-for="(img, i) in standardImages"
-								:key="i"
-								cols="12" lg="6"
-								class="p-0"
-							>
-								<img :src="img" v-lazy="img" class="w-100">
-							</BCol>						
-
+						<BRow class="w-100 m-0">		
 							<!-- largeImages -->
 							<BCol cols="12">
 								<BRow>
@@ -90,10 +105,6 @@ import TitleHeader from '@/components/UI/TitleHeader'
 export default {
 	data() {
 		return {
-			infoImages: [
-				'https://images2.imgbox.com/d3/ea/UatclRrI_o.jpg',
-				'https://images2.imgbox.com/ec/e9/AXfVrhol_o.jpg',
-			],
 
 			whiteBgImages: [
 				'https://images2.imgbox.com/70/b3/bVKv3MdG_o.jpg',
@@ -102,7 +113,6 @@ export default {
 
 			standardImages: [
 				'https://images2.imgbox.com/65/43/tZpwWwLb_o.jpg',
-				'https://images2.imgbox.com/94/11/wHepw6tO_o.jpg',
 				'https://images2.imgbox.com/2e/56/Qawn7RvV_o.jpg',
 				'https://images2.imgbox.com/36/11/t3P9KREv_o.jpg',
 			],
@@ -110,9 +120,45 @@ export default {
 			largeImages: ['https://images2.imgbox.com/4c/2d/2mSOxuxe_o.jpg',],
 
 			tallImages: [
-				'https://images2.imgbox.com/69/bd/yFxXCBud_o.jpg',
-				'https://images2.imgbox.com/75/3c/B8qQRIbw_o.jpg',
 				'https://images2.imgbox.com/bf/7b/CrbeNeyn_o.jpg',
+			],
+
+			deals: [
+				{
+					title: 'Pizza 7" + Fountain Drink 32oz',
+					price: '$4.99',
+					priceTag: '+ tax',
+					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					size: '6',
+				},
+				{
+					title: 'Family Meal - 8pc Fried Chicken + 2L Pepsi',
+					price: '$9.99',
+					priceTag: '+ tax',
+					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					size: '6',
+				},
+				{
+					title: 'Fountain Drink (Any Size)',
+					price: '$0.99',
+					priceTag: '+ crv + tax',
+					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					size: '4',
+				},
+				{
+					title: 'Aquafina & Dasani 1L',
+					price: '2 for $2.49',
+					priceTag: '+ crv',
+					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					size: '4',
+				},
+				{
+					title: 'Rockerstar 16oz',
+					price: '2 for $3.49',
+					priceTag: '+ crv + tax',
+					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					size: '4',
+				},
 			],
 		}
 	},

@@ -11,22 +11,24 @@
 					v-for="(d, i) in deals"
 					:key="i"
 					cols="12" :xl="d.size"
-					class="d-flex-0 align-items-stretch"
+					class="d-flex align-items-stretch"
 				>
 					<BCard no-body border-variant="white" class="mb-4 border-0">
-						<BCardHeader class="bg-secondary">
-							<h1 v-if="d.size >= 6" class="m-0 text-center text-light" style="font-size: 3em;">
-								{{ d.title }}
-							</h1>
+						<BCardBody class="bg-secondary">
+							<div class="">
+									<h1 v-if="d.size >= 6" class="m-0 text-center text-light" style="font-size: 3em;">
+									{{ d.title }}
+								</h1>
 
-							<h1 v-else class="m-0 text-center text-light" style="font-size: 2em;">
-								{{ d.title }}
-							</h1>
-						</BCardHeader>
-
-						<BCardBody class="p-0">
-							<img :src="d.img" alt="Image" class="w-100" />
+								<h1 v-else class="m-0 text-center text-light" style="font-size: 2em;">
+									{{ d.title }}
+								</h1>
+							</div>
 						</BCardBody>
+
+						<BCardFooter class="p-0">
+							<img :src="d.img" alt="Image" class="w-100" />
+						</BCardFooter>
 						
 						<BCardFooter class="bg-primary">
 							<h1 v-if="d.size >= 6" class="m-0 text-center text-light" style="font-size: 4em;">

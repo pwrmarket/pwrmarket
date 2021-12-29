@@ -42,50 +42,6 @@
 					</BCard>
 				</BCol>
 
-				<BCol cols="12" xl="8" class="m-0 p-0">
-					<viewer
-						:options="{ title: false, transition: false, }"
-						class="text-center"
-					>
-						<BRow class="w-100 m-0">		
-							<!-- largeImages -->
-							<BCol cols="12">
-								<BRow>
-									<BCol cols="12" xl="5" class="m-0 p-0">
-										<!-- WhiteBgImages -->
-										<BCol
-											v-for="(img, i) in whiteBgImages"
-											:key="i"
-											cols="12"
-											class="p-0"
-										>
-											<img :src="img" v-lazy="img" class="w-100">
-										</BCol>
-									</BCol>
-
-									<BCol cols="12" xl="7" class="m-0 p-0">
-										<img :src="largeImages[0]" v-lazy="largeImages[0]" class="w-100">
-									</BCol>
-								</BRow>
-							</BCol>
-						</BRow>
-					</viewer>
-				</BCol>
-
-				<BCol cols="12" xl="4" class="m-0 p-0">
-					<!-- tallImages -->
-					<BRow class="w-100 m-0">
-						<BCol
-							v-for="(img, i) in tallImages"
-							:key="i"
-							cols="12"
-							class="p-0"
-						>
-							<img :src="img" v-lazy="img" class="w-100">
-						</BCol>
-					</BRow>
-				</BCol>
-
 				<BCol cols="12" xl="4" class="mx-auto">
 					<BCard class="mb-4 shadow bg-gradient rounded-0">
 						<BCardBody class="p-1 h-100 title-col">
@@ -105,24 +61,6 @@ import TitleHeader from '@/components/UI/TitleHeader'
 export default {
 	data() {
 		return {
-
-			whiteBgImages: [
-				'https://images2.imgbox.com/70/b3/bVKv3MdG_o.jpg',
-				'https://images2.imgbox.com/13/39/2Bd8LucZ_o.jpg',
-			],
-
-			standardImages: [
-				'https://images2.imgbox.com/65/43/tZpwWwLb_o.jpg',
-				'https://images2.imgbox.com/2e/56/Qawn7RvV_o.jpg',
-				'https://images2.imgbox.com/36/11/t3P9KREv_o.jpg',
-			],
-
-			largeImages: ['https://images2.imgbox.com/4c/2d/2mSOxuxe_o.jpg',],
-
-			tallImages: [
-				'https://images2.imgbox.com/bf/7b/CrbeNeyn_o.jpg',
-			],
-
 			deals: [
 				{
 					title: 'Pizza 7" + Fountain Drink 32oz',
@@ -155,6 +93,34 @@ export default {
 				{
 					title: 'Rockerstar 16oz',
 					price: '2 for $3.49',
+					priceTag: '+ crv + tax',
+					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					size: '4',
+				},
+				{
+					title: 'PM Water 1L',
+					price: '2 for $2.99',
+					priceTag: '+ crv',
+					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					size: '4',
+				},
+				{
+					title: 'Nestle 24 Pack',
+					price: '2 for $4.99',
+					priceTag: '+ crv',
+					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					size: '4',
+				},
+				{
+					title: 'Pepsi 12 Pack',
+					price: '1 for $6.29 or 2 for $0.49',
+					priceTag: '+ crv',
+					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					size: '4',
+				},
+				{
+					title: 'Bang, Monster & Reign 16oz',
+					price: '2 for $4.49 or 3 for $5.99',
 					priceTag: '+ crv + tax',
 					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
 					size: '4',

@@ -5,6 +5,14 @@
 			:slides="caraousel"
 			:maxHeight="700"
 			data-aos="fade"
+			class="d-none d-md-block"
+		/>
+
+		<!-- Caraousel -->
+		<FancySlider
+			:slides="caraouselMobile"
+			data-aos="fade"
+			class="d-block d-md-none"
 		/>
 
 		<BContainer fluid class="py-5 bg-white">
@@ -75,6 +83,29 @@
 						caption:'',
 						text: '',
 						img: require('../assets/images/slider/slide2.jpg'),
+					},
+				],
+
+				caraouselMobile: [
+					{
+						caption: '',
+						text: '',
+						img: require('../assets/images/slider-mobile/slide0.jpg'),
+					},
+					{
+						caption: '',
+						text: '',
+						img: require('../assets/images/slider-mobile/slide1.jpg'),
+					},
+					{
+						caption: '',
+						text: '',
+						img: require('../assets/images/slider-mobile/slide2.jpg'),
+					},
+					{
+						caption: '',
+						text: '',
+						img: require('../assets/images/slider-mobile/slide4.jpg'),
 					},
 				],
 			}

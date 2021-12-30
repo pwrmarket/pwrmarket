@@ -26,7 +26,7 @@
 
 		<!-- [CENTER] OF SLIDER -->
 		<div class="slider-center" style="max-width: 600px;">
-			<BRow class="w-100 mx-auto p-3 bg-light-frost-light rounded-xxl">
+			<BRow class="w-100 mx-auto p-3 bg-light-frost rounded-xxl">
 				<BCol cols="12">
 					<h1
 						class="
@@ -37,11 +37,11 @@
 							font-weight-bold
 						"
 					>
-						<span class="text-secondary font-weight-bold">
+						<span class="text-gradient font-weight-bold">
 							Everything
 						</span>
 						You Need, Right Around the
-						<span class="text-secondary font-weight-bold">Corner!</span>
+						<span class="text-gradient font-weight-bold">Corner!</span>
 					</h1>
 				</BCol>
 

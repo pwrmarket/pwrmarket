@@ -114,6 +114,12 @@ $regulard-blur: 10px;
 	-webkit-backdrop-filter: blur($regulard-blur) !important;
 }
 
+.bg-light-frost-2 {
+	background-color: mix($light, rgba(255, 255, 255, .75), $weight: 20%);
+	backdrop-filter: blur($regulard-blur + 100) !important;
+	-webkit-backdrop-filter: blur($regulard-blur + 100) !important;
+}
+
 
 .bg-light-frost-light {
 	background-color: mix($light, rgba(255, 255, 255, .3), $weight: 20%);

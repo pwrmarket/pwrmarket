@@ -17,7 +17,7 @@
 				<BRow class="pt-4">
 					<BCol cols="12" sm="6" md="4" class="text-center">
 						<h4 class="mb-3 font-weight-bold text-light">
-							Our Main Location
+							Contact Us
 						</h4>
 						<a :href="googleMapsLink" target="_blank">
 							<h6 class="mb-3">

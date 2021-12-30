@@ -22,8 +22,8 @@ module.exports = {
 
 
 	email: {
-		address: '',
-		link: '',
+		address: 'info@hnsenergyproducts.com',
+		link: 'mailto:info@hnsenergyproducts.com',
 	},
 
 
@@ -35,7 +35,7 @@ module.exports = {
 
 	location: {
 		mainAddress: {
-			full: '2860 N Santiago Blvd Orange CA 92867',
+			full: '2860 N. Santiago Blvd, Orange, CA 92867',
 			street: '2860 N Santiago Blvd',
 			state: 'Orange',
 			city: 'CA',

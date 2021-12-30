@@ -91,9 +91,9 @@
 						size: '4',
 					},
 					{
-						title: 'Family Meal - 8pc Fried Chicken + 2L Pepsi',
+						title: 'Combo Deli Family Deal: "Chicken 8pc & Pepsi 2L"',
 						price: '$9.99',
-						priceTag: '+ tax',
+						priceTag: '+ crv + tax',
 						img: 'https://images2.imgbox.com/d9/ee/xTEa4zoE_o.png',
 						size: '4',
 					},

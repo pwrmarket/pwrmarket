@@ -17,20 +17,33 @@
 				<BRow class="pt-4">
 					<BCol cols="12" sm="6" md="4" class="text-center">
 						<h4 class="mb-3 font-weight-bold text-light">
-							Contact Us
+							Info
 						</h4>
+
+						<h5 class="mb-3 font-weight-bold text-light">
+							Address
+						</h5>
 						<a :href="googleMapsLink" target="_blank">
 							<h6 class="mb-3">
 								{{ companyInfo.location.mainAddress.full }}
 							</h6>
 						</a>
 
-						<h4 class="mb-3 font-weight-bold text-light">
+						<h5 class="mb-3 font-weight-bold text-light">
 							Call Us 24/7
-						</h4>
+						</h5>
 						<a :href="companyInfo.phone.link" target="_blank">
 							<h6 class="mb-3">
 								{{ companyInfo.phone.number }}
+							</h6>
+						</a>
+
+						<h5 class="mb-3 font-weight-bold text-light">
+							Email
+						</h5>
+						<a :href="companyInfo.email.link" target="_blank">
+							<h6 class="mb-3">
+								{{ companyInfo.email.address }}
 							</h6>
 						</a>
 					</BCol>

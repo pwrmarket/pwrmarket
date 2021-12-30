@@ -13,7 +13,7 @@
 					cols="12" :xl="d.size"
 					class="d-flex align-items-stretch"
 				>
-					<BCard no-body border-variant="white" data-aos="fade-up" class="w-100 mb-4 border-0">
+					<BCard no-body border-variant="primary" class="w-100 mb-4">
 						<BCardHeader class="bg-secondary">
 							<div class="">
 									<h1 v-if="d.size >= 6" class="m-0 text-center text-light" style="font-size: 3em;">
@@ -43,7 +43,7 @@
 								:src="d.img"
 								alt="Image"
 								class="w-100 deal-img"
-								style="max-width: 400px;"
+								style="max-width: 300px;"
 							/>
 						</BCardBody>
 					</BCard>
@@ -94,7 +94,7 @@ export default {
 					title: 'Aquafina & Dasani 1L',
 					price: '2 for $2.49',
 					priceTag: '+ crv',
-					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					img: 'https://images2.imgbox.com/9e/cb/kCFDusky_o.png',
 					size: '4',
 				},
 				{
@@ -129,7 +129,7 @@ export default {
 					title: 'Bang, Monster & Reign 16oz',
 					price: '2 for $4.49 or 3 for $5.99',
 					priceTag: '+ crv + tax',
-					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					img: 'https://images2.imgbox.com/54/1f/29DIEUPl_o.png',
 					size: '4',
 				},
 			],
@@ -155,8 +155,7 @@ export default {
 
 
 	.img-container {
-		outline: dashed 1px black;
-		min-height: 410px;
+		min-height: 320px;
 		/* Setup */
 		position: relative;
 	}

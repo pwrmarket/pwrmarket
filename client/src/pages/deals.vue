@@ -10,11 +10,11 @@
 				<BCol
 					v-for="(d, i) in deals"
 					:key="i"
-					cols="12" :xl="d.size"
+					cols="12" lg="6" xl="4"
 					class="d-flex align-items-stretch"
 				>
 					<BCard no-body border-variant="primary" class="w-100 mb-4">
-						<BCardHeader class="bg-secondary center-content" style="height: 100px;">
+						<BCardHeader class="bg-secondary center-content" style="height: 150px;">
 							<div class="">
 									<h1 v-if="d.size >= 6" class="m-0 text-center text-light" style="font-size: 3em;">
 									{{ d.title }}
@@ -26,7 +26,7 @@
 							</div>
 						</BCardHeader>
 						
-						<BCardFooter class="bg-primary center-content" style="height: 100px;">
+						<BCardFooter class="bg-primary center-content" style="height: 140px;">
 							<div class="">
 								<h1 v-if="d.size >= 6" class="m-0 text-center text-light" style="font-size: 4em;">
 									{{ d.price }}
@@ -75,7 +75,7 @@ export default {
 					title: 'Pizza 7" + Fountain Drink 32oz',
 					price: '$4.99',
 					priceTag: '+ tax',
-					img: 'https://images2.imgbox.com/f2/14/OEZpaUVR_o.png',
+					img: 'https://images2.imgbox.com/7d/04/iUIXhrj2_o.png',
 					size: '4',
 				},
 				{
@@ -89,7 +89,7 @@ export default {
 					title: 'Fountain Drink (Any Size)',
 					price: '$0.99',
 					priceTag: '+ crv + tax',
-					img: 'https://images2.imgbox.com/28/47/LlhuvlYf_o.png',
+					img: 'https://images2.imgbox.com/43/3c/DUVfYXUO_o.png',
 					size: '4',
 				},
 				{

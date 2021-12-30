@@ -5,15 +5,25 @@
 			:text="`Everyday Deals!`"
 		/>
 
+		<!-- Caraousel -->
+		<BContainer fluid class="p-0 offset-content">
+		<DealsSlider
+			:slides="caraousel"
+			:maxHeight="700"
+			data-aos="fade"
+			class=""
+		/>
+		</BContainer>
+
 		<BContainer class="offset-content">
 			<BRow class="m-0 p-0 pb-5">
 				<BCol
 					v-for="(d, i) in deals"
 					:key="i"
-					cols="12" lg="6" xl="4"
+					cols="12" lg="6" :xl="d.size"
 					class="d-flex align-items-stretch"
 				>
-					<BCard no-body border-variant="primary" class="w-100 mb-4">
+					<BCard no-body border-variant="secondary" class="w-100 mb-4 border-0 shadow">
 						<BCardHeader class="bg-secondary center-content" style="height: 150px;">
 							<div class="">
 									<h1 v-if="d.size >= 6" class="m-0 text-center text-light" style="font-size: 3em;">
@@ -43,6 +53,7 @@
 						<BCardBody class="img-container bg-secondary p-0 text-center">
 							<img
 								:src="d.img"
+								v-lazy="d.img"
 								alt="Image"
 								class="w-100 deal-img"
 								style="max-width: 300px;"
@@ -64,82 +75,114 @@
 </template>
 
 <script>
-import DownloadOurApp from '../components/DownloadOurApp.vue'
-import TitleHeader from '@/components/UI/TitleHeader'
+	import DealsSlider from '../components/deals/DealsSlider.vue'
+	import DownloadOurApp from '../components/DownloadOurApp.vue'
+	import TitleHeader from '@/components/UI/TitleHeader'
 
-export default {
-	data() {
-		return {
-			deals: [
-				{
-					title: 'Pizza 7" + Fountain Drink 32oz',
-					price: '$4.99',
-					priceTag: '+ tax',
-					img: 'https://images2.imgbox.com/7d/04/iUIXhrj2_o.png',
-					size: '4',
-				},
-				{
-					title: 'Family Meal - 8pc Fried Chicken + 2L Pepsi',
-					price: '$9.99',
-					priceTag: '+ tax',
-					img: 'https://images2.imgbox.com/d9/ee/xTEa4zoE_o.png',
-					size: '4',
-				},
-				{
-					title: 'Fountain Drink (Any Size)',
-					price: '$0.99',
-					priceTag: '+ crv + tax',
-					img: 'https://images2.imgbox.com/43/3c/DUVfYXUO_o.png',
-					size: '4',
-				},
-				{
-					title: 'Aquafina & Dasani 1L',
-					price: '2 for $2.49',
-					priceTag: '+ crv',
-					img: 'https://images2.imgbox.com/9e/cb/kCFDusky_o.png',
-					size: '4',
-				},
-				{
-					title: 'Rockerstar 16oz',
-					price: '2 for $3.49',
-					priceTag: '+ crv + tax',
-					img: 'https://images2.imgbox.com/19/6b/vyu5xmOu_o.png',
-					size: '4',
-				},
-				{
-					title: 'PM Water 1L',
-					price: '2 for $2.99',
-					priceTag: '+ crv',
-					img: 'https://images2.imgbox.com/cd/2b/aXQn529g_o.png',
-					size: '4',
-				},
-				{
-					title: 'Nestle 24 Pack',
-					price: '2 for $4.99',
-					priceTag: '+ crv',
-					img: 'https://images2.imgbox.com/4b/8c/Rsy7RdJv_o.png',
-					size: '4',
-				},
-				{
-					title: 'Pepsi 12 Pack',
-					price: '1 for $6.29 or 2 for $0.49',
-					priceTag: '+ crv',
-					img: 'https://images2.imgbox.com/ec/0b/wxz63Xnx_o.png',
-					size: '4',
-				},
-				{
-					title: 'Bang, Monster & Reign 16oz',
-					price: '2 for $4.49 or 3 for $5.99',
-					priceTag: '+ crv + tax',
-					img: 'https://images2.imgbox.com/54/1f/29DIEUPl_o.png',
-					size: '4',
-				},
-			],
-		}
-	},
+	export default {
+		data() {
+			return {
+				caraousel: [
+					{
+						title: 'Pizza 7" + Fountain Drink 32oz',
+						price: '$4.99',
+						priceTag: '+ tax',
+						img: 'https://images2.imgbox.com/7d/04/iUIXhrj2_o.png',
+						size: '4',
+					},
+					{
+						title: 'Family Meal - 8pc Fried Chicken + 2L Pepsi',
+						price: '$9.99',
+						priceTag: '+ tax',
+						img: 'https://images2.imgbox.com/d9/ee/xTEa4zoE_o.png',
+						size: '4',
+					},
+					{
+						title: 'Fountain Drink (Any Size)',
+						price: '$0.99',
+						priceTag: '+ crv + tax',
+						img: 'https://images2.imgbox.com/43/3c/DUVfYXUO_o.png',
+						size: '4',
+					},
+				],
 
-	components: { DownloadOurApp, TitleHeader },
-}
+				deals: [
+					{
+						title: 'Aquafina & Dasani 1L',
+						price: '2 for $2.49',
+						priceTag: '+ crv',
+						img: 'https://images2.imgbox.com/9e/cb/kCFDusky_o.png',
+						size: '4',
+					},
+					{
+						title: 'Rockerstar 16oz',
+						price: '2 for $3.49',
+						priceTag: '+ crv + tax',
+						img: 'https://images2.imgbox.com/19/6b/vyu5xmOu_o.png',
+						size: '4',
+					},
+					{
+						title: 'PM Water 1L',
+						price: '2 for $2.99',
+						priceTag: '+ crv',
+						img: 'https://images2.imgbox.com/cd/2b/aXQn529g_o.png',
+						size: '4',
+					},
+					{
+						title: 'Nestle 24 Pack',
+						price: '2 for $4.99',
+						priceTag: '+ crv',
+						img: 'https://images2.imgbox.com/4b/8c/Rsy7RdJv_o.png',
+						size: '4',
+					},
+					{
+						title: 'Pepsi 12 Pack',
+						price: '1 for $6.29 or 2 for $0.49',
+						priceTag: '+ crv',
+						img: 'https://images2.imgbox.com/ec/0b/wxz63Xnx_o.png',
+						size: '4',
+					},
+					{
+						title: 'Bang, Monster & Reign 16oz',
+						price: '2 for $4.49 or 3 for $5.99',
+						priceTag: '+ crv + tax',
+						img: 'https://images2.imgbox.com/54/1f/29DIEUPl_o.png',
+						size: '4',
+					},
+					{
+						title: 'Chocolate Bars',
+						price: 'King Size 2/$3.99 & Regular Size 2/$2.99',
+						priceTag: '+ crv + tax',
+						img: 'https://images2.imgbox.com/85/2a/b1VNHJko_o.png',
+						size: '4',
+					},
+					{
+						title: 'Papa Sal\'s Beef Jerky 10oz',
+						price: '$13.99',
+						priceTag: '+ crv + tax',
+						img: 'https://images2.imgbox.com/68/76/pZjrhJPN_o.png',
+						size: '4',
+					},
+					{
+						title: 'Papa Sal\'s Snacks 4-7oz',
+						price: '$3.99',
+						priceTag: '+ crv + tax',
+						img: 'https://images2.imgbox.com/ec/7b/gEe1pCnh_o.png',
+						size: '4',
+					},
+					{
+						title: 'Red Bull 12oz',
+						price: '2 for $5.33 +crv +tax',
+						priceTag: '+ crv + tax',
+						img: 'https://images2.imgbox.com/03/81/JLuWUDA2_o.png',
+						size: '4',
+					},
+				],
+			}
+		},
+
+		components: { DealsSlider, DownloadOurApp, TitleHeader, },
+	}
 </script>
 
 <style lang="scss" scoped>

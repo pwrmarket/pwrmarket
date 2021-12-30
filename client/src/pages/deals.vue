@@ -14,7 +14,7 @@
 					class="d-flex align-items-stretch"
 				>
 					<BCard no-body border-variant="primary" class="w-100 mb-4">
-						<BCardHeader class="bg-secondary">
+						<BCardHeader class="bg-secondary center-content" style="height: 100px;">
 							<div class="">
 									<h1 v-if="d.size >= 6" class="m-0 text-center text-light" style="font-size: 3em;">
 									{{ d.title }}
@@ -26,16 +26,18 @@
 							</div>
 						</BCardHeader>
 						
-						<BCardFooter class="bg-primary">
-							<h1 v-if="d.size >= 6" class="m-0 text-center text-light" style="font-size: 4em;">
-								{{ d.price }}
-								<span class="font-weight-bold small" style="font-size: .5em;">{{ d.priceTag }}</span>
-							</h1>
+						<BCardFooter class="bg-primary center-content" style="height: 100px;">
+							<div class="">
+								<h1 v-if="d.size >= 6" class="m-0 text-center text-light" style="font-size: 4em;">
+									{{ d.price }}
+									<span class="font-weight-bold small" style="font-size: .5em;">{{ d.priceTag }}</span>
+								</h1>
 
-							<h1 v-else class="m-0 text-center text-light bg-primary" style="font-size: 2.2em;">
-								{{ d.price }}
-								<span class="font-weight-bold small" style="font-size: .5em;">{{ d.priceTag }}</span>
-							</h1>
+								<h1 v-else class="m-0 text-center text-light bg-primary" style="font-size: 2.2em;">
+									{{ d.price }}
+									<span class="font-weight-bold small" style="font-size: .5em;">{{ d.priceTag }}</span>
+								</h1>
+							</div>
 						</BCardFooter>
 
 						<BCardBody class="img-container bg-secondary p-0 text-center">

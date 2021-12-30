@@ -13,8 +13,8 @@
 					cols="12" :xl="d.size"
 					class="d-flex align-items-stretch"
 				>
-					<BCard no-body border-variant="white" class="mb-4 border-0">
-						<BCardBody class="bg-secondary">
+					<BCard no-body border-variant="white" data-aos="fade-up" class="w-100 mb-4 border-0">
+						<BCardHeader class="bg-secondary">
 							<div class="">
 									<h1 v-if="d.size >= 6" class="m-0 text-center text-light" style="font-size: 3em;">
 									{{ d.title }}
@@ -24,11 +24,7 @@
 									{{ d.title }}
 								</h1>
 							</div>
-						</BCardBody>
-
-						<BCardFooter class="p-0">
-							<img :src="d.img" alt="Image" class="w-100" />
-						</BCardFooter>
+						</BCardHeader>
 						
 						<BCardFooter class="bg-primary">
 							<h1 v-if="d.size >= 6" class="m-0 text-center text-light" style="font-size: 4em;">
@@ -41,6 +37,15 @@
 								<span class="font-weight-bold small" style="font-size: .5em;">{{ d.priceTag }}</span>
 							</h1>
 						</BCardFooter>
+
+						<BCardBody class="img-container bg-secondary p-0 text-center">
+							<img
+								:src="d.img"
+								alt="Image"
+								class="w-100 deal-img"
+								style="max-width: 400px;"
+							/>
+						</BCardBody>
 					</BCard>
 				</BCol>
 
@@ -68,21 +73,21 @@ export default {
 					title: 'Pizza 7" + Fountain Drink 32oz',
 					price: '$4.99',
 					priceTag: '+ tax',
-					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
-					size: '6',
+					img: 'https://images2.imgbox.com/f2/14/OEZpaUVR_o.png',
+					size: '4',
 				},
 				{
 					title: 'Family Meal - 8pc Fried Chicken + 2L Pepsi',
 					price: '$9.99',
 					priceTag: '+ tax',
-					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
-					size: '6',
+					img: 'https://images2.imgbox.com/d9/ee/xTEa4zoE_o.png',
+					size: '4',
 				},
 				{
 					title: 'Fountain Drink (Any Size)',
 					price: '$0.99',
 					priceTag: '+ crv + tax',
-					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					img: 'https://images2.imgbox.com/28/47/LlhuvlYf_o.png',
 					size: '4',
 				},
 				{
@@ -96,28 +101,28 @@ export default {
 					title: 'Rockerstar 16oz',
 					price: '2 for $3.49',
 					priceTag: '+ crv + tax',
-					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					img: 'https://images2.imgbox.com/19/6b/vyu5xmOu_o.png',
 					size: '4',
 				},
 				{
 					title: 'PM Water 1L',
 					price: '2 for $2.99',
 					priceTag: '+ crv',
-					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					img: 'https://images2.imgbox.com/cd/2b/aXQn529g_o.png',
 					size: '4',
 				},
 				{
 					title: 'Nestle 24 Pack',
 					price: '2 for $4.99',
 					priceTag: '+ crv',
-					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					img: 'https://images2.imgbox.com/4b/8c/Rsy7RdJv_o.png',
 					size: '4',
 				},
 				{
 					title: 'Pepsi 12 Pack',
 					price: '1 for $6.29 or 2 for $0.49',
 					priceTag: '+ crv',
-					img: 'https://img.onmanorama.com/content/dam/mm/en/food/features/images/2021/10/17/pizza.jpg',
+					img: 'https://images2.imgbox.com/ec/0b/wxz63Xnx_o.png',
 					size: '4',
 				},
 				{
@@ -146,5 +151,21 @@ export default {
 		height: 100%;
 		width: 100%;
 		border-bottom-right-radius: 100%;
+	}
+
+
+	.img-container {
+		outline: dashed 1px black;
+		min-height: 410px;
+		/* Setup */
+		position: relative;
+	}
+
+	.deal-img {
+		/* Center vertically and horizontally */
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 	}
 </style>

@@ -158,14 +158,14 @@
 					},
 					{
 						title: 'Papa Sal\'s Beef Jerky 10oz',
-						price: '$13.99',
+						price: '$13.99 each',
 						priceTag: '',
 						img: 'https://images2.imgbox.com/68/76/pZjrhJPN_o.png',
 						size: '4',
 					},
 					{
 						title: 'Papa Sal\'s Snacks 4-7oz',
-						price: '$3.99',
+						price: '$3.99 each',
 						priceTag: '',
 						img: 'https://images2.imgbox.com/ec/7b/gEe1pCnh_o.png',
 						size: '4',

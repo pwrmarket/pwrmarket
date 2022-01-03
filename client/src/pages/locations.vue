@@ -61,6 +61,16 @@
 						>
 						<label for="e85" class="mr-3">E85</label>
 
+						<!-- Diesel -->
+						<input
+							v-model="filters_productsAndServices"
+							type="checkbox"
+							id="diesel"
+							value="diesel"
+							class="mr-1"
+						>
+						<label for="diesel" class="mr-3">Diesel</label>
+
 						<!-- Propane -->
 						<input
 							v-model="filters_productsAndServices"

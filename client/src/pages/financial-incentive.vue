@@ -1,5 +1,6 @@
 <template>
-	<BContainer class="mb-6">
+<BContainer fluid class="my-5 mb-6 p-0 bg-white">
+	<BContainer class="py-6 font-weight-bold text-dark">
 		<h1>Financial Incentive</h1>
 		
 		<div class="et_pb_text_inner">
@@ -35,4 +36,5 @@
 		<p>We are allowed by law to offer financial incentives, and price and service differences to you if the differences are directly related to the value provided by your data. We offer more discounts, promotions and rewards to Program members in order to incentivize them to visit our stores more often, engage in more transactions, and try different products and services. We will use the data we collect through the Program to study the purchasing patterns of our customers and design offers that are catered to customer demand, as well as to evaluate each store’s performance, products offered, and services.</p>
 		</div>
 	</BContainer>
+</BContainer>
 </template>

@@ -1,5 +1,6 @@
 <template>
-	<BContainer class="mb-6">
+<BContainer fluid class="my-5 mb-6 p-0 bg-white">
+	<BContainer class="py-6 font-weight-bold text-dark">
 		<h1>Power Market Terms and Conditions</h1>
 		<div class="et_pb_module et_pb_text et_pb_text_0 et_pb_bg_layout_light  et_pb_text_align_left">
 			<div class="et_pb_text_inner">
@@ -183,4 +184,5 @@
 			</div>
 		</div>
 	</BContainer>
+</BContainer>
 </template>

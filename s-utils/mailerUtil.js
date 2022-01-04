@@ -199,7 +199,7 @@ module.exports = {
 			})
 	
 			// [SEND-MAIL] //
-			await transporter.sendMail({
+			const sentEmail = await transporter.sendMail({
 				to: config.email.careers,
 				subject: `PM Contact: ${subject}`,
 				html: `
@@ -211,6 +211,9 @@ module.exports = {
 				attachments: attachments,
 			})
 	
+			// [LOG] //
+			console.log('[mailerUtil] Sent Email:', sentEmail)
+
 			return {
 				executed: true,
 				status: true,
@@ -219,6 +222,9 @@ module.exports = {
 			}
 		}
 		catch (err) {
+			// [LOG] //
+			console.log('[mailerUtil] Caught Error:', err)
+
 			return {
 				executed: false,
 				status: false,

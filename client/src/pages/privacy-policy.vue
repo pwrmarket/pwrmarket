@@ -1,7 +1,7 @@
 <template>
    <BContainer fluid class="my-5 mb-6 p-0 bg-white">
       <BContainer class="py-6 font-weight-bold text-dark">
-		<h1>Privacy Policy for Power Market</h1>
+         <h1>Privacy Policy for Power Market</h1>
          <div class="et_pb_column et_pb_column_4_4 et_pb_column_0    et_pb_css_mix_blend_mode_passthrough et-last-child">
             <div class="et_pb_module et_pb_text et_pb_text_0 just et_pb_bg_layout_light  et_pb_text_align_left">
                <div class="et_pb_text_inner">

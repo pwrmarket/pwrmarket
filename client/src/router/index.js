@@ -14,6 +14,8 @@ import index from '@/pages'
 import location from '@/pages/location'
 import locations from '@/pages/locations'
 import privacyPolicy from '@/pages/privacy-policy'
+import termsAndConditions from '@/pages/terms-and-conditions'
+import financialIncentive from '@/pages/financial-incentive'
 import rewards from '@/pages/rewards'
 import notFound from '@/pages/404'
 
@@ -121,6 +123,30 @@ const routes = [
 		meta: {
 			altLink: '',
 			title: 'Privacy Policy',
+			menu: 0,
+			show: false,
+		},
+	},
+	// privacy-policy //
+	{
+		path: '/terms-and-conditions',
+		name: 'terms-and-conditions',
+		component: termsAndConditions,
+		meta: {
+			altLink: '',
+			title: 'Terms & Conditions',
+			menu: 0,
+			show: false,
+		},
+	},
+	// privacy-policy //
+	{
+		path: '/financial-incentive',
+		name: 'financial-incentive',
+		component: financialIncentive,
+		meta: {
+			altLink: '',
+			title: 'Financial Incentive',
 			menu: 0,
 			show: false,
 		},

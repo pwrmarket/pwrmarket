@@ -57,14 +57,18 @@
 						<h4>Legal</h4>
 						<ul class="list-unstyled text-small">
 							<li>
-								<a href="https://www.freeprivacypolicy.com/live/31d58d3d-6835-41f9-b729-f3abc9918ab7">
-									Privacy & Policy Statement
-								</a>
+								<RouterLink to="/terms-and-conditions">
+									Terms & Conditions
+								</RouterLink>
 							</li>
-
 							<li>
 								<RouterLink to="/privacy-policy">
 									Privacy & Policy Statement
+								</RouterLink>
+							</li>
+							<li>
+								<RouterLink to="/financial-incentive">
+									Financial Incentive
 								</RouterLink>
 							</li>
 						</ul>

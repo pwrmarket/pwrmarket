@@ -1,19 +1,82 @@
 <template>
 <BContainer class="mb-6">
 	<BContainer class="py-5">
+		<!-- Contact Info -->
 		<BRow>
-			<BCol cols="12" md="6">
-				<label for="">First Name</label>
-				<input type="text" class="form-control">
-			</BCol>
-			
-			<BCol cols="12" md="6">
-				<label for="">Last Name</label>
-				<input type="text" class="form-control">
-			</BCol>
-			
+			<!-- Email -->
 			<BCol cols="12">
-				<h6 class="my-3">I am a california resident</h6>
+				<h5 class="my-3">Contact Info</h5>
+			</BCol>
+
+			<BCol cols="12">
+				<label for="">Email</label>
+				<input type="email" class="form-control">
+			</BCol>
+
+			<!-- Phone -->
+			<BCol cols="12">
+				<label for="">Phone</label>
+				<input type="email" class="form-control">
+			</BCol>
+
+			<!-- Name -->
+			<BCol cols="12" md="6">
+				<label for="firstName">First</label>
+				<input type="text" class="form-control">
+			</BCol>
+			
+			<BCol cols="12" md="6">
+				<label for="lastName">Last</label>
+				<input type="text" class="form-control">
+			</BCol>
+		</BRow>
+
+		<!-- Type of Request -->
+		<BRow>
+			<BCol cols="12">
+				<br>
+				<h5>Type of Request</h5>
+
+				<ul class="list-unstyled">
+					<li>
+						<input v-model="formData.typeOfRequest" type="radio" value="1" class="mr-2">
+						<label for="">
+							Access Request
+						</label>
+					</li>
+					<li>
+						<input v-model="formData.typeOfRequest" type="radio" value="2" class="mr-2">
+						<label for="">
+							Request to Know
+						</label>
+					</li>
+					<li>
+						<input v-model="formData.typeOfRequest" type="radio" value="3" class="mr-2">
+						<label for="">
+							Request for Deletion
+						</label>
+					</li>
+					<li>
+						<input v-model="formData.typeOfRequest" type="radio" value="4" class="mr-2">
+						<label for="">
+							Request to Opt Out of Sale of Information
+						</label>
+					</li>
+					<li>
+						<input v-model="formData.typeOfRequest" type="radio" value="5" class="mr-2">
+						<label for="">
+							Request to Withdraw From Financial Incentive Program 
+						</label>
+					</li>
+				</ul>
+			</BCol>
+		</BRow>
+
+		<!-- California Resident -->
+		<BRow>
+			<BCol cols="12">
+				<h5 class="my-3">I am a california resident</h5>
+
 				<input
 					v-model="californiaResident"
 					type="radio"
@@ -21,8 +84,9 @@
 					@click="showAddress = true"
 					class="mr-2"
 				>
-				<label for="one">Yes</label>
+				<label for="">Yes</label>
 				<br>
+
 				<input
 					v-model="californiaResident"
 					type="radio"
@@ -30,16 +94,91 @@
 					@click="showAddress = false"
 					class="mr-2"
 				>
-				<label for="two">No</label>
+				<label for="">No</label>
 				<br>
 			</BCol>
+		</BRow>
 			
-			<BCol v-if="showAddress" cols="12">
+		<!-- Address -->
+		<BRow v-if="showAddress">
+			<BCol cols="12">
 				<BRow>
 					<BCol cols="12">
-						<h6 class="my-3">Address</h6>
-						<label for="">Street</label>
-						<input type="text" class="form-control">
+						<h5 class="my-3">Address</h5>
+					</BCol>
+
+					<!-- Address Street -->
+					<BCol cols="12" md="10">
+						<label for="street">
+							Street
+						</label>
+
+						<BFormInput
+							v-model="formData.address.street"
+							name="street"
+							placeholder="123 main st."
+						/>
+					</BCol>
+
+					<!-- Address Unit -->
+					<BCol cols="12" md="2">
+						<label for="unit">
+							unit
+						</label>
+
+						<BFormInput
+							v-model="formData.address.unit"
+							name="unit"
+							placeholder="3b"
+						/>
+					</BCol>
+
+					<!-- Address City -->
+					<BCol cols="12" md="6">
+						<label for="city">
+							City
+						</label>
+
+						<BFormInput
+							v-model="formData.address.city"
+							name="city"
+							placeholder="City"
+						/>
+					</BCol>
+
+					<!-- Address State -->
+					<BCol cols="12" md="3">
+						<label for="state">
+							State
+						</label>
+
+						<select
+							v-model="formData.address.state"
+							name="street"
+							class="
+								form-control
+								form-select
+								w-100
+								p-2
+							"
+						>
+							<option disabled value="">Select a state</option>
+							<option
+								v-for="(s, i) in states"
+								:key="i"
+							>{{ s }}</option>
+						</select>
+					</BCol>
+
+					<!-- Address Zip -->
+					<BCol cols="12" md="3">
+						<label for="zip">Zip</label>
+						
+						<BFormInput
+							v-model="formData.address.zip"
+							name="zip"
+							placeholder="00000"
+						/>
 					</BCol>
 				</BRow>
 			</BCol>
@@ -49,21 +188,56 @@
 </template>
 
 <script>
-export default {
-	data() {
-		return {
-			californiaResident: false,
-			showAddress: false,
-		}
-	},
-}
+	import states from '../defaults/states'
+	
+	export default {
+		data() {
+			return {
+				californiaResident: false,
+				showAddress: false,
+				states,
+
+				formData: {
+					email: '',
+					firstName: '',
+					lastName: '',
+					typeOfRequest: '',
+					phone: '',
+
+					address: {
+						street: '',
+						unit: '',
+						city: '',
+						state: '',
+						zip: '',
+						country: '',
+					},
+
+					representative: {
+						first_name: '',
+						last_name: '',
+						email: '',
+						email2: '',
+						cell_phone: '',
+						alt_phone: '',
+					},
+				},
+			}
+		},
+	}
 </script>
 
 <style lang="scss" scoped>
 	@import '../assets/styles/index.scss';
 
-	label {
+	h5 {
 		@extend .text-primary;
+		@extend .font-weight-bold;
+	}	
+
+	label {
+		@extend .my-2;
+		@extend .text-secondary;
 		@extend .font-weight-bold;
 	}	
 </style>

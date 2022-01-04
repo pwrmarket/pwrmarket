@@ -183,6 +183,53 @@
 				</BRow>
 			</BCol>
 		</BRow>
+
+		<!-- Behalf -->
+		<BRow>
+			<BCol cols="12">
+				<h5 class="my-3">This request has been submitted through an agent on my behalf</h5>
+
+				<input
+					v-model="behalfOf"
+					type="radio"
+					value="true"
+					@click="showAgent = true"
+					class="mr-2"
+				>
+				<label for="">Yes</label>
+				<br>
+
+				<input
+					v-model="behalfOf"
+					type="radio"
+					value="false"
+					@click="showAgent = false"
+					class="mr-2"
+				>
+				<label for="">No</label>
+				<br>
+			</BCol>
+		</BRow>
+
+		<!-- Contact Info -->
+		<BRow v-if="showAgent">
+			<BCol cols="12">
+				<h5 class="my-3">Agent Contact Info</h5>
+			</BCol>
+
+			<!-- Name -->
+			<BCol cols="12" md="6">
+				<label for="firstName">First</label>
+				<input type="text" class="form-control">
+			</BCol>
+			
+			<BCol cols="12" md="6">
+				<label for="lastName">Last</label>
+				<input type="text" class="form-control">
+			</BCol>
+		</BRow>
+
+		<BButton class="w-100">Submit</BButton>
 	</BContainer>
 </BContainer>
 </template>
@@ -193,16 +240,23 @@
 	export default {
 		data() {
 			return {
+				states,
+				
 				californiaResident: false,
 				showAddress: false,
-				states,
+
+				behalfOf: false,
+				showAgent: false,
 
 				formData: {
 					email: '',
+
+					phone: '',
+
 					firstName: '',
 					lastName: '',
+					
 					typeOfRequest: '',
-					phone: '',
 
 					address: {
 						street: '',
@@ -213,13 +267,9 @@
 						country: '',
 					},
 
-					representative: {
+					agent: {
 						first_name: '',
 						last_name: '',
-						email: '',
-						email2: '',
-						cell_phone: '',
-						alt_phone: '',
 					},
 				},
 			}

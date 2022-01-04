@@ -10,24 +10,24 @@
 
 			<BCol cols="12">
 				<label for="">Email</label>
-				<input type="email" class="form-control">
+				<input v-model="formData.email" type="email" class="form-control">
 			</BCol>
 
 			<!-- Phone -->
 			<BCol cols="12">
 				<label for="">Phone</label>
-				<input type="email" class="form-control">
+				<input v-model="formData.phone" type="text" class="form-control">
 			</BCol>
 
 			<!-- Name -->
 			<BCol cols="12" md="6">
 				<label for="firstName">First</label>
-				<input type="text" class="form-control">
+				<input v-model="formData.firstName"  type="text" class="form-control">
 			</BCol>
 			
 			<BCol cols="12" md="6">
 				<label for="lastName">Last</label>
-				<input type="text" class="form-control">
+				<input v-model="formData.lastName"  type="text" class="form-control">
 			</BCol>
 		</BRow>
 
@@ -78,7 +78,7 @@
 				<h5 class="my-3">I am a california resident</h5>
 
 				<input
-					v-model="californiaResident"
+					v-model="formData.californiaResident"
 					type="radio"
 					value="true"
 					@click="showAddress = true"
@@ -88,7 +88,7 @@
 				<br>
 
 				<input
-					v-model="californiaResident"
+					v-model="formData.californiaResident"
 					type="radio"
 					value="false"
 					@click="showAddress = false"
@@ -190,7 +190,7 @@
 				<h5 class="my-3">This request has been submitted through an agent on my behalf</h5>
 
 				<input
-					v-model="behalfOf"
+					v-model="formData.behalfOf"
 					type="radio"
 					value="true"
 					@click="showAgent = true"
@@ -200,7 +200,7 @@
 				<br>
 
 				<input
-					v-model="behalfOf"
+					v-model="formData.behalfOf"
 					type="radio"
 					value="false"
 					@click="showAgent = false"
@@ -220,32 +220,32 @@
 			<!-- Name -->
 			<BCol cols="12" md="6">
 				<label for="firstName">First</label>
-				<input type="text" class="form-control">
+				<input v-model="formData.agent.firstName"  type="text" class="form-control">
 			</BCol>
 			
 			<BCol cols="12" md="6">
 				<label for="lastName">Last</label>
-				<input type="text" class="form-control">
+				<input v-model="formData.agent.lastName" type="text" class="form-control">
 			</BCol>
 		</BRow>
 
-		<BButton class="w-100">Submit</BButton>
+		<BButton class="w-100 my-4">Submit</BButton>
+
+		<h6 class="text-danger">{{ error }}</h6>
 	</BContainer>
 </BContainer>
 </template>
 
 <script>
 	import states from '../defaults/states'
+	import MailService from '../services/MailService'
 	
 	export default {
 		data() {
 			return {
 				states,
-				
-				californiaResident: false,
-				showAddress: false,
 
-				behalfOf: false,
+				showAddress: false,
 				showAgent: false,
 
 				formData: {
@@ -258,6 +258,8 @@
 					
 					typeOfRequest: '',
 
+					californiaResident: false,
+
 					address: {
 						street: '',
 						unit: '',
@@ -267,11 +269,29 @@
 						country: '',
 					},
 
+					behalfOf: false,
+
 					agent: {
-						first_name: '',
-						last_name: '',
+						firstName: '',
+						lastName: '',
 					},
 				},
+
+				error: '',
+			}
+		},
+
+		methods: {
+			async submit() {
+				if (
+					this.formData.email &&
+					this.formData.phone &&
+					this.formData.firstName &&
+					this.formData.typeOfRequest
+				) {
+					await MailService.s_ccpa(this.formData)
+				}
+				else { this.error = 'Please fill out required inputs' }
 			}
 		},
 	}

@@ -34,6 +34,22 @@ export default {
 	},
 
 
+	s_ccpa: async function (formData) {
+		try {
+			const authAxios = await this.authAxios()
+	
+			return (await authAxios.post('/ccpa', formData)).data
+		}
+		catch (err) {
+			return {
+				executed: false,
+				status: false,
+				message: `MailService: Error --> ${err}`,
+			}
+		}
+	},
+
+
 	s_contact: async function (formData) {
 		try {
 			const authAxios = await this.authAxios()

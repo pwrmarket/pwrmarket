@@ -116,4 +116,50 @@ router.post(
 )
 
 
+router.post(
+	'/ccpa',
+	async (req, res) => {
+		try {
+			if (
+				validator.isAscii(req.body.subject) &&
+				validator.isAscii(req.body.clientEmail) &&
+				validator.isAscii(req.body.name) &&
+				req.body.message
+			) {
+				const mObj = await mailerUtil.sendCCPAEmail({
+					subject: req.body.subject,
+					clientEmail: req.body.clientEmail,
+					name: req.body.name,
+					message: req.body.message,
+					position: req.body.position,
+				})
+
+				res.send({
+					executed: true,
+					status: true,
+					message: mObj.message,
+				})
+				
+			}
+			else {
+				res.send({
+					executed: true,
+					status: false,
+					location: location,
+					message: `${location}: Invalid params`,
+				})
+			}
+		}
+		catch (err) {
+			res.send({
+				executed: false,
+				status: false,
+				location: location,
+				message: `${location}: Error --> ${err}`,
+			})
+		}
+	}
+)
+
+
 module.exports = router

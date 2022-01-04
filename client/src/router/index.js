@@ -16,6 +16,7 @@ import locations from '@/pages/locations'
 import privacyPolicy from '@/pages/privacy-policy'
 import termsAndConditions from '@/pages/terms-and-conditions'
 import financialIncentive from '@/pages/financial-incentive'
+import ccpa from '@/pages/ccpa'
 import rewards from '@/pages/rewards'
 import notFound from '@/pages/404'
 
@@ -127,7 +128,7 @@ const routes = [
 			show: false,
 		},
 	},
-	// privacy-policy //
+	// terms-and-conditions //
 	{
 		path: '/terms-and-conditions',
 		name: 'terms-and-conditions',
@@ -139,7 +140,7 @@ const routes = [
 			show: false,
 		},
 	},
-	// privacy-policy //
+	// financial-incentive //
 	{
 		path: '/financial-incentive',
 		name: 'financial-incentive',
@@ -151,7 +152,19 @@ const routes = [
 			show: false,
 		},
 	},
-	// Not-Found //
+	// ccpa //
+	{
+		path: '/ccpa',
+		name: 'ccpa',
+		component: ccpa,
+		meta: {
+			altLink: '',
+			title: 'CCPA Consumer Request Online Form',
+			menu: 0,
+			show: false,
+		},
+	},
+	// location //
 	{
 		path: '/location/:location_id',
 		name: 'location',
@@ -163,6 +176,7 @@ const routes = [
 			show: false,
 		},
 	},
+	// Not-Found //
 	{
 		path: '/**',
 		name: 'not_found',

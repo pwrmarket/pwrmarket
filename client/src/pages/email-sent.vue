@@ -1,7 +1,7 @@
 <template>
-	<div>
-		<BContainer class="mb-6 py-5">
-			<BCard bg-variant="white" class="text-center">
+	<BContainer class="mb-6">
+		<BContainer class="my-5 py-5">
+			<BCard bg-variant="white" class="text-center border-0">
 				<h1 class="text-center text-primary">Email Sent!</h1>
 				<p>We will get back to you as soon as possible!</p>
 
@@ -12,7 +12,7 @@
 				</a>
 			</BCard>
 		</BContainer>
-	</div>
+	</BContainer>
 </template>
 
 <script>

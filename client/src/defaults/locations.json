@@ -28,7 +28,6 @@
 				"type": "energy-station",
 				"name": "Chevron",
 				"products": [
-					"e85",
 					"propane"
 				],
 				"services": [

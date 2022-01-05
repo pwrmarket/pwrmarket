@@ -416,6 +416,7 @@
 				"type": "energy-station",
 				"name": "Chevron",
 				"products": [
+					"e85",
 					"propane",
 					"diesel"
 				],
@@ -470,6 +471,7 @@
 				"type": "energy-station",
 				"name": "Chevron",
 				"products": [
+					"e85",
 					"propane",
 					"diesel"
 				],
@@ -632,6 +634,7 @@
 				"type": "energy-station",
 				"name": "Chevron",
 				"products": [
+					"e85",
 					"propane",
 					"diesel"
 				],
@@ -1427,6 +1430,7 @@
 				"type": "energy-station",
 				"name": "Chevron",
 				"products": [
+					"e85",
 					"propane",
 					"diesel"
 				],
@@ -1546,6 +1550,7 @@
 				"type": "energy-station",
 				"name": "Chevron",
 				"products": [
+					"e85",
 					"propane",
 					"diesel"
 				],
@@ -1878,6 +1883,7 @@
 				"type": "energy-station",
 				"name": "H&S",
 				"products": [
+					"e85",
 					"propane",
 					"diesel"
 				],
@@ -2407,6 +2413,7 @@
 				"type": "energy-station",
 				"name": "Chevron",
 				"products": [
+					"e85",
 					"propane",
 					"diesel"
 				],

@@ -120,19 +120,27 @@ router.post(
 	'/ccpa',
 	async (req, res) => {
 		try {
+			console.log(req.body);
 			if (
-				validator.isAscii(req.body.subject) &&
-				validator.isAscii(req.body.clientEmail) &&
-				validator.isAscii(req.body.name) &&
-				req.body.message
+				validator.isAscii(req.body.email) &&
+				validator.isAscii(req.body.phone) &&
+				validator.isAscii(req.body.firstName) &&
+				validator.isAscii(req.body.lastName) &&
+				validator.isAscii(req.body.typeOfRequest)
 			) {
 				const mObj = await mailerUtil.sendCCPAEmail({
-					subject: req.body.subject,
-					clientEmail: req.body.clientEmail,
-					name: req.body.name,
-					message: req.body.message,
-					position: req.body.position,
+					email: req.body.email,
+					phone: req.body.phone,
+					firstName: req.body.firstName,
+					lastName: req.body.lastName,
+					typeOfRequest: req.body.typeOfRequest,
+					californiaResident: req.body.californiaResident,
+					address: req.body.address,
+					behalfOf: req.body.behalfOf,
+					agent: req.body.agent,
 				})
+
+				console.log('s', mObj);
 
 				res.send({
 					executed: true,

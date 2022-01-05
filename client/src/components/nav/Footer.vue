@@ -71,6 +71,11 @@
 									Financial Incentive
 								</RouterLink>
 							</li>
+							<li>
+								<RouterLink to="/ccpa">
+									CCPA
+								</RouterLink>
+							</li>
 						</ul>
 					</BCol>
 

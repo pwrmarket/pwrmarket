@@ -39,31 +39,31 @@
 
 				<ul class="list-unstyled">
 					<li>
-						<input v-model="formData.typeOfRequest" type="radio" value="1" class="mr-2">
+						<input v-model="formData.typeOfRequest" type="radio" value="access-request" class="mr-2">
 						<label for="">
 							Access Request
 						</label>
 					</li>
 					<li>
-						<input v-model="formData.typeOfRequest" type="radio" value="2" class="mr-2">
+						<input v-model="formData.typeOfRequest" type="radio" value="request-to-know" class="mr-2">
 						<label for="">
 							Request to Know
 						</label>
 					</li>
 					<li>
-						<input v-model="formData.typeOfRequest" type="radio" value="3" class="mr-2">
+						<input v-model="formData.typeOfRequest" type="radio" value="request-for-deletion" class="mr-2">
 						<label for="">
 							Request for Deletion
 						</label>
 					</li>
 					<li>
-						<input v-model="formData.typeOfRequest" type="radio" value="4" class="mr-2">
+						<input v-model="formData.typeOfRequest" type="radio" value="request-to-opt-out-of-sale-of-information" class="mr-2">
 						<label for="">
 							Request to Opt Out of Sale of Information
 						</label>
 					</li>
 					<li>
-						<input v-model="formData.typeOfRequest" type="radio" value="5" class="mr-2">
+						<input v-model="formData.typeOfRequest" type="radio" value="request-to-withdraw-from-financial-incentive-program" class="mr-2">
 						<label for="">
 							Request to Withdraw From Financial Incentive Program 
 						</label>
@@ -229,7 +229,7 @@
 			</BCol>
 		</BRow>
 
-		<BButton class="w-100 my-4">Submit</BButton>
+		<BButton @click="submit()" class="w-100 my-4">Submit</BButton>
 
 		<h6 class="text-danger">{{ error }}</h6>
 	</BContainer>
@@ -238,6 +238,7 @@
 
 <script>
 	import states from '../defaults/states'
+	import router from '@/router'
 	import MailService from '../services/MailService'
 	
 	export default {
@@ -266,7 +267,6 @@
 						city: '',
 						state: '',
 						zip: '',
-						country: '',
 					},
 
 					behalfOf: false,
@@ -289,7 +289,12 @@
 					this.formData.firstName &&
 					this.formData.typeOfRequest
 				) {
-					await MailService.s_ccpa(this.formData)
+					const resData = await MailService.s_ccpa(this.formData)
+
+					if (resData.status) {
+						router.push({ name: 'email-sent' })
+					}
+					else { this.error = this.resData.message }
 				}
 				else { this.error = 'Please fill out required inputs' }
 			}

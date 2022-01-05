@@ -29,6 +29,11 @@ module.exports = {
 
 	email: {
 		careers: process.env.EMAIL__CAREERS || '',
+		ccpa: [
+			process.env.EMAIL__CCPA1 || '',
+			process.env.EMAIL__CCPA2 || '',
+			process.env.EMAIL__CCPA3 || '',
+		],
 	},
 
 	// [API] //

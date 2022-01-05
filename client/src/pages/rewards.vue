@@ -80,6 +80,7 @@
 				</BCol>
 
 				<BCol cols="12" xl="8">
+					<h1 class="mb-4 text-center text-gradient">Current Deals</h1>
 					<viewer
 						:options="{ title: false, transition: false, }"
 						class="text-center"

@@ -714,60 +714,6 @@
 		]
 	},
 	{
-		"id": 3009,
-		"address": {
-			"street": "202 S. Main St.",
-			"city": "Lakeport",
-			"state": "CA",
-			"zip": 95453
-		},
-		"location": {
-			"latitude": 39.0411266,
-			"longitude": -122.9149962
-		},
-		"distance": 0,
-		"contact": {
-			"phone": {
-				"string": "(707) 263-7220",
-				"link": "tel:7072637220"
-			},
-			"email": {
-				"string": "3009@hasoil.com",
-				"link": "mailto:3009@hasoil.com"
-			}
-		},
-		"hoursOfOperation": "5:00AM - 10:00PM",
-		"amenities": [
-			{
-				"type": "energy-station",
-				"name": "Chevron",
-				"products": [
-					"propane",
-					"diesel"
-				],
-				"services": [
-					"power-market-rewards"
-				],
-				"deliveryMethods": []
-			},
-			{
-				"type": "store",
-				"name": "Power Market",
-				"products": [
-					"alcohol"
-				],
-				"services": [
-					"power-market-rewards",
-					"ebt"
-				],
-				"deliveryMethods": [
-					"DoorDash",
-					"Grubhub"
-				]
-			}
-		]
-	},
-	{
 		"id": 3010,
 		"address": {
 			"street": "1670 Hartnell Ave.",

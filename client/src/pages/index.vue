@@ -52,7 +52,6 @@
 	export default {
 		data() {
 			return {
-				serviceImg: require('../assets/images/service.jpeg'),
 				conveyorImages: [
 					require('../assets/images/affiliates/1.png'),
 					require('../assets/images/affiliates/6.png'),

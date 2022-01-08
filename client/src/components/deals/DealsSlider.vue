@@ -12,7 +12,7 @@
 						<BRow>
 							<BCol cols="12" md="7" class="center-content" style="height: 340px;">
 								<div class="">
-									<h1 class="m-0 text-center text-light" style="font-size: 3em;">
+									<h1 class="m-0 mx-2 text-center text-light" style="font-size: 3em;">
 										{{ d.title }}
 									</h1>
 								</div>
@@ -79,6 +79,17 @@
 
 		components: {
 			VueTinySlider,
+		},
+
+		created() {
+			if (this.$store.state.window.innerWidth < 1250) {
+				this.options.edgePadding = 0
+			}
+
+			if (this.$store.state.window.innerWidth < 1000) {
+				this.options.items = 1
+				this.options.edgePadding = 0
+			}
 		},
 	}
 </script>

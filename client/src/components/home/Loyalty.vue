@@ -15,7 +15,7 @@
 								Save More With Power Market Rewards
 							</h5>
 
-							<RouterLink to="/loyalty">
+							<RouterLink to="/rewards">
 								<BButton variant="primary" pill size="lg" style="border-width: 2px;">
 									<p class="m-0 h3">Learn More</p>
 								</BButton>

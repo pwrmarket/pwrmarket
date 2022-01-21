@@ -160,7 +160,7 @@ export default {
 
 
 		&:hover {
-			.child {
+			.child-1 {
 				-ms-transform: scale(1.2);
 				-moz-transform: scale(1.2);
 				-webkit-transform: scale(1.2);
@@ -179,7 +179,7 @@ export default {
 		}
 		
 		&:focus {
-			.child {
+			.child-1 {
 				-ms-transform: scale(1.2);
 				-moz-transform: scale(1.2);
 				-webkit-transform: scale(1.2);
@@ -192,7 +192,41 @@ export default {
 					display: block;
 				}
 			}
+		}
 
+		&:hover {
+			.child-2 {
+				-ms-transform: scale(1.2);
+				-moz-transform: scale(1.2);
+				-webkit-transform: scale(1.2);
+				-o-transform: scale(1.2);
+				transform: scale(1.2);
+
+				// Show Text //
+				span {
+					color: $light;
+				}
+
+				&:before {
+					background-color: $dark-shine;
+				}
+			}
+		}
+		
+		&:focus {
+			.child-2 {
+				-ms-transform: scale(1.2);
+				-moz-transform: scale(1.2);
+				-webkit-transform: scale(1.2);
+				-o-transform: scale(1.2);
+				transform: scale(1.2);
+
+				span { display: block; }
+
+				&:before {
+					display: block;
+				}
+			}
 		}
 
 		@media (max-width: 768px) {

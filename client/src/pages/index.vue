@@ -54,6 +54,8 @@
 			return {
 				conveyorImages: [
 					require('../assets/images/affiliates/1.png'),
+					require('../assets/images/affiliates/2.png'),
+					require('../assets/images/affiliates/4.png'),
 					require('../assets/images/affiliates/6.png'),
 				],
 

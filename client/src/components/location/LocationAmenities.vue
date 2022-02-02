@@ -186,7 +186,7 @@
 
 									<img
 										v-else-if="d == 'Vroom'"
-										src="https://images2.imgbox.com/89/78/YBlsONvf_o.png"
+										src="https://images2.imgbox.com/c2/be/O9j1RyPy_o.png"
 										:alt="d"
 										class="w-100"
 									>

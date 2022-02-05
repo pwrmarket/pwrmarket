@@ -1,5 +1,109 @@
 [
 	{
+		"id": 1010,
+		"address": {
+			"street": "3960 Grass Valley hwy",
+			"city": "Auburn",
+			"state": "CA",
+			"zip": 95602
+		},
+		"location": {
+			"latitude": 38.956400,
+			"longitude": -121.100870
+		},
+		"distance": 0,
+		"contact": {
+			"phone": {
+				"string": "(530) 287-0555",
+				"link": "tel:5302870555"
+			},
+			"email": {
+				"string": "1010@hasoil.com",
+				"link": "mailto:1010@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "24/7",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "76",
+				"products": [],
+				"services": [
+					"power-market-rewards"
+				],
+				"deliveryMethods": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [],
+				"services": [
+					"power-market-rewards"
+				],
+				"deliveryMethods": []
+			}
+		]
+	},
+	{
+		"id": 1033,
+		"address": {
+			"street": "201 S. State College Blvd.",
+			"city": "Anaheim",
+			"state": "CA",
+			"zip": 92806
+		},
+		"location": {
+			"latitude": 33.8242815,
+			"longitude": -118.0278492
+		},
+		"distance": 0,
+		"contact": {
+			"phone": {
+				"string": "(714) 533-6661",
+				"link": "tel:7145336661"
+			},
+			"email": {
+				"string": "1033@hasoil.com",
+				"link": "mailto:1033@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "24/7",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Shell",
+				"products": [
+					"propane"
+				],
+				"services": [
+					"power-market-rewards"
+				],
+				"deliveryMethods": []
+			},
+			{
+				"type": "store",
+				"name": "PM GO",
+				"products": [],
+				"services": [
+					"power-market-rewards"
+				],
+				"deliveryMethods": [
+					"Uber"
+				]
+			},
+			{
+				"type": "car-wash",
+				"name": "",
+				"products": [],
+				"services": [
+					"power-market-rewards",
+					"drive-thru"
+				],
+				"deliveryMethods": []
+			}
+		]
+	},
+	{
 		"id": 2003,
 		"address": {
 			"street": "9500 Valley View St.",

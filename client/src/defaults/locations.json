@@ -53,8 +53,8 @@
 			"zip": 92806
 		},
 		"location": {
-			"latitude": 33.8242815,
-			"longitude": -118.0278492
+			"latitude": 33.839590,
+			"longitude": -117.889530
 		},
 		"distance": 0,
 		"contact": {
@@ -2965,6 +2965,100 @@
 					"Uber",
 					"Grubhub"
 				]
+			}
+		]
+	},
+	{
+		"id": 3063,
+		"address": {
+			"street": "12353 Deerfield Dr",
+			"city": "Truckee",
+			"state": "CA",
+			"zip": 96161
+		},
+		"location": {
+			"latitude": 39.322810,
+			"longitude": -120.227230
+		},
+		"distance": 0,
+		"contact": {
+			"phone": {
+				"string": "(530) 285-5460",
+				"link": "tel:5302855460"
+			},
+			"email": {
+				"string": "3063@hasoil.com",
+				"link": "mailto:3063@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "6:00 AM - 12:00 AM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [
+					"power-market-rewards"
+				],
+				"deliveryMethods": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [],
+				"services": [
+					"power-market-rewards"
+				],
+				"deliveryMethods": []
+			}
+		]
+	},
+	{
+		"id": 3064,
+		"address": {
+			"street": "2986 US Hwy 50",
+			"city": "South Lake Tahoe",
+			"state": "CA",
+			"zip": 96150
+		},
+		"location": {
+			"latitude": 38.855800,
+			"longitude": -120.014190
+		},
+		"distance": 0,
+		"contact": {
+			"phone": {
+				"string": "(530) 285-5461",
+				"link": "tel:5302855461"
+			},
+			"email": {
+				"string": "3064@hasoil.com",
+				"link": "mailto:3064@hasoil.com"
+			}
+		},
+		"hoursOfOperation": "6:00 AM - 9:00 PM",
+		"amenities": [
+			{
+				"type": "energy-station",
+				"name": "Chevron",
+				"products": [
+					"propane"
+				],
+				"services": [
+					"power-market-rewards"
+				],
+				"deliveryMethods": []
+			},
+			{
+				"type": "store",
+				"name": "Power Market",
+				"products": [],
+				"services": [
+					"power-market-rewards"
+				],
+				"deliveryMethods": []
 			}
 		]
 	}

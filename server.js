@@ -9,17 +9,10 @@ const path = require('path')
 
 // [REQUIRE] Personal // Other // API // Pages //
 const config = require('./s-config')
-const Functionality = require('./s-middleware/Functionality')
 
 const a_ = require('./s-routes/api')
+const a_locations = require('./s-routes/api/locations')
 const a_mail = require('./s-routes/api/mail')
-const a_payments = require('./s-routes/api/payments')
-
-const p_ = require('./s-routes/pages')
-const p_about = require('./s-routes/pages/about')
-const p_menu = require('./s-routes/pages/menu')
-const p_payments = require('./s-routes/pages/payment')
-const p_services = require('./s-routes/pages/services')
 
 
 // [EXPRESS] //
@@ -50,6 +43,7 @@ app.use(cors())
 
 // [USE][ROUTE][API] //
 app.use('/api', a_)
+app.use('/api/locations', a_locations)
 app.use('/api/mail', a_mail)
 
 

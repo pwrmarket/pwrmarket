@@ -3,42 +3,18 @@
 	<div class="slider-holder" >
 		<VueTinySlider v-bind="options" class="slider">
 			<div
-				v-for="(d, i) in slides"
+				v-for="(slide, i) in slides"
 				:key="i"
 				class="p-3 slide"
 			>
 				<BCard no-body border-variant="white" class="w-100 mb-4 border-0 shadow">
 					<BCardBody class="img-container bg-secondary p-0 text-center">
-						<BRow>
-							<BCol cols="12" md="7" class="center-content" style="height: 340px;">
-								<div class="">
-									<h1 class="my-0 mx-2 text-center text-light" style="font-size: 3em;">
-										{{ d.title }}
-									</h1>
-								</div>
-							</BCol>
-
-							<BCol cols="12" md="5" class="px-4 py-2 enter-content" style="height: 340px;">
-								<img
-									:src="d.img"
-									v-lazy="d.img"
-									alt="Image"
-									class="w-100 deal-img"
-									style="max-width: 300px;"
-								/>
-							</BCol>
-
-							<BCol cols="12">
-								<div class="bg-primary">
-									<h1 class="m-0 text-center text-light" style="font-size: 4em;">
-										{{ d.price }}
-										<span class="font-weight-bold small" style="font-size: .5em;">
-											{{ d.priceTag }}
-										</span>
-									</h1>
-								</div>
-							</BCol>
-						</BRow>
+						<img
+							:src="slide.img"
+							v-lazy="slide.img"
+							alt="Image"
+							class="w-100 deal-img"
+						/>
 					</BCardBody>
 				</BCard>
 			</div>
@@ -68,7 +44,7 @@
 					nav: false,
 					autoplay: true,
 					autoplayButtonOutput: false,
-					items: 2,
+					items: 3,
 					autoplayTimeout: 2500,
 					speed: 1000,
 					"edgePadding": 50,

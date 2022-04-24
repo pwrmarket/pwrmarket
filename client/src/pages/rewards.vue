@@ -119,11 +119,10 @@
 			return {
 				companyInfo,
 				images: [
-					"https://images2.imgbox.com/f1/c8/XKrDps69_o.png",
-					"https://images2.imgbox.com/43/bc/yIzF2Mg1_o.png",
-					"https://images2.imgbox.com/3a/99/e5Gs7gVp_o.png",
-					"https://images2.imgbox.com/a1/90/0DTXvT4E_o.png",
-					"https://images2.imgbox.com/8a/40/g5aozA7m_o.png",
+					"https://images2.imgbox.com/03/8f/eQq42Tb5_o.jpg",
+					"https://images2.imgbox.com/a3/96/c6N6uEmT_o.jpg",
+					"https://images2.imgbox.com/56/29/HpMivEEL_o.jpg",
+					"https://images2.imgbox.com/07/fc/3CO6HL31_o.jpg",
 				],
 			}
 		},

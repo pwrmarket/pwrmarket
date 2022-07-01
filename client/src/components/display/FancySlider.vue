@@ -47,9 +47,9 @@
 
 				<BCol cols="12" md="6" class="d-none d-lg-block">
 					<div class="text-center mb-3">
-						<RouterLink to="/deals">
+						<RouterLink to="/download-app">
 							<BButton variant="primary" size="lg" pill class="w-100">
-								Current Deals
+								Download Our App
 							</BButton>
 						</RouterLink>
 					</div>

@@ -9,6 +9,7 @@ import about from '@/pages/about'
 import careers from '@/pages/careers'
 import contact from '@/pages/contact'
 import deals from '@/pages/deals'
+import downloadApp from '@/pages/download-app'
 import emailSent from '@/pages/email-sent'
 import index from '@/pages'
 import location from '@/pages/location'
@@ -53,6 +54,17 @@ const routes = [
 			altLink: '',
 			title: 'Deals',
 			menu: 2,
+			show: true,
+		},
+	},
+	{
+		path: '/download-app',
+		name: 'downloadApp',
+		component: downloadApp,
+		meta: {
+			altLink: '',
+			title: 'Download Our App!',
+			menu: 0,
 			show: true,
 		},
 	},

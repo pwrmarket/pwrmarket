@@ -4,7 +4,7 @@
   "engines": {
     "node": "14.x"
   },
-  "description": "this is a server",
+  "description": "this is the server",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
